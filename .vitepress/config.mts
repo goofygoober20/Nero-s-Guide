@@ -36,6 +36,7 @@ export default defineConfig({
         text: 'Other',
         items: [
           { text: 'Beginners Guide', link: '/beginners-guide' },
+          { text: '👁️ Theories & Mysteries', link: '/theories' }, // <-- Added your new page here!
           { text: 'Posts', link: '/posts' },
           { text: 'Contributing', link: '/other/contributing' },
         ]
@@ -51,17 +52,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: "Made with ❤️ by Nero",
+      message: "Made with ❤️ by Nero)",
       copyright: `© 2026`
     }
   }
 })
-
-{
-  text: 'Other',
-  items: [
-    { text: 'Posts', link: '/posts' },
-    { text: 'Beginners Guide', link: '/beginners-guide' },
-    { text: 'Contributing', link: '/other/contributing' },
-  ]
-}
