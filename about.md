@@ -2,7 +2,7 @@
 
 ### Who am I?
 
-Hey! I'm Cameron, a 14-year-old student who loves movies and video-games.
+Hey! I'm Cameron, a student who loves movies and video-games.
 
 I created Nero's Guide to help students and teens find free resources online without having to dig through sketchy sites or paywalls.
 
