@@ -17,8 +17,8 @@ hero:
       text: About me
       link: /about
     - theme: alt
-      text: Posts
-      link: /posts
+      text: Settings
+      link: /settings
     - theme: alt
       text: Discord
       link: https://discord.gg/kwhPgTqsJK

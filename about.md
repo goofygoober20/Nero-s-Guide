@@ -1,7 +1,3 @@
----
-title: About
----
-
 # About
 
 ### Who am I?
