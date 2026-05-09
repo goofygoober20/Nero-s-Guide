@@ -1,12 +1,9 @@
 import { defineConfig } from 'vitepress'
-import { transformsPlugin } from './.vitepress/transformers'
 
 export default defineConfig({
   title: "Nero's Guide",
 
-  vite: {
-    plugins: [transformsPlugin()]
-  },
+  // We removed the "vite: { plugins }" section here
 
   themeConfig: {
     logo: '/logo.png',
@@ -36,7 +33,7 @@ export default defineConfig({
         text: 'Other',
         items: [
           { text: 'Beginners Guide', link: '/beginners-guide' },
-          { text: '👁️ Theories & Mysteries', link: '/theories' }, // <-- Added your new page here!
+          { text: '👁️ Theories & Mysteries', link: '/theories' },
           { text: 'Posts', link: '/posts' },
           { text: 'Contributing', link: '/other/contributing' },
         ]
@@ -52,7 +49,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: "Made with ❤️ by Nero)",
+      message: "Made with ❤️ by Nero (or cameron c if you know who i am)",
       copyright: `© 2026`
     }
   }
