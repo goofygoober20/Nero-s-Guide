@@ -38,6 +38,6 @@ feel free to reach out!
   </a>
   
   <div style="margin-top: 1rem; font-size: 0.8rem; color: var(--vp-c-text-2);">
-    I will frequently change the link, so that donations are spread across causes I belive deserve it more then me.
+    I will frequently change the link, so that donations are spread across causes I believe deserve it more then me.
   </div>
 </div>
