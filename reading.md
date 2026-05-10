@@ -23,7 +23,6 @@
 * [⁠ReadOnlineFreeBook](https://readonlinefreebook.com/) - Books / Online Reading
 * [NovelsArchive](https://t.me/NovelsArchive) - Books / Telegram
 * [BooksMania](https://t.me/booksmania) - Books / Telegram
-* [BookArticlesBot](https://t.me/BookArticlesBot) - Books / Telegram
 * [FreeBannedBooks](https://freebannedbooks.org/) - US Banned Books
 * [⁠Inventaire](https://inventaire.io/) - Community Library / Book Lending 
 * [⁠Shelfmark](https://github.com/calibrain/shelfmark) - Ebook Downloader

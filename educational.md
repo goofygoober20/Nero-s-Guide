@@ -768,7 +768,6 @@ Use redirect bypassers to skip annoying link shorteners.
 * [Line of Action](https://line-of-action.com/), [Timed Figure Poses](https://www.youtube.com/playlist?list=PL7EWYwaF6E-FZ8JiBlz2tF1DQUCw-GCmn), [LoveLifeDrawing](https://www.lovelifedrawing.com/) or [Daily Life Drawing Sessions](https://www.youtube.com/playlist?list=PL7EWYwaF6E-Exv72kVT4yYJM2lX-Xf66I) - Figure Sketch Tools / Lessons
 * [AnatomyArchive](https://www.anatomyarchive.org/) - Human Anatomy Drawing Tutorials
 * [Artist Reference](https://artist-reference.com) - Photo References for Artists
-* [Reference Angle](http://referenceangle.com/) - Human Photo Reference Search
 * [x6ud](https://x6ud.github.io/#/) - Animal Photo Reference Search
 * [Thomas Romain Perspective](https://ibb.co/album/chGtPJ?sort=name_asc) - Perspective Guide
 * [Dimensions](https://www.dimensions.com/) - Object Dimension Reference

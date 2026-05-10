@@ -337,7 +337,6 @@
 * [Spotify Dedup](https://spotify-dedup.com/) - Remove Duplicates in Playlists / [GitHub](https://github.com/JMPerez/spotify-dedup/)
 * [Timelineify](https://www.timelineify.com/) - Create Playlist from an Artist's Discography
 * [Share Liked Songs](https://nonnullish.github.io/share-liked-songs/) - Create Shareable Playlist from Liked Songs / [GitHub](https://github.com/nonnullish/share-liked-songs)
-* [PlaylistProxy](https://playlistproxy.net/) - Share Playlists Anonymously / [GitHub](https://github.com/okanten/playlistproxy.net)
 * [Spotify Playlist Archive](https://spotifyplaylistarchive.com/) - Public Spotify Playlists Archive / [GitHub](https://github.com/mackorone/spotify-playlist-archive), [2](https://github.com/maciejpedzich/spotifyplaylistarchive.com)
 
 ***
