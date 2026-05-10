@@ -12,7 +12,7 @@
     </div>
 
     <div class="setting-group">
-      <label>Theme Style</label>
+      <label>Theme Style - likely doesnt work because it's not implemented</label>
       <select v-model="settings.themeStyle" @change="saveSettings">
         <option value="default">Default (VitePress)</option>
         <option value="ocean">Ocean Blue</option>

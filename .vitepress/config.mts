@@ -24,14 +24,12 @@ export default defineConfig({
           { text: '🎬 Streaming', link: '/video' },
           { text: '🎵 Listening', link: '/audio' },
           { text: '🎮 Gaming', link: '/gaming' },
-          { text: '🧠 Theories', link: '/theories' },
           { text: '📚 Reading', link: '/reading' },
           { text: '💼 Career', link: '/career' },
           { text: '⬇️ Downloading', link: '/downloading' },
           { text: '🍽️ Food', link: '/food' },
           { text: '💊 Health', link: '/health' },
           { text: '🎓 Educational', link: '/educational' },
-          { text: '💻 Unenrollment', link: '/unenrollment' },
           { text: '📦 Miscellaneous', link: '/misc' },
           { text: '⚙️ Settings', link: '/settings' }
         ]

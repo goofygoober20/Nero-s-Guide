@@ -1,0 +1,45 @@
+/* Meta info styling */
+.meta-info {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.meta-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--vp-c-divider);
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
+
+/* Better tables */
+table {
+  display: table;
+  width: 100%;
+  overflow-x: auto;
+}
+
+th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+/* Details/summary styling */
+details {
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+}
