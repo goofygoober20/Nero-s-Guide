@@ -112,7 +112,7 @@ features:
   { title: 'Shopping Guide', link: '/shopping', icon: '🛍️', details: 'Finding deals and avoiding scams' },
 ]" />
 
-*More guides coming soon: fashion, chess, food, username guide, desktop setups, productivty, shopping guide, and more!*
+*More guides coming soon: chess, food, username guide, desktop setups, productivty, and more!*
 
 ---
 
