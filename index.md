@@ -107,6 +107,9 @@ features:
   { title: 'Fitness Guide', link: '/fitness', icon: '💪', details: 'Workouts, nutrition, and staying consistent' },
   { title: 'Cooking Guide', link: '/cooking', icon: '🍳', details: 'Basic skills, meal prep, and easy recipes' },
   { title: 'Mental Health Guide', link: '/mental-health', icon: '🧠', details: 'Managing anxiety, depression, and stress' },
+  { title: 'Fashion', link: '/fasion', icon: '👔', details: 'Everything fasion and how to dress for a event. ' },
+  { title: 'Drawing Guide', link: '/drawing', icon: '🎨', details: 'Improving your art skills from scratch' },
+  { title: 'Shopping Guide', link: '/shopping', icon: '🛍️', details: 'Finding deals and avoiding scams' },
 ]" />
 
 *More guides coming soon: fashion, chess, food, username guide, desktop setups, productivty, shopping guide, and more!*
