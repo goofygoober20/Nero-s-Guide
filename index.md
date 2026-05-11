@@ -101,7 +101,6 @@ features:
 ## 📝 Personal Guides
 
 <Grid :items="[
-  { title: 'Theories', link: '/theories', icon: '🧠', details: 'Conspiracy theories and esoteric lore to explore' },
   { title: 'Sleeping Guide', link: '/sleeping', icon: '😴', details: 'Better sleep hygiene and routines' },
   { title: 'Password Guide', link: '/passwords', icon: '🔐', details: 'Creating and managing secure passwords' },
   { title: 'All-Nighter Guide', link: '/all-nighter', icon: '🌙', details: 'Surviving and recovering from no sleep' },
