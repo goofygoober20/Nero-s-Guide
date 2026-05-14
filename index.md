@@ -113,11 +113,3 @@ features:
 ]" />
 
 *More guides coming soon: chess, food, username guide, desktop setups, productivty, and more!*
-
----
-
-## 💬 Community
-
-- **Discord**: [Join the community](https://discord.gg/kwhPgTqsJK)
-- **GitHub**: [Contribute or report issues](https://github.com/goofygoober20/Nero-s-Guide)
-
