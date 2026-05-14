@@ -208,17 +208,8 @@ Based on your `educational.html` recommendations and community favorites:
 - **[Marco Bucci](https://www.youtube.com/c/Marcobucci)** — Color theory and painting
 - **[Circle Line Art School](https://www.youtube.com/c/CircleLineArtSchool)** — Perspective drawing
 - **[Settei Dreams](https://setteidreams.net)** — Anime production references
-
-### Related Guides from Nero's Guide
-
-- [🎨 Art & Editing Resources](/educational#art-editing) — Additional art learning sites
-- [📚 Reading Guide](/reading) — Art and drawing books
-- [💪 Fitness Guide](/fitness) — Keep your drawing hand healthy!
-
 ---
 
 <div class="meta-footer">
   <p>✏️ Every master was once a beginner. Draw badly every day, and eventually you'll draw well. The only way to fail is to stop.</p>
 </div>
-
-<BuyMeACoffee />

@@ -214,15 +214,7 @@ The fashion industry is one of the largest polluters in the world. Fast fashion 
 - **[Finding Your Personal Style](https://thechictribe.com/what-outfit-would-suit-me/)** — Body type, color, occasion, accessorizing [citation:8]
 - **[Tatler Fabric Care Guide](https://www.tatlerasia.com/style/fashion/fabric-care-guide-laundry)** — Detailed care for cotton, linen, silk, wool, leather, denim [citation:9]
 - **[Harper's BAZAAR Sustainable Brands](https://www.harpersbazaar.com/fashion/trends/g71075247/best-sustainable-fashion-brands/)** — 12 ethical and sustainable fashion labels [citation:10]
-
-### Related Guides from Nero's Guide
-
-- [👗 Fashion Guide](/fashion) — You are here
-- [😴 Sleeping Guide](/sleeping) — Rest and recovery
-- [💪 Fitness Guide](/fitness) — Looking and feeling your best
-
 ---
-
 <div class="meta-footer">
   <p>👔 Style is deeply personal. The best-dressed people aren't following every trend—they've figured out what works for them and stuck with it. Build slowly, buy quality when you can, and wear what makes you feel like you.</p>
 </div>
