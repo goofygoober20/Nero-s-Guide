@@ -110,6 +110,9 @@ features:
   { title: 'Fashion', link: '/fasion', icon: '👔', details: 'Everything fasion and how to dress for a event. ' },
   { title: 'Drawing Guide', link: '/drawing', icon: '🎨', details: 'Improving your art skills from scratch' },
   { title: 'Shopping Guide', link: '/shopping', icon: '🛍️', details: 'Finding deals and avoiding scams' },
+  { title: 'DarkWeb Guide', link: '/darkweb', icon: '🧅', details: 'How to acess the dark web, and how to stay safe' },
+  { title: 'Chess Guide', link: '/chess', icon: '♟️', details: 'Guide to chess resources and how to improve your chess skills' },
+  { title: 'Music Streaming', link: '/music', icon: '🎵', details: 'Navigating the world of music services to help you choose the best fit.' },
 ]" />
 
-*More guides coming soon: chess, food, username guide, desktop setups, productivty, and more!*
+*More guides coming soon*
