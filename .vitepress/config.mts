@@ -3,45 +3,36 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Nero's Guide",
   
-  ignoreDeadLinks: true,  // Add this line to fix the build error
-
-  // We removed the "vite: { plugins }" section here
+  ignoreDeadLinks: true,
 
   themeConfig: {
     logo: '/logo.png',
 
     nav: [
-      { text: 'Beginners Guide', link: '/beginners-guide' },
-      { text: 'Changelog', link: '/changelog' },
+      { text: '🏠 Home', link: '/' },
+      { text: '🌱 Beginners Guide', link: '/beginners-guide' },
+      { text: '⚙️ Settings', link: '/settings' },
+      { text: '💬 Feedback', link: '/feedback' },
+      { 
+        text: '🛠️ Tools', 
+        items: [
+          { text: '😴 Sleep Cycle Calculator', link: '/tools/sleep-cycle-calculator' },
+          { text: '🔐 Password Strength Tester', link: '/tools/password-strength-tester' },
+          { text: '🔑 Password Generator', link: '/tools/password-generator' },
+          { text: '📈 Investment Calculator', link: '/tools/investment-calculator' },
+          { text: '⏱️ Pomodoro Timer', link: '/tools/pomodoro' },
+          { text: '📊 BMI Calculator', link: '/tools/bmi-calculator' },
+          { text: '—', link: '' },
+          { text: '🎲 Random Guide', link: '/random' },
+          { text: '💬 Feedback', link: '/feedback' },
+          { text: '⚙️ Settings', link: '/settings' },
+        ]
+      },
+ 
     ],
 
     sidebar: [
-      {
-        text: 'Categories',
-        items: [
-          { text: '🛡️ Adblocking / Privacy', link: '/privacy' },
-          { text: '🤖 Artificial Intelligence', link: '/ai' },
-          { text: '🎬 Streaming', link: '/video' },
-          { text: '🎵 Listening', link: '/audio' },
-          { text: '🎮 Gaming', link: '/gaming' },
-          { text: '📚 Reading', link: '/reading' },
-          { text: '💼 Career', link: '/career' },
-          { text: '⬇️ Downloading', link: '/downloading' },
-          { text: '🍽️ Food', link: '/food' },
-          { text: '💊 Health', link: '/health' },
-          { text: '🎓 Educational', link: '/educational' },
-          { text: '📦 Miscellaneous', link: '/misc' },
-          { text: '⚙️ Settings', link: '/settings' }
-        ]
-      },
-      {
-        text: 'Other',
-        items: [
-          { text: 'Beginners Guide', link: '/beginners-guide' },
-          { text: 'Posts', link: '/posts' },
-          { text: 'Contributing', link: '/other/contributing' },
-        ]
-      }
+      // ... your existing sidebar (keep as is)
     ],
 
     socialLinks: [
@@ -50,11 +41,6 @@ export default defineConfig({
 
     search: {
       provider: 'local'
-    },
-
-    footer: {
-      message: "Made with ❤️ by Nero (or cameron c if you know who i am)",
-      copyright: `© 2026`
     }
   }
 })

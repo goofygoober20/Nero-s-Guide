@@ -156,3 +156,4 @@ Port forwarding (having an open port) is an essential part of torrenting and it'
 
 * **Download Managers: [AB Download Manager](https://abdownloadmanager.com/)**
 * **[Translate Web Pages](https://github.com/FilipePS/Traduzir-paginas-web)** - Translate Web Pages to Your Language
+

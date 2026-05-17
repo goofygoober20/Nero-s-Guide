@@ -6,12 +6,11 @@
   <span>⏱️ Read time: 10 min</span>
 </div>
 
-::: warning ⚠️ IMPORTANT DISCLAIMER
+::: danger ⚠️ IMPORTANT DISCLAIMER
 This guide is for **educational purposes only**. The Tor browser is a legitimate privacy tool used by millions of people worldwide, including journalists, activists, law enforcement, and ordinary citizens. However, **you are responsible for your own actions**. Accessing illegal content or engaging in illicit activities can lead to serious legal consequences. This guide does not condone or encourage any illegal activity.
 :::
----
 
-::: tip 🚨 WARNINGS
+## 🚨 WARNINGS
 
 Before you proceed, understand the following:
 
@@ -50,7 +49,6 @@ Downloading files through Tor is **not recommended** unless you know exactly wha
 | USA, Canada, UK, EU | Legal (with monitoring) |
 | China, Russia, Iran, Belarus, Venezuela | Restricted or Illegal |
 | North Korea, Turkmenistan, Eritrea | Heavily restricted |
-:::
 
 ::: info
 If you are in a country where Tor is illegal, do not use it without proper protections (VPN before Tor)
@@ -221,3 +219,4 @@ Most "Hidden Wiki" sites contain links to illegal content. They also contain man
 
 ::: info
 These sites are just a starting point for the rabbit hole, these sites can connect you to more hidden sites. Proceed with extreme caution and dont download anything, no expections.
+:::

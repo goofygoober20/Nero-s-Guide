@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-const coffeeLink = 'https://buymeacoffee.com/yourusername' // Change this to your actual Buy Me a Coffee username
+const coffeeLink = 'https://www.alz.org/?form=FUNDHYMMBXU'
 const showStats = false // Set to true if you want stats
 </script>
 

@@ -11,7 +11,7 @@ hero:
     alt: Nero icon
   actions:
     - theme: brand
-      text: "See Beginners Guide"
+      text: "See Beginners Guide "
       link: /beginners-guide
     - theme: alt
       text: "About me"
@@ -22,6 +22,7 @@ hero:
     - theme: alt
       text: "Discord"
       link: https://discord.gg/kwhPgTqsJK
+
 
 features:
   - title: "Adblocking / Privacy"
@@ -113,6 +114,9 @@ features:
   { title: 'DarkWeb Guide', link: '/darkweb', icon: '🧅', details: 'How to acess the dark web, and how to stay safe' },
   { title: 'Chess Guide', link: '/chess', icon: '♟️', details: 'Guide to chess resources and how to improve your chess skills' },
   { title: 'Music Streaming', link: '/music', icon: '🎵', details: 'Navigating the world of music services to help you choose the best fit.' },
+  { title: 'Unenrollment', link: '/unenrollment', icon: '🔓', details: 'A guide to remove strict regulations on your school managed chromebook' },
 ]" />
 
-*More guides coming soon*
+**More guides coming soon**
+---
+<Footer />
