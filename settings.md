@@ -1,3 +1,6 @@
-# ⚙️ Settings
+---
+layout: page
+title: Settings
+---
 
-<SettingsPanel />
+<SettingsPage />

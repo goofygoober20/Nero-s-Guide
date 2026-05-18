@@ -12,7 +12,6 @@ export default defineConfig({
       { text: '🏠 Home', link: '/' },
       { text: '🌱 Beginners Guide', link: '/beginners-guide' },
       { text: '⚙️ Settings', link: '/settings' },
-      { text: '💬 Feedback', link: '/feedback' },
       { 
         text: '🛠️ Tools', 
         items: [

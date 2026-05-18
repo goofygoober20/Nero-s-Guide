@@ -266,3 +266,21 @@ body {
     transition: color 0.25s;
   }
 }
+body {
+  background: radial-gradient(
+      circle at top left,
+      rgba(0, 180, 255, 0.25),
+      transparent 60%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(255, 80, 180, 0.25),
+      transparent 60%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(20, 20, 20, 1),
+      rgba(10, 10, 10, 1)
+    );
+  background-attachment: fixed;
+}
