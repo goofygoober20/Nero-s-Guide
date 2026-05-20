@@ -563,6 +563,8 @@ Repacks are compressed versions of games that exchange smaller downloads for lon
 * ⭐ **[lichess](https://lichess.org/)** - Chess Platform / [Discord](https://discord.com/invite/lichess) / [GitHub](https://github.com/lichess-org)
 * ⭐ **lichess Tools** - [Mobile Apps](https://lichess.org/mobile) / [Prettier UI](https://prettierlichess.github.io/) / [Themes](https://github.com/algertc/prettierlichess-themes) / [Leagues](https://www.lichess4545.com/) / [Extra Functionality](https://lichess.org/page/extend)
 * ⭐ **[Print Chess](https://www.printchess.com/)** - Printable Paper Chess Set
+* ⭐ [Chess Tempo](https://www.chesstempo.com) - Chess Trainer / Puzzles
+* ⭐ [Lucas Chess](https://lucaschess.pythonanywhere.com) - Train / Compete in Chess
 * [Chess.com](https://www.chess.com/) - Chess Platform / [Discord](https://discord.gg/3VbUQME)
 * [PyChess](https://www.pychess.org/) - Chess Platform / [Discord](https://discord.gg/aPs8RKr) / [GitHub](https://github.com/gbtami/pychess-variants)
 * [GameKnot](https://gameknot.com/) - Chess Platform
