@@ -117,6 +117,5 @@ features:
   { title: 'Unenrollment', link: '/unenrollment', icon: '🔓', details: 'A guide to remove strict regulations on your school managed chromebook' },
 ]" />
 
-**More guides coming soon**
+More guides coming soon
 ---
-<Footer />
