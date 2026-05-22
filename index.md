@@ -116,6 +116,3 @@ features:
   { title: 'Music Streaming', link: '/music', icon: '🎵', details: 'Navigating the world of music services to help you choose the best fit.' },
   { title: 'Unenrollment', link: '/unenrollment', icon: '🔓', details: 'A guide to remove strict regulations on your school managed chromebook' },
 ]" />
-
-More guides coming soon
----
