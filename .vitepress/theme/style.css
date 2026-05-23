@@ -52,15 +52,15 @@ body {
 
 .dark {
   /* Colors: Brand */
-  --vp-c-brand-1: #7aa2f7;
+  --vp-c-brand-1: #6585c9;
   --vp-c-brand-2: #5a82d7;
   --vp-c-brand-3: #3a62b7;
   --vp-c-brand-soft: #9db8f7;
 
   /* Colors: Background */
-  --vp-c-bg: rgb(38, 35, 35);
+  --vp-c-bg: rgb(255, 245, 245);
   --vp-c-bg-alt: rgb(16, 14, 14);
-  --vp-c-bg-elv: rgba(14, 13, 13, 0.8);
+  --vp-c-bg-elv: rgba(61, 55, 55, 0.8);
 
   /* Colors: Custom Block */
   --vp-custom-block-info-bg: #1a2340;
@@ -139,7 +139,7 @@ body {
 /* Hero gradient title */
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #3451c5 30%, #61c2f7);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #3a58d3 30%, #61c2f7);
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #443838 50%, #6c6f76 50%);
   --vp-home-hero-image-filter: blur(44px);
 }

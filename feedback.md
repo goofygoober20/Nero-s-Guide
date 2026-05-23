@@ -11,11 +11,12 @@ layout: page
   <div class="tabs">
     <button id="feedbackTab" class="tab active">📝 Feedback</button>
     <button id="submitLinkTab" class="tab">🔗 Submit a Link</button>
+    <button id="somethingElseTab" class="tab">📁 Something Else</button>
   </div>
 
   <!-- FEEDBACK FORM -->
   <section id="feedbackContent" class="panel active">
-    <p class="intro">Found a broken link? Have a suggestion? I’d love to hear it.</p>
+    <p class="intro">Found a broken link? Have a suggestion? I'd love to hear it.</p>
 
   <div class="field">
       <input type="text" id="name" placeholder=" " />
@@ -95,6 +96,48 @@ layout: page
     <div id="linkStatus" class="status"></div>
   </section>
 
+  <!-- SOMETHING ELSE FORM -->
+  <section id="somethingElseContent" class="panel">
+    <p class="intro">Have a question, idea, or just want to say hello? This is the place.</p>
+
+  <div class="field">
+      <input type="text" id="seName" placeholder=" " />
+      <label>Name (optional)</label>
+    </div>
+
+  <div class="field">
+      <input type="email" id="seEmail" placeholder=" " />
+      <label>Email (optional — for reply)</label>
+    </div>
+
+  <div class="field">
+      <select id="seType">
+        <option value=""></option>
+        <option value="Question">❓ Question</option>
+        <option value="Idea">💡 Idea / Suggestion</option>
+        <option value="Appreciation">🙏 Appreciation / Thank you</option>
+        <option value="Collaboration">🤝 Collaboration Inquiry</option>
+        <option value="Bug Report">🐛 Bug Report</option>
+        <option value="Other">📌 Other</option>
+      </select>
+      <label>Message Type *</label>
+      <div class="select-arrow"></div>
+    </div>
+
+  <div class="field">
+      <textarea id="seMessage" rows="5" placeholder=" "></textarea>
+      <label>Your Message *</label>
+    </div>
+
+  <div class="field">
+      <input type="text" id="sePageUrl" readonly placeholder=" " />
+      <label>Page URL (auto-detected)</label>
+    </div>
+
+  <button id="sendSomethingElseBtn" class="primary-btn">Send Message</button>
+    <div id="somethingElseStatus" class="status"></div>
+  </section>
+
 </div>
 
 <!-- GLOBAL GLASS TOAST -->
@@ -107,25 +150,36 @@ const FEEDBACK_WEBHOOK = "https://discord.com/api/webhooks/1505481029887070209/d
 
 const LINK_WEBHOOK = "https://discord.com/api/webhooks/1505691359514988554/c0eQpYLArEq0bXLO_RolYjHGgBKTSGxlv6Wx1wBsoT8hW98cgaTdicTTG23LFO1LjCtJ"
 
+const SOMETHING_ELSE_WEBHOOK = "https://discord.com/api/webhooks/1505691359514988554/c0eQpYLArEq0bXLO_RolYjHGgBKTSGxlv6Wx1wBsoT8hW98cgaTdicTTG23LFO1LjCtJ"
+
 onMounted(() => {
   const feedbackTab = document.getElementById("feedbackTab")
   const submitLinkTab = document.getElementById("submitLinkTab")
+  const somethingElseTab = document.getElementById("somethingElseTab")
   const feedbackContent = document.getElementById("feedbackContent")
   const linkContent = document.getElementById("linkContent")
+  const somethingElseContent = document.getElementById("somethingElseContent")
   const toast = document.getElementById("toast")
 
   const switchTab = (tab) => {
     const isFeedback = tab === "feedback"
+    const isLink = tab === "link"
+    const isSomethingElse = tab === "somethingElse"
+    
     feedbackTab.classList.toggle("active", isFeedback)
-    submitLinkTab.classList.toggle("active", !isFeedback)
+    submitLinkTab.classList.toggle("active", isLink)
+    somethingElseTab.classList.toggle("active", isSomethingElse)
     feedbackContent.classList.toggle("active", isFeedback)
-    linkContent.classList.toggle("active", !isFeedback)
+    linkContent.classList.toggle("active", isLink)
+    somethingElseContent.classList.toggle("active", isSomethingElse)
   }
 
   feedbackTab.onclick = () => switchTab("feedback")
   submitLinkTab.onclick = () => switchTab("link")
+  somethingElseTab.onclick = () => switchTab("somethingElse")
 
   document.getElementById("pageUrl").value = window.location.href
+  document.getElementById("sePageUrl").value = window.location.href
 
   const showToast = (msg, type) => {
     toast.textContent = msg
@@ -149,6 +203,12 @@ onMounted(() => {
     else e.target.classList.remove("filled")
   })
 
+  document.getElementById("seType").addEventListener("change", (e) => {
+    if (e.target.value !== "") e.target.classList.add("filled")
+    else e.target.classList.remove("filled")
+  })
+
+  // Feedback submission
   document.getElementById("sendFeedbackBtn").onclick = async () => {
     const name = document.getElementById("name").value.trim() || "Anonymous"
     const email = document.getElementById("email").value.trim()
@@ -176,6 +236,7 @@ onMounted(() => {
     showToast(ok ? "Thank you!" : "Error sending feedback.", ok ? "success" : "error")
   }
 
+  // Link submission
   document.getElementById("submitLinkBtn").onclick = async () => {
     const name = document.getElementById("linkName").value.trim() || "Anonymous"
     const email = document.getElementById("linkEmail").value.trim()
@@ -200,7 +261,7 @@ onMounted(() => {
       ],
     }
 
-    if (whyUseful) embed.fields.push({ name: "Why it’s useful", value: whyUseful })
+    if (whyUseful) embed.fields.push({ name: "Why it's useful", value: whyUseful })
 
     const ok = await sendToDiscord(LINK_WEBHOOK, {
       username: "Link Bot",
@@ -208,6 +269,45 @@ onMounted(() => {
     })
 
     showToast(ok ? "Link submitted!" : "Error submitting link.", ok ? "success" : "error")
+  }
+
+  // Something Else submission
+  document.getElementById("sendSomethingElseBtn").onclick = async () => {
+    const name = document.getElementById("seName").value.trim() || "Anonymous"
+    const email = document.getElementById("seEmail").value.trim()
+    const type = document.getElementById("seType").value
+    const message = document.getElementById("seMessage").value.trim()
+    const page = document.getElementById("sePageUrl").value
+
+    if (!type || !message) return showToast("Please fill all required fields.", "error")
+
+    const typeEmoji = {
+      "Question": "❓",
+      "Idea": "💡",
+      "Appreciation": "🙏",
+      "Collaboration": "🤝",
+      "Bug Report": "🐛",
+      "Other": "📌"
+    }
+
+    const embed = {
+      title: `${typeEmoji[type] || "💬"} Something Else: ${type}`,
+      color: 0xf39c12,
+      timestamp: new Date().toISOString(),
+      fields: [
+        { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
+        { name: "Type", value: type, inline: true },
+        { name: "Page", value: page, inline: true },
+        { name: "Message", value: message },
+      ],
+    }
+
+    const ok = await sendToDiscord(SOMETHING_ELSE_WEBHOOK, {
+      username: "Something Else Bot",
+      embeds: [embed],
+    })
+
+    showToast(ok ? "Message sent! I'll get back to you soon." : "Error sending message.", ok ? "success" : "error")
   }
 })
 </script>
@@ -245,6 +345,7 @@ onMounted(() => {
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--vp-c-divider);
   padding-bottom: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .tab {
@@ -338,10 +439,6 @@ onMounted(() => {
   cursor: not-allowed;
 }
 
-.required {
-  color: #e74c3c;
-}
-
 /* Select Wrapper */
 .select-wrapper {
   position: relative;
@@ -433,6 +530,15 @@ onMounted(() => {
     white-space: normal;
     text-align: center;
     max-width: 80%;
+  }
+  
+  .tabs {
+    gap: 0.5rem;
+  }
+  
+  .tab {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
   }
 }
 </style>

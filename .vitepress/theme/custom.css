@@ -1,45 +1,67 @@
-/* Meta info styling */
-.meta-info {
-  display: flex;
-  gap: 1.5rem;
-  padding: 1rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: 12px;
-  margin: 1rem 0;
-  font-size: 0.9rem;
-  flex-wrap: wrap;
+/* .vitepress/theme/custom.css */
+
+/* Light Mode Colors */
+:root {
+  /* Main Background Colors */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8f8f8;
+  --vp-c-bg-soft-up: #f0f0f0;
+  --vp-c-bg-alt: #f2f2f2;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-elv-up: #f8f8f8;
+  --vp-c-bg-elv-down: #e8e8e8;
+
+  /* Text Colors */
+  --vp-c-text-1: #1a1a1a;
+  --vp-c-text-2: #4a4a4a;
+  --vp-c-text-3: #ec1a1a;
+  --vp-c-text-4: #8a8a8a;
+
+  /* Brand Colors (Links, Buttons, Highlights) */
+  --vp-c-brand-1: #9395b3;
+  --vp-c-brand-2: #8486b8;
+  --vp-c-brand-3: #848cff;
+  --vp-c-brand-soft: rgba(62, 66, 135, 0.16);
+
+  /* Divider / Border Colors */
+  --vp-c-divider: #e2e2e2;
+  --vp-c-divider-light: #e4dbdb;
+  --vp-c-divider-dark: #d0d0d0;
+
+  /* Code Block */
+  --vp-code-block-bg: #f8f8f8;
+  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.05);
 }
 
-.meta-footer {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--vp-c-divider);
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--vp-c-text-2);
-}
+/* Dark Mode Colors */
+.dark {
+  /* Main Background Colors */
+  --vp-c-bg: #08136654;
+  --vp-c-bg-soft: #1d1b1b73;
+  --vp-c-bg-soft-up: #282626;
+  --vp-c-bg-alt: #2e303171;
+  --vp-c-bg-elv: #252525;
+  --vp-c-bg-elv-up: #2a2a2a;
+  --vp-c-bg-elv-down: #1a1a1a;
 
-/* Better tables */
-table {
-  display: table;
-  width: 100%;
-  overflow-x: auto;
-}
+  /* Text Colors */
+  --vp-c-text-1: #d0bee5d0;
+  --vp-c-text-2: #d0bee588;
+  --vp-c-text-3: #d0bee588;
+  --vp-c-text-4: hsl(0, 93%, 50%);
 
-th {
-  background: var(--vp-c-bg-soft);
-  font-weight: 600;
-}
+  /* Brand Colors (Links, Buttons, Highlights) */
+  --vp-c-brand-1: #818cff;
+  --vp-c-brand-2: #8b95f0;
+  --vp-c-brand-3: #a1acff;
+  --vp-c-brand-soft: rgba(129, 140, 255, 0.16);
 
-/* Details/summary styling */
-details {
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  margin: 1rem 0;
-}
+  /* Divider / Border Colors */
+  --vp-c-divider: #2e2e2e;
+  --vp-c-divider-light: #2a2a2a;
+  --vp-c-divider-dark: #3a3a3a;
 
-summary {
-  font-weight: 600;
-  cursor: pointer;
+  /* Code Block */
+  --vp-code-block-bg: #0d0d0d;
+  --vp-code-line-highlight-color: rgba(255, 255, 255, 0.05);
 }

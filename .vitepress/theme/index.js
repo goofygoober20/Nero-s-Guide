@@ -6,6 +6,7 @@ import ShareButtons from './components/ShareButtons.vue'
 import RandomGuide from './components/RandomGuide.vue'
 import NeroTabs from './components/NeroTabs.vue'
 import SettingsPage from './components/SettingsPage.vue'
+import './custom.css'
 
 export default {
   extends: DefaultTheme,
