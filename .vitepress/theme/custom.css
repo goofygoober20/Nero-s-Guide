@@ -48,13 +48,13 @@
   --vp-c-text-1: #d0bee5d0;
   --vp-c-text-2: #d0bee588;
   --vp-c-text-3: #d0bee588;
-  --vp-c-text-4: hsl(0, 93%, 50%);
+  --vp-c-text-4: hsl(0, 2%, 19%);
 
   /* Brand Colors (Links, Buttons, Highlights) */
   --vp-c-brand-1: #818cff;
   --vp-c-brand-2: #8b95f0;
   --vp-c-brand-3: #a1acff;
-  --vp-c-brand-soft: rgba(129, 140, 255, 0.16);
+  --vp-c-brand-soft: rgba(74, 84, 194, 0.16);
 
   /* Divider / Border Colors */
   --vp-c-divider: #2e2e2e;
@@ -64,4 +64,95 @@
   /* Code Block */
   --vp-code-block-bg: #0d0d0d;
   --vp-code-line-highlight-color: rgba(255, 255, 255, 0.05);
+}
+
+/* ============================================
+   SEARCH MODAL FIX - SOLID BACKGROUND WITH BLUR
+   ============================================ */
+
+/* Force search container to have solid background + blur */
+.DocSearch-Container,
+.DocSearch-Container:root,
+.DocSearch-Container:focus {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* Force search modal to be solid */
+.DocSearch-Modal {
+  background-color: var(--vp-c-bg-elv) !important;
+  background: var(--vp-c-bg-elv) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Force search form background */
+.DocSearch-Form {
+  background-color: var(--vp-c-bg-soft) !important;
+  background: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 12px !important;
+}
+
+/* Force results background */
+.DocSearch-Hits,
+.DocSearch-Hits * {
+  background-color: transparent !important;
+}
+
+.DocSearch-Hit {
+  background-color: transparent !important;
+}
+
+.DocSearch-Hit-source {
+  background-color: var(--vp-c-bg-elv) !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+.DocSearch-Hit a {
+  background-color: var(--vp-c-bg-soft) !important;
+  border-radius: 8px !important;
+}
+
+.DocSearch-Hit a:hover {
+  background-color: var(--vp-c-bg-soft-up) !important;
+}
+
+/* Force footer background */
+.DocSearch-Footer {
+  background-color: var(--vp-c-bg-soft) !important;
+  border-top: 1px solid var(--vp-c-divider) !important;
+  border-radius: 0 0 16px 16px !important;
+}
+
+/* Text colors */
+.DocSearch-Hit-title {
+  color: var(--vp-c-text-1) !important;
+}
+
+.DocSearch-Hit-path {
+  color: var(--vp-c-text-3) !important;
+}
+
+.DocSearch-Highlight {
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* Keyboard shortcuts */
+.DocSearch-Commands-Key {
+  background-color: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-divider) !important;
+  color: var(--vp-c-text-2) !important;
+  box-shadow: none !important;
+}
+
+/* Cancel button (mobile) */
+.DocSearch-Cancel {
+  color: var(--vp-c-text-2) !important;
+}
+
+/* Logo colors */
+.DocSearch-Logo svg path {
+  fill: var(--vp-c-text-2) !important;
 }

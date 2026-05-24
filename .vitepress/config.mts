@@ -5,13 +5,72 @@ export default defineConfig({
   
   ignoreDeadLinks: true,
 
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // Add custom CSS for search modal
+    ['style', {}, `
+      /* Search modal overlay */
+      .DocSearch-Container {
+        background: rgba(0, 0, 0, 0.75) !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+      }
+      
+      /* Dark mode overlay */
+      .dark .DocSearch-Container {
+        background: rgba(0, 0, 0, 0.85) !important;
+      }
+      
+      /* Search modal itself */
+      .DocSearch-Modal {
+        background: var(--vp-c-bg-elv) !important;
+        border-radius: 16px !important;
+      }
+      
+      /* Search input area */
+      .DocSearch-Form {
+        background: var(--vp-c-bg-soft) !important;
+        border: 1px solid var(--vp-c-divider) !important;
+        border-radius: 12px !important;
+      }
+      
+      /* Search results */
+      .DocSearch-Hit a {
+        background: var(--vp-c-bg-soft) !important;
+        border-radius: 8px !important;
+      }
+      
+      .DocSearch-Hit a:hover {
+        background: var(--vp-c-bg-soft-up) !important;
+      }
+      
+      /* Footer */
+      .DocSearch-Footer {
+        background: var(--vp-c-bg-soft) !important;
+        border-top: 1px solid var(--vp-c-divider) !important;
+      }
+      
+      /* Highlight color */
+      .DocSearch-Highlight {
+        color: var(--vp-c-brand-1) !important;
+      }
+      
+      /* Keyboard shortcuts */
+      .DocSearch-Commands-Key {
+        background: var(--vp-c-bg-soft) !important;
+        border: 1px solid var(--vp-c-divider) !important;
+        color: var(--vp-c-text-2) !important;
+        box-shadow: none !important;
+      }
+    `]
+  ],
+
   themeConfig: {
     logo: '/logo.png',
-
+    
     nav: [
       { text: '🏠 Home', link: '/' },
       { text: '🌱 Beginners Guide', link: '/beginners-guide' },
-      { text: '⚙️ Settings', link: '/settings' },
       { 
         text: '🛠️ Tools', 
         items: [
@@ -27,11 +86,19 @@ export default defineConfig({
           { text: '⚙️ Settings', link: '/settings' },
         ]
       },
- 
     ],
 
     sidebar: [
-      // ... your existing sidebar (keep as is)
+      // Add your sidebar items here
+      // Example:
+      {
+        text: 'Categories',
+        items: [
+          { text: '🛡️ Adblocking / Privacy', link: '/privacy' },
+          { text: '🤖 Artificial Intelligence', link: '/ai' },
+          // ... add your other categories
+        ]
+      }
     ],
 
     socialLinks: [
