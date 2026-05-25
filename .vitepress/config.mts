@@ -11,7 +11,7 @@ export default defineConfig({
     ['style', {}, `
       /* Search modal overlay */
       .DocSearch-Container {
-        background: rgba(0, 0, 0, 0.75) !important;
+        background: rgba(15, 14, 14, 0.75) !important;
         backdrop-filter: blur(10px) !important;
         -webkit-backdrop-filter: blur(10px) !important;
       }
@@ -88,15 +88,78 @@ export default defineConfig({
       },
     ],
 
-    sidebar: [
-      // Add your sidebar items here
-      // Example:
+  sidebar: [
       {
         text: 'Categories',
+        collapsed: false,
         items: [
           { text: '🛡️ Adblocking / Privacy', link: '/privacy' },
           { text: '🤖 Artificial Intelligence', link: '/ai' },
-          // ... add your other categories
+          { text: '🎬 Movies / TV / Anime', link: '/video' },
+          { text: '🎵 Music / Podcasts / Radio', link: '/audio' },
+          { text: '🎮 Gaming / Emulation', link: '/gaming' },
+          { 
+            text: '📚 Books / Comics / Manga',
+            collapsed: true,
+          },
+          { 
+            text: '💾 Downloading',
+            collapsed: true,
+          },
+          { text: '🍽️ Food', link: '/food' },
+          { text: '💊 Health', link: '/health' },
+          { 
+            text: '🧠 Educational',
+            collapsed: true,
+          },
+          { 
+            text: '📦 Miscellaneous',
+            collapsed: true,
+          },
+          { text: '⚙️ Settings', link: '/settings' }
+        ]
+      },
+      {
+        text: 'Personal Guides',
+        collapsed: false,
+        items: [
+          { text: '😴 Sleeping Guide', link: '/sleeping' },
+          { text: '🌙 All-Nighter Guide', link: '/all-nighter' },
+          { text: '💪 Fitness Guide', link: '/fitness' },
+          { text: '🍳 Cooking Guide', link: '/cooking' },
+          { text: '🧠 Mental Health Guide', link: '/mental-health' },
+          { text: '🎨 Drawing Guide', link: '/drawing' },
+          { text: '🛍️ Shopping Guide', link: '/shopping' },
+          { text: '🧅 Dark Web Guide', link: '/darkweb' },
+          { text: '👗 Fashion Guide', link: '/fashion' },
+          { text: '♟️ Chess Guide', link: '/chess' },
+          { text: '🎵 Music Streaming Guide', link: '/music' },
+          { text: '🔓 Unenrollment', link: '/unenrollment' },
+        ]
+      },
+      {
+        text: 'Tools',
+        collapsed: true,
+        items: [
+          { text: '🖥️ System Tools', link: '/tools/system' },
+          { text: '📁 File Tools', link: '/tools/file' },
+          { text: '🌐 Internet Tools', link: '/tools/internet' },
+          { text: '💬 Social Media Tools', link: '/tools/social' },
+          { text: '📝 Text Tools', link: '/tools/text' },
+          { text: '🎮 Gaming Tools', link: '/tools/gaming-tools' },
+          { text: '🖼️ Image Tools', link: '/tools/image' },
+          { text: '🎬 Video Tools', link: '/tools/video' },
+          { text: '🎵 Audio Tools', link: '/tools/audio' },
+          { text: '🎓 Educational Tools', link: '/tools/educational' },
+          { text: '👨‍💻 Developer Tools', link: '/tools/developer' }
+        ]
+      },
+      {
+        text: 'Other',
+        collapsed: true,
+        items: [
+          { text: 'Posts', link: '/posts' },
+          { text: 'Contributing', link: '/feedback' },
         ]
       }
     ],

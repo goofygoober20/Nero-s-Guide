@@ -1,93 +1,31 @@
 /* .vitepress/theme/custom.css */
 
-/* Light Mode Colors */
-:root {
-  /* Main Background Colors */
-  --vp-c-bg: #ffffff;
-  --vp-c-bg-soft: #f8f8f8;
-  --vp-c-bg-soft-up: #f0f0f0;
-  --vp-c-bg-alt: #f2f2f2;
-  --vp-c-bg-elv: #ffffff;
-  --vp-c-bg-elv-up: #f8f8f8;
-  --vp-c-bg-elv-down: #e8e8e8;
-
-  /* Text Colors */
-  --vp-c-text-1: #1a1a1a;
-  --vp-c-text-2: #4a4a4a;
-  --vp-c-text-3: #ec1a1a;
-  --vp-c-text-4: #8a8a8a;
-
-  /* Brand Colors (Links, Buttons, Highlights) */
-  --vp-c-brand-1: #9395b3;
-  --vp-c-brand-2: #8486b8;
-  --vp-c-brand-3: #848cff;
-  --vp-c-brand-soft: rgba(62, 66, 135, 0.16);
-
-  /* Divider / Border Colors */
-  --vp-c-divider: #e2e2e2;
-  --vp-c-divider-light: #e4dbdb;
-  --vp-c-divider-dark: #d0d0d0;
-
-  /* Code Block */
-  --vp-code-block-bg: #f8f8f8;
-  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.05);
+/* Completely solid search modal - no transparency */
+.DocSearch-Container {
+  background: var(--vp-c-bg) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
-/* Dark Mode Colors */
-.dark {
-  /* Main Background Colors */
-  --vp-c-bg: #08136654;
-  --vp-c-bg-soft: #1d1b1b73;
-  --vp-c-bg-soft-up: #282626;
-  --vp-c-bg-alt: #2e303171;
-  --vp-c-bg-elv: #252525;
-  --vp-c-bg-elv-up: #2a2a2a;
-  --vp-c-bg-elv-down: #1a1a1a;
-
-  /* Text Colors */
-  --vp-c-text-1: #d0bee5d0;
-  --vp-c-text-2: #d0bee588;
-  --vp-c-text-3: #d0bee588;
-  --vp-c-text-4: hsl(0, 2%, 19%);
-
-  /* Brand Colors (Links, Buttons, Highlights) */
-  --vp-c-brand-1: #818cff;
-  --vp-c-brand-2: #8b95f0;
-  --vp-c-brand-3: #a1acff;
-  --vp-c-brand-soft: rgba(74, 84, 194, 0.16);
-
-  /* Divider / Border Colors */
-  --vp-c-divider: #2e2e2e;
-  --vp-c-divider-light: #2a2a2a;
-  --vp-c-divider-dark: #3a3a3a;
-
-  /* Code Block */
-  --vp-code-block-bg: #0d0d0d;
-  --vp-code-line-highlight-color: rgba(255, 255, 255, 0.05);
+/* Light mode - solid white */
+:root .DocSearch-Container {
+  background: #ffffff !important;
 }
 
-/* ============================================
-   SEARCH MODAL FIX - SOLID BACKGROUND WITH BLUR
-   ============================================ */
-
-/* Force search container to have solid background + blur */
-.DocSearch-Container,
-.DocSearch-Container:root,
-.DocSearch-Container:focus {
-  background-color: rgba(0, 0, 0, 0.75) !important;
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
+/* Dark mode - solid dark */
+.dark .DocSearch-Container {
+  background: #1a1a1a !important;
 }
 
-/* Force search modal to be solid */
+/* Modal background */
 .DocSearch-Modal {
   background-color: var(--vp-c-bg-elv) !important;
   background: var(--vp-c-bg-elv) !important;
   border-radius: 16px !important;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 25px 50px -12px rgba(9, 9, 9, 0.25) !important;
 }
 
-/* Force search form background */
+/* Search form background */
 .DocSearch-Form {
   background-color: var(--vp-c-bg-soft) !important;
   background: var(--vp-c-bg-soft) !important;
@@ -95,19 +33,9 @@
   border-radius: 12px !important;
 }
 
-/* Force results background */
-.DocSearch-Hits,
-.DocSearch-Hits * {
-  background-color: transparent !important;
-}
-
-.DocSearch-Hit {
-  background-color: transparent !important;
-}
-
-.DocSearch-Hit-source {
-  background-color: var(--vp-c-bg-elv) !important;
-  color: var(--vp-c-text-1) !important;
+/* Results background */
+.DocSearch-Hits {
+  background: var(--vp-c-bg-elv) !important;
 }
 
 .DocSearch-Hit a {
@@ -119,7 +47,7 @@
   background-color: var(--vp-c-bg-soft-up) !important;
 }
 
-/* Force footer background */
+/* Footer background */
 .DocSearch-Footer {
   background-color: var(--vp-c-bg-soft) !important;
   border-top: 1px solid var(--vp-c-divider) !important;
@@ -129,10 +57,6 @@
 /* Text colors */
 .DocSearch-Hit-title {
   color: var(--vp-c-text-1) !important;
-}
-
-.DocSearch-Hit-path {
-  color: var(--vp-c-text-3) !important;
 }
 
 .DocSearch-Highlight {
@@ -147,12 +71,101 @@
   box-shadow: none !important;
 }
 
-/* Cancel button (mobile) */
-.DocSearch-Cancel {
-  color: var(--vp-c-text-2) !important;
+/* ============================================
+   STATUS BADGE WITH TOOLTIP
+   ============================================ */
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: help;
+  margin-left: 8px;
+  position: relative;
+  vertical-align: middle;
 }
 
-/* Logo colors */
-.DocSearch-Logo svg path {
-  fill: var(--vp-c-text-2) !important;
+.status-badge svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.status-badge:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a1a;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  z-index: 100;
+  margin-bottom: 8px;
+  pointer-events: none;
+}
+
+.dark .status-badge:hover::after {
+  background: #e0e0e0;
+  color: #1a1a1a;
+}
+
+.status-badge:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1a1a1a transparent transparent transparent;
+  margin-bottom: 3px;
+  pointer-events: none;
+}
+
+.dark .status-badge:hover::before {
+  border-color: #e0e0e0 transparent transparent transparent;
+}
+
+.status-badge[data-status="online"] svg {
+  color: #198754;
+  stroke: #198754;
+  fill: #198754;
+}
+
+.status-badge[data-status="degraded"] svg {
+  color: #ffc107;
+  stroke: #ffc107;
+  fill: #ffc107;
+}
+
+.status-badge[data-status="offline"] svg {
+  color: #dc3545;
+  stroke: #dc3545;
+  fill: #dc3545;
+}
+
+.status-badge[data-status="unknown"] svg {
+  color: #6c757d;
+  stroke: #6c757d;
+  fill: #6c757d;
+}
+
+@media (max-width: 640px) {
+  .status-badge:hover::after {
+    white-space: normal;
+    width: 200px;
+    text-align: center;
+    font-size: 0.65rem;
+  }
+}
+
+/* Fix transparent navigation bar */
+.VPNavBar {
+  background: var(--vp-c-bg) !important;
+  backdrop-filter: none !important;
+  border-bottom: 1px solid var(--vp-c-divider) !important;
 }
