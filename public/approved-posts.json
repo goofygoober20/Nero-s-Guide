@@ -1,5 +1,35 @@
 [
   {
+    "id": 1779964180943,
+    "date": "May 28, 2026",
+    "message": "✨ New: Reworked Fitness Guide: Added Quiz, and polished design",
+    "timestamp": "2026-05-28T10:29:40.950Z"
+  },
+  {
+    "id": 1779960891921,
+    "date": "May 28, 2026",
+    "message": "✨ New: Reworked Sleeping Guide: Added Quiz, moved All-Nighter Guide to sleeping guide, removed old clutter",
+    "timestamp": "2026-05-28T09:34:51.922Z"
+  },
+  {
+    "id": 1779960322067,
+    "date": "May 28, 2026",
+    "message": "📚 New Guide: Rewrote and polished Mental Health Guide (credit to dan)",
+    "timestamp": "2026-05-28T09:25:22.068Z"
+  },
+  {
+    "id": 1779960227573,
+    "date": "May 28, 2026",
+    "message": "✨ New: Created \"2FA Finder Quiz\" and added to Password Guide",
+    "timestamp": "2026-05-28T09:23:47.574Z"
+  },
+  {
+    "id": 1779960190006,
+    "date": "May 28, 2026",
+    "message": "✨ New: Created \"Password-Manager Quiz\" and added to Password Guide",
+    "timestamp": "2026-05-28T09:23:10.006Z"
+  },
+  {
     "id": 1779692871034,
     "date": "May 25, 2026",
     "message": "✨ New: Added System Tools",

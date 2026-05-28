@@ -14,11 +14,11 @@ hero:
       text: "See Beginners Guide "
       link: /beginners-guide
     - theme: alt
+      text: "Posts"
+      link: /posts
+    - theme: alt
       text: "About me"
       link: /about
-    - theme: alt
-      text: "Settings"
-      link: /settings
     - theme: alt
       text: "Discord"
       link: https://discord.gg/kwhPgTqsJK
@@ -99,12 +99,11 @@ features:
 ---
 
 
-## 📝 Personal Guides
+## 
 
 <Grid :items="[
   { title: 'Sleeping Guide', link: '/sleeping', icon: '😴', details: 'Better sleep hygiene and routines' },
   { title: 'Password Guide', link: '/passwords', icon: '🔐', details: 'Creating and managing secure passwords' },
-  { title: 'All-Nighter Guide', link: '/all-nighter', icon: '🌙', details: 'Surviving and recovering from no sleep' },
   { title: 'Fitness Guide', link: '/fitness', icon: '💪', details: 'Workouts, nutrition, and staying consistent' },
   { title: 'Cooking Guide', link: '/cooking', icon: '🍳', details: 'Basic skills, meal prep, and easy recipes' },
   { title: 'Mental Health Guide', link: '/mental-health', icon: '🧠', details: 'Managing anxiety, depression, and stress' },

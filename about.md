@@ -2,7 +2,7 @@
 
 ### Who am I?
 
-Hey! I'm Cameron, a student and a cinephile 
+Hey! I'm Cameron, a student and a developer
 
 I created Nero's Guide to help students and teens find free resources online without having to dig through sketchy sites or paywalls.
 

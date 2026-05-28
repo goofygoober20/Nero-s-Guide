@@ -70,7 +70,6 @@ export default defineConfig({
     
     nav: [
       { text: '🏠 Home', link: '/' },
-      { text: '🌱 Beginners Guide', link: '/beginners-guide' },
       { 
         text: '🛠️ Tools', 
         items: [
@@ -124,14 +123,14 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '😴 Sleeping Guide', link: '/sleeping' },
-          { text: '🌙 All-Nighter Guide', link: '/all-nighter' },
+          { text: '🔐 Password Guide', link: '/passwords' },
           { text: '💪 Fitness Guide', link: '/fitness' },
           { text: '🍳 Cooking Guide', link: '/cooking' },
           { text: '🧠 Mental Health Guide', link: '/mental-health' },
+          { text: '👗 Fashion Guide', link: '/fashion' },
           { text: '🎨 Drawing Guide', link: '/drawing' },
           { text: '🛍️ Shopping Guide', link: '/shopping' },
           { text: '🧅 Dark Web Guide', link: '/darkweb' },
-          { text: '👗 Fashion Guide', link: '/fashion' },
           { text: '♟️ Chess Guide', link: '/chess' },
           { text: '🎵 Music Streaming Guide', link: '/music' },
           { text: '🔓 Unenrollment', link: '/unenrollment' },

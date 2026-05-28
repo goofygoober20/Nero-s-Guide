@@ -7,6 +7,10 @@ import ShareButtons from './components/ShareButtons.vue'
 import RandomGuide from './components/RandomGuide.vue'
 import NeroTabs from './components/NeroTabs.vue'
 import SettingsPage from './components/SettingsPage.vue'
+import PasswordManagerQuiz from './components/PasswordManagerQuiz.vue'
+import TwoFactorQuiz from './components/TwoFactorQuiz.vue' 
+import SleepSurvey from './components/SleepSurvey.vue'  
+
 
 export default {
   extends: DefaultTheme,
@@ -18,5 +22,11 @@ export default {
     app.component('RandomGuide', RandomGuide)
     app.component('NeroTabs', NeroTabs)
     app.component('SettingsPage', SettingsPage)
+    app.component('PasswordManagerQuiz', PasswordManagerQuiz) 
+    app.component('TwoFactorQuiz', TwoFactorQuiz) 
+    app.component('SleepSurvey', SleepSurvey)  // ADD THIS LINE
+
+
+
   }
 }

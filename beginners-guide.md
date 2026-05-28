@@ -38,7 +38,7 @@ For iOS, we recommend **Safari + [AdGuard](https://adguard.com/en/adguard-ios/ov
 
 > How do I decode Base64?
 
-If you see a string of text that looks like this `aHR0cHM6Ly9mbWh5Lm5ldC8`, you can use a Base64 decoder to view it. Some may need to be decoded twice.
+You can use a [Base64](https://www.base64decode.org) decoder to view it, such as `SW4gdGhlIFNldHRpbmdz`. Some strings of code may need to be decoded twice.
 ***
 
 ### Movies / Shows

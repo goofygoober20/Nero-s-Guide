@@ -11,9 +11,9 @@ This guide is for **educational purposes only**. The Tor browser is a legitimate
 :::
 
 ## 🚨 WARNINGS
-
-Before you proceed, understand the following:
-
+::: warning WAIT BEFORE YOU START
+Please understand and follow these basic rules and facts before entering the dark web
+:::
 ### 1. The Dark Web is NOT a Game
 
 The dark web contains scams, malware, illegal marketplaces, and genuinely disturbing content. You **will** be found if you commit any serious crimes online, your complete privicy doesnt exist online. 
@@ -53,20 +53,6 @@ Downloading files through Tor is **not recommended** unless you know exactly wha
 ::: info
 If you are in a country where Tor is illegal, do not use it without proper protections (VPN before Tor)
 :::
-## 📚 Table of Contents
-
-- [What is Tor?](#what-is-tor)
-- [How Tor Works](#how-tor-works)
-- [The Surface Web vs Deep Web vs Dark Web](#web-layers)
-- [Step-by-Step Setup Guide](#setup-guide)
-- [Safety Rules for Browsing](#safety-rules)
-- [Finding .onion Sites](#finding-sites)
-- [My Personal Starter Links](#starter-links)
-- [Common Scams to Avoid](#scams)
-- [FAQs](#faqs)
-- [Sources & Further Reading](#sources)
-
----
 
 ## What is Tor? {#what-is-tor}
 
@@ -92,7 +78,6 @@ Who uses Tor legally?
 | **Surface Web** | Public websites indexed by Google | Standard browser | Reddit, Wikipedia, YouTube |
 | **Deep Web** | Content not indexed (private databases, email, banking) | Standard browser + login | Your Gmail, bank account, company intranet |
 | **Dark Web** | Deliberately hidden websites | Tor browser + .onion address | Darknet markets, whistleblower sites |
----
 
 ## Step-by-Step Setup Guide {#setup-guide}
 
@@ -156,8 +141,6 @@ Bridges are secret Tor entry points that aren't publicly listed. Use them if Tor
 | Telegram: [@GetBridgesBot](https://t.me/getbridgesbot) |
 | Moat: Built into Tor Browser (click "Configure" → "Tor is censored") |
 
----
-
 ## Safety Rules for Browsing {#safety-rules}
 
 ### The 10 Commandments of Dark Web Safety
@@ -187,7 +170,7 @@ For maximum privacy, some users connect to a VPN **before** launching Tor Browse
 ::: tip Recommended VPNs for Tor
  ProtonVPN (free tier available), Mullvad VPN, IVPN. Avoid free VPNs that log your data.
 :::
----
+
 
 ## Finding .onion Sites {#finding-sites}
 
@@ -203,7 +186,6 @@ For maximum privacy, some users connect to a VPN **before** launching Tor Browse
 ::: warning ⚠️ **Warning** 
 Most "Hidden Wiki" sites contain links to illegal content. They also contain many scams. Do not click randomly.
 :::
----
 
 ## My Personal Starter Links {#starter-links}
 
