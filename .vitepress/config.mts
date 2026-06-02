@@ -127,7 +127,6 @@ export default defineConfig({
           { text: '💪 Fitness Guide', link: '/fitness' },
           { text: '🍳 Cooking Guide', link: '/cooking' },
           { text: '🧠 Mental Health Guide', link: '/mental-health' },
-          { text: '👗 Fashion Guide', link: '/fashion' },
           { text: '🎨 Drawing Guide', link: '/drawing' },
           { text: '🛍️ Shopping Guide', link: '/shopping' },
           { text: '🧅 Dark Web Guide', link: '/darkweb' },
