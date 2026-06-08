@@ -330,14 +330,14 @@ Apply progression protocols continuously. Train movements, not muscles.
 <style scoped>
 .survey-container {
   --s-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
-  --s-accent: var(--vp-c-brand-1, #0071e3);
-  --s-accent-hover: var(--vp-c-brand-2, #0071e3);
+  --s-accent: var(--vp-c-brand-1, #71AD70);
+  --s-accent-hover: var(--vp-c-brand-2, #557240);
   
-  --s-bg-card: #ffffff;
-  --s-bg-alt: #f5f5f7;
-  --s-border: #e5e5ea;
-  --s-text-p: #1d1d1f;
-  --s-text-s: #86868b;
+  --s-bg-card: var(--vp-c-bg-elv);
+  --s-bg-alt: var(--vp-c-bg-soft);
+  --s-border: var(--vp-c-divider);
+  --s-text-p: var(--vp-c-text-1);
+  --s-text-s: var(--vp-c-text-2);
   --s-shadow: 0 4px 24px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
   --s-radius: 18px;
 
@@ -347,17 +347,6 @@ Apply progression protocols continuously. Train movements, not muscles.
   margin: 1.5rem auto;
   font-family: var(--s-font);
   box-sizing: border-box;
-}
-
-:dark .survey-container,
-.dark .survey-container,
-[data-theme='dark'] .survey-container {
-  --s-bg-card: #1c1c1e;
-  --s-bg-alt: #2c2c2e;
-  --s-border: #38383a;
-  --s-text-p: #f5f5f7;
-  --s-text-s: #8e8e93;
-  --s-shadow: 0 12px 30px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .fitness-survey-card {
@@ -479,7 +468,7 @@ Apply progression protocols continuously. Train movements, not muscles.
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #ffffff;
+  background: var(--s-bg-card);
   transform: scale(0);
   transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }

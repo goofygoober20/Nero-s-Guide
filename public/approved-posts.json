@@ -1,98 +1,56 @@
 [
   {
+    "id": 22,
+    "date": "Jun 8, 2026",
+    "message": "Hardcoded API keys and tokens replaced with environment variables",
+    "timestamp": "2026-06-08T00:00:00.000Z"
+  },
+  {
+    "id": 21,
+    "date": "Jun 8, 2026",
+    "message": "Squidward flashbang easter egg when switching to light mode",
+    "timestamp": "2026-06-08T00:00:00.000Z"
+  },
+  {
+    "id": 20,
+    "date": "Jun 8, 2026",
+    "message": "General cleanup: dead code removed, empty dirs cleaned, breadcrumbs fixed",
+    "timestamp": "2026-06-08T00:00:00.000Z"
+  },
+  {
+    "id": 19,
+    "date": "Jun 8, 2026",
+    "message": "Fixed: Settings tab icons now render properly",
+    "timestamp": "2026-06-08T00:00:00.000Z"
+  },
+  {
     "id": 1779964180943,
     "date": "May 28, 2026",
-    "message": "✨ New: Reworked Fitness Guide: Added Quiz, and polished design",
+    "message": "Reworked Fitness Guide: Added Quiz, and polished design",
     "timestamp": "2026-05-28T10:29:40.950Z"
   },
   {
     "id": 1779960891921,
     "date": "May 28, 2026",
-    "message": "✨ New: Reworked Sleeping Guide: Added Quiz, moved All-Nighter Guide to sleeping guide, removed old clutter",
+    "message": "Reworked Sleeping Guide: Added Quiz, moved All-Nighter Guide to sleeping guide, removed old clutter",
     "timestamp": "2026-05-28T09:34:51.922Z"
   },
   {
     "id": 1779960322067,
     "date": "May 28, 2026",
-    "message": "📚 New Guide: Rewrote and polished Mental Health Guide (credit to dan)",
+    "message": "Rewrote and polished Mental Health Guide (credit to dan)",
     "timestamp": "2026-05-28T09:25:22.068Z"
   },
   {
     "id": 1779960227573,
     "date": "May 28, 2026",
-    "message": "✨ New: Created \"2FA Finder Quiz\" and added to Password Guide",
+    "message": "Created 2FA Finder Quiz and added to Password Guide",
     "timestamp": "2026-05-28T09:23:47.574Z"
   },
   {
     "id": 1779960190006,
     "date": "May 28, 2026",
-    "message": "✨ New: Created \"Password-Manager Quiz\" and added to Password Guide",
+    "message": "Created Password-Manager Quiz and added to Password Guide",
     "timestamp": "2026-05-28T09:23:10.006Z"
-  },
-  {
-    "id": 1779692871034,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added System Tools",
-    "timestamp": "2026-05-25T07:07:51.036Z"
-  },
-  {
-    "id": 1779692863843,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added Internet Tools",
-    "timestamp": "2026-05-25T07:07:43.844Z"
-  },
-  {
-    "id": 1779692856036,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added Social Media Tools",
-    "timestamp": "2026-05-25T07:07:36.036Z"
-  },
-  {
-    "id": 1779692844995,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added Text Tools",
-    "timestamp": "2026-05-25T07:07:24.995Z"
-  },
-  {
-    "id": 1779692830112,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added Gaming Tools",
-    "timestamp": "2026-05-25T07:07:10.112Z"
-  },
-  {
-    "id": 1779692822104,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added Image Tools",
-    "timestamp": "2026-05-25T07:07:02.105Z"
-  },
-  {
-    "id": 1779692813795,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added Video Tools",
-    "timestamp": "2026-05-25T07:06:53.795Z"
-  },
-  {
-    "id": 1779692803545,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added Audio Tools",
-    "timestamp": "2026-05-25T07:06:43.546Z"
-  },
-  {
-    "id": 1779692736634,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added  Developer Tools",
-    "timestamp": "2026-05-25T07:05:36.637Z"
-  },
-  {
-    "id": 1779692726229,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added  Educational Tools",
-    "timestamp": "2026-05-25T07:05:26.229Z"
-  },
-  {
-    "id": 1779692703481,
-    "date": "May 25, 2026",
-    "message": "✨ New: Added File Tools",
-    "timestamp": "2026-05-25T07:05:03.482Z"
   }
 ]

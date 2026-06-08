@@ -1,9 +1,6 @@
 <template>
   <div class="glass-panel">
-    <h2 class="panel-title">
-      <i class="lucide-file-text"></i>
-      Content
-    </h2>
+    <h2 class="panel-title">Content</h2>
 
     <div class="divider"></div>
 
@@ -11,6 +8,8 @@
       <ToggleSwitch v-model="settings.showNSFW" @update:modelValue="saveSettings" />
       <span>Show NSFW content</span>
     </div>
+
+
   </div>
 </template>
 
@@ -47,11 +46,6 @@ defineProps({
   margin-bottom: 0.8rem;
 }
 
-.panel-title i {
-  font-size: 1.2rem;
-  opacity: 0.85;
-}
-
 .divider {
   height: 1px;
   background: linear-gradient(
@@ -67,5 +61,39 @@ defineProps({
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--vp-c-text-1);
+}
+
+.text-input {
+  padding: 0.65rem 0.8rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-1);
+  font-size: 0.9rem;
+  transition: border-color 0.2s;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: var(--vp-c-brand-1);
+}
+
+.field-hint {
+  font-size: 0.72rem;
+  color: var(--vp-c-text-3);
+  margin: 0.35rem 0 0;
 }
 </style>

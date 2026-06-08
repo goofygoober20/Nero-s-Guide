@@ -1,225 +1,449 @@
-# 🎵 Music Streaming Guide
+---
+title: Music Streaming Guide
+description: Compare Spotify, Apple Music, Tidal, and YouTube Music — features, pricing, audio quality, and more.
+---
 
-<div class="meta-info">
-  <span>✍️ Written by Dan and Monica </span>
-  <span>📅 Updated: August 9th, 2025</span>
-  <span>⏱️ Read time: 10 min</span>
+# Music Streaming Guide
+
+<div class="guide-hero">
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by Dan and Monica &middot; <GuideIcon name="clock" :size="14" /> Updated: August 9th, 2025 &middot; <GuideIcon name="clock" :size="14" /> Read time: 10 min</p>
+  <p class="guide-intro">A side-by-side comparison of the top music streaming services — audio quality, pricing, modding options, and what's best for your needs.</p>
 </div>
 
+<div class="about-tip">
+  <GuideIcon name="info" class="tip-icon" />
+  <span>Royalty figures are complex estimates per 1,000 streams and fluctuate significantly based on many factors (region, subscription type, specific deals, etc.). Treat them as rough comparative indicators only.</span>
+</div>
 
-::: tip Not Covered:
-Deezer, Qobuz, Amazon Music, SoundCloud, regional apps (e.g., Boomplay, Anghami, etc.).
-:::
+<div class="about-tip">
+  <GuideIcon name="info" class="tip-icon" />
+  <span>Not covered: Deezer, Qobuz, Amazon Music, SoundCloud, regional apps (e.g., Boomplay, Anghami, etc.).</span>
+</div>
 
-::: tip Royalty Note
- Royalty figures are complex estimates per 1,000 streams and fluctuate significantly based on many factors (region, subscription type, specific deals, etc.). Treat them as rough comparative indicators only.
-:::
----
+## Table of Contents
 
-## 📚 Table of Contents
+<details open>
+<summary>Click to expand/collapse</summary>
 
-- [🎧 Spotify](#spotify)
-- [🍏 Apple Music](#apple-music)
-- [🌊 Tidal](#tidal)
-- [▶️ YouTube Music](#youtube-music)
-- [📊 Quick Comparison Summary](#comparison)
+- [Spotify](#spotify)
+- [Apple Music](#apple-music)
+- [Tidal](#tidal)
+- [YouTube Music](#youtube-music)
+- [Quick Comparison Summary](#comparison)
 
----
+</details>
 
-## 🎧 Spotify {#spotify}
+## Spotify {#spotify}
 
-**Best For:** Users prioritizing ease-of-use, device compatibility (Connect), social features, and integrated podcasts/audiobooks over absolute audio fidelity. Excellent value via Family plans.
+<div class="about-tip" style="border-left: 3px solid #1DB954;">
+  <GuideIcon name="music" class="tip-icon" />
+  <span><strong>Best For:</strong> Users prioritizing ease-of-use, device compatibility (Connect), social features, and integrated podcasts/audiobooks over absolute audio fidelity. Excellent value via Family plans.</span>
+</div>
 
-| Category | Details |
-|----------|---------|
-| **💰 Pricing** | $11.99/month (Individual) | Plans & Free Tier | Family & Student plans reduce cost |
-| **💻 Desktop Mod** | SpotX (Modifies official desktop app) |
-| **📱 Android Mod** | ReVanced Manager (Patches official app, requires your own API key for stable login & full functionality) |
-| **📱 iOS Mod** | EeveeSpotify / SpotC++ (Requires sideloading, e.g., via AltStore/Sideloadly; stability varies) |
-| **📈 Approx. Royalties** | ~$3-5 per 1,000 streams (Highly debated and variable) |
+<div class="card-grid-2">
+  <div class="shared-card">
+    <h4>💰 Pricing</h4>
+    <p>$11.99/month (Individual) | Family &amp; Student plans reduce cost</p>
+  </div>
+  <div class="shared-card">
+    <h4>💻 Desktop Mod</h4>
+    <p>SpotX (Modifies official desktop app)</p>
+  </div>
+  <div class="shared-card">
+    <h4>📱 Android Mod</h4>
+    <p>ReVanced Manager (Patches official app, requires your own API key)</p>
+  </div>
+  <div class="shared-card">
+    <h4>📱 iOS Mod</h4>
+    <p>EeveeSpotify / SpotC++ (Requires sideloading via AltStore/Sideloadly)</p>
+  </div>
+  <div class="shared-card">
+    <h4>📈 Approx. Royalties</h4>
+    <p>~$3-5 per 1,000 streams (Highly debated and variable)</p>
+  </div>
+</div>
 
-> 💰 **Save Money:** Standard $11.99/mo Individual vs. $19.99/mo Family plan (up to 6 accounts) = ~$3.33/person/month.
+<blockquote style="font-style: normal; border-left: 4px solid #1DB954; padding-left: 1rem; margin: 1rem 0;">
+<strong>Save Money:</strong> Standard $11.99/mo Individual vs. $19.99/mo Family plan (up to 6 accounts) = ~$3.33/person/month.
+</blockquote>
 
-> ⚠️ **Android Modding Status:** Official Spotify app updates frequently break mods. The ReVanced approach (patching the official app) is generally the most sustainable method currently, but requires user effort and staying updated with compatible versions/patches.
+### Pros
 
-### ✅ Pros
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Superb User Experience</h4>
+    <p>Generally intuitive apps across platforms, though UI complexity is increasing</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Spotify Connect</h4>
+    <p>Seamless cross-device control and playback handoff remains best-in-class</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Strong Social Integration</h4>
+    <p>Collaborative playlists, friend activity feed, Jam sessions enhance shared listening</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Vast Content Library</h4>
+    <p>Music catalogue plus extensive podcasts &amp; audiobooks</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Effective Discovery</h4>
+    <p>Personalized playlists (Discover Weekly, Release Radar) and robust search</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Spotify Wrapped</h4>
+    <p>Hugely popular annual personalized listening recap that drives social engagement</p>
+  </div>
+</div>
 
-| Pro | Description |
-|-----|-------------|
-| **Superb User Experience** | Generally intuitive apps across platforms, though UI complexity is increasing |
-| **Spotify Connect** | Seamless cross-device control and playback handoff remains best-in-class |
-| **Strong Social Integration** | Collaborative playlists, friend activity feed, Jam sessions enhance shared listening |
-| **Vast Content Library** | Music catalogue is comprehensive, plus extensive podcasts & audiobooks (audiobook access limited on standard plans) |
-| **Effective Discovery** | Personalized playlists (Discover Weekly, Release Radar) and robust search function are generally well-regarded |
-| **Spotify Wrapped** | Hugely popular annual personalized listening recap that drives social engagement |
+### Cons
 
-### ❌ Cons
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Audio Quality</h4>
+    <p>Limited to lossy 320kbps Ogg Vorbis. No lossless/HiFi option despite years of promises</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Artist Compensation</h4>
+    <p>Widely criticized for low per-stream payouts and policies unfavorable to smaller artists</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Algorithm Bubble</h4>
+    <p>Recommendations can sometimes feel repetitive or limited over time</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Business Practices</h4>
+    <p>History of industry controversies and perceived focus on platform metrics</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Increasing UI Clutter</h4>
+    <p>Integration of non-music features can make the app feel less focused</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Ethical Concerns</h4>
+    <p>CEO is a major investor in defense AI company Helsing, drawing criticism</p>
+  </div>
+</div>
 
-| Con | Description |
-|-----|-------------|
-| **Audio Quality** | Limited to lossy 320kbps Ogg Vorbis. No lossless/HiFi option despite years of promises |
-| **Artist Compensation** | Widely criticized for low per-stream payouts and policies perceived as unfavorable to smaller artists |
-| **Algorithm Bubble** | Recommendations can sometimes feel repetitive or limited over time |
-| **Business Practices** | History of industry controversies and perceived focus on platform metrics over artist partnerships |
-| **Increasing UI Clutter** | Integration of non-music features can make the app feel less focused |
-| **Ethical Concerns Over CEO's Investments** | Spotify CEO is a major investor in defense AI company Helsing, drawing criticism from artists and users |
+<div class="section-card">
+  <strong>Bottom Line:</strong> The dominant player for a reason – user-friendly, feature-packed, great connectivity. However, its lack of lossless audio and controversial artist compensation model are significant drawbacks for discerning listeners.
+</div>
 
-### 🎯 Bottom Line
+## Apple Music {#apple-music}
 
-The dominant player for a reason – user-friendly, feature-packed, great connectivity. However, its lack of lossless audio and controversial artist compensation model are significant drawbacks for discerning listeners and industry watchers.
+<div class="about-tip" style="border-left: 3px solid #FA243C;">
+  <GuideIcon name="star" class="tip-icon" />
+  <span><strong>Best For:</strong> Users deep in the Apple ecosystem, audiophiles prioritizing included lossless/spatial audio, and classical music fans.</span>
+</div>
 
----
+<div class="card-grid-2">
+  <div class="shared-card">
+    <h4>💰 Pricing</h4>
+    <p>$10.99/month (Individual) | Family &amp; Student Plans | Often bundled with Apple One</p>
+  </div>
+  <div class="shared-card">
+    <h4>💻 Desktop</h4>
+    <p>Official App (Music on macOS, iTunes/AM App on Windows), Cider</p>
+  </div>
+  <div class="shared-card">
+    <h4>📱 Android/iOS</h4>
+    <p>Official App on both platforms (system integrated on iOS)</p>
+  </div>
+  <div class="shared-card">
+    <h4>📈 Approx. Royalties</h4>
+    <p>~$10 per 1,000 streams (Generally considered among the highest)</p>
+  </div>
+</div>
 
-## 🍏 Apple Music {#apple-music}
+### Pros
 
-**Best For:** Users deep in the Apple ecosystem, audiophiles prioritizing included lossless/spatial audio, and classical music fans.
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Excellent Audio Quality</h4>
+    <p>Lossless (ALAC up to 24-bit/192kHz) and Dolby Atmos spatial audio are standard</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Apple Music Classical</h4>
+    <p>Dedicated app offers superior metadata and search for classical music</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Human Curation</h4>
+    <p>Strong editorial playlists and well-organized discovery sections</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Clean UI (iOS)</h4>
+    <p>Integrates seamlessly into the Apple ecosystem; design generally praised</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Apple Music Sing</h4>
+    <p>Karaoke-style feature with real-time lyrics and adjustable vocals</p>
+  </div>
+</div>
 
-| Category | Details |
-|----------|---------|
-| **💰 Pricing** | $10.99/month (Individual) | Family & Student Plans Available | Often bundled with Apple One |
-| **💻 Desktop** | Official App (Music on macOS, iTunes/AM App on Windows), Cider |
-| **📱 Android** | Official App |
-| **📱 iOS** | Official App (System Integrated) |
-| **📈 Approx. Royalties** | ~$10 per 1,000 streams (Generally considered among the highest) |
+### Cons
 
-> ℹ️ **Mod Availability:** No reliable, publicly known mods currently exist to unlock premium features for free on Apple Music.
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>App Performance (Non-iOS)</h4>
+    <p>Android and Windows apps are frequently criticized for being buggy, slow, and less stable</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Weaker Discovery</h4>
+    <p>Personalized recommendations and radio stations lag behind Spotify and YouTube Music</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Limited Cross-Device</h4>
+    <p>No direct equivalent to Spotify Connect for seamless remote control</p>
+  </div>
+</div>
 
-### ✅ Pros
+<div class="section-card">
+  <strong>Bottom Line:</strong> Outstanding audio quality and strong curation at a competitive price. Ideal for Apple users and audiophiles, but experience is hampered by subpar non-iOS apps and weaker algorithmic discovery.
+</div>
 
-| Pro | Description |
-|-----|-------------|
-| **Excellent Audio Quality Included** | Lossless (ALAC up to 24-bit/192kHz) and Dolby Atmos spatial audio are standard |
-| **Apple Music Classical** | Dedicated app offers superior metadata and search for classical music |
-| **Human Curation** | Strong editorial playlists and well-organized discovery sections |
-| **Extensive Catalogue** | Includes a vast library of official releases and many DJ mixes (often with tracklists) |
-| **Clean UI (especially iOS)** | Integrates seamlessly into the Apple ecosystem; design generally praised |
-| **Apple Music Sing** | Karaoke-style feature with real-time lyrics and adjustable vocals |
+## Tidal {#tidal}
 
-### ❌ Cons
+<div class="about-tip" style="border-left: 3px solid #000000;">
+  <GuideIcon name="star" class="tip-icon" />
+  <span><strong>Best For:</strong> Audiophiles demanding high-resolution audio, DJs needing software integration, and users prioritizing artist compensation.</span>
+</div>
 
-| Con | Description |
-|-----|-------------|
-| **App Performance Issues (Non-iOS)** | Android and Windows apps are frequently criticized for being buggy, slow, and less stable |
-| **Weaker Discovery Algorithm** | Personalized recommendations and radio stations often lag behind Spotify and YouTube Music |
-| **Search Functionality** | Can be less intuitive or powerful compared to competitors |
-| **Limited Cross-Device Control** | No direct equivalent to Spotify Connect for seamless remote control |
-| **Podcasts Separate** | Requires using the distinct Apple Podcasts app |
+<div class="card-grid-2">
+  <div class="shared-card">
+    <h4>💰 Pricing</h4>
+    <p>$10.99/month (Individual) | Family &amp; Student Plans (Single tier includes all audio formats)</p>
+  </div>
+  <div class="shared-card">
+    <h4>💻 Desktop / 📱 Mobile</h4>
+    <p>Official App on all platforms</p>
+  </div>
+  <div class="shared-card">
+    <h4>📈 Approx. Royalties</h4>
+    <p>~$13 per 1,000 streams (Historically promoted higher/direct artist payouts)</p>
+  </div>
+</div>
 
-### 🎯 Bottom Line
+### Pros
 
-Offers outstanding audio quality and strong curation within its price, making it ideal for Apple users and audiophiles. However, the experience is significantly hampered by subpar non-iOS apps and less effective algorithmic discovery.
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Superior Audio Quality</h4>
+    <p>Hi-Res Lossless FLAC and immersive audio (Dolby Atmos, 360RA) included in base plan</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Artist-Centric</h4>
+    <p>Historically focused on higher royalty rates and direct artist support initiatives</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Comprehensive Credits</h4>
+    <p>Excellent metadata providing detailed info on songwriters, producers, engineers</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>DJ Integration</h4>
+    <p>Direct support for Serato, Rekordbox, VirtualDJ</p>
+  </div>
+</div>
 
----
+### Cons
 
-## 🌊 Tidal {#tidal}
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Catalogue Gaps</h4>
+    <p>May occasionally miss niche tracks or regional content found on Spotify/YT Music</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Limited Social Features</h4>
+    <p>Lacks collaborative playlists, friend activity feeds, or features like Spotify Jam</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Search &amp; Performance</h4>
+    <p>Can occasionally be buggy or slow; less robust search than competitors</p>
+  </div>
+</div>
 
-**Best For:** Audiophiles demanding high-resolution audio, DJs needing software integration, and users prioritizing artist compensation and detailed liner notes.
+<div class="section-card">
+  <strong>Bottom Line:</strong> A premium audio experience at a standard price. Ideal for those who prioritize sound quality, detailed credits, and artist support.
+</div>
 
-| Category | Details |
-|----------|---------|
-| **💰 Pricing** | $10.99/month (Individual) | Family & Student Plans Available (Single tier now includes all audio formats) |
-| **💻 Desktop** | Official App |
-| **📱 Android** | Official App |
-| **📱 iOS** | Official App |
-| **📈 Approx. Royalties** | ~$13 per 1,000 streams (Historically promoted higher/direct artist payouts) |
+## YouTube Music {#youtube-music}
 
-> 📝 **Simplified Tier:** Tidal now offers one main subscription tier ($10.99/mo) that includes all audio formats: HiFi (CD-quality FLAC), Hi-Res FLAC (up to 24-bit/192kHz), Dolby Atmos, and Sony 360 Reality Audio.
+<div class="about-tip" style="border-left: 3px solid #FF0000;">
+  <GuideIcon name="star" class="tip-icon" />
+  <span><strong>Best For:</strong> Users prioritizing the largest potential catalogue (including unofficial content), top-tier discovery algorithms, and video integration.</span>
+</div>
 
-> ℹ️ **Mod Availability:** No reliable, publicly known mods currently exist to unlock premium features for free on Tidal.
+<div class="card-grid-2">
+  <div class="shared-card">
+    <h4>💰 Pricing</h4>
+    <p>$10.99/month (Individual) | Free tier available (with ads) | Included with YouTube Premium</p>
+  </div>
+  <div class="shared-card">
+    <h4>💻 Desktop Mod</h4>
+    <p>YTMusic Desktop App (Unofficial) / Web Player with ad-blockers</p>
+  </div>
+  <div class="shared-card">
+    <h4>📱 Android Mod</h4>
+    <p>ReVanced Extended (YT Music Patches) / MetroList</p>
+  </div>
+  <div class="shared-card">
+    <h4>📱 iOS Mod</h4>
+    <p>YTMusicUltimate / uYouPlusExtra (Requires sideloading)</p>
+  </div>
+  <div class="shared-card">
+    <h4>📈 Approx. Royalties</h4>
+    <p>~$5-9 per 1,000 streams (Extremely variable &amp; opaque)</p>
+  </div>
+</div>
 
-### ✅ Pros
+### Pros
 
-| Pro | Description |
-|-----|-------------|
-| **Superior Audio Quality Standard** | Hi-Res Lossless FLAC and immersive audio (Dolby Atmos, 360RA) included in the base plan |
-| **Artist-Centric Reputation** | Historically focused on higher royalty rates and direct artist support initiatives |
-| **Comprehensive Credits** | Excellent metadata providing detailed info on songwriters, producers, engineers, etc. |
-| **DJ Software Integration** | Direct support for popular platforms like Serato, Rekordbox, VirtualDJ |
-| **Visually Appealing UI** | Often praised for a clean, dark-themed aesthetic |
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Unrivaled Catalogue Depth</h4>
+    <p>Official releases PLUS YouTube's massive library of covers, remixes, live recordings</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Excellent Discovery</h4>
+    <p>Leverages Google's powerful algorithms for highly personalized radio stations</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Seamless Video Integration</h4>
+    <p>Easily switch between audio-only and music video versions</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #27ae60;">
+    <h4>Generous Free Tier</h4>
+    <p>On-demand playback on desktop (unlike Spotify's shuffle-only mobile free tier)</p>
+  </div>
+</div>
 
-### ❌ Cons
+### Cons
 
-| Con | Description |
-|-----|-------------|
-| **Catalogue Gaps** | While extensive, may occasionally miss niche tracks or regional content found on Spotify/YT Music |
-| **Search Can Be Finicky** | Less robust search compared to competitors |
-| **App Performance** | Can occasionally be buggy, slow to load, or use more resources than alternatives |
-| **Limited Social Features** | Lacks collaborative playlists, friend activity feeds, or features like Spotify Jam |
-| **Past Business Instability** | Platform has faced periods of uncertainty |
+<div class="card-grid-2">
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Inconsistent Audio Quality</h4>
+    <p>Maxes out at lossy 256kbps AAC. No lossless option. User uploads vary wildly</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>No Official Desktop App</h4>
+    <p>Only web player or unofficial wrappers</p>
+  </div>
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+    <h4>Library Management</h4>
+    <p>Merging official music with YouTube uploads can create organizational confusion</p>
+  </div>
+</div>
 
-### 🎯 Bottom Line
+<div class="section-card">
+  <strong>Bottom Line:</strong> King of catalogue size and algorithmic discovery, leveraging the full power of YouTube. This comes at the cost of consistent audio quality and a polished native app experience.
+</div>
 
-A premium audio experience now accessible at a standard price. Ideal for those who prioritize sound quality, detailed credits, and artist support, provided they can overlook minor app quirks and less emphasis on social features.
+## Quick Comparison Summary {#comparison}
 
----
+<div class="section-card">
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.82rem; margin: 0;">
+    <thead>
+      <tr style="border-bottom: 2px solid var(--vp-c-divider);">
+        <th style="text-align: left; padding: 0.5rem 0.75rem;">Feature</th>
+        <th style="text-align: left; padding: 0.5rem 0.75rem;">Spotify</th>
+        <th style="text-align: left; padding: 0.5rem 0.75rem;">Apple Music</th>
+        <th style="text-align: left; padding: 0.5rem 0.75rem;">Tidal</th>
+        <th style="text-align: left; padding: 0.5rem 0.75rem;">YouTube Music</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">Audio Quality</td>
+        <td style="padding: 0.5rem 0.75rem;">Lossy (320kbps)</td>
+        <td style="padding: 0.5rem 0.75rem;">Lossless (ALAC)</td>
+        <td style="padding: 0.5rem 0.75rem;">Hi-Res FLAC</td>
+        <td style="padding: 0.5rem 0.75rem;">Lossy (256kbps)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">HiFi/Lossless</td>
+        <td style="padding: 0.5rem 0.75rem;">❌ No</td>
+        <td style="padding: 0.5rem 0.75rem;">✅ Yes</td>
+        <td style="padding: 0.5rem 0.75rem;">✅ Yes</td>
+        <td style="padding: 0.5rem 0.75rem;">❌ No</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">Free Tier</td>
+        <td style="padding: 0.5rem 0.75rem;">✅ Yes (Ads)</td>
+        <td style="padding: 0.5rem 0.75rem;">❌ No</td>
+        <td style="padding: 0.5rem 0.75rem;">❌ No</td>
+        <td style="padding: 0.5rem 0.75rem;">✅ Yes (Ads)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">Catalogue</td>
+        <td style="padding: 0.5rem 0.75rem;">Vast Official</td>
+        <td style="padding: 0.5rem 0.75rem;">Vast Official</td>
+        <td style="padding: 0.5rem 0.75rem;">Extensive</td>
+        <td style="padding: 0.5rem 0.75rem;">Unrivaled</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">Discovery</td>
+        <td style="padding: 0.5rem 0.75rem;">Excellent</td>
+        <td style="padding: 0.5rem 0.75rem;">Good</td>
+        <td style="padding: 0.5rem 0.75rem;">Good</td>
+        <td style="padding: 0.5rem 0.75rem;">Excellent</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">Social Features</td>
+        <td style="padding: 0.5rem 0.75rem;">Strong</td>
+        <td style="padding: 0.5rem 0.75rem;">Limited</td>
+        <td style="padding: 0.5rem 0.75rem;">Limited</td>
+        <td style="padding: 0.5rem 0.75rem;">Basic</td>
+      </tr>
+      <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">Moddable</td>
+        <td style="padding: 0.5rem 0.75rem;">✅ Yes</td>
+        <td style="padding: 0.5rem 0.75rem;">❌ No</td>
+        <td style="padding: 0.5rem 0.75rem;">❌ No</td>
+        <td style="padding: 0.5rem 0.75rem;">✅ Yes</td>
+      </tr>
+      <tr>
+        <td style="padding: 0.5rem 0.75rem; font-weight: 600;">Price</td>
+        <td style="padding: 0.5rem 0.75rem;">$11.99/mo</td>
+        <td style="padding: 0.5rem 0.75rem;">$10.99/mo</td>
+        <td style="padding: 0.5rem 0.75rem;">$10.99/mo</td>
+        <td style="padding: 0.5rem 0.75rem;">$10.99/mo</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-## ▶️ YouTube Music {#youtube-music}
+## Sources & Further Reading
 
-**Best For:** Users prioritizing the absolute largest potential catalogue (including unofficial content), top-tier music discovery algorithms, and video integration.
-
-| Category | Details |
-|----------|---------|
-| **💰 Pricing** | $10.99/month (Individual) | Free Tier Available (w/ ads, no background) | Family & Student Plans Available | Included with YouTube Premium |
-| **💻 Desktop Mod** | YTMusic Desktop App (Unofficial) / Web Player (Ad-blockers recommended) |
-| **📱 Android Mod** | ReVanced Extended (YT Music Patches) / MetroList |
-| **📱 iOS Mod** | YTMusicUltimate / uYouPlusExtra (Requires sideloading) |
-| **📈 Approx. Royalties** | ~$5-9 per 1,000 streams (Extremely variable & opaque) |
-
-> ℹ️ **Alternative Clients/Mods:** Provide background playback, ad removal, and sometimes offline downloads via patching official apps or using third-party clients. User effort (patching/sideloading) is generally required.
-
-### ✅ Pros
-
-| Pro | Description |
-|-----|-------------|
-| **Unrivaled Catalogue Depth** | Access to official releases PLUS YouTube's massive library of covers, remixes, live recordings, user uploads, etc. |
-| **Excellent Recommendation Engine** | Leverages Google's powerful algorithms for highly personalized radio stations and discovery playlists |
-| **Seamless Video Integration** | Easily switch between audio-only and music video versions for many tracks |
-| **Podcast Integration** | Google Podcasts functionality is integrated into the platform |
-| **Generous Free Tier** | Allows on-demand playback on desktop (with ads), unlike Spotify's shuffle-only free mobile tier |
-| **Samples Tab** | TikTok-style short-form music video discovery feed |
-
-### ❌ Cons
-
-| Con | Description |
-|-----|-------------|
-| **Inconsistent Audio Quality** | Official tracks max out at lossy 256kbps AAC. Content sourced from YouTube videos can have significantly lower/variable quality. No lossless option |
-| **App Experience Deficiencies** | No dedicated official desktop app. Mobile apps sometimes criticized for UI clutter, bugs, less intuitive library management |
-| **Opaque Royalties** | Payout structure is complex and lacks transparency |
-| **Library Management** | Merging official music with YouTube uploads can sometimes create organizational confusion |
-
-### 🎯 Bottom Line
-
-King of catalogue size and algorithmic discovery, leveraging the full power of YouTube. This comes at the cost of consistent audio quality, a polished native app experience (especially desktop), and clear royalty structures.
-
----
-
-## 📊 Quick Comparison Summary {#comparison}
-
-| Feature | Spotify | Apple Music | Tidal | YouTube Music |
-|---------|---------|-------------|-------|---------------|
-| **Audio Quality** | Lossy (320kbps Ogg Vorbis) | Lossless (ALAC), Dolby Atmos | Hi-Res FLAC, Dolby Atmos, Sony 360RA | Lossy (256kbps AAC), Variable |
-| **HiFi/Lossless** | ❌ No | ✅ Yes (Included) | ✅ Yes (Included) | ❌ No |
-| **Free Tier** | ✅ Yes (Ads, Shuffle on mobile) | ❌ No (Trial only) | ❌ No (Trial only) | ✅ Yes (Ads, No background mobile) |
-| **Catalogue** | Vast Official | Vast Official | Extensive Official | Unrivaled (Official + YouTube UGC) |
-| **Discovery** | Excellent (Algorithm + Curation) | Good (Curation, Weaker Algorithm) | Good (Curation) | Excellent (Algorithm) |
-| **Social Features** | Strong (Connect, Collab Playlists) | Limited | Limited | Basic (via YouTube platform) |
-| **Desktop App** | ✅ Official | ✅ Official | ✅ Official | 🌐 Web Player / Unofficial Wrappers |
-| **Podcasts** | ✅ Integrated | Separate Apple Podcasts app | ❌ No | ✅ Integrated (from Google Podcasts) |
-| **Moddable** | ✅ Yes (Desktop, Android, iOS) | ❌ No | ❌ No | ✅ Yes (Desktop, Android, iOS) |
-| **Typical Price** | $11.99/mo | $10.99/mo | $10.99/mo | $10.99/mo (or via YouTube Premium) |
-
----
-
-## 📚 Sources & Further Reading
-
-### Primary Sources Used
-
-- [Spotify Official Site](https://spotify.com)
-- [Apple Music Official Site](https://apple.com/apple-music)
-- [Tidal Official Site](https://tidal.com)
-- [YouTube Music Official Site](https://music.youtube.com)
----
+<div class="resource-grid">
+  <a href="https://spotify.com" target="_blank" class="resource-card">
+    <GuideIcon name="music" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Spotify</h4>
+      <p>Official site</p>
+    </div>
+  </a>
+  <a href="https://apple.com/apple-music" target="_blank" class="resource-card">
+    <GuideIcon name="star" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Apple Music</h4>
+      <p>Official site</p>
+    </div>
+  </a>
+  <a href="https://tidal.com" target="_blank" class="resource-card">
+    <GuideIcon name="star" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Tidal</h4>
+      <p>Official site</p>
+    </div>
+  </a>
+  <a href="https://music.youtube.com" target="_blank" class="resource-card">
+    <GuideIcon name="star" class="resource-icon" />
+    <div class="resource-body">
+      <h4>YouTube Music</h4>
+      <p>Official site</p>
+    </div>
+  </a>
+</div>
 
 <div class="meta-footer">
-  <p>🎵 The best music service is the one that fits your priorities — audio quality, catalogue depth, price, or device ecosystem.</p>
+  <p><GuideIcon name="music" :size="14" /> The best music service is the one that fits your priorities — audio quality, catalogue depth, price, or device ecosystem.</p>
 </div>

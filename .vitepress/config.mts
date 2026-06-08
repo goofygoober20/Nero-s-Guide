@@ -1,128 +1,80 @@
 import { defineConfig } from 'vitepress'
+import fs from 'fs'
+import path from 'path'
+
+function rssFeedPlugin() {
+  return {
+    name: 'rss-feed',
+    closeBundle() {
+      const postsPath = path.resolve(process.cwd(), 'public', 'approved-posts.json')
+      if (!fs.existsSync(postsPath)) return
+
+      let posts
+      try {
+        posts = JSON.parse(fs.readFileSync(postsPath, 'utf-8'))
+      } catch {
+        return
+      }
+      
+    const SITE_URL = 'https://cameronguide.netlify.app/'
+
+    const items = posts.map ((post: { message: any; id: any; timestamp: any; date: any })=> `
+    <item>
+      <title><![CDATA[${post.message}]]></title>
+      <link>${SITE_URL}/posts</link>
+      <guid isPermaLink="false">${post.id}</guid>
+      <pubDate>${new Date(post.timestamp || post.date).toUTCString()}</pubDate>
+      <description><![CDATA[${post.message}]]></description>
+    </item>`).join('')
+
+      const feed = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nero's Guide - Updates</title>
+    <link>${SITE_URL}/posts</link>
+    <description>Latest updates and changelog for Nero's Guide</description>
+    <language>en</language>
+    <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>${items}
+  </channel>
+</rss>`
+
+      const outDir = path.resolve(process.cwd(), '.vitepress', 'dist')
+      if (!fs.existsSync(outDir)) {
+        fs.mkdirSync(outDir, { recursive: true })
+      }
+      fs.writeFileSync(path.join(outDir, 'feed.xml'), feed.trim())
+      console.log('✅ RSS feed generated at feed.xml')
+    }
+  }
+}
 
 export default defineConfig({
   title: "Nero's Guide",
-  
+
   ignoreDeadLinks: true,
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // Add custom CSS for search modal
-    ['style', {}, `
-      /* Search modal overlay */
-      .DocSearch-Container {
-        background: rgba(15, 14, 14, 0.75) !important;
-        backdrop-filter: blur(10px) !important;
-        -webkit-backdrop-filter: blur(10px) !important;
-      }
-      
-      /* Dark mode overlay */
-      .dark .DocSearch-Container {
-        background: rgba(0, 0, 0, 0.85) !important;
-      }
-      
-      /* Search modal itself */
-      .DocSearch-Modal {
-        background: var(--vp-c-bg-elv) !important;
-        border-radius: 16px !important;
-      }
-      
-      /* Search input area */
-      .DocSearch-Form {
-        background: var(--vp-c-bg-soft) !important;
-        border: 1px solid var(--vp-c-divider) !important;
-        border-radius: 12px !important;
-      }
-      
-      /* Search results */
-      .DocSearch-Hit a {
-        background: var(--vp-c-bg-soft) !important;
-        border-radius: 8px !important;
-      }
-      
-      .DocSearch-Hit a:hover {
-        background: var(--vp-c-bg-soft-up) !important;
-      }
-      
-      /* Footer */
-      .DocSearch-Footer {
-        background: var(--vp-c-bg-soft) !important;
-        border-top: 1px solid var(--vp-c-divider) !important;
-      }
-      
-      /* Highlight color */
-      .DocSearch-Highlight {
-        color: var(--vp-c-brand-1) !important;
-      }
-      
-      /* Keyboard shortcuts */
-      .DocSearch-Commands-Key {
-        background: var(--vp-c-bg-soft) !important;
-        border: 1px solid var(--vp-c-divider) !important;
-        color: var(--vp-c-text-2) !important;
-        box-shadow: none !important;
-      }
-    `]
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: "Nero's Guide Updates", href: '/feed.xml' }],
   ],
+
+  vite: {
+    plugins: [rssFeedPlugin()],
+  },
 
   themeConfig: {
     logo: '/logo.png',
-    
+
     nav: [
-      { text: '🏠 Home', link: '/' },
-      { 
-        text: '🛠️ Tools', 
-        items: [
-          { text: '😴 Sleep Cycle Calculator', link: '/tools/sleep-cycle-calculator' },
-          { text: '🔐 Password Strength Tester', link: '/tools/password-strength-tester' },
-          { text: '🔑 Password Generator', link: '/tools/password-generator' },
-          { text: '📈 Investment Calculator', link: '/tools/investment-calculator' },
-          { text: '⏱️ Pomodoro Timer', link: '/tools/pomodoro' },
-          { text: '📊 BMI Calculator', link: '/tools/bmi-calculator' },
-          { text: '—', link: '' },
-          { text: '🎲 Random Guide', link: '/random' },
-          { text: '💬 Feedback', link: '/feedback' },
-          { text: '⚙️ Settings', link: '/settings' },
-        ]
-      },
+      { text: 'Home', link: '/' },
     ],
 
-  sidebar: [
-      {
-        text: 'Categories',
-        collapsed: false,
-        items: [
-          { text: '🛡️ Adblocking / Privacy', link: '/privacy' },
-          { text: '🤖 Artificial Intelligence', link: '/ai' },
-          { text: '🎬 Movies / TV / Anime', link: '/video' },
-          { text: '🎵 Music / Podcasts / Radio', link: '/audio' },
-          { text: '🎮 Gaming / Emulation', link: '/gaming' },
-          { 
-            text: '📚 Books / Comics / Manga',
-            collapsed: true,
-          },
-          { 
-            text: '💾 Downloading',
-            collapsed: true,
-          },
-          { text: '🍽️ Food', link: '/food' },
-          { text: '💊 Health', link: '/health' },
-          { 
-            text: '🧠 Educational',
-            collapsed: true,
-          },
-          { 
-            text: '📦 Miscellaneous',
-            collapsed: true,
-          },
-          { text: '⚙️ Settings', link: '/settings' }
-        ]
-      },
+    sidebar: [
       {
         text: 'Personal Guides',
-        collapsed: false,
         items: [
           { text: '😴 Sleeping Guide', link: '/sleeping' },
+          { text: '🌙 All-Nighter Guide', link: '/all-nighter' },
           { text: '🔐 Password Guide', link: '/passwords' },
           { text: '💪 Fitness Guide', link: '/fitness' },
           { text: '🍳 Cooking Guide', link: '/cooking' },
@@ -133,23 +85,25 @@ export default defineConfig({
           { text: '♟️ Chess Guide', link: '/chess' },
           { text: '🎵 Music Streaming Guide', link: '/music' },
           { text: '🔓 Unenrollment', link: '/unenrollment' },
+          { text: '🐧 Linux for Beginners', link: '/linux' },
+          { text: '🛡️ Online Privacy', link: '/privacy' },
+          { text: '💰 Personal Finance', link: '/finance' },
+          { text: '📋 Productivity Guide', link: '/productivity' },
+          { text: '🌱 Minimalism Guide', link: '/minimalism' },
+          { text: '🎮 Gaming Guide', link: '/gaming' },
         ]
       },
       {
         text: 'Tools',
-        collapsed: true,
         items: [
-          { text: '🖥️ System Tools', link: '/tools/system' },
-          { text: '📁 File Tools', link: '/tools/file' },
-          { text: '🌐 Internet Tools', link: '/tools/internet' },
-          { text: '💬 Social Media Tools', link: '/tools/social' },
-          { text: '📝 Text Tools', link: '/tools/text' },
-          { text: '🎮 Gaming Tools', link: '/tools/gaming-tools' },
-          { text: '🖼️ Image Tools', link: '/tools/image' },
-          { text: '🎬 Video Tools', link: '/tools/video' },
-          { text: '🎵 Audio Tools', link: '/tools/audio' },
-          { text: '🎓 Educational Tools', link: '/tools/educational' },
-          { text: '👨‍💻 Developer Tools', link: '/tools/developer' }
+          { text: '📈 Investment Calculator', link: '/tools/investment-calculator' },
+          { text: '⏱️ Pomodoro Timer', link: '/tools/pomodoro' },
+          { text: '📊 BMI Calculator', link: '/tools/bmi-calculator' },
+          { text: '🔐 Password Strength', link: '/tools/password-strength' },
+          { text: '🔑 Password Generator', link: '/tools/password-generator' },
+          { text: '🎯 Decision Wheel', link: '/tools/decision-wheel' },
+          { text: '📐 Unit Converter', link: '/tools/unit-converter' },
+          { text: '📚 Study Tracker', link: '/tools/study-tracker' },
         ]
       },
       {
@@ -157,13 +111,13 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Posts', link: '/posts' },
-          { text: 'Contributing', link: '/feedback' },
+          { text: '📖 Reading Progress', link: '/progress' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/j4ngcS9hj' }
+      { icon: 'discord', link: 'https://discord.gg/vhsHR5Xkx' }
     ],
 
     search: {

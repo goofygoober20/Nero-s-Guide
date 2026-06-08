@@ -1,18 +1,44 @@
 <template>
   <div class="glass-panel">
-    <h2 class="panel-title">
-      <i class="lucide-settings"></i>
-      General
-    </h2>
+    <h2 class="panel-title">General</h2>
+    <div class="divider"></div>
+
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.autoHideNav" @update:modelValue="saveSettings" />
+      <span>Auto-hide header on scroll</span>
+    </div>
+
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.confirmBeforeLeave" @update:modelValue="saveSettings" />
+      <span>Confirm before leaving page</span>
+    </div>
+
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.reducedMotion" @update:modelValue="saveSettings" />
+      <span>Reduced motion</span>
+    </div>
 
     <div class="divider"></div>
 
-    <div class="field">
-      <span>External Links</span>
-      <select v-model="settings.externalLinks" @change="saveSettings">
-        <option value="new-tab">Open in new tab</option>
-        <option value="same-tab">Open in same tab</option>
-      </select>
+    <p class="section-label">Component Visibility</p>
+
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.showReadingProgress" @update:modelValue="saveSettings" />
+      <span>Show reading progress bar</span>
+    </div>
+
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.showBreadcrumbs" @update:modelValue="saveSettings" />
+      <span>Show breadcrumbs</span>
+    </div>
+
+    <div class="divider"></div>
+
+    <p class="section-label">Reset Behavior</p>
+
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.confirmBeforeReset" @update:modelValue="saveSettings" />
+      <span>Confirm before resetting settings</span>
     </div>
 
     <div class="field checkbox-field">
@@ -55,20 +81,19 @@ defineProps({
   margin-bottom: 0.8rem;
 }
 
-.panel-title i {
-  font-size: 1.2rem;
-  opacity: 0.85;
-}
-
 .divider {
   height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    rgba(255,255,255,0.25),
-    transparent
-  );
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.25), transparent);
   margin: 1rem 0 1.4rem;
+}
+
+.section-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--vp-c-text-3);
+  margin: 0 0 0.8rem;
 }
 
 .field {
@@ -77,7 +102,7 @@ defineProps({
   margin-bottom: 1.2rem;
 }
 
-.field span {
+.field > span:first-child {
   opacity: 0.8;
   margin-bottom: 0.3rem;
 }
@@ -88,11 +113,17 @@ select {
   background: rgba(255,255,255,0.15);
   border: 1px solid var(--vp-c-divider);
   backdrop-filter: blur(10px);
+  color: var(--vp-c-text-1);
 }
 
 .checkbox-field {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 0.8rem;
+}
+
+.checkbox-field > span:first-child {
+  margin-bottom: 0;
 }
 </style>

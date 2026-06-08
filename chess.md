@@ -1,137 +1,268 @@
-# ♟️ The Ultimate Chess Guide
+---
+title: Chess Guide
+description: A comprehensive directory of chess resources — play, learn, analyze, and connect with the chess community.
+---
 
-<div class="meta-info">
-  <span>✍️ Written by <strong>Nero</strong></span>
-  <span>📅 Updated: May 2026</span>
-  <span>⏱️ Read time: 8 min</span>
+# The Ultimate Chess Guide
+
+<div class="guide-hero">
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="book" :size="14" /> Read time: 8 min</p>
+  <p class="guide-intro">A comprehensive directory of chess resources — from learning platforms and analysis tools to communities and chess variants.</p>
 </div>
 
-## 📚 Table of Contents
+## Table of Contents
 
-- [🌐 Resource Directories](#directories)
-- [👥 Communities](#communities)
-- [📖 Books & Reading](#books)
-- [♟️ Learn & Practice](#learn-practice)
-- [🔧 Analysis Tools](#analysis-tools)
-- [📊 Tracking & Databases](#tracking)
-- [🎲 Chess Variants](#variants)
-- [📚 Sources & Further Reading](#sources)
+<details open>
+<summary>Click to expand/collapse</summary>
 
----
+- [Resource Directories](#directories)
+- [Communities](#communities)
+- [Books & Reading](#books)
+- [Learn & Practice](#learn-practice)
+- [Analysis Tools](#analysis-tools)
+- [Tracking & Databases](#tracking)
+- [Chess Variants](#variants)
+- [Sources & Further Reading](#sources)
 
-## 🌐 Resource Directories {#directories}
+</details>
 
-| Site | Description |
-|------|-------------|
-| **[Awesome Chess (GitHub)](https://github.com/hkirat/awesome-chess)** | Curated list of chess resources including books, FEN parsers, bots, websites, boards, and pieces |
-| **[The Chess Directory](https://thechessdirectory.com)** | Comprehensive directory of chess websites for playing, learning, and more |
-| **[r/chess Resources List](https://www.reddit.com/r/chess/comments/u43nrc/chess_resources_list_as_of_20220415/)** | Community-curated resource list from Reddit |
+## Resource Directories {#directories}
 
----
+<div class="resource-grid">
+  <a href="https://github.com/hkirat/awesome-chess" target="_blank" class="resource-card">
+    <GuideIcon name="star" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Awesome Chess (GitHub)</h4>
+      <p>Curated list of chess resources including books, FEN parsers, bots, websites, boards, and pieces</p>
+    </div>
+  </a>
+  <a href="https://thechessdirectory.com" target="_blank" class="resource-card">
+    <GuideIcon name="folder" class="resource-icon" />
+    <div class="resource-body">
+      <h4>The Chess Directory</h4>
+      <p>Comprehensive directory of chess websites for playing, learning, and more</p>
+    </div>
+  </a>
+  <a href="https://www.reddit.com/r/chess/comments/u43nrc/chess_resources_list_as_of_20220415/" target="_blank" class="resource-card">
+    <GuideIcon name="globe" class="resource-icon" />
+    <div class="resource-body">
+      <h4>r/chess Resources List</h4>
+      <p>Community-curated resource list from Reddit</p>
+    </div>
+  </a>
+</div>
 
-## 👥 Communities {#communities}
+## Communities {#communities}
 
-| Community | Description |
-|-----------|-------------|
-| **/m/Chess** | Chess multireddit |
-| **r/chess** | Main chess subreddit |
-| **Chess Discord** (via ChessLab) | Community for lessons and discussion |
+<div class="resource-grid">
+  <a href="https://www.reddit.com/user/korfor/m/chess/" target="_blank" class="resource-card">
+    <GuideIcon name="users" class="resource-icon" />
+    <div class="resource-body">
+      <h4>/m/Chess</h4>
+      <p>Chess multireddit — aggregating the best chess subreddits</p>
+    </div>
+  </a>
+  <a href="https://reddit.com/r/chess" target="_blank" class="resource-card">
+    <GuideIcon name="chat" class="resource-icon" />
+    <div class="resource-body">
+      <h4>r/chess</h4>
+      <p>Main chess subreddit with news, discussion, and content</p>
+    </div>
+  </a>
+  <a href="https://discord.gg/chesslab" target="_blank" class="resource-card">
+    <GuideIcon name="chat" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chess Discord</h4>
+      <p>Community for lessons and discussion via ChessLab</p>
+    </div>
+  </a>
+</div>
 
----
+## Books & Reading {#books}
 
-## 📖 Books & Reading {#books}
+- **[r/Chess Books](https://www.reddit.com/r/chess/wiki/books/)** — recommended chess books from the Reddit community
+- **[365Chess](https://www.365chess.com/)** — chess history and lessons with a large game database
 
-| Resource | Description |
-|----------|-------------|
-| **r/Chess Books** | Recommended chess books from the Reddit community |
-| **[365Chess](https://www.365chess.com/)** | Chess history and lessons |
-
----
-
-## ♟️ Learn & Practice {#learn-practice}
+## Learn & Practice {#learn-practice}
 
 ### Free Platforms
 
-| Site | Description |
-|------|-------------|
-| ⭐ **[Scid vs. PC](https://scidvspc.sourceforge.net/)** | Learn and practice chess with a powerful database |
-| **[Chess Tempo](https://chesstempo.com/)** | Chess tactics training and practice |
-| **[Lucas Chess](https://lucaschess.pythonanywhere.com/)** | Chess practice with adaptive AI opponents |
-| **[Listudy](https://listudy.org/)** | Chess lessons and training |
-| **[TheChessWebsite](https://www.thechesswebsite.com/)** | Learn and practice chess |
-| **[HerculesChess](https://herculeschess.com/)** | Learn and practice chess |
-| **[ChessLab](https://chesslab.com/)** | Chess lessons / [Discord](https://discord.gg/chesslab) |
+<div class="resource-grid">
+  <a href="https://scidvspc.sourceforge.net/" target="_blank" class="resource-card">
+    <GuideIcon name="star" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Scid vs. PC</h4>
+      <p>Learn and practice chess with a powerful database</p>
+    </div>
+  </a>
+  <a href="https://chesstempo.com/" target="_blank" class="resource-card">
+    <GuideIcon name="brain" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chess Tempo</h4>
+      <p>Chess tactics training and practice</p>
+    </div>
+  </a>
+  <a href="https://lucaschess.pythonanywhere.com/" target="_blank" class="resource-card">
+    <GuideIcon name="bot" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Lucas Chess</h4>
+      <p>Chess practice with adaptive AI opponents</p>
+    </div>
+  </a>
+  <a href="https://listudy.org/" target="_blank" class="resource-card">
+    <GuideIcon name="pencil" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Listudy</h4>
+      <p>Chess lessons and training with spaced repetition</p>
+    </div>
+  </a>
+  <a href="https://www.thechesswebsite.com/" target="_blank" class="resource-card">
+    <GuideIcon name="globe" class="resource-icon" />
+    <div class="resource-body">
+      <h4>TheChessWebsite</h4>
+      <p>Learn and practice chess with tutorials and puzzles</p>
+    </div>
+  </a>
+  <a href="https://herculeschess.com/" target="_blank" class="resource-card">
+    <GuideIcon name="dumbbell" class="resource-icon" />
+    <div class="resource-body">
+      <h4>HerculesChess</h4>
+      <p>Learn and practice chess with structured lessons</p>
+    </div>
+  </a>
+  <a href="https://chesslab.com/" target="_blank" class="resource-card">
+    <GuideIcon name="brain" class="resource-icon" />
+    <div class="resource-body">
+      <h4>ChessLab</h4>
+      <p>Chess lessons with <a href="https://discord.gg/chesslab" target="_blank" style="color: var(--vp-c-brand-1);">Discord community</a></p>
+    </div>
+  </a>
+</div>
 
-### Paid/Freemium Platforms
+### Paid / Freemium Platforms
 
-| Site | Description |
-|------|-------------|
-| **[Chessable](https://www.chessable.com/)** | Science-backed chess lessons with spaced repetition |
-| **[ChessGames](https://www.chessgames.com/)** | Chess database and community |
+- **[Chessable](https://www.chessable.com/)** — science-backed chess lessons with spaced repetition
+- **[ChessGames](https://www.chessgames.com/)** — chess database and community
 
----
-
-## 🔧 Analysis Tools {#analysis-tools}
+## Analysis Tools {#analysis-tools}
 
 ### Game & Move Analysis
 
-| Tool | Description |
-|------|-------------|
-| **[Chess OCR](https://chessocr.com/)** | Multi-site digital chessboard analysis |
-| **[WintrChess](https://wintrchess.com/)** | Chess game and move analysis |
-| **[Chess Analysis](https://chessanalysis.com/)** | Game analysis / [Discord](https://discord.gg/chessanalysis) |
-| **[Pawn Appétit](https://github.com/pawn-appetit/pawn-appetit)** | Chess game and move analysis / [GitHub](https://github.com/pawn-appetit/pawn-appetit) |
-| **[Chesskit](https://chesskit.com/)** | Game analysis / [Discord](https://discord.gg/chesskit) / [GitHub](https://github.com/chesskit) |
-| **[YottaChess](https://yottachess.com/)** | Chess game and move analysis |
-| **[Chessigma](https://chessigma.com/)** | Game analysis / [Discord](https://discord.gg/chessigma) |
-| **[En Croissant](https://encroissant.org/)** | Chess game and move analysis |
-| **[Chess Vision](https://chessvision.ai/)** | Chess game and move analysis |
+<div class="resource-grid">
+  <a href="https://chessocr.com/" target="_blank" class="resource-card">
+    <GuideIcon name="camera" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chess OCR</h4>
+      <p>Multi-site digital chessboard analysis</p>
+    </div>
+  </a>
+  <a href="https://wintrchess.com/" target="_blank" class="resource-card">
+    <GuideIcon name="bolt" class="resource-icon" />
+    <div class="resource-body">
+      <h4>WintrChess</h4>
+      <p>Chess game and move analysis</p>
+    </div>
+  </a>
+  <a href="https://chessanalysis.com/" target="_blank" class="resource-card">
+    <GuideIcon name="search" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chess Analysis</h4>
+      <p>Game analysis &middot; <a href="https://discord.gg/chessanalysis" target="_blank" style="color: var(--vp-c-brand-1);">Discord</a></p>
+    </div>
+  </a>
+  <a href="https://github.com/pawn-appetit/pawn-appetit" target="_blank" class="resource-card">
+    <GuideIcon name="food" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Pawn App&eacute;tit</h4>
+      <p>Chess game and move analysis &middot; GitHub</p>
+    </div>
+  </a>
+  <a href="https://chesskit.com/" target="_blank" class="resource-card">
+    <GuideIcon name="tool" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chesskit</h4>
+      <p>Game analysis &middot; <a href="https://discord.gg/chesskit" target="_blank" style="color: var(--vp-c-brand-1);">Discord</a> &middot; GitHub</p>
+    </div>
+  </a>
+  <a href="https://yottachess.com/" target="_blank" class="resource-card">
+    <GuideIcon name="bolt" class="resource-icon" />
+    <div class="resource-body">
+      <h4>YottaChess</h4>
+      <p>Chess game and move analysis</p>
+    </div>
+  </a>
+  <a href="https://chessigma.com/" target="_blank" class="resource-card">
+    <GuideIcon name="chart" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chessigma</h4>
+      <p>Game analysis &middot; <a href="https://discord.gg/chessigma" target="_blank" style="color: var(--vp-c-brand-1);">Discord</a></p>
+    </div>
+  </a>
+  <a href="https://encroissant.org/" target="_blank" class="resource-card">
+    <GuideIcon name="food" class="resource-icon" />
+    <div class="resource-body">
+      <h4>En Croissant</h4>
+      <p>Chess game and move analysis</p>
+    </div>
+  </a>
+  <a href="https://chessvision.ai/" target="_blank" class="resource-card">
+    <GuideIcon name="eye" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chess Vision</h4>
+      <p>Chess game and move analysis</p>
+    </div>
+  </a>
+</div>
 
-### Board Visualization & Blind Chess
+### Specialized Tools
 
-| Tool | Description |
-|------|-------------|
-| **[Shâh Kur](https://shahkur.com/)** | Blind chess practice / improve board visualization |
+- **Board Visualization:** [Sh&acirc;h Kur](https://shahkur.com/) — blind chess practice to improve board visualization
+- **Tactics:** [Tactic or Not](https://tacticornot.com/) — chess move analysis and practice &middot; <a href="https://discord.gg/tacticornot" style="color: var(--vp-c-brand-1);">Discord</a>
+- **Openings:** [OpeningTree](https://www.openingtree.com/) — download and visualize chess games
 
-### Tactics & Move Practice
+## Tracking & Databases {#tracking}
 
-| Tool | Description |
-|------|-------------|
-| **[Tactic or Not](https://tacticornot.com/)** | Chess move analysis and practice / [Discord](https://discord.gg/tacticornot) |
+<div class="resource-grid">
+  <a href="https://chessmonitor.com/" target="_blank" class="resource-card">
+    <GuideIcon name="chart" class="resource-icon" />
+    <div class="resource-body">
+      <h4>Chess Monitor</h4>
+      <p>Track chess analytics and progress</p>
+    </div>
+  </a>
+  <a href="https://2700chess.com/" target="_blank" class="resource-card">
+    <GuideIcon name="trophy" class="resource-icon" />
+    <div class="resource-body">
+      <h4>2700chess</h4>
+      <p>Live chess player ratings</p>
+    </div>
+  </a>
+  <a href="https://www.365chess.com/" target="_blank" class="resource-card">
+    <GuideIcon name="book" class="resource-icon" />
+    <div class="resource-body">
+      <h4>365Chess</h4>
+      <p>Chess history database and lessons</p>
+    </div>
+  </a>
+</div>
 
-### Opening & Game Visualization
+## Chess Variants {#variants}
 
-| Tool | Description |
-|------|-------------|
-| **[OpeningTree](https://www.openingtree.com/)** | Download and visualize chess games |
+- **[ChessVariants](https://www.chessvariants.com/)** — explore 1000+ chess variants and guides
 
----
+## Sources & Further Reading {#sources}
 
-## 📊 Tracking & Databases {#tracking}
+- [Awesome Chess (GitHub)](https://github.com/hkirat/awesome-chess)
+- [The Chess Directory](https://thechessdirectory.com)
+- [r/chess Resources List](https://www.reddit.com/r/chess/comments/u43nrc/chess_resources_list_as_of_20220415/)
+- [r/Chess Books Wiki](https://www.reddit.com/r/chess/wiki/books/)
+- [r/chess](https://www.reddit.com/r/chess/)
 
-| Tool | Description |
-|------|-------------|
-| **[Chess Monitor](https://chessmonitor.com/)** | Track chess analytics and progress |
-| **[2700chess](https://2700chess.com/)** | Live chess player ratings |
-| **[365Chess](https://www.365chess.com/)** | Chess history database and lessons |
-
----
-
-## 🎲 Chess Variants {#variants}
-
-| Resource | Description |
-|----------|-------------|
-| **[ChessVariants](https://www.chessvariants.com/)** | 1000+ chess variants and guides |
-
----
-
-## 📚 Sources & Further Reading {#sources}
-
-### Primary Sources Used
-
-- **[Awesome Chess (GitHub)](https://github.com/hkirat/awesome-chess)** — Curated list of chess resources
-- **[The Chess Directory](https://thechessdirectory.com)** — Directory of chess websites
-- **[r/chess Resources List](https://www.reddit.com/r/chess/comments/u43nrc/chess_resources_list_as_of_20220415/)** — Community resource list
-- **[r/Chess Books](https://www.reddit.com/r/chess/wiki/books/)** — Book recommendations
-- **[r/chess](https://www.reddit.com/r/chess/)** & **[/m/Chess](https://www.reddit.com/user/korfor/m/chess/)** — Chess communities
-
+<style>
+.resource-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+</style>

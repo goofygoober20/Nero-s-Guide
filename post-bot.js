@@ -6,9 +6,9 @@ const path = require('path');
 // CONFIGURATION - REPLACE WITH YOUR VALUES
 // ============================================
 
-const DISCORD_TOKEN = 'MTUwODM0NTUyNzYxMDM4MDI4OA.GbnY_z.mHBjcLH7CXm92mZ1biQSDxn0BWODVQJ6Zj5CEo';
-const PRIVATE_CHANNEL_ID = '1508343774965923840';
-const APPROVED_WEBHOOK_URL = 'https://discord.com/api/webhooks/1508345132557140050/umz_GNVndfX1g9JNUiAKC5NaozDBjesBD9jN8VvrCkUnpIQlYsoMlOIq8wFsvVaKDhJP';
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
+const PRIVATE_CHANNEL_ID = process.env.PRIVATE_CHANNEL_ID;
+const APPROVED_WEBHOOK_URL = process.env.APPROVED_WEBHOOK_URL;
 
 const POSTS_FILE = path.join(__dirname, 'public', 'approved-posts.json');
 

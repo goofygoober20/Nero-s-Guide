@@ -1,16 +1,7 @@
 <template>
   <div class="settings-shell">
-
-    <!-- Search Bar -->
     <SearchSettings v-model="searchQuery" />
-
-    <!-- Tabs -->
-    <NeroTabs
-      :tabs="tabs"
-      v-model="activeTab"
-    />
-
-    <!-- Panels -->
+    <NeroTabs :tabs="tabs" v-model="activeTab" />
     <transition name="fade-slide" mode="out-in">
       <component
         :is="activeComponent"
@@ -20,8 +11,6 @@
         key="activeComponent"
       />
     </transition>
-
-    <!-- Reset Modal -->
     <GlassModal
       v-if="showReset"
       title="Reset All Settings?"
@@ -35,11 +24,10 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import NeroTabs from './NeroTabs.vue'
 import SearchSettings from './SearchSettings.vue'
 import GlassModal from './GlassModal.vue'
-
 import PanelGeneral from './settings-panels/PanelGeneral.vue'
 import PanelAppearance from './settings-panels/PanelAppearance.vue'
 import PanelContent from './settings-panels/PanelContent.vue'
@@ -55,52 +43,129 @@ const tabs = [
 const activeTab = ref('general')
 const searchQuery = ref('')
 const showReset = ref(false)
+const isInitialized = ref(false)
 
-const settings = ref({
+const defaults = {
   theme: 'system',
   fontSize: 'medium',
   showNSFW: false,
-  externalLinks: 'new-tab',
-  telemetry: false
-})
+  telemetry: false,
+  accentTheme: 'green',
+  autoHideNav: false,
+  confirmBeforeLeave: false,
+  reducedMotion: false,
+  showReadingProgress: true,
+  showBreadcrumbs: true,
+  confirmBeforeReset: true,
+}
+
+const settings = ref({ ...defaults })
+
+function applyAccentTheme(name) {
+  document.documentElement.classList.remove(
+    'accent-red', 'accent-rose', 'accent-coral', 'accent-orange', 'accent-amber', 'accent-gold',
+    'accent-yellow', 'accent-lime', 'accent-green', 'accent-mint', 'accent-teal', 'accent-cyan',
+    'accent-blue', 'accent-indigo', 'accent-navy', 'accent-purple', 'accent-pink',
+    'accent-grey', 'accent-brown', 'accent-white'
+  )
+  document.documentElement.classList.add('accent-' + name)
+}
+
+function applyTheme(mode) {
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+  if (mode === 'dark') {
+    document.documentElement.classList.add('dark')
+  } else if (mode === 'light') {
+    document.documentElement.classList.remove('dark')
+  } else {
+    document.documentElement.classList.toggle('dark', prefersDark)
+  }
+}
+
+function applyFontSize(size) {
+  document.documentElement.classList.remove('font-small', 'font-medium', 'font-large')
+  if (size && size !== 'medium') {
+    document.documentElement.classList.add('font-' + size)
+  }
+}
+
+function applyReducedMotion(val) {
+  document.documentElement.classList.toggle('reduced-motion', !!val)
+}
+
+function applyAutoHideNav(val) {
+  document.documentElement.classList.toggle('auto-hide-nav', !!val)
+  if (!val) {
+    document.documentElement.classList.remove('nav-hidden')
+  }
+}
+
+function applyVisibility(name, val) {
+  document.documentElement.classList.toggle('hide-' + name, !val)
+}
+
+function applyAll() {
+  const s = settings.value
+  applyAccentTheme(s.accentTheme)
+  applyTheme(s.theme)
+  applyFontSize(s.fontSize)
+  applyReducedMotion(s.reducedMotion)
+  applyAutoHideNav(s.autoHideNav)
+  applyVisibility('breadcrumbs', s.showBreadcrumbs)
+  applyVisibility('reading-progress', s.showReadingProgress)
+}
 
 onMounted(() => {
   const saved = localStorage.getItem('neros-guide-settings')
   if (saved) {
     try {
-      settings.value = { ...settings.value, ...JSON.parse(saved) }
+      const parsed = JSON.parse(saved)
+      settings.value = { ...defaults, ...parsed }
     } catch {}
   }
+  applyAll()
+  isInitialized.value = true
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (settings.value.theme === 'system') applyTheme('system')
+  })
 })
+
+watch(() => settings.value.accentTheme, applyAccentTheme)
+watch(() => settings.value.theme, (val) => {
+  applyTheme(val)
+})
+watch(() => settings.value.fontSize, applyFontSize)
+watch(() => settings.value.reducedMotion, applyReducedMotion)
+watch(() => settings.value.autoHideNav, applyAutoHideNav)
+watch(() => settings.value.showBreadcrumbs, (val) => applyVisibility('breadcrumbs', val))
+watch(() => settings.value.showReadingProgress, (val) => applyVisibility('reading-progress', val))
 
 function saveSettings() {
   localStorage.setItem('neros-guide-settings', JSON.stringify(settings.value))
 }
 
 function openResetModal() {
-  showReset.value = true
+  if (settings.value.confirmBeforeReset) {
+    showReset.value = true
+  } else {
+    confirmReset()
+  }
 }
 
 function confirmReset() {
-  settings.value = {
-    theme: 'system',
-    fontSize: 'medium',
-    showNSFW: false,
-    externalLinks: 'new-tab',
-    telemetry: false
-  }
+  settings.value = { ...defaults }
   saveSettings()
+  applyAll()
   showReset.value = false
 }
 
-const activeComponent = computed(() => {
-  return {
-    general: PanelGeneral,
-    appearance: PanelAppearance,
-    content: PanelContent,
-    privacy: PanelPrivacy
-  }[activeTab.value]
-})
+const activeComponent = computed(() => ({
+  general: PanelGeneral,
+  appearance: PanelAppearance,
+  content: PanelContent,
+  privacy: PanelPrivacy
+}[activeTab.value]))
 </script>
 
 <style scoped>

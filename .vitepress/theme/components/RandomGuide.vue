@@ -34,34 +34,23 @@ const showNotification = ref(false)
 // Paths should be relative to the site root (no .md extension)
 
 const guides = [
-  // Personal Guides
   '/sleeping',
-  '/password',
-  '/all-nighter',
+  '/passwords',
   '/fitness',
   '/cooking',
   '/mental-health',
   '/drawing',
   '/shopping',
-  '/fashion',
   '/chess',
-  '/tor-guide',
-  
-  // Resource Guides
+  '/darkweb',
+  '/music',
+  '/unenrollment',
+  '/linux',
   '/privacy',
-  '/ai',
-  '/video',
-  '/audio',
+  '/finance',
+  '/productivity',
+  '/minimalism',
   '/gaming',
-  '/reading',
-  '/career',
-  '/downloading',
-  '/food',
-  '/health',
-  '/educational',
-  '/misc',
-  '/settings',
-  '/beginners-guide',
 ]
 
 // Remove duplicates (just in case)

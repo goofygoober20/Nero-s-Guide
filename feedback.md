@@ -9,133 +9,112 @@ layout: page
 
   <!-- Tabs -->
   <div class="tabs">
-    <button id="feedbackTab" class="tab active">📝 Feedback</button>
-    <button id="submitLinkTab" class="tab">🔗 Submit a Link</button>
-    <button id="somethingElseTab" class="tab">📁 Something Else</button>
+    <button id="feedbackTab" class="tab active">🐛 Feedback</button>
+    <button id="suggestionTab" class="tab">💡 Suggestion</button>
+    <button id="appreciationTab" class="tab">🙏 Appreciation</button>
+    <button id="helpTab" class="tab">🛟 Website Help</button>
+    <button id="otherTab" class="tab">📁 Something Else</button>
   </div>
 
-  <!-- FEEDBACK FORM -->
+  <!-- FEEDBACK -->
   <section id="feedbackContent" class="panel active">
-    <p class="intro">Found a broken link? Have a suggestion? I'd love to hear it.</p>
-
-  <div class="field">
-      <input type="text" id="name" placeholder=" " />
+    <p class="intro">Found a bug, broken link, or something not working right? Let me know.</p>
+    <div class="field">
+      <input type="text" id="fbName" placeholder=" " />
       <label>Name (optional)</label>
     </div>
-
-  <div class="field">
-      <input type="email" id="email" placeholder=" " />
+    <div class="field">
+      <input type="email" id="fbEmail" placeholder=" " />
       <label>Email (optional)</label>
     </div>
-
-  <div class="field">
-      <textarea id="feedbackMsg" rows="5" placeholder=" "></textarea>
-      <label>Your Feedback *</label>
+    <div class="field">
+      <textarea id="fbMsg" rows="5" placeholder=" "></textarea>
+      <label>What went wrong? *</label>
     </div>
-
-  <div class="field">
-      <input type="text" id="pageUrl" readonly placeholder=" " />
-      <label>Page URL</label>
-    </div>
-
-  <button id="sendFeedbackBtn" class="primary-btn">Send Feedback</button>
+    <button id="sendFeedbackBtn" class="primary-btn">Send Feedback</button>
     <div id="feedbackStatus" class="status"></div>
   </section>
 
-  <!-- LINK SUBMISSION FORM -->
-  <section id="linkContent" class="panel">
-    <p class="intro">Know a great resource? Share it with the community.</p>
-
-  <div class="field">
-      <input type="text" id="linkName" placeholder=" " />
-      <label>Your Name (optional)</label>
-    </div>
-
-  <div class="field">
-      <input type="email" id="linkEmail" placeholder=" " />
-      <label>Your Email (optional)</label>
-    </div>
-
-  <div class="field">
-      <input type="text" id="resourceTitle" placeholder=" " />
-      <label>Resource Title *</label>
-    </div>
-
-  <div class="field">
-      <input type="url" id="resourceUrl" placeholder=" " />
-      <label>Resource URL *</label>
-    </div>
-
-  <div class="field select-wrapper">
-      <select id="category">
-        <option value=""></option>
-        <option value="Privacy">🛡️ Privacy</option>
-        <option value="AI">🤖 AI</option>
-        <option value="Streaming">🎬 Streaming</option>
-        <option value="Gaming">🎮 Gaming</option>
-        <option value="Reading">📚 Reading</option>
-        <option value="Health">💊 Health</option>
-        <option value="Tools">🛠️ Tools</option>
-        <option value="Other">📌 Other</option>
-      </select>
-      <label>Category *</label>
-      <div class="select-arrow"></div>
-    </div>
-
-  <div class="field">
-      <textarea id="description" rows="4" placeholder=" "></textarea>
-      <label>Description *</label>
-    </div>
-
-  <div class="field">
-      <textarea id="whyUseful" rows="2" placeholder=" "></textarea>
-      <label>Why is this useful? (optional)</label>
-    </div>
-
-  <button id="submitLinkBtn" class="primary-btn">Submit Link</button>
-    <div id="linkStatus" class="status"></div>
-  </section>
-
-  <!-- SOMETHING ELSE FORM -->
-  <section id="somethingElseContent" class="panel">
-    <p class="intro">Have a question, idea, or just want to say hello? This is the place.</p>
-
-  <div class="field">
-      <input type="text" id="seName" placeholder=" " />
+  <!-- SUGGESTION -->
+  <section id="suggestionContent" class="panel">
+    <p class="intro">Have an idea for a new guide, tool, or feature? I'm all ears.</p>
+    <div class="field">
+      <input type="text" id="sgName" placeholder=" " />
       <label>Name (optional)</label>
     </div>
-
-  <div class="field">
-      <input type="email" id="seEmail" placeholder=" " />
-      <label>Email (optional — for reply)</label>
+    <div class="field">
+      <input type="email" id="sgEmail" placeholder=" " />
+      <label>Email (optional)</label>
     </div>
-
-  <div class="field">
-      <select id="seType">
-        <option value=""></option>
-        <option value="Question">❓ Question</option>
-        <option value="Idea">💡 Idea / Suggestion</option>
-        <option value="Appreciation">🙏 Appreciation / Thank you</option>
-        <option value="Collaboration">🤝 Collaboration Inquiry</option>
-        <option value="Bug Report">🐛 Bug Report</option>
-        <option value="Other">📌 Other</option>
-      </select>
-      <label>Message Type *</label>
-      <div class="select-arrow"></div>
+    <div class="field">
+      <textarea id="sgMsg" rows="5" placeholder=" "></textarea>
+      <label>Your Suggestion *</label>
     </div>
+    <button id="sendSuggestionBtn" class="primary-btn">Submit Suggestion</button>
+    <div id="suggestionStatus" class="status"></div>
+  </section>
 
-  <div class="field">
-      <textarea id="seMessage" rows="5" placeholder=" "></textarea>
+  <!-- APPRECIATION -->
+  <section id="appreciationContent" class="panel">
+    <p class="intro">Made your day? Say thanks — it means a lot.</p>
+    <div class="field">
+      <input type="text" id="apName" placeholder=" " />
+      <label>Your Name (optional)</label>
+    </div>
+    <div class="field">
+      <textarea id="apMsg" rows="4" placeholder=" "></textarea>
       <label>Your Message *</label>
     </div>
+    <button id="sendAppreciationBtn" class="primary-btn">Send Thanks</button>
+    <div id="appreciationStatus" class="status"></div>
+  </section>
 
-  <div class="field">
-      <input type="text" id="sePageUrl" readonly placeholder=" " />
-      <label>Page URL (auto-detected)</label>
+  <!-- WEBSITE HELP -->
+  <section id="helpContent" class="panel">
+    <p class="intro">Stuck navigating the site? Can't find something? Ask away.</p>
+    <div class="field">
+      <input type="text" id="hlName" placeholder=" " />
+      <label>Name (optional)</label>
     </div>
+    <div class="field">
+      <input type="email" id="hlEmail" placeholder=" " />
+      <label>Email (optional — for reply)</label>
+    </div>
+    <div class="field">
+      <textarea id="hlMsg" rows="5" placeholder=" "></textarea>
+      <label>What do you need help with? *</label>
+    </div>
+    <button id="sendHelpBtn" class="primary-btn">Send Help Request</button>
+    <div id="helpStatus" class="status"></div>
+  </section>
 
-  <button id="sendSomethingElseBtn" class="primary-btn">Send Message</button>
-    <div id="somethingElseStatus" class="status"></div>
+  <!-- SOMETHING ELSE -->
+  <section id="otherContent" class="panel">
+    <p class="intro">Doesn't fit anywhere else? This is your catch-all.</p>
+    <div class="field">
+      <input type="text" id="otName" placeholder=" " />
+      <label>Name (optional)</label>
+    </div>
+    <div class="field">
+      <input type="email" id="otEmail" placeholder=" " />
+      <label>Email (optional — for reply)</label>
+    </div>
+    <div class="field select-wrapper">
+      <select id="otType">
+        <option value=""></option>
+        <option value="Question">❓ Question</option>
+        <option value="Collaboration">🤝 Collaboration Inquiry</option>
+        <option value="Other">📌 Other</option>
+      </select>
+      <label>Type *</label>
+      <div class="select-arrow"></div>
+    </div>
+    <div class="field">
+      <textarea id="otMsg" rows="5" placeholder=" "></textarea>
+      <label>Your Message *</label>
+    </div>
+    <button id="sendOtherBtn" class="primary-btn">Send Message</button>
+    <div id="otherStatus" class="status"></div>
   </section>
 
 </div>
@@ -146,168 +125,173 @@ layout: page
 <script setup>
 import { onMounted } from 'vue'
 
-const FEEDBACK_WEBHOOK = "https://discord.com/api/webhooks/1505481029887070209/dTizqqhVJpZy0eUo4aIJnjJFBOtUB6SwQZVo6Ifccmn07pnnUXX59FLoVsNSbWkQJpui"
-
-const LINK_WEBHOOK = "https://discord.com/api/webhooks/1505691359514988554/c0eQpYLArEq0bXLO_RolYjHGgBKTSGxlv6Wx1wBsoT8hW98cgaTdicTTG23LFO1LjCtJ"
-
-const SOMETHING_ELSE_WEBHOOK = "https://discord.com/api/webhooks/1505691359514988554/c0eQpYLArEq0bXLO_RolYjHGgBKTSGxlv6Wx1wBsoT8hW98cgaTdicTTG23LFO1LjCtJ"
+const WEBHOOKS = {
+  feedback: import.meta.env.VITE_FEEDBACK_WEBHOOK,
+  suggestion: import.meta.env.VITE_SUGGESTIONS_WEBHOOK,
+  appreciation: import.meta.env.VITE_APPRECIATION_WEBHOOK,
+  help: import.meta.env.VITE_WEBSITE_HELP_WEBHOOK,
+  other: import.meta.env.VITE_SOMETHING_ELSE_WEBHOOK,
+}
 
 onMounted(() => {
-  const feedbackTab = document.getElementById("feedbackTab")
-  const submitLinkTab = document.getElementById("submitLinkTab")
-  const somethingElseTab = document.getElementById("somethingElseTab")
-  const feedbackContent = document.getElementById("feedbackContent")
-  const linkContent = document.getElementById("linkContent")
-  const somethingElseContent = document.getElementById("somethingElseContent")
   const toast = document.getElementById("toast")
+  const tabs = ["feedback", "suggestion", "appreciation", "help", "other"]
 
   const switchTab = (tab) => {
-    const isFeedback = tab === "feedback"
-    const isLink = tab === "link"
-    const isSomethingElse = tab === "somethingElse"
-    
-    feedbackTab.classList.toggle("active", isFeedback)
-    submitLinkTab.classList.toggle("active", isLink)
-    somethingElseTab.classList.toggle("active", isSomethingElse)
-    feedbackContent.classList.toggle("active", isFeedback)
-    linkContent.classList.toggle("active", isLink)
-    somethingElseContent.classList.toggle("active", isSomethingElse)
+    tabs.forEach((t) => {
+      document.getElementById(`${t}Tab`).classList.toggle("active", t === tab)
+      document.getElementById(`${t}Content`).classList.toggle("active", t === tab)
+    })
   }
 
-  feedbackTab.onclick = () => switchTab("feedback")
-  submitLinkTab.onclick = () => switchTab("link")
-  somethingElseTab.onclick = () => switchTab("somethingElse")
-
-  document.getElementById("pageUrl").value = window.location.href
-  document.getElementById("sePageUrl").value = window.location.href
+  tabs.forEach((t) => {
+    document.getElementById(`${t}Tab`).onclick = () => switchTab(t)
+  })
 
   const showToast = (msg, type) => {
     toast.textContent = msg
     toast.className = `toast show ${type}`
-    setTimeout(() => {
-      toast.classList.remove("show")
-    }, 5000)
+    setTimeout(() => toast.classList.remove("show"), 5000)
   }
 
   const sendToDiscord = async (url, payload) => {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    return res.ok
+    try {
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      })
+      return res.ok
+    } catch {
+      return false
+    }
   }
 
-  document.getElementById("category").addEventListener("change", (e) => {
-    if (e.target.value !== "") e.target.classList.add("filled")
-    else e.target.classList.remove("filled")
+  document.getElementById("otType").addEventListener("change", (e) => {
+    e.target.classList.toggle("filled", e.target.value !== "")
   })
 
-  document.getElementById("seType").addEventListener("change", (e) => {
-    if (e.target.value !== "") e.target.classList.add("filled")
-    else e.target.classList.remove("filled")
-  })
-
-  // Feedback submission
+  // --- Feedback ---
   document.getElementById("sendFeedbackBtn").onclick = async () => {
-    const name = document.getElementById("name").value.trim() || "Anonymous"
-    const email = document.getElementById("email").value.trim()
-    const feedback = document.getElementById("feedbackMsg").value.trim()
-    const page = document.getElementById("pageUrl").value
+    const name = document.getElementById("fbName").value.trim() || "Anonymous"
+    const email = document.getElementById("fbEmail").value.trim()
+    const msg = document.getElementById("fbMsg").value.trim()
 
-    if (!feedback) return showToast("Please enter feedback.", "error")
+    if (!msg) return showToast("Please enter feedback.", "error")
 
-    const embed = {
-      title: "📬 New Feedback",
-      color: 0x5865f2,
-      timestamp: new Date().toISOString(),
-      fields: [
-        { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
-        { name: "Page", value: page, inline: true },
-        { name: "Message", value: feedback },
-      ],
-    }
-
-    const ok = await sendToDiscord(FEEDBACK_WEBHOOK, {
+    const ok = await sendToDiscord(WEBHOOKS.feedback, {
       username: "Feedback Bot",
-      embeds: [embed],
+      embeds: [{
+        title: "🐛 Feedback",
+        color: 0xe74c3c,
+        timestamp: new Date().toISOString(),
+        fields: [
+          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
+          { name: "Message", value: msg },
+        ],
+      }],
     })
 
     showToast(ok ? "Thank you!" : "Error sending feedback.", ok ? "success" : "error")
   }
 
-  // Link submission
-  document.getElementById("submitLinkBtn").onclick = async () => {
-    const name = document.getElementById("linkName").value.trim() || "Anonymous"
-    const email = document.getElementById("linkEmail").value.trim()
-    const title = document.getElementById("resourceTitle").value.trim()
-    const url = document.getElementById("resourceUrl").value.trim()
-    const category = document.getElementById("category").value
-    const description = document.getElementById("description").value.trim()
-    const whyUseful = document.getElementById("whyUseful").value.trim()
+  // --- Suggestion ---
+  document.getElementById("sendSuggestionBtn").onclick = async () => {
+    const name = document.getElementById("sgName").value.trim() || "Anonymous"
+    const email = document.getElementById("sgEmail").value.trim()
+    const msg = document.getElementById("sgMsg").value.trim()
 
-    if (!title || !url || !category || !description) return showToast("Please fill all required fields.", "error")
+    if (!msg) return showToast("Please enter your suggestion.", "error")
 
-    const embed = {
-      title: "🔗 New Link Submission",
-      color: 0x2ecc71,
-      timestamp: new Date().toISOString(),
-      fields: [
-        { name: "Submitted by", value: name + (email ? ` (${email})` : ""), inline: true },
-        { name: "Category", value: category, inline: true },
-        { name: "Title", value: title },
-        { name: "URL", value: url },
-        { name: "Description", value: description },
-      ],
-    }
-
-    if (whyUseful) embed.fields.push({ name: "Why it's useful", value: whyUseful })
-
-    const ok = await sendToDiscord(LINK_WEBHOOK, {
-      username: "Link Bot",
-      embeds: [embed],
+    const ok = await sendToDiscord(WEBHOOKS.suggestion, {
+      username: "Suggestion Bot",
+      embeds: [{
+        title: "💡 Suggestion",
+        color: 0x3498db,
+        timestamp: new Date().toISOString(),
+        fields: [
+          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
+          { name: "Suggestion", value: msg },
+        ],
+      }],
     })
 
-    showToast(ok ? "Link submitted!" : "Error submitting link.", ok ? "success" : "error")
+    showToast(ok ? "Suggestion submitted!" : "Error submitting suggestion.", ok ? "success" : "error")
   }
 
-  // Something Else submission
-  document.getElementById("sendSomethingElseBtn").onclick = async () => {
-    const name = document.getElementById("seName").value.trim() || "Anonymous"
-    const email = document.getElementById("seEmail").value.trim()
-    const type = document.getElementById("seType").value
-    const message = document.getElementById("seMessage").value.trim()
-    const page = document.getElementById("sePageUrl").value
+  // --- Appreciation ---
+  document.getElementById("sendAppreciationBtn").onclick = async () => {
+    const name = document.getElementById("apName").value.trim() || "Anonymous"
+    const msg = document.getElementById("apMsg").value.trim()
 
-    if (!type || !message) return showToast("Please fill all required fields.", "error")
+    if (!msg) return showToast("Please enter a message.", "error")
 
-    const typeEmoji = {
-      "Question": "❓",
-      "Idea": "💡",
-      "Appreciation": "🙏",
-      "Collaboration": "🤝",
-      "Bug Report": "🐛",
-      "Other": "📌"
-    }
-
-    const embed = {
-      title: `${typeEmoji[type] || "💬"} Something Else: ${type}`,
-      color: 0xf39c12,
-      timestamp: new Date().toISOString(),
-      fields: [
-        { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
-        { name: "Type", value: type, inline: true },
-        { name: "Page", value: page, inline: true },
-        { name: "Message", value: message },
-      ],
-    }
-
-    const ok = await sendToDiscord(SOMETHING_ELSE_WEBHOOK, {
-      username: "Something Else Bot",
-      embeds: [embed],
+    const ok = await sendToDiscord(WEBHOOKS.appreciation, {
+      username: "Appreciation Bot",
+      embeds: [{
+        title: "🙏 Appreciation",
+        color: 0x2ecc71,
+        timestamp: new Date().toISOString(),
+        fields: [
+          { name: "From", value: name, inline: true },
+          { name: "Message", value: msg },
+        ],
+      }],
     })
 
-    showToast(ok ? "Message sent! I'll get back to you soon." : "Error sending message.", ok ? "success" : "error")
+    showToast(ok ? "Thanks for the kind words! 💚" : "Error sending message.", ok ? "success" : "error")
+  }
+
+  // --- Website Help ---
+  document.getElementById("sendHelpBtn").onclick = async () => {
+    const name = document.getElementById("hlName").value.trim() || "Anonymous"
+    const email = document.getElementById("hlEmail").value.trim()
+    const msg = document.getElementById("hlMsg").value.trim()
+
+    if (!msg) return showToast("Please describe what you need help with.", "error")
+
+    const ok = await sendToDiscord(WEBHOOKS.help, {
+      username: "Help Bot",
+      embeds: [{
+        title: "🛟 Website Help Request",
+        color: 0xf39c12,
+        timestamp: new Date().toISOString(),
+        fields: [
+          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
+          { name: "Question", value: msg },
+        ],
+      }],
+    })
+
+    showToast(ok ? "Help request sent!" : "Error sending request.", ok ? "success" : "error")
+  }
+
+  // --- Something Else ---
+  document.getElementById("sendOtherBtn").onclick = async () => {
+    const name = document.getElementById("otName").value.trim() || "Anonymous"
+    const email = document.getElementById("otEmail").value.trim()
+    const type = document.getElementById("otType").value
+    const msg = document.getElementById("otMsg").value.trim()
+
+    if (!type || !msg) return showToast("Please fill all required fields.", "error")
+
+    const typeEmoji = { "Question": "❓", "Collaboration": "🤝", "Other": "📌" }
+
+    const ok = await sendToDiscord(WEBHOOKS.other, {
+      username: "Something Else Bot",
+      embeds: [{
+        title: `${typeEmoji[type] || "💬"} Something Else: ${type}`,
+        color: 0x9b59b6,
+        timestamp: new Date().toISOString(),
+        fields: [
+          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
+          { name: "Type", value: type, inline: true },
+          { name: "Message", value: msg },
+        ],
+      }],
+    })
+
+    showToast(ok ? "Message sent!" : "Error sending message.", ok ? "success" : "error")
   }
 })
 </script>

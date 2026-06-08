@@ -3,25 +3,20 @@ title: Mental Health Guide
 description: A comprehensive guide to understanding mood, motivation, and well-being based on Dr. Julie Smith's work
 ---
 
-# 🌈 Mental Health Guide
+# Mental Health Guide
 
-<div style="text-align: center;">
+<p class="guide-meta" style="text-align: center; margin-bottom: 1.5rem;"><GuideIcon name="clock" :size="14" /> Last updated: 25 June, 2025</p>
 
-![Mental Health Guide](/images/k8YcCg4.png)
-
-📌 Written by Dan
-
-📅 *Last updated: 25 June, 2025*
-
-💬 *danxyz7* on Discord
-
+<div class="about-tip">
+  <GuideIcon name="book" class="tip-icon" />
+  <span><strong>Content by Dan</strong> &mdash; based on Dr. Julie Smith's work. Read the original source: <a href="https://rentry.co/mentalhealthy" target="_blank">rentry.co/mentalhealthy</a> &middot; Discord: <button onclick="window.copyDiscordMH(this)" style="background: none; border: none; color: var(--vp-c-brand-1); cursor: pointer; font-size: 0.85rem; font-weight: 600; padding: 0; text-decoration: underline; text-underline-offset: 2px;">danxyz7</button></span>
 </div>
 
 ::: warning
 This isn't a substitute for actual medical advice. I am not a medical professional. If you *are* struggling and in crisis, I recommend you call an emergency number for the country you are situated in, and there will be someone on hand to help you better that I can.
 :::
 
-## <span style="color: #005A9C; font-weight: bold;">Introduction</span>
+## Introduction
 
 I read a lot, and learning more about thought patterns and questioning a lot about what goes on in my head led me down the path to find how other people deal with mental health. I've had friends and family deal with mental health struggles, to the point where it's debilitating. Some can't hold down a job because of the mental health issues, and some can't even concentrate as they are completely stricken by anxiety and can't leave the house. It's with the hope that this information helps them lead more balanced, fruitful lives.
 
@@ -48,9 +43,9 @@ You’re stronger than you might believe. You’re doing better than you realize
 
 ---
 
-# <span style="color: #005A9C; font-weight: bold;">Easier Ways to Understand Your Mood, Motivation, and Well-being</span>
+# Easier Ways to Understand Your Mood, Motivation, and Well-being
 
-## <span style="color: #008080; font-weight: bold;">Table of Contents</span>
+## Table of Contents
 
 *   [Getting to Know Low Mood](#getting-to-know-low-mood)
 *   [Common Mood Traps](#common-mood-traps)
@@ -90,28 +85,28 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   [Knowing When to Get Help](#knowing-when-to-get-help)
 
 
-## <span style="color: #008080; font-weight: bold;">Getting to Know Low Mood</span>
+## Getting to Know Low Mood
 
 *   **Low mood happens to everyone:** We all have down days. How often or how bad it feels varies. Many people hide it because of pressure from others or comparing themselves to seemingly happy people.
 *   **Your mood can change:** Like your body temperature, mood is affected by things inside you (like not enough sleep or water) and things around you (like stress or your environment). It's not just a "brain problem" or who you are.
 *   **You can influence your mood:** Science shows we have more control over our feelings than we might think. This means we can take steps to feel better.
 *   **Build your mental toolkit:** We can't get rid of low mood completely (life is hard sometimes!), but we can learn skills and tools to handle it better. These are useful skills for everyone, not just those with diagnosed depression.
 
-### <span style="color: #008080; font-weight: bold;">How Feelings Start</span>
+### How Feelings Start
 
 *   **Your Body and Mind are Linked:** Feelings aren't just in your head. Your physical state (tired, thirsty), surroundings, actions, thoughts, and memories all send signals to your brain.
 *   **How Your Brain Understands Signals:** Your brain gathers clues from your body, senses, actions, and thoughts. It compares these clues to past experiences and makes its best guess about what's happening, which you feel as a mood or emotion.
 *   **It Goes Both Ways (Thoughts & Feelings):** Thoughts affect feelings, AND feelings affect thoughts. When you feel low, you're more likely to have negative thoughts, making "just think positive" advice hard to follow. Your actions (or lack of action) also create cycles (e.g., feeling low, doing less, feeling lower).
 *   **Breaking Down Your Experience:** We usually feel thoughts, feelings, body sensations, and actions all mixed together. Looking at them separately (like using a simple chart) helps figure out what's affecting your mood and where you can make changes.
 
-### <span style="color: #008080; font-weight: bold;">Where to Start</span>
+### Where to Start
 
 *   **Notice More:** Begin by looking back at your day and noticing the different parts of an experience (thoughts, body feelings, actions, surroundings). This helps you get better at noticing these things *as they happen*.
 *   **Ask Yourself Questions:** Try to see the connections: What was I thinking when I felt that way? How did my body feel? What did I do just before? Is this feeling an emotion, or do I just need something (like food or rest)?
-*   **<span style="color: #008080; font-weight: bold;">Think About What Adds to Low Mood:</span>** Use a simple breakdown method or journal prompts to look closely at specific moments (good or bad).
+*   **Think About What Adds to Low Mood:** Use a simple breakdown method or journal prompts to look closely at specific moments (good or bad).
 	*   *Prompts:* What happened right before? What thoughts came up? What did you focus on? What feelings were there? How did your body feel? What did you feel like doing? What did you actually do? How did your actions affect your feelings/thoughts?
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Feeling low sometimes is normal; no one is happy constantly.
 *   Low mood often signals unmet needs, not just a brain issue.
@@ -121,18 +116,18 @@ You’re stronger than you might believe. You’re doing better than you realize
 
 
 
-## <span style="color: #008080; font-weight: bold;">Common Mood Traps</span>
+## Common Mood Traps
 
-### <span style="color: #008080; font-weight: bold;">The Problem with Quick Fixes</span>
+### The Problem with Quick Fixes
 
 *   **Temporary Relief:** When feeling low, we often reach for things that give fast relief (numbing with food/alcohol, distracting with TV/social media). They work for a bit, but the bad feelings often return stronger later (a negative cycle).
 *   **Long-Term Costs:** Quick fixes often cost us more in the long run (in terms of time, health, making progress). Real, lasting helpful strategies usually aren't quick.
-*   **<span style="color: #008080; font-weight: bold;">Think About How You Cope:</span>**
+*   **Think About How You Cope:**
 	*   What do you usually do when you feel low?
 	*   Does it help instantly?
 	*   What happens later on? What does it cost you (time, health)?
 
-### <span style="color: #008080; font-weight: bold;">Thought Patterns That Make Mood Worse</span>
+### Thought Patterns That Make Mood Worse
 
 *   **Thoughts & Feelings Influence Each Other:** How you feel affects the kind of thoughts you have. Low mood makes common "thinking traps" more likely. These happen to everyone but are more common when mood is down.
 *   **Common Thinking Traps:**
@@ -144,7 +139,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Strict Rules for Yourself ("Musts" and "Shoulds"):** Having rigid, high expectations ("I must always be perfect," "I should never fail") that set you up to feel like a failure.
 	*   **Seeing Things as Black or White:** Thinking in extremes (total success vs. complete failure) with no grey areas. Makes reactions more intense.
 
-### <span style="color: #008080; font-weight: bold;">What to Do About Thinking Traps</span>
+### What to Do About Thinking Traps
 
 *   **Goal:** Spot these traps, see thoughts as just *ideas* (not facts), and choose how you react.
 *   **Notice Them:** Being aware is the first step. It's harder when upset because feelings/thoughts are jumbled.
@@ -159,7 +154,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   It's okay not to know or decide immediately ("sit on the fence") instead of jumping to biased conclusions.
 	*   Spotting these traps can stop small upsets from turning into major mood dips.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Thinking traps are normal but make low moods worse if you believe them without question.
 *   We tend to look for proof for our beliefs, even negative ones.
@@ -168,23 +163,23 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   Strategy 2: Be curious about your thoughts.
 *   Strategy 3: Step back by noticing and naming thinking traps.
 
-## <span style="color: #008080; font-weight: bold;">Helpful Tools and Ideas</span>
+## Helpful Tools and Ideas
 
-### <span style="color: #008080; font-weight: bold;">Getting Some Distance (Thinking About Your Thinking)</span>
+### Getting Some Distance (Thinking About Your Thinking)
 
 *   **The Mask Idea:** Overwhelming thoughts are like wearing a mask – they colour how you see everything. Getting distance (like holding the mask away from your face) lessens their control.
 *   **Thinking About Your Thinking:** This means noticing your thoughts. Stepping back lets you see thoughts for what they are: opinions, stories, guesses – not facts.
 *   **Thoughts Aren't Facts:** They're just your brain's interpretations, based on limited info and mental shortcuts.
 *   **Mindfulness Helps:** It's a way to practice watching thoughts come and go without getting stuck, helping you choose where to focus.
 
-### <span style="color: #008080; font-weight: bold;">Mindfulness: Choosing Your Focus</span>
+### Mindfulness: Choosing Your Focus
 
 *   **You Control Your Focus:** You can't stop thoughts from popping up, but you *can* choose where you put your attention (your mental "spotlight").
 *   **Focus on Purpose:** Decide which thoughts get your main attention, instead of letting your focus drift or get stuck on negativity.
 *   **Look Beyond Problems:** Difficult things grab our attention, but we also need to focus on how we *want* to feel or what we want to move towards. Ask: "What do I want instead?"
 *   **Mindfulness as Training:** Meditation is like practice for your mind, building the "muscle" for directing attention. Consistency matters more than having amazing experiences every time.
 
-### <span style="color: #008080; font-weight: bold;">How to Stop Getting Stuck on Negative Thoughts (Rumination)</span>
+### How to Stop Getting Stuck on Negative Thoughts (Rumination)
 
 *   **Rumination:** Going over and over negative thoughts or memories. Makes bad feelings stronger and last longer, keeps depression going. Creates mental habits.
 *   **Break the Cycle:**
@@ -192,14 +187,14 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Ask a Helpful Question:** "What would the best version of me do right now?" (Gives you a positive direction, even if you can only take a small step).
 	*   **Connect with People:** Talking to supportive friends or a therapist can interrupt the negative thought cycle and offer new perspectives.
 
-### <span style="color: #008080; font-weight: bold;">Mindfulness & Gratitude Practice</span>
+### Mindfulness & Gratitude Practice
 
 *   **Mindful State:** Paying attention to right now (thoughts, feelings, body sensations) without judging. Helps you respond thoughtfully instead of automatically.
 *   **Meditation:** Formal practice (like a workout for your mind) to build mindfulness skills. Guided audio can help you start.
 *   **Gratitude Practice:** A simple way to practice focusing your attention positively.
-	*   **<span style="color: #008080; font-weight: bold;">Making Gratitude a Habit:</span>** Every day, write down 3 things you're thankful for (big or small). Think about how they make you feel. This trains your attention.
+	*   **Making Gratitude a Habit:** Every day, write down 3 things you're thankful for (big or small). Think about how they make you feel. This trains your attention.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   You control your attention, not which thoughts pop up.
 *   Trying *not* to think of something usually makes you think of it more.
@@ -209,7 +204,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   Thoughts are suggestions, not facts. Believing them gives them power.
 *   Stepping back (thinking about your thinking) reduces their power.
 
-## <span style="color: #008080; font-weight: bold;">Making Bad Days Better</span>
+## Making Bad Days Better
 
 *   **Decision Difficulty:** Low mood makes decisions hard. It pushes you towards unhelpful actions and makes helpful ones seem too difficult. Trying to be perfect makes it worse.
 *   **Aim for "Good Enough" Choices:** Focus on small steps in the right direction, not the "perfect" solution. Taking action is key.
@@ -219,20 +214,20 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Find Your Kind Voice:** How would you talk to a loved one going through this? Try talking to yourself that way.
 	*   **Self-Kindness is Strength:** It's the supportive voice you need to get back up, not being lazy. It's like having a good coach.
 *   **Focus on How You *Want* to Feel:** Instead of just focusing on feelings you *don't* want, think about the positive feelings you'd like more of. What actions and thoughts go with those feelings?
-	*   **<span style="color: #008080; font-weight: bold;">Figuring Out What Helps:</span>**
+	*   **Figuring Out What Helps:**
 		1.  Break down a low mood situation (thoughts, feelings, actions).
 		2.  Think about a *better* day. What feelings would you like?
 		3.  Work backwards: What thoughts, focus, actions, body care would lead to those better feelings? (Use the prompts).
-	*   **<span style="color: #008080; font-weight: bold;">The Miracle Question:</span>** Imagine your main problem vanished overnight. What's the very first sign? What would you do, say, or focus on differently? (Think about small details). This creates a positive vision and might show small changes you can make now.
+	*   **The Miracle Question:** Imagine your main problem vanished overnight. What's the very first sign? What would you do, say, or focus on differently? (Think about small details). This creates a positive vision and might show small changes you can make now.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Aim for "good enough" decisions to avoid getting stuck. Action matters.
 *   Make small, consistent changes.
 *   Practice self-kindness; it helps more than being hard on yourself.
 *   Once you understand the problem, focus on where you want to go.
 
-## <span style="color: #008080; font-weight: bold;">Looking After Yourself: The Basics</span>
+## Looking After Yourself: The Basics
 
 *   **Your Mental Health Basics:** Simple self-care things like sleep, exercise, food, routine, and human connection are like your body's defense team for mental health. We often neglect them when feeling down, but they're vital. Aim for good enough, not perfection.
 *   **Exercise:**
@@ -260,7 +255,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   Fight the urge to isolate. Connect *before* you feel like it.
 	*   Connecting doesn't always mean deep talks; just being around others helps. Try not to assume others are judging you (that's a common thinking trap).
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   The basics (exercise, sleep, food, routine, connection) are key defenses for your well-being.
 *   Find enjoyable ways to move your body.
@@ -269,7 +264,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   Keep some routine but allow for changes.
 *   Connect with others; fight the urge to withdraw.
 
-## <span style="color: #008080; font-weight: bold;">What is Motivation?</span>
+## What is Motivation?
 
 *   **Motivation Comes and Goes:** It's not something you're born with or without, and it's not a skill you learn. It's a feeling that changes, like emotions.
 *   **The "Can't Be Bothered" Feeling:** It's common to know what you "should" do but not feel like doing it. That feeling often doesn't last.
@@ -282,7 +277,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Losing Joy (Anhedonia):** Not enjoying things you used to like. Often happens with depression. Makes effort feel pointless.
 *   **Action First, Motivation Later:** Waiting to "feel like it" often means waiting forever. Usually, starting an action is what *creates* the feeling of motivation or enjoyment (e.g., you feel good *after* exercise, not usually before). Even a small action can start a positive shift. If you've lost joy (anhedonia), you might need to push yourself to do things for a while before the enjoyment starts to return.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Motivation isn't fixed; it's a feeling that changes.
 *   Don't wait to feel motivated before you act.
@@ -290,7 +285,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   Procrastination is common; anhedonia (losing joy) is often linked to depression.
 *   Take action first, and motivation often follows.
 
-## <span style="color: #008080; font-weight: bold;">Finding and Keeping Motivation</span>
+## Finding and Keeping Motivation
 
 *   **Motivation Changes:** Figure out what helps you feel motivated and what drains it. Pay attention to your own patterns.
 *   **Move Your Body:**
@@ -313,8 +308,8 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   Fear of failing kills motivation, especially if failing leads to shame or harsh self-talk.
 	*   **Shame Doesn't Motivate:** It makes you want to hide, feel bad, and give up.
 	*   **Being Kind to Yourself Does Motivate:** Treating yourself with kindness, honesty, and encouragement after messing up actually helps you try again and do better.
-	*   **<span style="color: #008080; font-weight: bold;">Notice Your Self-Talk:</span>** After a setback, what do you say to yourself? How does it make you feel? How does it affect your goals? How would you talk to a friend?
-	*   **<span style="color: #008080; font-weight: bold;">Handle Setbacks with Kindness & Responsibility:</span>**
+	*   **Notice Your Self-Talk:** After a setback, what do you say to yourself? How does it make you feel? How does it affect your goals? How would you talk to a friend?
+	*   **Handle Setbacks with Kindness & Responsibility:**
 		1.  Think of a recent setback. Notice the feelings/body sensations.
 		2.  What did the harsh self-talk sound like? How did it feel?
 		3.  What did you do next (to cope)?
@@ -323,7 +318,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Prepare to Succeed:** Core ingredients like exercise, nutrition, and sleep amplify willpower. Don't ignore them. Small improvements help.
 *   **Make Friends with Stress:** Understand stress's role. High stress makes temptation harder to resist. Stress also helps kick-start action when feeling lethargic (anticipating goal pleasure). Welcome the 'activation' feeling.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   You can encourage feelings of motivation.
 *   Moving your body helps create motivation.
@@ -331,7 +326,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   Manage stress (sleep, exercise) to better handle urges and stick to plans. Understand how stress impacts temptation and activation.
 *   Shame hurts motivation; self-kindness helps. Change how you view failure.
 
-## <span style="color: #008080; font-weight: bold;">Doing Things When You Don't Feel Like It</span>
+## Doing Things When You Don't Feel Like It
 
 *   **Motivation Isn't Always There:** We need ways to act even when we lack motivation, especially for tasks we have to do.
 *   **Doing the Opposite of the Urge:**
@@ -361,24 +356,24 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   Think about what might trip you up or make you want to quit.
 	*   Make a specific plan *beforehand* for how you'll handle those hurdles.
 	*   Set things up to make the right choice easy and the wrong choice hard (e.g., put your alarm across the room so you have to get up).
-*   **<span style="color: #008080; font-weight: bold;">Ask Tough Questions:</span>** Explore payoffs of *not* acting and true consequences of staying stuck.
+*   **Ask Tough Questions:** Explore payoffs of *not* acting and true consequences of staying stuck.
 	*   *Prompts:* What are you protecting yourself from? What comforts would you lose? What gains are you missing? What's the cost now/future? What if you fail to start? How will it affect self-view? How affect what matters most?
-*   **<span style="color: #008080; font-weight: bold;">Predict Your Failure:</span>** List potential threats/hurdles. Plan specific actions for each. Use self-doubt constructively for planning.
+*   **Predict Your Failure:** List potential threats/hurdles. Plan specific actions for each. Use self-doubt constructively for planning.
 	*   *Prompts:* Barriers/obstacles? Risky times/places/situations? Excuses/justifications? Create action plan for each.
 *   **Remembering Who You Want to Be (Identity):**
 	*   Connecting actions to your desired identity helps you act even when motivation is low ("This is just what I do now"). We shape who we are by what we do.
-	*   **<span style="color: #008080; font-weight: bold;">Think About Your Future Self:</span>** Imagine future you, benefiting from good choices made now. Helps make better decisions today. Write a note *to* your future self about actions you'll take now.
-	*   **<span style="color: #008080; font-weight: bold;">Weighing Pros and Cons (DBT):</span>** Honestly list the good/bad points of *changing* vs. *staying the same*. Seeing the real cost of staying stuck can motivate change.
-	*   **<span style="color: #008080; font-weight: bold;">Shape Your Identity on Purpose:</span>** Journal answers: What's the main change? Why's it vital? What kind of person do I want to be *while* doing this? What actions would make me proud later? Smaller steps? How will I handle low-motivation days? Am I listening to my body's needs?
+	*   **Think About Your Future Self:** Imagine future you, benefiting from good choices made now. Helps make better decisions today. Write a note *to* your future self about actions you'll take now.
+	*   **Weighing Pros and Cons (DBT):** Honestly list the good/bad points of *changing* vs. *staying the same*. Seeing the real cost of staying stuck can motivate change.
+	*   **Shape Your Identity on Purpose:** Journal answers: What's the main change? Why's it vital? What kind of person do I want to be *while* doing this? What actions would make me proud later? Smaller steps? How will I handle low-motivation days? Am I listening to my body's needs?
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   You can't always count on motivation. Learn to act based on values, sometimes doing the opposite of what urges suggest.
 *   Build habits through repetition. Explore payoffs/costs of inaction. Plan for failure.
 *   Balance effort with rest. Use small internal rewards.
 *   Plan ahead for difficulties. Link actions to your identity and connect with your future self.
 
-## <span style="color: #008080; font-weight: bold;">Starting Big Changes</span>
+## Starting Big Changes
 
 *   **Feeling Stuck is Common:** Sometimes you know things need to change, but you're not sure *what* needs to change or how to start.
 *   **Understand the Problem First:** To fix something effectively, you need to really understand it. (Like a detective figuring out the case before making an arrest). Therapy often helps with this deep dive.
@@ -386,13 +381,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Look Back to Build Awareness:**
 	*   **Journaling:** Write about past situations – what happened, what you thought and felt, how you reacted, and what the results were. Just getting it down helps you see patterns.
 	*   **Spot Patterns:** Noticing cycles in hindsight helps you catch them *as they happen* in the future, giving you a chance to choose differently.
-*   **<span style="color: #008080; font-weight: bold;">Journal Questions to Explore Problems:</span>**
+*   **Journal Questions to Explore Problems:**
 	*   Describe what happened.
 	*   What thoughts did you have then? How did those thoughts affect your feelings?
 	*   What feelings did you notice? What set them off?
 	*   What did you feel urged to do? How did you actually react? What happened next?
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   It's normal not to know exactly what needs changing or how to start.
 *   Get to know the problem well before trying to solve it.
@@ -400,7 +395,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   Understanding past patterns helps you make different choices in the future.
 *   Be honest with yourself about how you might be keeping yourself stuck.
 
-## <span style="color: #008080; font-weight: bold;">Dealing with Difficult Feelings</span>
+## Dealing with Difficult Feelings
 
 *   **Wanting Difficult Feelings to Stop:** It's natural to want painful or unpleasant feelings to go away. But therapy usually focuses on changing your *relationship* with feelings, not getting rid of them.
 *   **Feelings are Messengers, Not Enemies:** They aren't a sign something is wrong with you. They're your brain's way of making sense of what's happening inside and around you, based on signals and past experiences. (Example: Coffee jitters might feel like panic because the body sensations are similar).
@@ -409,21 +404,21 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Push Them Away:** Trying to fight or block feelings is like fighting waves – it's exhausting and often makes you feel overwhelmed. Letting them wash over you (rise, peak, then fade) is usually less difficult in the long run.
 	*   **Believe They Are Facts:** Feelings are *interpretations* or perspectives, not objective truths. Acting as if they are facts means letting potentially biased feelings dictate your choices.
 *   **Be Curious:** Instead of judging yourself or automatically believing a feeling, get curious. Ask: What might this feeling be telling me? Look at the situation like an interested observer. Curiosity helps you learn from experiences without harsh self-criticism.
-*   **<span style="color: #008080; font-weight: bold;">Look at How You Cope:</span>**
+*   **Look at How You Cope:**
 	*   How do you first know you're feeling uncomfortable (what do you do, how does your body feel)?
 	*   Where in your body do you feel it? What thoughts or beliefs go with it?
 	*   What do you usually do when you feel a strong emotion? Does it help short-term? What about long-term?
 	*   Talk it over with a trusted friend to get another perspective and spot any thinking traps.
 *   **Anger as Information:** Anger often tells us we need to speak up or protect ourselves. Listen to it without letting it take control (it often ignores other perspectives). Find calm before deciding on action.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Feelings aren't your enemy; you can learn to influence them.
 *   Pushing feelings away usually makes things harder. Let them flow.
 *   Feelings are perspectives, not facts.
 *   Approach difficult feelings with curiosity: What might they be telling you? Anger can be informative but needs calm consideration.
 
-## <span style="color: #008080; font-weight: bold;">Healthy Ways to Handle Feelings</span>
+## Healthy Ways to Handle Feelings
 
 *   **Goal: Acceptance, Not Elimination:** The aim isn't to stop feelings, but to learn to experience them in a healthier way.
 *   **The Power of Making Room:** Trying *not* to feel something often makes it stronger. Accepting that a feeling is present allows it to follow its natural course (rise, peak, fade).
@@ -452,13 +447,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Formulate:** Understand triggers and wider context (stress, unmet needs) contributing to anger.
 	*   **Understand Roots:** Explore past experiences if anger is a long-standing pattern (therapy helps).
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   You are not your feelings; they are passing experiences.
 *   Feelings often tell you what you need. Name them specifically.
 *   Make room for feelings; use self-soothing techniques to handle intense ones. Handle guilt, regret, and anger constructively through self-compassion, repair, and understanding triggers.
 
-## <span style="color: #008080; font-weight: bold;">Using Your Words Wisely</span>
+## Using Your Words Wisely
 
 *   **Words Shape How We See Things:** The words we use help us understand, learn from, and talk about our experiences.
 *   **Vague Words Limit Understanding:** Using general terms like "happy" or "stressed" doesn't capture the details. Being unable to name different negative feelings clearly is linked to having a harder time after stressful events.
@@ -472,14 +467,14 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Use Tools:** A "Feeling Wheel" chart can give you ideas for more specific emotion words.
 *   **Focus on Positives Too:** Writing about good experiences, even small ones, helps strengthen positive brain pathways. This makes it easier to access positive feelings later.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   The words you use affect how you experience things.
 *   Having more specific words for feelings helps you manage them better.
 *   Build your feeling vocabulary using tools, journaling, and exploring new words and experiences.
 *   Practice describing both positive and negative feelings.
 
-## <span style="color: #008080; font-weight: bold;">Supporting Others</span>
+## Supporting Others
 
 *   **It's Normal to Feel Unsure:** When supporting a loved one with mental health struggles, it's common to feel like you don't know what to do or how to "fix" it.
 *   **Key Ways to Help:**
@@ -501,14 +496,14 @@ You’re stronger than you might believe. You’re doing better than you realize
 	16. **Don't Expect Linear Progress:** Healing has ups and downs. Be patient and accepting.
 	17. **Be Honest:** If you're unsure how to help, it's okay to say so. Openness helps everyone feel less anxious.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Feeling unsure when supporting someone is common. Focus on being present, not fixing.
 *   Listen kindly, ask what they need, offer practical help when you can.
 *   Take care of yourself and set boundaries to avoid burning out. Get your own support if needed.
 *   Show up with kindness, even if you don't have all the answers.
 
-## <span style="color: #008080; font-weight: bold;">What is Grief?</span>
+## What is Grief?
 
 *   **Grief Isn't Just About Death:** You can feel grief after any significant ending or loss (like losing a job, a relationship ending, or major life changes like during the pandemic).
 *   **Grief is Normal and Needed:** It's the natural human way of responding when we lose someone or something important that we loved or relied on. It's not a weakness or something to fix quickly.
@@ -516,14 +511,14 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Why Pushing Grief Away Can Hurt:** Trying to block out the pain might feel safer at first, but unresolved grief can lead to problems later, like depression, unhealthy coping habits, or feeling numb. Sometimes small things can trigger big waves of pushed-away grief later.
 *   **Facing the Waves of Grief:** Grief can feel huge and scary. Understanding it's a process helps. You can learn to dip into the feeling, experience it, breathe, and then step back to rest. Over time, you build strength to handle the waves and still engage with life.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Grief can happen after any major loss, not just death.
 *   It's a normal and necessary human response involving mind and body.
 *   Trying to avoid grief completely can cause problems down the road.
 *   Working through grief often involves allowing yourself to feel the pain in doses, learning you can survive it, and gradually re-engaging with life.
 
-## <span style="color: #008080; font-weight: bold;">Common Experiences in Grief</span>
+## Common Experiences in Grief
 
 *   **Not Fixed Stages:** Ideas like Denial, Anger, Bargaining, Depression, and Acceptance describe common feelings in grief, but they don't happen in a set order or for a set time. They're not rules for how grief "should" look.
 *   **Common Feelings & Experiences:**
@@ -533,13 +528,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Depression (Sadness/Emptiness):** Feeling deep sadness, emptiness, or loss after a bereavement. This is a normal reaction, not necessarily a mental illness. Needs comfort and support, not being told to "snap out of it."
 	*   **Acceptance:** Not meaning you like or approve of the loss, but starting to accept the new reality and finding ways to live within it. You start re-engaging with life, your needs, and connections. This isn't a final step; grief comes in waves, and you might revisit other feelings. This doesn't mean you're going backward.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Common grief experiences (like denial, anger, bargaining, sadness, acceptance) happen, but not in neat stages.
 *   Denial protects early on. Anger needs safe release. Bargaining wishes things were different. Deep sadness is normal. Acceptance means adjusting to the new reality.
 *   Grief feelings come and go in waves; revisiting feelings is part of the process.
 
-## <span style="color: #008080; font-weight: bold;">Working Through Grief</span>
+## Working Through Grief
 
 *   **[Worden's Four Tasks (What Grief Involves)](https://www.ourhouse-grief.org/grief-pages/grieving-adults/four-tasks-of-mourning/):**
 	1.  Accepting the loss is real.
@@ -561,14 +556,14 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Getting Professional Help:** Seeing a therapist or counsellor isn't a sign of weakness. It offers a safe space to process intense emotions, learn coping skills, understand grief better, and feel heard without judgment, especially if your usual support network is limited.
 *   **Specific Grief Tools:** Ditch expectations (no endpoint, okay to step in/out of pain), let it rain but use distractions wisely (avoid harmful numbing like alcohol/overwork), don't turn pain on others or self (guilt is natural but let it go), acknowledge and express absence (rituals, journaling), connect with remaining loved ones, use movement/exercise (boosts brain chemistry, counters fatigue).
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Working through grief involves accepting, feeling the pain, adjusting, and finding new ways to stay connected while living.
 *   Move between focusing on the loss and focusing on rebuilding life; both are needed.
 *   Allow all feelings, take small steps, drop expectations, express yourself safely, connect with others, use movement.
 *   Build a new life around the pain of loss. Seek professional help if needed.
 
-## <span style="color: #008080; font-weight: bold;">Finding Strength in Grief</span>
+## Finding Strength in Grief
 
 *   **[Pillars of Strength (Julia Samuel)](https://www.juliasamuel.co.uk/8-pillars-of-strength):** These are areas to focus on to help rebuild your life during grief. They need ongoing attention.
 	1.  **Relationship with the person who died:** Find new ways to feel connected and keep their memory alive (like visiting special places, having rituals).
@@ -580,11 +575,11 @@ You’re stronger than you might believe. You’re doing better than you realize
 	7.  **Structure and Routine:** Keep some daily structure for stability, but also allow yourself flexibility to grieve when you need to.
 	8.  **Paying Attention Inside (Focusing):** Notice body sensations connected to your feelings, especially when words are hard to find. This builds self-awareness.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Build strength by: keeping connection with the deceased, caring for yourself, expressing grief, allowing time, looking after mind/body, setting boundaries, maintaining some structure, and noticing internal feelings.
 
-## <span style="color: #008080; font-weight: bold;">Handling Criticism, Difficult Friendships & Arguments</span>
+## Handling Criticism, Difficult Friendships & Arguments
 
 *   **Caring What Others Think is Normal:** We're wired to care about belonging and avoiding rejection. Telling yourself "I don't care" rarely works long-term.
 *   **Trying Too Hard to Please Others (People-Pleasing):** More than just being nice. It's putting others' needs first so much it harms your own well-being. Leads to difficulty saying no, setting boundaries, and feeling resentful. Often learned in childhood.
@@ -618,14 +613,14 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Validate Feelings (Not Necessarily Agree):** Acknowledge their feelings ("I hear you feel X") without needing to agree with their viewpoint. Shows respect. Don't be the judge of their feelings.
 	*   **Spot Your Biases:** Be aware of confirmation bias (seeing only what fits your view), emotional reasoning (feelings = facts), egocentric thinking (your way is the only way), overgeneralizing ("You always...").
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Handle criticism by filtering feedback through your values and nurturing self-worth/shame resilience.
 *   Navigate difficult friendships by distinguishing constructive feedback from harm, setting boundaries, reflecting on your role, and choosing connection quality over fear of loneliness. Address passive aggression calmly without engaging in power struggles.
 *   Approach arguments aiming for resolution, not victory. Listen first, avoid personal attacks, be flexible but hold boundaries, slow down, validate feelings, and watch for your own thinking biases.
 
 
-## <span style="color: #008080; font-weight: bold;">Building Confidence & Overcoming Imposter Feelings</span>
+## Building Confidence & Overcoming Imposter Feelings
 
 *   **Confidence Isn't Fixed, It's Built:** It changes depending on the situation. Entering new territory often means feeling unsure at first. Facing that uncertainty and getting through it builds courage for the next time.
 *   **Confidence Grows Outside Your Comfort Zone:** You build confidence by doing things *before* you feel confident. Stepping into fear and vulnerability is how it develops. **Courage comes first.**
@@ -646,16 +641,16 @@ You’re stronger than you might believe. You’re doing better than you realize
 	2.  **Stress Test:** Regularly test skills under increasing (but manageable) pressure that mimics the real challenge (add difficulty, time pressure, observers).
 	3.  **Examine Performance:** Reflect on what worked, what needs improvement. Treat feedback as valuable data for learning.
 	4.  **Turn Insights into Action:** Actively practice areas needing work. Repeat the cycle.
-*   **<span style="color: #008080; font-weight: bold;">Facing Fear to Build Confidence:</span>** Create a hierarchy of feared situations. Start practicing with manageable ones, repeat, then move up.
-*   **<span style="color: #008080; font-weight: bold;">Imagine Your Ideal Supporter:</span>** Visualize a kind coach. Imagine their response. Use this for self-talk.
-*   **<span style="color: #008080; font-weight: bold;">Visualization for Finding Confidence:</span>** Imagine you woke up confident. What *actions* would you take differently? Focus on doing those actions now; the feeling often follows.
+*   **Facing Fear to Build Confidence:** Create a hierarchy of feared situations. Start practicing with manageable ones, repeat, then move up.
+*   **Imagine Your Ideal Supporter:** Visualize a kind coach. Imagine their response. Use this for self-talk.
+*   **Visualization for Finding Confidence:** Imagine you woke up confident. What *actions* would you take differently? Focus on doing those actions now; the feeling often follows.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Build confidence by taking courageous action in your stretch zone. Focus on self-respect, process, and learning from failure, not just self-esteem or avoiding fear.
 *   Feeling like an imposter is normal when learning/growing. Counter it with honesty, fair comparisons, realistic expectations, focusing on progress, and separating worth from performance.
 
-## <span style="color: #008080; font-weight: bold;">Mistakes Don't Define You (Dealing with Regret & Inner Critic)</span>
+## Mistakes Don't Define You (Dealing with Regret & Inner Critic)
 
 *   **Fear of Failure Holds Us Back:** How we handle mistakes greatly affects our self-doubt. Society can be harsh about errors, making this fear worse.
 *   **Others' Reactions Reflect Them, Not You:** How someone reacts to your mistake says more about *their* relationship with failure than about your worth as a person.
@@ -685,13 +680,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 		5.  *Turn to Face the World:* Shift focus from self-evaluation to contributing to others/the world.
 *   **Dealing with Self-Loathing:** Don't mask it with perfectionism. Treat yourself with basic respect and compassion. Focus on who you want to *become* tomorrow. Choose narratives that support growth. Use anger constructively (as fuel for change), not against yourself. Map out past experiences that might contribute (therapy helps). Practice mindfulness to notice and redirect critical thoughts. Find counter-responses to self-critical thoughts.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Mistakes and regrets are human; they offer chances to learn. How you react matters most. Your worth is separate.
 *   Practice bouncing back with self-kindness, learning, and refocusing on values. Stop rumination. Take action to repair if possible. Practice self-forgiveness.
 *   Make self-criticism constructive: focus on specific actions (not global worth), choose words carefully, be honest but kind, look for lessons, face the world. Avoid perfectionism and emotional reasoning. Counter self-loathing with self-compassion and focus on becoming.
 
-## <span style="color: #008080; font-weight: bold;">Feeling Good Enough (Comparison, Belonging & Saying No)</span>
+## Feeling Good Enough (Comparison, Belonging & Saying No)
 
 *   **Myth: Accepting Yourself Means Giving Up:** Many fear that self-acceptance leads to laziness or settling.
 *   **Truth: Acceptance Fuels Growth:** Research shows self-acceptance and self-kindness actually lead to more resilience, trying again after failure, and more confidence. You strive from a place of feeling okay, not from fear of not being good enough.
@@ -725,10 +720,10 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   More than communication; requires clarity on values, goals, desired self.
 	*   Prepare: Know values. Listen to feelings signalling need to speak up.
 	*   Communicate Clearly: State understanding neutrally. Express feelings about specific *behaviours* ("When you do X, I feel Y"). Be direct. Show appreciation for positive responses. Use "broken record" if needed. Present confidently. Seek fair compromises.
-	*   **<span style="color: #008080; font-weight: bold;">Assertiveness Checklist:</span>** 1. State situation neutrally. 2. State feeling about specific behaviour. 3. Be clear/direct when saying no. 4. Appreciate positive responses. 5. Use "broken record" for pushback. 6. Present calmly/confidently. 7. Seek mutually acceptable compromise.
+	*   **Assertiveness Checklist:** 1. State situation neutrally. 2. State feeling about specific behaviour. 3. Be clear/direct when saying no. 4. Appreciate positive responses. 5. Use "broken record" for pushback. 6. Present calmly/confidently. 7. Seek mutually acceptable compromise.
 	*   **Practice Persistently:** Appeasing habits take time to change. Expect setbacks. Reflect on difficulties and learn.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   True self-worth comes from self-acceptance and living by your values, not constant comparison or pleasing others.
 *   Use comparison constructively for inspiration, keeping self-worth separate. Practice gratitude to fight resentment.
@@ -738,7 +733,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 ---
 *(Sections on Anxiety, Stress, Values, Relationships, and Seeking Help follow, integrating relevant OCR text)*
 
-## <span style="color: #008080; font-weight: bold;">Facing Anxiety</span>
+## Facing Anxiety
 
 *   **The Urge to Eliminate Anxiety:** It feels bad (mild to intense), so naturally, we want it gone.
 *   **Fear Response is Adaptive (but Imperfect):** Anxiety is your body's alarm system (fight/flight). It's meant to feel urgent to make you act fast for safety. But like a smoke alarm, it can go off for "burnt toast" (perceived threats) not just real fires (actual danger). Fear is the signal, not the problem itself. Judging/fighting fear keeps you stuck.
@@ -749,13 +744,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Reframe Fear:** See fear not as weakness, but as a sign you're facing something important or challenging. It's the core ingredient of courage. Use language to shift perspective (anxiety is excitement/readiness).
 *   **(Author's Example Corrected):** Instead of avoiding the feared thing (like heights), *allow* the anxious feelings, use calming skills (like slow breathing), remind yourself you are actually safe, focus on your purpose/values, and stay with it until the feeling naturally reduces (your body gets used to it). Repeat exposure reduces intensity over time.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Wanting anxiety gone is normal, but trying to eliminate it often makes it worse. Don't treat fear as the problem.
 *   Anxiety is your body's safety alarm – sometimes too sensitive. Avoidance reinforces anxiety long-term.
 *   Goal: Willingness to feel fear while living your life. Face fears gradually with coping skills, fierce self-compassion, and reframing.
 
-## <span style="color: #008080; font-weight: bold;">Things That Make Anxiety Worse</span>
+## Things That Make Anxiety Worse
 
 *   **Avoidance is the Main Culprit:** Avoiding situations or feelings that trigger anxiety stops your brain from learning that you can cope or that the situation isn't truly dangerous. This keeps anxiety going.
 *   **"Safety" Actions That Keep Anxiety Alive:** These are things you do to feel less anxious *right now*, but they prevent long-term learning and reinforce the fear:
@@ -767,12 +762,12 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Relying on Crutches:** Feeling you can only cope if you have certain things (like medication "just in case," your phone to distract you) or specific people with you.
 	*   **Subtle Avoidance in Social Situations:** Using your phone, going to the bathroom often, leaving early to avoid awkwardness or conversation. Prevents connection and reinforces anxiety. Focus on avoiding awkwardness leads straight to it.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Avoiding things that make you anxious is the main way anxiety stays strong.
 *   Things you do to feel safer *in the moment* (like escaping, subtle avoidance, excessive planning, seeking reassurance, using crutches) actually keep the anxiety going long-term because you don't learn you can handle it.
 
-## <span style="color: #008080; font-weight: bold;">Calming Anxiety Quickly</span>
+## Calming Anxiety Quickly
 
 *   **Quick Tool: Change Your Breathing:** Anxiety often involves fast, shallow breaths. Slowing your breathing calms your body.
 *   **How it Works:** Breathing slowly, especially making the **out-breath longer and stronger than the in-breath**, helps slow your heart rate and reduces the physical feelings of anxiety.
@@ -789,12 +784,12 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   Exercise uses up this energy in a natural way. It helps release the physical tension of stress and anxiety.
 	*   Good both *during* anxiety (to burn off energy) and as *prevention* (regular exercise builds resilience).
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   To calm anxiety quickly, control your breathing: slow it down, make the out-breath longer. Practice techniques like box breathing regularly.
 *   Use physical movement or exercise to release anxious energy.
 
-## <span style="color: #008080; font-weight: bold;">Dealing with Anxious Thoughts & Overthinking</span>
+## Dealing with Anxious Thoughts & Overthinking
 
 *   **Worries Grab Your Attention:** Your brain pays attention to possible dangers. Scary thoughts about worst-case scenarios are hard to ignore. Overthinking isn't just a habit; it's often linked to underlying stress.
 *   **Anxiety Alarm:** Your brain's threat system acts fast, like a smoke alarm, sometimes triggered even when the risk isn't real. Worry thoughts are the brain doing its job, but it doesn't always have all the facts.
@@ -817,13 +812,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Look at Things Differently (Reframing):** See situations as challenges, focus on preparation and positive action ("How can I bring my best?").
 	*   **Remember Your Values & Identity:** Base actions on what matters, not fear.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Overthinking is often linked to overall stress levels – address the basics.
 *   Step back from anxious thoughts (spot biases, use distancing language, write them down). Question their validity, likelihood, importance, changeability, and helpfulness.
 *   Take command of your attention. Shift focus from unhelpful worries to constructive action planning or other helpful thoughts (kind self-talk, values).
 
-## <span style="color: #008080; font-weight: bold;">Facing Fears About Life Ending</span>
+## Facing Fears About Life Ending
 
 *   **Fear of Dying: Deep & Common:** Worrying about death (knowing it will happen, but not when/how) is a basic human fear. It can fuel other anxieties (health worries, panic, phobias).
 *   **How We Cope:** We try to feel safe by avoiding risks, seeking lasting impact (legacy, fame), or focusing on connections. It's hard to think about directly (like staring at the sun - Yalom).
@@ -833,17 +828,17 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Avoidance Doesn't Work:** Trying to feel completely safe from death leads to avoiding more and more in life, increasing anxiety overall.
 *   **Acceptance is Key:** This doesn't mean liking or wanting death. It means stopping the fight against the reality that life ends and we don't control everything. Acceptance frees us to live more fully now.
 *   **Ways People Find Acceptance:** Faith-based (afterlife), Escape-based (relief from suffering), Neutral (natural part of life).
-*   **<span style="color: #008080; font-weight: bold;">Your Own Epitaph:</span>** If you could write a short message on your gravestone, what would you want it to say about how you lived or what you stood for? Helps clarify values.
+*   **Your Own Epitaph:** If you could write a short message on your gravestone, what would you want it to say about how you lived or what you stood for? Helps clarify values.
 *   **Explore Your Beliefs:** Gently question your specific fears and beliefs about death (doing this with support - friend or therapist - is often helpful).
-*   **<span style="color: #008080; font-weight: bold;">Writing About Fears of Dying:</span>** Use journal prompts or conversations to explore: Specific fears? How beliefs differ from others? Past losses' impact? Safety behaviours? Desired life meaning/legacy? How could knowing life ends improve how you live now? (Get support if this feels overwhelming).
+*   **Writing About Fears of Dying:** Use journal prompts or conversations to explore: Specific fears? How beliefs differ from others? Past losses' impact? Safety behaviours? Desired life meaning/legacy? How could knowing life ends improve how you live now? (Get support if this feels overwhelming).
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Fear of death is common and can drive other anxieties. Facing it, paradoxically, can help create a more meaningful life.
 *   Avoidance doesn't work long-term. Acceptance (of the reality, not desire for it) is key. This involves accepting certainty of death and uncertainty of timing.
 *   Explore your beliefs, values, and desired legacy to find meaning *now*, guided by the knowledge that life is finite. Use writing or therapy for support.
 
-## <span style="color: #008080; font-weight: bold;">Stress vs. Anxiety: What's the Difference?</span>
+## Stress vs. Anxiety: What's the Difference?
 
 *   **Often Used to Mean the Same Thing:** People use "stress" and "anxiety" for many different feelings.
 *   **Similar Body Response, Different Meaning:** Both involve the body getting ready for action (more energy, alertness). How we *interpret* that response matters.
@@ -855,13 +850,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Using Up Energy:** When your body gears up like this, it expects to get rest or fuel back afterwards. If stress is constant and you don't recharge, your body's resources get low, making you vulnerable.
 *   **When Stress Turns Into Anxiety:** If you constantly feel unable to cope with demands, you can start to become afraid of the feeling of stress itself. Also, stress about problems with no clear solution can become long-lasting (chronic).
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Stress and anxiety often feel similar but can be thought of differently: anxiety is more fear-based, stress is more pressure/demand-based.
 *   Both involve the body preparing for action with hormones like cortisol and adrenaline.
 *   Stress itself isn't bad; it helps us perform. Problems arise when stress is constant without recovery.
 
-## <span style="color: #008080; font-weight: bold;">More Than Just Reducing Stress</span>
+## More Than Just Reducing Stress
 
 *   **"Reduce Stress" Isn't Always Possible or Helpful:** Life throws unavoidable challenges (illness, job loss, grief). We can't always remove stressors.
 *   **We Sometimes Choose Stress:** We enjoy exciting (but safe) stressful experiences like thrill rides or scary movies. A life with *no* stress would be boring. We need challenges.
@@ -870,13 +865,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Goal: Manage and Recover:** Learn to use the helpful parts of stress (like focus) when needed, calm down when not needed, and most importantly, focus on *recovering and recharging* after stressful periods.
 *   **Stress and Meaning Go Together:** Working hard for things you care about (career, family, causes) will involve stress. Stress often signals that you're engaged in something meaningful.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   You can't always eliminate stress, and some stress is good for performance and engagement.
 *   Focus on managing your stress response and making time to recover afterwards, rather than just trying to avoid stress.
 *   Think of stress signs as your body helping you meet challenges, not just as a problem.
 
-## <span style="color: #008080; font-weight: bold;">When Stress Becomes Harmful</span>
+## When Stress Becomes Harmful
 
 *   **Chronic Stress:** Happens when your body's stress response stays activated for too long without enough breaks to recover. It wears your system down.
 *   **Effects of Long-Term Stress:** Makes it harder to control impulses, remember things, and make good decisions. Weakens your immune system over time. Linked to health problems. Makes body vulnerable.
@@ -887,16 +882,16 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Why Burnout Happens (Feeling Mismatched):** Often involves lack of control, feeling unrewarded, lack of community/support, unfairness, or doing work that clashes with your values.
 *   **Burnout is Serious:** Needs to be addressed. Solutions vary; it's about finding *your* balance between demands and rest, even when things are tough.
 *   **Signs of Chronic Stress/Burnout:** Ongoing sleep problems, appetite changes, being easily irritated, trouble concentrating, can't relax even when tired, frequent headaches/dizziness, muscle pain, stomach issues, sex drive changes, relying more on things like smoking/drinking/overeating, feeling overwhelmed easily.
-*   **<span style="color: #008080; font-weight: bold;">Burnout Check-in:</span>** Ask yourself: How often do I feel drained? Do I dread the day? Do I have energy for enjoyable things? Am I getting sick often? Do I feel capable? Do my efforts feel worthwhile? Notice if changes are needed.
+*   **Burnout Check-in:** Ask yourself: How often do I feel drained? Do I dread the day? Do I have energy for enjoyable things? Am I getting sick often? Do I feel capable? Do my efforts feel worthwhile? Notice if changes are needed.
 *   **Body Affects Brain:** Constant physical stress changes your brain, affecting both mental and physical health deeply.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Stress becomes harmful when it's long-lasting without enough recovery time.
 *   Burnout is serious exhaustion from prolonged stress. Look for signs like feeling drained, detached, and ineffective.
 *   Address burnout by finding ways to balance demands with rest and recharging.
 
-## <span style="color: #008080; font-weight: bold;">Using Stress in Helpful Ways & Managing Overwhelm</span>
+## Using Stress in Helpful Ways & Managing Overwhelm
 
 *   **Use Your Breath:** Breathing techniques that calm anxiety also work for stress and overwhelm.
 	*   **To Calm Down:** Make your out-breath longer and slightly more forceful than your in-breath. This slows your heart rate. Aim to feel calmer and clearer.
@@ -909,8 +904,8 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   Having goals related to contributing to others boosts positive feelings and well-being.
 	*   Briefly thinking about how your efforts help others can reduce your body's stress reaction.
 *   **How This Helps:** Linking stressful tasks to values/contribution makes the struggle more meaningful, fostering perseverance.
-*   **<span style="color: #008080; font-weight: bold;">Shift Your Focus:</span>** When stressed/avoidant, ask: How does this connect to my values? Contribution? Help others? Stand for? Meaning?
-*   **<span style="color: #008080; font-weight: bold;">Using Meditation for Stress Relief:</span>**
+*   **Shift Your Focus:** When stressed/avoidant, ask: How does this connect to my values? Contribution? Help others? Stand for? Meaning?
+*   **Using Meditation for Stress Relief:**
 	*   **It Works:** Changes brain, reduces stress, improves emotion regulation.
 	*   **Yoga Nidra (Deep Relaxation):** Guided technique for deep rest. Reduces stress, helps sleep. Short sessions help too.
 	*   **Other Types:** Mindfulness, focused attention, compassion meditation.
@@ -922,15 +917,15 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Don't Identify as Fragile:** Feeling overwhelmed is a signal (life setup isn't working, needs unmet), not proof of inadequacy. Get curious about contributors and needs.
 	*   **No-Agenda, Non-Doing Time:** Set aside protected time just to be present (mindfully), without tasks. Step out of the chaos to replenish. Can be done alone or mindfully with others.
 	*   **Energy Up, Energy Down:** Learn to shift your state. Overwhelmed/tense? Use calming breath/activities. Feeling flat but need to act? Use energizing breath (vigorous inhales), movement, uplifting music. Awareness of what shifts your state is key.
-	*   **<span style="color: #008080; font-weight: bold;">Grounding Exercise:</span>** Put your feet on ground. Touch nearby objects, notice texture, temp. Look around, notice something usually ignored, describe it. Notice sounds. Use senses to return to the present.
+	*   **Grounding Exercise:** Put your feet on ground. Touch nearby objects, notice texture, temp. Look around, notice something usually ignored, describe it. Notice sounds. Use senses to return to the present.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Feelings (like overwhelm) are uncomfortable but not dangerous. Listen to what they signal about your needs.
 *   Overwhelm doesn't mean inadequacy. Resist judging yourself; get curious. Check limiting beliefs ("I can't cope") and reframe toward action/preparation.
 *   Calm isn't always the goal; learn to energize when needed (breathwork, movement). Practice grounding and non-doing time to replenish. Experiment to find what shifts your state.
 
-## <span style="color: #008080; font-weight: bold;">Handling High-Pressure Moments</span>
+## Handling High-Pressure Moments
 
 *   **The Challenge:** How to cope with stress *during* important, unavoidable moments (like tests, interviews) when you need to perform well. Relaxation isn't the goal here.
 *   **Goal:** Use the energy and focus from stress positively, without letting it overwhelm you or hurt your performance.
@@ -952,11 +947,11 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Dealing with Anxiety in the Moment:** Don't try to cure it. Acknowledge the feeling and associated urges (to withdraw). Channel the energy forward: focus on the plan for *success*.
 *   **Steady the Body:** Plan how to use posture and movement to reinforce desired mindset (e.g., confident stance). Control breathing to manage intensity while staying alert.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Manage high-pressure stress by shifting mindset (stress as asset), using effective self-talk (process-focused, factual), reframing threat as challenge, adjusting visual focus (panoramic), focusing on process over outcome, and welcoming anxiety signs as readiness.
 
-## <span style="color: #008080; font-weight: bold;">Is 'Just Being Happy' the Goal?</span>
+## Is 'Just Being Happy' the Goal?
 
 *   **The "Happiness Trap":** We're often told happiness means constant pleasure and no negative feelings. Social media reinforces this unrealistic idea. This makes us feel like failures when we inevitably experience difficult emotions.
 *   **Reality: Feelings Fluctuate:** Humans aren't designed for non-stop happiness. Our feelings change constantly, like the weather, reacting to life. A full life includes storms as well as sunshine. Trying to *only* have sunshine doesn't work.
@@ -969,17 +964,17 @@ You’re stronger than you might believe. You’re doing better than you realize
 *   **Goals Without Values = Emptiness:** Setting goals just based on "shoulds" or hoping achievement will finally make you feel "enough" often leads to disappointment. Satisfaction comes from the *journey* aligned with values, not just reaching the destination. Find meaning *now* by living your values.
 *   **When Everything Feels Pointless:** This is often a signal to reconnect with meaning/purpose, not a reflection of a valueless life. Depression can grow here. The antidote is action: find one small, worthwhile thing to do. Contribute to others, however small. Move your body. Connect with people. Reevaluate goals based on current values.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Constant happiness is an unrealistic myth; a full life includes all emotions.
 *   Focusing on living a meaningful life aligned with your core values is more fulfilling than just chasing happiness.
 *   Values provide direction and purpose. Feeling pointless is often a sign to reconnect with values and take small, meaningful actions (contribution, movement, connection).
 
-## <span style="color: #008080; font-weight: bold;">Finding Out What's Important to You (Values)</span>
+## Finding Out What's Important to You (Values)
 
 *   **Exercises Help Clarity:** Simple tools can help you identify your current values. Regular check-ins are useful as values/alignment shift. Values help navigate complex choices.
 *   **Identifying Values:** Use lists or think about different areas of life (relationships, health, work, learning, community, etc.). Values are *how* you want to be (e.g., kind, brave, curious), not specific outcomes.
-*   **<span style="color: #008080; font-weight: bold;">The Values Check-in Grid:</span>**
+*   **The Values Check-in Grid:**
 	*   Define key life areas (Relationships, Health, Work, Learning, etc.).
 	*   Identify core values within each domain using prompts (What kind of person? Stand for? Contribution? Qualities?).
 	*   Rate: How **Important** is this value area to you (0-10)?
@@ -990,9 +985,9 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   Mark your current level of living by those values (0-10) on each point's line.
 	*   Connect the dots. The shorter points show areas needing more focus.
 *   **Own vs. Imposed Values:** Think about whether your values feel truly *yours* or if they're based on what others expect. Understanding this difference helps clarify why some things might feel draining or unfulfilling.
-*   **<span style="color: #008080; font-weight: bold;">Values Check-in for Decisions:</span>** List life aspects affected by a decision (family, health, career etc.). For each, ask: What's most important here? How do I want to show up? How will this choice affect living by these values? How will that feel?
+*   **Values Check-in for Decisions:** List life aspects affected by a decision (family, health, career etc.). For each, ask: What's most important here? How do I want to show up? How will this choice affect living by these values? How will that feel?
 *   **Reconnect with Your Values:** If stuck in destructive comparison, you've likely lost touch with what truly matters *to you*. Don't let marketing or external pressures define your values. Reconnecting brings deeper meaning. Knowing who you want to be gives you a rudder.
-*   **<span style="color: #008080; font-weight: bold;">Regular Reflection Questions:</span>** Journal or think about:
+*   **Regular Reflection Questions:** Journal or think about:
 	*   Proud approach to next life chapter (focus on *your* choices/attitude)?
 	*   Stand for in relation to self/health/growth?
 	*   Kind of person for family/friends? How contribute?
@@ -1001,13 +996,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   Would I do this if no one knew?
 	*   What one value will I focus on today/this week? How? (e.g., "Today I choose curiosity by...")
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Use exercises (value lists, grids, Values Star) to identify what's truly important to you in different life areas.
 *   Compare how important values are vs. how much you're living them now to see where to focus. Check in regularly.
 *   Make sure your values are your own, not just what others expect. Use values to guide daily actions, decisions, and find purpose.
 
-## <span style="color: #008080; font-weight: bold;">Living a Meaningful Life</span>
+## Living a Meaningful Life
 
 *   **From Knowing Values to Taking Action:** Figuring out what's important might lead to setting big goals (like deciding to run a marathon if health is a value).
 *   **Lasting Change Comes from Daily Habits:** It's the small, consistent actions aligned with your values that truly change your life, not just achieving the big goal. The *process* is transformative.
@@ -1018,13 +1013,13 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   This gives your efforts meaning and helps you stick with it when things get tough. Over time, these actions change how you see yourself.
 *   **Focus on the Process, Not Just the Win:** If you only focus on the end result (like finishing the marathon), you might quit if progress is slow or you hit roadblocks. Trusting the process, rooted in identity, fosters long-term change.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Meaningful change stems from consistent daily actions aligned with values, not just large goals.
 *   Anchor new behaviours in your desired identity ("This is who I am now") for sustainable change.
 *   Focus on the process of living your values day-to-day, not just on achieving specific outcomes.
 
-## <span style="color: #008080; font-weight: bold;">Your Relationships (Including Parents & Unrequited Love)</span>
+## Your Relationships (Including Parents & Unrequited Love)
 
 *   **Centrality of Relationships:** Crucial for human well-being, happiness, physical/mental health longevity. More impactful than money, fame, etc. Feeling disconnected is a common regret. Life is harder without connections.
 *   **We Learn Relationship Patterns Early:** Our first relationships (family) create templates for how we connect later (trust, closeness). Sometimes these old patterns (like avoiding closeness) don't work well in adult life, but they can be understood and changed with effort.
@@ -1052,7 +1047,7 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Realistic Expectations:** Parents may not change or offer the relationship you wish for due to their own history. Accept limitations to reduce hurt. Build relationship around shortcomings (e.g., don't rely on unreliable parent).
 	*   **Avoid Dysfunctional Roles (Drama Triangle):** Notice if you fall into Victim (powerless, blaming), Perpetrator (critical, controlling), or Rescuer (enabling) roles. Step out by taking responsibility, focusing on solutions, setting boundaries.
 	*   **Avoid Destructive Communication [(Gottman's Four Horsemen)](https://www.choosingtherapy.com/four-horsemen/):** Steer clear of Criticism (attacks), Contempt (insults, sarcasm), Defensiveness (blame-shifting), Stonewalling (shutting down).
-	*   **<span style="color: #008080; font-weight: bold;">The No-Send Letter:</span>** Write a letter (just for you) expressing hurts, gratitude, patterns, and desired future relationship. Helps clarify feelings when direct conversation isn't possible/helpful.
+	*   **The No-Send Letter:** Write a letter (just for you) expressing hurts, gratitude, patterns, and desired future relationship. Helps clarify feelings when direct conversation isn't possible/helpful.
 *   **Building Stronger Connections (General):**
 	*   *Focus on Friendship (Gottman):* Prioritize mutual respect, knowing each other well, expressing appreciation, shared enjoyment. Builds resilience.
 	*   *Turn Towards Each Other (Johnson):* Respond kindly and attentively to partner's bids for connection and underlying needs (often hidden beneath anger or withdrawal). Key questions: "Are you there for me? Do I matter?" Requires managing your *own* feelings too.
@@ -1061,19 +1056,19 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   *Practice Gratitude:* Consciously focus on what you appreciate about your partner/relationship. Shifts your feelings and actions.
 	*   *Share Meaning & Values:* Understand each other's core values, find common ground, respect differences. Creates shared compass for life together.
 
-*   **<span style="color: #008080; font-weight: bold;">Relationship Journal Prompts:</span>** Think about your attachment patterns, what you appreciate, the kind of partner you want to be, and small steps you can take.
+*   **Relationship Journal Prompts:** Think about your attachment patterns, what you appreciate, the kind of partner you want to be, and small steps you can take.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Good relationships are vital for well-being. Improve them by busting myths, working on self-awareness (including attachment patterns from childhood/past relationships), and actively building friendship, emotional connection, kind communication, repair skills, gratitude, and shared values. Handle unrequited love by grieving, rebuilding, limiting rumination, and challenging biases. Navigate difficult parent dynamics with realistic expectations and healthy communication, avoiding dysfunctional roles.
 
-## <span style="color: #008080; font-weight: bold;">Knowing When to Get Help</span>
+## Knowing When to Get Help
 
 *   **When?:** Any time you feel concerned about your mental health. Don't wait until things feel desperate or think others have it worse ("My problems aren't big enough"). Getting help early is often better.
 *   **Barriers are Real:** Many people face challenges accessing professional help (cost, availability, stigma). This is a wider problem.
 *   **If You *Can* Access Help:** Consider taking the step. Visiting a professional allows exploration of options and can make a huge difference. Feeling you "don't deserve" help is a common thought, but shouldn't stop you if support is available.
 *   **Don't Let Feelings Stop You:** Low mood can bring feelings of unworthiness or fear about asking for help ("Being a burden"). Recognize this as emotional reasoning (believing feelings are facts) - a thinking trap. Your worthiness of help isn't determined by your mood. Check the feeling: is it warranted? Is it just a feeling?
-*   **<span style="color: #008080; font-weight: bold;">Empathy Exercise:</span>** Imagine a loved one facing your struggles but hesitant to ask for help. Would you see them as unworthy? What help would you want them to get? Apply that same compassion and validation to yourself.
+*   **Empathy Exercise:** Imagine a loved one facing your struggles but hesitant to ask for help. Would you see them as unworthy? What help would you want them to get? Apply that same compassion and validation to yourself.
 *   **Act Quickly (Speed):** Once you decide to seek help, take a small action step quickly. Closing the gap between decision and action makes it more likely to happen, reducing chance of talking yourself out of it. Action builds momentum.
 *   **Break It Down (Clarity):** If asking feels overwhelming, break the process into tiny, manageable steps. Plan who to ask and exactly what you need (listening ear, practical help?). Be concrete, don't just drop hints. Clarity helps.
 *   **Seeking Help Fosters Independence:** Don't confuse needing help with unhealthy codependency. Relying on others is natural. A strong support base enables you to stand up and move forward. It's wise to seek advice/support from competent, trusted sources. Honor their help by taking action.
@@ -1083,7 +1078,84 @@ You’re stronger than you might believe. You’re doing better than you realize
 	*   **Use the Tools:** Consistently practice the skills and techniques you learn about (like those in this summary).
 *   **There is Hope & Agency:** Recovery and growth are possible. You have the power to learn and take action to support your own mental health. You have potential beyond your current view.
 
-#### <span style="color: #008080; font-weight: bold;">Section Summary</span>
+#### Section Summary
 
 *   Consider seeking professional help anytime you're worried about your mental health; don't wait for crisis or let feelings of unworthiness stop you. Act quickly once decided. Break down the steps.
 *   If professional help isn't an option, focus on self-education, connecting with supportive people, and actively using helpful tools and strategies. Change is possible. Seeking help is a strength.
+
+<style scoped>
+h2 {
+  color: var(--vp-c-brand-1);
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--vp-c-divider);
+  margin-top: 2.5rem;
+}
+
+h3 {
+  color: var(--vp-c-brand-2);
+  margin-top: 2rem;
+}
+
+h4 {
+  color: var(--vp-c-brand-1);
+  font-size: 0.95rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  background: var(--vp-c-brand-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-left: 3px solid var(--vp-c-brand-1);
+  margin: 1.5rem 0 0.75rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+strong {
+  color: var(--vp-c-text-1);
+}
+
+.guide-hero {
+  text-align: center;
+  padding: 1rem 1rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-meta {
+  position: relative;
+  font-size: 0.8rem;
+  color: var(--vp-c-text-3);
+  margin: 0 0 0.5rem;
+}
+
+.guide-intro {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  ul {
+    padding-left: 1rem;
+  }
+}
+</style>
+
+<script>
+if (typeof window !== 'undefined') {
+  window.copyDiscordMH = function(btn) {
+    navigator.clipboard.writeText('danxyz7')
+    const orig = btn.textContent
+    btn.textContent = 'Copied!'
+    setTimeout(() => btn.textContent = orig, 2000)
+  }
+}
+</script>
