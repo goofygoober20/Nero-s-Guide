@@ -1,5 +1,5 @@
 <template>
-  <div class="feedback-bar">
+  <div v-if="webhookConfigured" class="feedback-bar">
     <div v-if="!isOpen" class="feedback-collapsed">
       <div class="collapsed-inner">
         <div class="collapsed-left">
@@ -34,7 +34,7 @@
               class="type-btn"
               @click="selectType(opt.value)"
             >
-              {{ opt.label }}
+              {{ opt.icon }} {{ opt.label }}
             </button>
           </div>
         </div>
@@ -104,15 +104,16 @@ const WEBHOOK = import.meta.env.VITE_FEEDBACK_WEBHOOK
 const router = useRouter()
 const isOpen = ref(false)
 const loading = ref(false)
+const webhookConfigured = !!WEBHOOK
 const error = ref(null)
 const success = ref(false)
 const toastMsg = ref('')
 const toastType = ref('')
 
 const feedbackOptions = [
-  { value: 'suggestion', label: '💡 Suggest', icon: '💡' },
-  { value: 'appreciation', label: '🙏 Appreciate', icon: '🙏' },
-  { value: 'other', label: '📁 Other', icon: '📁' },
+  { value: 'suggestion', label: 'Suggest', icon: '💡' },
+  { value: 'appreciation', label: 'Appreciate', icon: '🙏' },
+  { value: 'other', label: 'Other', icon: '📁' },
 ]
 
 const prompts = [

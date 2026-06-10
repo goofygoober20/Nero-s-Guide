@@ -1,6 +1,6 @@
 ---
 title: The Ultimate Fitness Guide
-description: Science-based approaches to strength, cardio, flexibility, and recovery — with no equipment required to start.
+description: Science-based approaches to strength, cardio, flexibility, and recovery - with no equipment required to start.
 editLink: true
 outline: [2, 3]
 ---
@@ -8,8 +8,8 @@ outline: [2, 3]
 # The Ultimate Fitness Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="clock" :size="14" /> Read time: 12 min</p>
-  <p class="guide-intro">Fitness is not about punishment or perfection. It's about building a body that serves you well for a lifetime. This guide covers practical, science-based approaches to strength, cardio, flexibility, and recovery — with no equipment required to start.</p>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="clock" :size="14" /> Read time: 10 min</p>
+  <p class="guide-intro">Fitness is not about punishment or perfection. It's about building a body that serves you well for a lifetime. This guide covers practical, science-based approaches to strength, cardio, flexibility, and recovery - with no equipment required to start.</p>
 </div>
 
 <script setup>
@@ -46,23 +46,23 @@ import FitnessSurvey from './.vitepress/theme/components/FitnessSurvey.vue'
 <div class="card-grid-2">
   <div class="shared-card">
     <h4>Monday</h4>
-    <p>Bodyweight strength (squats, push-ups, planks) — 20 min</p>
+    <p>Bodyweight strength (squats, push-ups, planks) - 20 min</p>
   </div>
   <div class="shared-card">
     <h4>Tuesday</h4>
-    <p>Walking or light cardio — 30 min</p>
+    <p>Walking or light cardio - 30 min</p>
   </div>
   <div class="shared-card">
     <h4>Wednesday</h4>
-    <p>Bodyweight strength — 20 min</p>
+    <p>Bodyweight strength - 20 min</p>
   </div>
   <div class="shared-card">
     <h4>Thursday</h4>
-    <p>Walking or light cardio — 30 min</p>
+    <p>Walking or light cardio - 30 min</p>
   </div>
   <div class="shared-card">
     <h4>Friday</h4>
-    <p>Bodyweight strength + stretching — 25 min</p>
+    <p>Bodyweight strength + stretching - 25 min</p>
   </div>
 </div>
 
@@ -72,7 +72,7 @@ import FitnessSurvey from './.vitepress/theme/components/FitnessSurvey.vue'
 
 ## Strength Training {#strength}
 
-> **Source:** <a href="https://exrx.net" target="_blank">ExRx.net</a> — one of the most comprehensive, evidence-based exercise libraries on the internet.
+> **Source:** <a href="https://exrx.net" target="_blank">ExRx.net</a> - one of the most comprehensive, evidence-based exercise libraries on the internet.
 
 ### Bodyweight Exercises (No Equipment)
 
@@ -236,7 +236,7 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
 
 ## Finding the Right Program {#programs}
 
-> **Source:** <a href="https://darebee.com" target="_blank">DAREBEE</a> — a non-profit, ad-free fitness resource with hundreds of free workout programs.
+> **Source:** <a href="https://darebee.com" target="_blank">DAREBEE</a> - a non-profit, ad-free fitness resource with hundreds of free workout programs.
 
 <div class="resource-grid">
   <div class="resource-card" style="text-decoration: none; cursor: default;">
@@ -277,15 +277,15 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
 
 <div class="card-grid-2">
   <div class="shared-card" style="border-left: 3px solid #27ae60;">
-    <h4>½ Plate — Vegetables</h4>
+    <h4>½ Plate - Vegetables</h4>
     <p>Broccoli, spinach, peppers, carrots, salad</p>
   </div>
   <div class="shared-card" style="border-left: 3px solid #e67e22;">
-    <h4>¼ Plate — Protein</h4>
+    <h4>¼ Plate - Protein</h4>
     <p>Chicken, fish, eggs, tofu, beans, Greek yogurt</p>
   </div>
   <div class="shared-card" style="border-left: 3px solid #f39c12;">
-    <h4>¼ Plate — Carbs</h4>
+    <h4>¼ Plate - Carbs</h4>
     <p>Rice, potatoes, quinoa, oats, whole grain bread</p>
   </div>
   <div class="shared-card" style="border-left: 3px solid #3498db;">
@@ -324,26 +324,33 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
 
 ## Sources & Further Reading {#sources}
 
-<div class="resource-grid">
-  <a href="https://exrx.net" target="_blank" class="resource-card">
-    <GuideIcon name="book" class="resource-icon" />
-    <div class="resource-body">
-      <h4>ExRx.net</h4>
-      <p>Exercise science library, movement patterns, muscle directory</p>
-    </div>
-  </a>
-  <a href="https://darebee.com" target="_blank" class="resource-card">
-    <GuideIcon name="dumbbell" class="resource-icon" />
-    <div class="resource-body">
-      <h4>DAREBEE</h4>
-      <p>Free workout programs, challenges, visual exercise guides</p>
-    </div>
-  </a>
-  <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" class="resource-card">
-    <GuideIcon name="globe" class="resource-icon" />
-    <div class="resource-body">
-      <h4>WHO Guidelines</h4>
-      <p>World Health Organization physical activity guidelines</p>
-    </div>
-  </a>
+<div class="sources-grid">
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+    <strong>ExRx.net</strong>
+  </div>
+  <p class="source-citation">Exercise science library with detailed movement patterns, muscle directories, and training protocols.</p>
+  <a href="https://exrx.net" target="_blank" class="source-link">Visit ExRx.net &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    <strong>DAREBEE</strong>
+  </div>
+  <p class="source-citation">Free workout programs, fitness challenges, and visual exercise guides for all levels.</p>
+  <a href="https://darebee.com" target="_blank" class="source-link">Visit DAREBEE &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <strong>WHO Guidelines</strong>
+  </div>
+  <p class="source-citation">World Health Organization physical activity guidelines and recommendations for all age groups.</p>
+  <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" class="source-link">Read guidelines &rarr;</a>
+</div>
+
 </div>

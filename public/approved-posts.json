@@ -1,56 +1,188 @@
 [
   {
     "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "🔧 Updated Shopping Guide & Added Shopping Resources",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "✨ Created a rotating fun fact/information widget at the top of the homepage",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "🧹 Cleaned Fitness Guide",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "🧹 Cleaned up All-Nighter Guide",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "🔧 Updated 404 Page with new design and added helpful links",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "🧹 Cleaned up Mental Health Guide and simplified to simple sections in sidebar + added resources section",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "✨ Added Box-Breathing Exercise to Mental Health Guide",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "✨ Added All-Nighter-Guide to sidebar",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "date": "Jun 9, 2026",
+    "message": "✨ Added Monthly Past Updates Storage",
+    "timestamp": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": 22,
     "date": "Jun 8, 2026",
-    "message": "Hardcoded API keys and tokens replaced with environment variables",
+    "message": "🛡️ Hardcoded API keys and tokens replaced with environment variables",
     "timestamp": "2026-06-08T00:00:00.000Z"
   },
   {
     "id": 21,
     "date": "Jun 8, 2026",
-    "message": "Flashbang easter egg when switching to light mode",
+    "message": "✨ Flashbang easter egg when switching to light mode",
     "timestamp": "2026-06-08T00:00:00.000Z"
   },
   {
     "id": 20,
     "date": "Jun 8, 2026",
-    "message": "General cleanup: dead code removed, empty dirs cleaned, breadcrumbs fixed",
+    "message": "🧹 General cleanup: dead code removed, empty dirs cleaned, breadcrumbs fixed",
     "timestamp": "2026-06-08T00:00:00.000Z"
   },
   {
     "id": 19,
     "date": "Jun 8, 2026",
-    "message": "Fixed: Settings tab icons now render properly",
+    "message": "🐛 Fixed: Settings tab icons now render properly",
     "timestamp": "2026-06-08T00:00:00.000Z"
   },
   {
     "id": 1779964180943,
     "date": "May 28, 2026",
-    "message": "Reworked Fitness Guide: Added Quiz, and polished design",
+    "message": "🔧 Reworked Fitness Guide: Added Quiz, and polished design",
     "timestamp": "2026-05-28T10:29:40.950Z"
   },
   {
     "id": 1779960891921,
     "date": "May 28, 2026",
-    "message": "Reworked Sleeping Guide: Added Quiz, moved All-Nighter Guide to sleeping guide, removed old clutter",
+    "message": "🔧 Reworked Sleeping Guide: Added Quiz, moved All-Nighter Guide to sleeping guide, removed old clutter",
     "timestamp": "2026-05-28T09:34:51.922Z"
   },
   {
     "id": 1779960322067,
     "date": "May 28, 2026",
-    "message": "Rewrote and polished Mental Health Guide (credit to dan)",
+    "message": "🔧 Rewrote and polished Mental Health Guide (credit to dan)",
     "timestamp": "2026-05-28T09:25:22.068Z"
   },
   {
     "id": 1779960227573,
     "date": "May 28, 2026",
-    "message": "Created 2FA Finder Quiz and added to Password Guide",
+    "message": "✨ Created 2FA Finder Quiz and added to Password Guide",
     "timestamp": "2026-05-28T09:23:47.574Z"
   },
   {
     "id": 1779960190006,
     "date": "May 28, 2026",
-    "message": "Created Password-Manager Quiz and added to Password Guide",
+    "message": "✨ Created Password-Manager Quiz and added to Password Guide",
     "timestamp": "2026-05-28T09:23:10.006Z"
+  },
+  {
+    "id": 23,
+    "date": "Jun 10, 2026",
+    "message": "✨ Created Insomnia Guide with full resources, credits, and guided audio",
+    "timestamp": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "date": "Jun 10, 2026",
+    "message": "🔧 Restructured Sleeping Guide: quiz moved to own page, all-nighter added to dropdown",
+    "timestamp": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "date": "Jun 10, 2026",
+    "message": "🔧 Site nav expanded to Home, Guides, Tools, Posts + RSS feed URL fixed",
+    "timestamp": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "date": "Jun 10, 2026",
+    "message": "🔧 Reorganized sidebar: '📬 Updates' group with weekly updates, posts, archive",
+    "timestamp": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "date": "Jun 10, 2026",
+    "message": "✨ Added OG meta tags, lastUpdated, and monthly archive system",
+    "timestamp": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "date": "Jun 10, 2026",
+    "message": "🧹 Cleanup sweep: 11 unused packages removed, dead code deleted, telemetry toggle removed",
+    "timestamp": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "date": "Jun 10, 2026",
+    "message": "✨ Fun facts toggle added in Settings + BackLinks extended to all tool pages",
+    "timestamp": "2026-06-10T00:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "date": "Jun 10, 2026",
+    "message": "🔧 Polished sleeping/shift-schedule: frontmatter, SVG icons, interactive checklist, sources grid",
+    "timestamp": "2026-06-10T12:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "date": "Jun 10, 2026",
+    "message": "🔧 Password guide updated: reading time, Tools section, favicon logos, hardware key SVG",
+    "timestamp": "2026-06-10T12:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "date": "Jun 10, 2026",
+    "message": "🧹 Converted credits/sources across all guides to consistent source-card grid with SVG icons",
+    "timestamp": "2026-06-10T12:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "date": "Jun 10, 2026",
+    "message": "🐛 Fixed doubled emoji in FeedbackTopBar Appreciate button",
+    "timestamp": "2026-06-10T12:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "date": "Jun 10, 2026",
+    "message": "🔧 Replaced favicon logos with adaptive SVGs for Bitwarden, Vaultwarden manager cards",
+    "timestamp": "2026-06-10T12:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "date": "Jun 10, 2026",
+    "message": "🔧 Tightened homepage layout: reduced DynamicPrompt spacing, guides moved closer to hero",
+    "timestamp": "2026-06-10T12:00:00.000Z"
   }
 ]

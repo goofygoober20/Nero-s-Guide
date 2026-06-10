@@ -20,7 +20,7 @@ This guide is for **educational purposes only**. The Tor browser is a legitimate
 
 <div class="warning-card">
   <strong>It's Dangerous</strong>
-  <p>The dark web contains scams, malware, illegal marketplaces, and genuinely disturbing content. You <strong>will</strong> be found if you commit any serious crimes online — your complete privacy doesn't exist online.</p>
+  <p>The dark web contains scams, malware, illegal marketplaces, and genuinely disturbing content. You <strong>will</strong> be found if you commit any serious crimes online - your complete privacy doesn't exist online.</p>
 </div>
 
 ### 2. Your ISP Can See You Using Tor
@@ -131,7 +131,7 @@ This guide is for **educational purposes only**. The Tor browser is a legitimate
     <GuideIcon name="globe" class="resource-icon" />
     <div class="resource-body">
       <h4>Official Website</h4>
-      <p>https://www.torproject.org — download from here only</p>
+      <p>https://www.torproject.org - download from here only</p>
     </div>
   </a>
 </div>
@@ -316,7 +316,7 @@ Bridges are secret Tor entry points that aren't publicly listed. Use them if Tor
   </div>
   <div class="shared-card" style="border-left: 3px solid #e74c3c;">
     <h4>Tor → VPN (Avoid)</h4>
-    <p>Breaks anonymity — do not use this setup.</p>
+    <p>Breaks anonymity - do not use this setup.</p>
   </div>
 </div>
 

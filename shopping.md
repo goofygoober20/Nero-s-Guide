@@ -111,14 +111,14 @@ Always check cashback rates *before* checking out. It's free money.
     <span class="step-number">1</span>
     <div>
       <strong>Generic search</strong>
-      <p><code>[store name] promo code</code> — always try before checkout.</p>
+      <p><code>[store name] promo code</code> - always try before checkout.</p>
     </div>
   </div>
   <div class="step-card">
     <span class="step-number">2</span>
     <div>
       <strong>Reddit</strong>
-      <p><code>site:reddit.com [store name] coupon</code> — find real user-shared codes.</p>
+      <p><code>site:reddit.com [store name] coupon</code> - find real user-shared codes.</p>
     </div>
   </div>
   <div class="step-card">
@@ -145,6 +145,11 @@ Always check cashback rates *before* checking out. It's free money.
 </div>
 
 ## Price Tracking & Drops {#price-tracking}
+
+<div class="about-tip">
+  <GuideIcon name="book" class="tip-icon" />
+  <span>Looking for a full directory of price tracking, electronics, games and collectibles sites? See the <a href="/shopping-resources">Shopping Resources page</a>.</span>
+</div>
 
 <div class="resource-grid">
   <a href="https://camelcamelcamel.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
@@ -238,7 +243,7 @@ Always check cashback rates *before* checking out. It's free money.
     <span class="step-number">3</span>
     <div>
       <strong>Best Buy Open-Box</strong>
-      <p>Condition varies — check "Excellent" for best value.</p>
+      <p>Condition varies - check "Excellent" for best value.</p>
     </div>
   </div>
 </div>
@@ -301,7 +306,7 @@ Always check cashback rates *before* checking out. It's free money.
 
 <div class="about-tip">
   <GuideIcon name="alert" class="tip-icon" />
-  <span>Assume shipping takes 2-4 weeks. If price looks too good to be true, check reviews for photo proof. For small tools, electronics parts, or basic clothing — fine. For safety gear, hiking bags, or expensive anything — avoid.</span>
+  <span>Assume shipping takes 2-4 weeks. If price looks too good to be true, check reviews for photo proof. For small tools, electronics parts, or basic clothing - fine. For safety gear, hiking bags, or expensive anything - avoid.</span>
 </div>
 
 ## Scam Avoidance {#scams}

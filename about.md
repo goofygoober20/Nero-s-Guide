@@ -6,7 +6,7 @@
     <p class="about-subtitle">the person behind Nero's Guide</p>
 
   <div class="about-stats">
-      <span class="stat-badge"><GuideIcon name="clock" :size="14" /> Launched 2025</span>
+      <span class="stat-badge"><GuideIcon name="clock" :size="14" /> Launched 2026</span>
       <span class="stat-badge"><GuideIcon name="pencil" :size="14" /> 18 Guides</span>
       <span class="stat-badge"><GuideIcon name="star" :size="14" /> All Free</span>
     </div>
@@ -17,8 +17,7 @@
     <div class="about-card-body">
       <h2>Who Am I?</h2>
       <p>
-        Hey! I'm Cameron, a student and a developer. I created Nero's Guide to help students
-        and teens find free resources online without having to dig through sketchy sites or paywalls.
+        I'm Cameron, a student and a developer. I created Nero's Guide to help people find free resources online without having to dig through sketchy sites or paywalls.
       </p>
     </div>
   </div>
@@ -27,7 +26,7 @@
     <span class="quote-mark">"</span>
     <div class="quote-content">
       <p>
-        It sucks not knowing about tools that could make their life a lot easier. This site is my way of sharing everything I know about topics. I'm not at all a complete expert on most topics I write about so take my word with a grain of salt. 
+        It sucks not knowing about tools that could make their life a lot easier. This site is my way of sharing everything I know about topics. I'm not a professional so please dont let my word be a last deciding factor. 
       </p>
     </div>
   </div>
@@ -39,11 +38,11 @@
     </a>
     <button class="social-btn" onclick="window.copyDiscord(this)" title="Discord">
       <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 0 0-.0785-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189z"/></svg>
-      <span class="social-tooltip">@gelile0 — click to copy</span>
+      <span class="social-tooltip">@gelile0 - click to copy</span>
     </button>
     <button class="social-btn" onclick="window.copyEmail(this)" title="Email">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-      <span class="social-tooltip">MochaMay@proton.me — click to copy</span>
+      <span class="social-tooltip">MochaMay@proton.me - click to copy</span>
     </button>
   </div>
 

@@ -1,6 +1,6 @@
 ---
 title: Linux for Beginners
-description: A beginner's guide to getting started with Linux — distros, commands, and essential tools.
+description: A beginner's guide to getting started with Linux - distros, commands, and essential tools.
 difficulty: beginner
 ---
 
@@ -30,7 +30,7 @@ difficulty: beginner
   </a>
   <a href="https://archlinux.org/" target="_blank" class="shared-card reveal">
     <h4>Arch Linux</h4>
-    <p>DIY distro — you build it from the ground up. Steep learning curve but total control. Uses pacman. Not recommended for absolute beginners.</p>
+    <p>DIY distro - you build it from the ground up. Steep learning curve but total control. Uses pacman. Not recommended for absolute beginners.</p>
   </a>
   <a href="https://manjaro.org/" target="_blank" class="shared-card reveal">
     <h4>Manjaro</h4>
@@ -130,7 +130,7 @@ difficulty: beginner
   <a href="https://www.videolan.org/vlc/" target="_blank" class="resource-card reveal">
     <div class="resource-body">
       <h4>VLC Media Player</h4>
-      <p>Plays anything you throw at it. Video, audio, streaming — VLC does it all.</p>
+      <p>Plays anything you throw at it. Video, audio, streaming - VLC does it all.</p>
     </div>
   </a>
   <a href="https://www.gimp.org/" target="_blank" class="resource-card reveal">
@@ -148,7 +148,7 @@ difficulty: beginner
   <a href="https://github.com/linuxmint/timeshift" target="_blank" class="resource-card reveal">
     <div class="resource-body">
       <h4>Timeshift</h4>
-      <p>System snapshots. Take a snapshot before making big changes — you'll thank yourself later.</p>
+      <p>System snapshots. Take a snapshot before making big changes - you'll thank yourself later.</p>
     </div>
   </a>
 </div>
@@ -157,7 +157,7 @@ difficulty: beginner
 
 <div class="about-tip reveal">
   <span class="tip-icon">💡</span>
-  <span><strong>Pro tip:</strong> Before asking a question, search for it. Chances are someone has already asked and answered it on the <a href="https://wiki.archlinux.org/" target="_blank">Arch Wiki</a> — it's useful even if you're not using Arch. Also check <a href="https://www.reddit.com/r/linuxquestions/" target="_blank">r/linuxquestions</a> and <a href="https://www.reddit.com/r/linux4noobs/" target="_blank">r/linux4noobs</a>.</span>
+  <span><strong>Pro tip:</strong> Before asking a question, search for it. Chances are someone has already asked and answered it on the <a href="https://wiki.archlinux.org/" target="_blank">Arch Wiki</a> - it's useful even if you're not using Arch. Also check <a href="https://www.reddit.com/r/linuxquestions/" target="_blank">r/linuxquestions</a> and <a href="https://www.reddit.com/r/linux4noobs/" target="_blank">r/linux4noobs</a>.</span>
 </div>
 
 <div class="related-grid">

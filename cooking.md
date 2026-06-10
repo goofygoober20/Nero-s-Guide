@@ -7,7 +7,7 @@ description: Learn to cook delicious, nutritious meals with basic techniques and
 
 <div class="guide-hero">
   <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="clock" :size="14" /> Read time: 12 min</p>
-  <p class="guide-intro">Cooking is a life skill, not a talent. Anyone can learn to cook delicious, nutritious meals with basic techniques and a little practice. This guide covers everything from knife skills to batch cooking — no culinary school required.</p>
+  <p class="guide-intro">Cooking is a life skill, not a talent. Anyone can learn to cook delicious, nutritious meals with basic techniques and a little practice. This guide covers everything from knife skills to batch cooking - no culinary school required.</p>
 </div>
 
 ## Table of Contents
@@ -199,7 +199,7 @@ Every expert cook was once a beginner who burned toast. Keep going.
 
 ### Perfect Rice Every Time (Stovetop Method)
 
-The number one mistake people make is stirring the rice while it cooks. <strong>Never stir rice</strong> — it releases starch and makes it sticky.
+The number one mistake people make is stirring the rice while it cooks. <strong>Never stir rice</strong> - it releases starch and makes it sticky.
 
 <div class="card-grid-2">
   <div class="shared-card">
@@ -224,7 +224,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
   </div>
   <div class="shared-card">
     <h4>6. Fluff</h4>
-    <p>Fluff with a fork (never a spoon — forks separate grains)</p>
+    <p>Fluff with a fork (never a spoon - forks separate grains)</p>
   </div>
 </div>
 
@@ -251,7 +251,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
   </div>
   <div class="shared-card">
     <h4>5. Season at the End</h4>
-    <p>Salt toughens beans if added too early — wait until they're soft</p>
+    <p>Salt toughens beans if added too early - wait until they're soft</p>
   </div>
 </div>
 
@@ -261,23 +261,23 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
 
 <div class="card-grid-2">
   <div class="shared-card" style="border-left: 3px solid #27ae60;">
-    <h4>Scrambled — Easy</h4>
+    <h4>Scrambled - Easy</h4>
     <p>Low heat, constant stirring, remove from heat before they look done</p>
   </div>
   <div class="shared-card" style="border-left: 3px solid #27ae60;">
-    <h4>Fried (Sunny Up) — Easy</h4>
+    <h4>Fried (Sunny Up) - Easy</h4>
     <p>Medium heat, cover pan to cook the top</p>
   </div>
   <div class="shared-card" style="border-left: 3px solid #27ae60;">
-    <h4>Hard-Boiled — Easy</h4>
+    <h4>Hard-Boiled - Easy</h4>
     <p>Boil 9-10 minutes, then ice bath immediately</p>
   </div>
   <div class="shared-card" style="border-left: 3px solid #f39c12;">
-    <h4>Omelette — Medium</h4>
+    <h4>Omelette - Medium</h4>
     <p>Fillings on one half, fold, cover to melt cheese</p>
   </div>
   <div class="shared-card" style="border-left: 3px solid #e74c3c;">
-    <h4>Poached — Harder</h4>
+    <h4>Poached - Harder</h4>
     <p>Fresh eggs only, vinegar in water, gentle swirl</p>
   </div>
 </div>
@@ -394,7 +394,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
   </div>
   <div class="shared-card">
     <h4>Spices</h4>
-    <p>Salt, pepper, cumin, chili powder — flavor without expensive ingredients</p>
+    <p>Salt, pepper, cumin, chili powder - flavor without expensive ingredients</p>
   </div>
 </div>
 
@@ -446,7 +446,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
   </div>
   <div class="shared-card">
     <h4>5. Chill</h4>
-    <p>Chill 20-30 minutes (critical for flakiness — keeps fat cold)</p>
+    <p>Chill 20-30 minutes (critical for flakiness - keeps fat cold)</p>
   </div>
   <div class="shared-card">
     <h4>6. Vent</h4>
@@ -464,44 +464,55 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
 
 ## Sources & Further Reading {#sources}
 
-<div class="resource-grid">
-  <a href="https://www.allrecipes.com/article/foolproof-recipes-beginner-cooks/" target="_blank" class="resource-card">
-    <GuideIcon name="star" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Allrecipes — Goof-Proof Recipes</h4>
-      <p>Foolproof recipes for beginner cooks</p>
-    </div>
-  </a>
-  <a href="https://www.bbcgoodfood.com/howto/guide/cooking-tips-students" target="_blank" class="resource-card">
-    <GuideIcon name="star" class="resource-icon" />
-    <div class="resource-body">
-      <h4>BBC Good Food — Student Tips</h4>
-      <p>10 cooking tips for students</p>
-    </div>
-  </a>
-  <a href="https://minimalistbaker.com/mexican-pinto-beans-scratch-1-pot/" target="_blank" class="resource-card">
-    <GuideIcon name="food" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Minimalist Baker — Pinto Beans</h4>
-      <p>Easy pinto beans from scratch, one pot</p>
-    </div>
-  </a>
-  <a href="https://www.kingarthurbaking.com/learn/guides/pie-baking" target="_blank" class="resource-card">
-    <GuideIcon name="food" class="resource-icon" />
-    <div class="resource-body">
-      <h4>King Arthur Baking — Pie Guide</h4>
-      <p>Comprehensive pie baking guide</p>
-    </div>
-  </a>
-  <a href="https://www.seriouseats.com/the-food-lab-how-to-cook-shuck-lobster" target="_blank" class="resource-card">
-    <GuideIcon name="search" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Serious Eats — The Food Lab</h4>
-      <p>Science-based cooking techniques</p>
-    </div>
-  </a>
+<div class="sources-grid">
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    <strong>Allrecipes</strong>
+  </div>
+  <p class="source-citation">Foolproof recipes for beginner cooks. Step-by-step guides with common pitfalls explained.</p>
+  <a href="https://www.allrecipes.com/article/foolproof-recipes-beginner-cooks/" target="_blank" class="source-link">Read article &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+    <strong>BBC Good Food</strong>
+  </div>
+  <p class="source-citation">10 essential cooking tips for students and beginners on a budget.</p>
+  <a href="https://www.bbcgoodfood.com/howto/guide/cooking-tips-students" target="_blank" class="source-link">Read article &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+    <strong>Minimalist Baker</strong>
+  </div>
+  <p class="source-citation">Easy pinto beans from scratch, one pot. Simple, minimal-ingredient recipes.</p>
+  <a href="https://minimalistbaker.com/mexican-pinto-beans-scratch-1-pot/" target="_blank" class="source-link">View recipe &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+    <strong>King Arthur Baking</strong>
+  </div>
+  <p class="source-citation">Comprehensive pie baking guide with techniques, tips, and troubleshooting.</p>
+  <a href="https://www.kingarthurbaking.com/learn/guides/pie-baking" target="_blank" class="source-link">Read guide &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    <strong>Serious Eats - The Food Lab</strong>
+  </div>
+  <p class="source-citation">Science-based cooking techniques from J. Kenji L&ouml;pez-Alt's The Food Lab series.</p>
+  <a href="https://www.seriouseats.com/the-food-lab-how-to-cook-shuck-lobster" target="_blank" class="source-link">Read on Serious Eats &rarr;</a>
+</div>
+
 </div>
 
 <div class="meta-footer">
-  <p><GuideIcon name="food" :size="14" /> Cooking is a journey, not a destination. Burned meals teach you as much as perfect ones. Keep cooking, keep tasting, and trust your instincts.</p>
+  <p>Cooking is a journey, not a destination. Burned meals teach you as much as perfect ones. Keep cooking, keep tasting, and trust your instincts.</p>
 </div>

@@ -34,7 +34,7 @@ difficulty: beginner
   </a>
   <a href="https://plaintextaccounting.org/" target="_blank" class="shared-card reveal">
     <h4>Plain text accounting</h4>
-    <p>Ledger / hledger / Beancount — track every transaction in a text file. Powerful but a learning curve. Free and fully private.</p>
+    <p>Ledger / hledger / Beancount - track every transaction in a text file. Powerful but a learning curve. Free and fully private.</p>
   </a>
 </div>
 

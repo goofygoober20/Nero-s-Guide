@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 
 const posts = ref([])
 const loading = ref(true)
@@ -53,10 +54,10 @@ function relativeTime(post) {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/approved-posts.json')
+    const res = await fetch(withBase('/approved-posts.json'))
     if (res.ok) {
       const data = await res.json()
-      posts.value = data.filter(p => p.message)
+      posts.value = data.filter(p => p.message).reverse()
     } else {
       posts.value = []
     }

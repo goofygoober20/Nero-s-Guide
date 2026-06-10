@@ -19,7 +19,11 @@ import { useData } from 'vitepress'
 const { page } = useData()
 
 const prevGuides = {
-  sleeping: { label: 'Sleeping Guide', href: '/sleeping' },
+  sleeping: { label: 'Sleeping Guide', href: '/sleeping/' },
+  'sleeping/index': { label: 'Sleeping Guide', href: '/sleeping/' },
+  'sleeping/insomnia': { label: 'Insomnia Guide', href: '/sleeping/insomnia' },
+  'sleeping/quiz': { label: 'Sleep Quiz', href: '/sleeping/quiz' },
+  'sleeping/shift-schedule': { label: 'Shifting Your Sleep Schedule', href: '/sleeping/shift-schedule' },
   'all-nighter': { label: 'All-Nighter Guide', href: '/all-nighter' },
   passwords: { label: 'Password Guide', href: '/passwords' },
   fitness: { label: 'Fitness Guide', href: '/fitness' },
@@ -37,6 +41,14 @@ const prevGuides = {
   productivity: { label: 'Productivity Guide', href: '/productivity' },
   minimalism: { label: 'Minimalism Guide', href: '/minimalism' },
   gaming: { label: 'Gaming Guide', href: '/gaming' },
+  'tools/investment-calculator': { label: 'Investment Calculator', href: '/tools/investment-calculator' },
+  'tools/pomodoro': { label: 'Pomodoro Timer', href: '/tools/pomodoro' },
+  'tools/bmi-calculator': { label: 'BMI Calculator', href: '/tools/bmi-calculator' },
+  'tools/password-strength': { label: 'Password Strength', href: '/tools/password-strength' },
+  'tools/password-generator': { label: 'Password Generator', href: '/tools/password-generator' },
+  'tools/decision-wheel': { label: 'Decision Wheel', href: '/tools/decision-wheel' },
+  'tools/unit-converter': { label: 'Unit Converter', href: '/tools/unit-converter' },
+  'tools/study-tracker': { label: 'Study Tracker', href: '/tools/study-tracker' },
 }
 
 const links = computed(() => {

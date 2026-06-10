@@ -2,7 +2,6 @@ import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
 import './custom.css' 
 import UnenrollmentFinder from './components/UnenrollmentFinder.vue'
-import RandomGuide from './components/RandomGuide.vue'
 import NeroTabs from './components/NeroTabs.vue'
 import SettingsPage from './components/SettingsPage.vue'
 import PasswordManagerQuiz from './components/PasswordManagerQuiz.vue'
@@ -17,6 +16,10 @@ import UnitConverter from './components/UnitConverter.vue'
 import StudySessionTracker from './components/StudySessionTracker.vue'
 import WakeUpCalculator from './components/WakeUpCalculator.vue'
 import FeedbackTopBar from './components/FeedbackTopBar.vue'
+import BoxBreathing from './components/BoxBreathing.vue'
+import CopyDiscord from './components/CopyDiscord.vue'
+import MentalQuote from './components/MentalQuote.vue'
+import DynamicPrompt from './components/DynamicPrompt.vue'
 
 export default {
   extends: DefaultTheme,
@@ -57,7 +60,6 @@ export default {
     } catch {}
 
     app.component('UnenrollmentFinder', UnenrollmentFinder)
-    app.component('RandomGuide', RandomGuide)
     app.component('NeroTabs', NeroTabs)
     app.component('SettingsPage', SettingsPage)
     app.component('PasswordManagerQuiz', PasswordManagerQuiz) 
@@ -72,5 +74,9 @@ export default {
     app.component('StudySessionTracker', StudySessionTracker)
     app.component('WakeUpCalculator', WakeUpCalculator)
     app.component('FeedbackTopBar', FeedbackTopBar)
+    app.component('BoxBreathing', BoxBreathing)
+    app.component('CopyDiscord', CopyDiscord)
+    app.component('MentalQuote', MentalQuote)
+    app.component('DynamicPrompt', DynamicPrompt)
   }
 }

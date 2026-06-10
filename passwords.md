@@ -6,7 +6,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
 # The Password & Security Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="clock" :size="14" /> Last Updated: June 8th 2026</p>
+  <p class="guide-meta"><GuideIcon name="clock" :size="14" /> Last Updated: June 10th 2026 &middot; ⏱️ Read time: 10 min</p>
   <p class="guide-intro">Your online security is only as strong as your weakest password. This guide covers password managers, two-factor authentication, breach checking, and best practices to keep your accounts safe.</p>
 </div>
 
@@ -17,7 +17,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
 
 - [Check If You've Been Pwned](#check-pwned)
 - [Password Managers](#password-managers)
-- [Two-Factor Authentication](#2fa)
+- [Two-Factor Authentication](#two-factor-authentication)
 - [Password Strength Chart](#strength-chart)
 - [Tools](#tools)
 - [Credits & Resources](#credits)
@@ -69,11 +69,11 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
 
 ## Password Managers {#password-managers}
 
-Password managers generate, store, and auto-fill strong unique passwords. You only need to remember <strong>one master password</strong>.
-
+::: info Password managers generate, store, and auto-fill strong unique passwords. You only need to remember <strong>one master password</strong>.
+:::
 <div class="manager-grid">
   <div class="manager-card">
-    <GuideIcon name="lock" class="manager-icon" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="manager-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
     <h4>Bitwarden</h4>
     <div class="manager-tags">
       <span class="tag tag-green">Open Source</span>
@@ -84,7 +84,7 @@ Password managers generate, store, and auto-fill strong unique passwords. You on
     <a href="https://bitwarden.com" target="_blank" class="manager-link">Visit &rarr;</a>
   </div>
   <div class="manager-card">
-    <GuideIcon name="lock" class="manager-icon" />
+    <img src="https://icons.duckduckgo.com/ip3/proton.me.ico" alt="Proton Pass" class="manager-icon" width="32" height="32" />
     <h4>Proton Pass</h4>
     <div class="manager-tags">
       <span class="tag tag-green">Open Source</span>
@@ -95,7 +95,7 @@ Password managers generate, store, and auto-fill strong unique passwords. You on
     <a href="https://proton.me/pass" target="_blank" class="manager-link">Visit &rarr;</a>
   </div>
   <div class="manager-card">
-    <GuideIcon name="lock" class="manager-icon" />
+    <img src="https://icons.duckduckgo.com/ip3/keepassxc.org.ico" alt="KeePassXC" class="manager-icon" width="32" height="32" />
     <h4>KeePassXC</h4>
     <div class="manager-tags">
       <span class="tag tag-green">Open Source</span>
@@ -106,8 +106,8 @@ Password managers generate, store, and auto-fill strong unique passwords. You on
     <a href="https://keepassxc.org" target="_blank" class="manager-link">Visit &rarr;</a>
   </div>
   <div class="manager-card">
-    <GuideIcon name="globe" class="manager-icon" />
-    <h4>VaultWarden</h4>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="manager-icon"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    <h4>Vaultwarden</h4>
     <div class="manager-tags">
       <span class="tag tag-green">Open Source</span>
       <span class="tag tag-green">Free</span>
@@ -123,14 +123,14 @@ Password managers generate, store, and auto-fill strong unique passwords. You on
   <a href="/password-quiz">Take the Password Manager Quiz &rarr;</a>
 </blockquote>
 
-## Two-Factor Authentication {#2fa}
+## Two-Factor Authentication
 
-2FA adds a second layer of security &mdash; something you know (password) + something you have (a code from an app or hardware key).
-
+::: info 2FA adds a second layer of security. Something you know (password) + something you have (a code from an app or hardware key).
+:::
 <div class="fa-grid">
   <div class="fa-card">
     <div class="fa-header high">
-      <GuideIcon name="lock" class="fa-header-icon" />
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fa-header-icon"><path d="M12 2v4"/><path d="M6 6v14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V6"/><path d="M8 10h8"/><path d="M8 14h8"/><path d="M8 18h5"/><circle cx="12" cy="4" r="2"/></svg>
       <div>
         <h4>Hardware Key</h4>
         <span class="fa-security">Security: <strong>High</strong></span>
@@ -158,7 +158,7 @@ Password managers generate, store, and auto-fill strong unique passwords. You on
         <span class="fa-security">Security: <strong>Low</strong></span>
       </div>
     </div>
-    <p>Texted codes &mdash; vulnerable to SIM swapping attacks. Avoid when possible.</p>
+    <p>Texted codes, vulnerable to SIM swapping attacks. Avoid when possible.</p>
     <span class="fa-best">Only when nothing else is available</span>
   </div>
 </div>
@@ -248,51 +248,97 @@ Password managers generate, store, and auto-fill strong unique passwords. You on
 
 <p class="strength-source">Source: Hive Systems Password Table</p>
 
+## Tools {#tools}
+
+<div class="tools-grid">
+  <a href="/password-tester" class="tool-card-link">
+    <div class="tool-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tool-card-icon"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      <h4>Password Strength Tester</h4>
+      <p>Test how strong your passwords are in real time</p>
+    </div>
+  </a>
+  <a href="/password-generator" class="tool-card-link">
+    <div class="tool-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tool-card-icon"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg>
+      <h4>Password Generator</h4>
+      <p>Generate strong, random passwords instantly</p>
+    </div>
+  </a>
+  <a href="/2fa-quiz" class="tool-card-link">
+    <div class="tool-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tool-card-icon"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+      <h4>2FA App Quiz</h4>
+      <p>Find the best authenticator app for your needs</p>
+    </div>
+  </a>
+  <a href="/password-quiz" class="tool-card-link">
+    <div class="tool-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tool-card-icon"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      <h4>Password Manager Quiz</h4>
+      <p>Get a personalized password manager recommendation</p>
+    </div>
+  </a>
+</div>
+
 ## Credits & Resources {#credits}
 
-<div class="resource-grid">
-  <a href="https://haveibeenpwned.com/Passwords" target="_blank" class="resource-card">
-    <GuideIcon name="search" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Have I Been Pwned</h4>
-      <p>Check if your passwords or email have appeared in known data breaches</p>
-    </div>
-  </a>
-  <a href="https://2fa.directory" target="_blank" class="resource-card">
-    <GuideIcon name="list" class="resource-icon" />
-    <div class="resource-body">
-      <h4>2FA Directory</h4>
-      <p>Find which websites support two-factor authentication and which methods</p>
-    </div>
-  </a>
-  <a href="https://bitwarden.com" target="_blank" class="resource-card">
-    <GuideIcon name="lock" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Bitwarden</h4>
-      <p>Recommended open-source password manager with a generous free tier</p>
-    </div>
-  </a>
-  <a href="https://ente.io/auth" target="_blank" class="resource-card">
-    <GuideIcon name="phone" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Ente Auth</h4>
-      <p>Recommended open-source 2FA authenticator app</p>
-    </div>
-  </a>
-  <a href="https://pages.nist.gov/800-63-3/sp800-63b.html" target="_blank" class="resource-card">
-    <GuideIcon name="book" class="resource-icon" />
-    <div class="resource-body">
-      <h4>NIST SP 800-63B</h4>
-      <p>Official digital identity guidelines for password security rules</p>
-    </div>
-  </a>
-  <a href="https://www.hivesystems.io/password" target="_blank" class="resource-card">
-    <GuideIcon name="chart" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Hive Systems Password Table</h4>
-      <p>Interactive password cracking time estimates and research</p>
-    </div>
-  </a>
+<div class="sources-grid">
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+    <strong>Have I Been Pwned</strong>
+  </div>
+  <p class="source-citation">Check if your passwords or email have appeared in known data breaches. Trusted worldwide with 18+ billion monthly requests.</p>
+  <a href="https://haveibeenpwned.com/Passwords" target="_blank" class="source-link">Check your passwords &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+    <strong>2FA Directory</strong>
+  </div>
+  <p class="source-citation">Comprehensive list of websites that support two-factor authentication, with details on which methods they offer.</p>
+  <a href="https://2fa.directory" target="_blank" class="source-link">Browse 2FA Directory &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+    <strong>Bitwarden</strong>
+  </div>
+  <p class="source-citation">Recommended open-source password manager with a generous free tier, unlimited devices, and all core features.</p>
+  <a href="https://bitwarden.com" target="_blank" class="source-link">Visit Bitwarden &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <strong>Ente Auth</strong>
+  </div>
+  <p class="source-citation">Recommended open-source 2FA authenticator app with encrypted cloud sync and cross-platform support.</p>
+  <a href="https://ente.io/auth" target="_blank" class="source-link">Visit Ente Auth &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+    <strong>NIST SP 800-63B</strong>
+  </div>
+  <p class="source-citation">Official U.S. digital identity guidelines that define modern password security rules and best practices.</p>
+  <a href="https://pages.nist.gov/800-63-3/sp800-63b.html" target="_blank" class="source-link">Read the guidelines &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    <strong>Hive Systems Password Table</strong>
+  </div>
+  <p class="source-citation">Interactive password cracking time estimates based on the latest research and hardware capabilities.</p>
+  <a href="https://www.hivesystems.io/password" target="_blank" class="source-link">View the table &rarr;</a>
+</div>
+
 </div>
 
 <style scoped>
@@ -694,46 +740,46 @@ details {
   margin-top: 0.75rem;
 }
 
-/* Resource grid (matching sleeping.md pattern) */
-.resource-grid {
+/* Tools grid */
+.tools-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
   margin: 1.5rem 0;
 }
 
-.resource-card {
-  display: flex;
-  gap: 1rem;
+.tool-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tool-card {
   padding: 1.25rem;
   border-radius: 12px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
-  text-decoration: none;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-.resource-card:hover {
+.tool-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   border-color: var(--vp-c-brand-1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-.resource-icon {
-  font-size: 1.5rem;
-  flex-shrink: 0;
-  margin-top: 0.1rem;
+.tool-card-icon {
+  color: var(--vp-c-brand-1);
+  margin-bottom: 0.5rem;
 }
 
-.resource-body h4 {
-  margin: 0 0 0.25rem;
-  font-size: 1rem;
-  color: var(--vp-c-text-1);
+.tool-card h4 {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
 }
 
-.resource-body p {
+.tool-card p {
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--vp-c-text-2);
   line-height: 1.4;
 }
@@ -752,10 +798,6 @@ details {
   }
 
   .tool-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .resource-grid {
     grid-template-columns: 1fr;
   }
 

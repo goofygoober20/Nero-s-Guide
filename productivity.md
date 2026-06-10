@@ -1,6 +1,6 @@
 ---
 title: Productivity Guide
-description: Master your focus with proven techniques — pomodoro, spaced repetition, note-taking, and task management.
+description: Master your focus with proven techniques - pomodoro, spaced repetition, note-taking, and task management.
 difficulty: beginner
 ---
 
@@ -20,7 +20,7 @@ difficulty: beginner
     <span class="step-number">1</span>
     <div>
       <strong>Pick a Task</strong>
-      <p>Choose one thing to work on. No multitasking — commit to this single task for one pomodoro.</p>
+      <p>Choose one thing to work on. No multitasking - commit to this single task for one pomodoro.</p>
     </div>
   </div>
   <div class="step-card reveal">
@@ -49,7 +49,7 @@ difficulty: beginner
 ## Spaced Repetition (Anki)
 
 <div class="shared-card reveal">
-  <p><strong>Anki</strong> is a flashcard app that uses spaced repetition — showing you cards right before you'd forget them. It's the most efficient way to learn and retain information long-term.</p>
+  <p><strong>Anki</strong> is a flashcard app that uses spaced repetition - showing you cards right before you'd forget them. It's the most efficient way to learn and retain information long-term.</p>
 </div>
 
 <div class="resource-grid">

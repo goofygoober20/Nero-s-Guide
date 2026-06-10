@@ -40,7 +40,7 @@ difficulty: beginner
 <div class="card-grid-2">
   <div class="shared-card reveal">
     <h4>Graphics Settings Priority</h4>
-    <p>For the best visual fidelity per FPS: turn down shadows, reflections, and post-processing first. Keep textures high (they cost little performance). Use DLSS/FSR if available — it's basically free performance.</p>
+    <p>For the best visual fidelity per FPS: turn down shadows, reflections, and post-processing first. Keep textures high (they cost little performance). Use DLSS/FSR if available - it's basically free performance.</p>
   </div>
   <div class="shared-card reveal">
     <h4>Driver Updates</h4>
@@ -102,7 +102,7 @@ difficulty: beginner
 <div class="card-grid-2">
   <a href="https://www.xbox.com/en-US/xbox-game-pass" target="_blank" class="shared-card reveal">
     <h4>Xbox Game Pass</h4>
-    <p>Netflix for games. Hundreds of games for $10-15/month. Includes Xbox Cloud Gaming — play on your phone, tablet, or low-end PC via streaming. Day one releases for Microsoft games.</p>
+    <p>Netflix for games. Hundreds of games for $10-15/month. Includes Xbox Cloud Gaming - play on your phone, tablet, or low-end PC via streaming. Day one releases for Microsoft games.</p>
   </a>
   <a href="https://www.nvidia.com/en-us/geforce-now/" target="_blank" class="shared-card reveal">
     <h4>GeForce Now</h4>

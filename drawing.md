@@ -1,6 +1,6 @@
 ---
 title: Drawing Guide
-description: Learn to draw with the best free resources — from fundamentals and figure drawing to digital art and anime.
+description: Learn to draw with the best free resources - from fundamentals and figure drawing to digital art and anime.
 ---
 
 # The Ultimate Drawing Guide
@@ -28,7 +28,7 @@ description: Learn to draw with the best free resources — from fundamentals an
 
 <div class="about-tip">
   <GuideIcon name="info" class="tip-icon" />
-  <span><strong>TL;DR:</strong> Start with <a href="https://drawabox.com" target="_blank">Drawabox</a> — it's a free, structured course that teaches the fundamentals. Practice 15-30 minutes daily. Don't worry about making "good" art; focus on consistent practice.</span>
+  <span><strong>TL;DR:</strong> Start with <a href="https://drawabox.com" target="_blank">Drawabox</a> - it's a free, structured course that teaches the fundamentals. Practice 15-30 minutes daily. Don't worry about making "good" art; focus on consistent practice.</span>
 </div>
 
 ### The 3 Most Important Fundamentals for Beginners
@@ -456,79 +456,100 @@ description: Learn to draw with the best free resources — from fundamentals an
 
 ## Sources & Further Reading {#sources}
 
-<div class="resource-grid">
-  <a href="https://drawabox.com" target="_blank" class="resource-card">
-    <GuideIcon name="star" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Drawabox</h4>
-      <p>Structured free drawing course</p>
-    </div>
-  </a>
-  <a href="https://www.proko.com" target="_blank" class="resource-card">
-    <GuideIcon name="users" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Proko</h4>
-      <p>Figure drawing and anatomy tutorials</p>
-    </div>
-  </a>
-  <a href="https://www.ctrlpaint.com" target="_blank" class="resource-card">
-    <GuideIcon name="palette" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Ctrl+Paint</h4>
-      <p>Digital painting fundamentals</p>
-    </div>
-  </a>
-  <a href="https://line-of-action.com" target="_blank" class="resource-card">
-    <GuideIcon name="clock" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Line of Action</h4>
-      <p>Timed figure drawing practice</p>
-    </div>
-  </a>
-  <a href="https://www.lovelifedrawing.com" target="_blank" class="resource-card">
-    <GuideIcon name="heart" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Love Life Drawing</h4>
-      <p>Gesture and figure lessons</p>
-    </div>
-  </a>
-  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" class="resource-card">
-    <GuideIcon name="pencil" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Alphonso Dunn</h4>
-      <p>Pen and ink tutorials</p>
-    </div>
-  </a>
-  <a href="https://artwithflo.com" target="_blank" class="resource-card">
-    <GuideIcon name="palette" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Art With Flo</h4>
-      <p>Procreate tutorials</p>
-    </div>
-  </a>
-  <a href="https://www.youtube.com/c/Marcobucci" target="_blank" class="resource-card">
-    <GuideIcon name="palette" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Marco Bucci</h4>
-      <p>Color theory and painting</p>
-    </div>
-  </a>
-  <a href="https://www.youtube.com/user/circlelinemedia" target="_blank" class="resource-card">
-    <GuideIcon name="tool" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Circle Line Art School</h4>
-      <p>Perspective drawing</p>
-    </div>
-  </a>
-  <a href="https://setteidreams.net" target="_blank" class="resource-card">
-    <GuideIcon name="star" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Settei Dreams</h4>
-      <p>Anime production references</p>
-    </div>
-  </a>
+<div class="sources-grid">
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+    <strong>Drawabox</strong>
+  </div>
+  <p class="source-citation">Structured free drawing course that builds fundamental skills through repetition and critique.</p>
+  <a href="https://drawabox.com" target="_blank" class="source-link">Visit Drawabox &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    <strong>Proko</strong>
+  </div>
+  <p class="source-citation">Figure drawing and anatomy tutorials by Stan Prokopenko, from beginner to advanced.</p>
+  <a href="https://www.proko.com" target="_blank" class="source-link">Visit Proko &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/></svg>
+    <strong>Ctrl+Paint</strong>
+  </div>
+  <p class="source-citation">Digital painting fundamentals broken into bite-sized video lessons.</p>
+  <a href="https://www.ctrlpaint.com" target="_blank" class="source-link">Visit Ctrl+Paint &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    <strong>Line of Action</strong>
+  </div>
+  <p class="source-citation">Timed figure drawing practice with a wide variety of reference photos and poses.</p>
+  <a href="https://line-of-action.com" target="_blank" class="source-link">Visit Line of Action &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    <strong>Love Life Drawing</strong>
+  </div>
+  <p class="source-citation">Gesture and figure drawing lessons for beginners, with a focus on the fundamentals.</p>
+  <a href="https://www.lovelifedrawing.com" target="_blank" class="source-link">Visit Love Life Drawing &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    <strong>Alphonso Dunn</strong>
+  </div>
+  <p class="source-citation">Pen and ink drawing tutorials covering hatching, cross-hatching, and shading techniques.</p>
+  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+    <strong>Art With Flo</strong>
+  </div>
+  <p class="source-citation">Procreate tutorials for digital artists, from beginners to advanced techniques.</p>
+  <a href="https://artwithflo.com" target="_blank" class="source-link">Visit Art With Flo &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/></svg>
+    <strong>Marco Bucci</strong>
+  </div>
+  <p class="source-citation">Color theory, painting, and illustration tutorials with a focus on traditional techniques.</p>
+  <a href="https://www.youtube.com/c/Marcobucci" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+    <strong>Circle Line Art School</strong>
+  </div>
+  <p class="source-citation">Perspective drawing tutorials and art fundamentals explained clearly.</p>
+  <a href="https://www.youtube.com/user/circlelinemedia" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    <strong>Settei Dreams</strong>
+  </div>
+  <p class="source-citation">Anime production reference materials, including model sheets and background art.</p>
+  <a href="https://setteidreams.net" target="_blank" class="source-link">Visit Settei Dreams &rarr;</a>
+</div>
+
 </div>
 
 <div class="meta-footer">
-  <p><GuideIcon name="pencil" :size="14" /> Every master was once a beginner. Draw badly every day, and eventually you'll draw well. The only way to fail is to stop.</p>
+  <p>Every master was once a beginner. Draw badly every day, and eventually you'll draw well. The only way to fail is to stop.</p>
 </div>

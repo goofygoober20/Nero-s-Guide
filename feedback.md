@@ -56,7 +56,7 @@ layout: page
 
   <!-- APPRECIATION -->
   <section id="appreciationContent" class="panel">
-    <p class="intro">Made your day? Say thanks — it means a lot.</p>
+    <p class="intro">Made your day? Say thanks - it means a lot.</p>
     <div class="field">
       <input type="text" id="apName" placeholder=" " />
       <label>Your Name (optional)</label>
@@ -78,7 +78,7 @@ layout: page
     </div>
     <div class="field">
       <input type="email" id="hlEmail" placeholder=" " />
-      <label>Email (optional — for reply)</label>
+      <label>Email (optional - for reply)</label>
     </div>
     <div class="field">
       <textarea id="hlMsg" rows="5" placeholder=" "></textarea>
@@ -97,7 +97,7 @@ layout: page
     </div>
     <div class="field">
       <input type="email" id="otEmail" placeholder=" " />
-      <label>Email (optional — for reply)</label>
+      <label>Email (optional - for reply)</label>
     </div>
     <div class="field select-wrapper">
       <select id="otType">

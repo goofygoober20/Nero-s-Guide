@@ -11,6 +11,7 @@ import DifficultyBadge from './components/DifficultyBadge.vue'
 import ScrollReveal from './components/ScrollReveal.vue'
 import FeedbackTopBar from './components/FeedbackTopBar.vue'
 import GuideProgress from './components/GuideProgress.vue'
+import DynamicPrompt from './components/DynamicPrompt.vue'
 
 const { Layout } = DefaultTheme
 const { frontmatter, page } = useData()
@@ -91,8 +92,11 @@ const readingTime = computed(() => {
       <NavSettings />
     </template>
 
+    <template #home-hero-actions-after>
+      <DynamicPrompt />
+    </template>
+
     <template #layout-top>
-      <AnnouncementBanner />
       <ReadingProgressBar />
     </template>
 

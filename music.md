@@ -1,13 +1,13 @@
 ---
 title: Music Streaming Guide
-description: Compare Spotify, Apple Music, Tidal, and YouTube Music — features, pricing, audio quality, and more.
+description: Compare Spotify, Apple Music, Tidal, and YouTube Music - features, pricing, audio quality, and more.
 ---
 
 # Music Streaming Guide
 
 <div class="guide-hero">
   <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by Dan and Monica &middot; <GuideIcon name="clock" :size="14" /> Updated: August 9th, 2025 &middot; <GuideIcon name="clock" :size="14" /> Read time: 10 min</p>
-  <p class="guide-intro">A side-by-side comparison of the top music streaming services — audio quality, pricing, modding options, and what's best for your needs.</p>
+  <p class="guide-intro">A side-by-side comparison of the top music streaming services - audio quality, pricing, modding options, and what's best for your needs.</p>
 </div>
 
 <div class="about-tip">
@@ -126,7 +126,7 @@ description: Compare Spotify, Apple Music, Tidal, and YouTube Music — features
 </div>
 
 <div class="section-card">
-  <strong>Bottom Line:</strong> The dominant player for a reason – user-friendly, feature-packed, great connectivity. However, its lack of lossless audio and controversial artist compensation model are significant drawbacks for discerning listeners.
+  <strong>Bottom Line:</strong> The dominant player for a reason - user-friendly, feature-packed, great connectivity. However, its lack of lossless audio and controversial artist compensation model are significant drawbacks for discerning listeners.
 </div>
 
 ## Apple Music {#apple-music}
@@ -413,37 +413,46 @@ description: Compare Spotify, Apple Music, Tidal, and YouTube Music — features
 
 ## Sources & Further Reading
 
-<div class="resource-grid">
-  <a href="https://spotify.com" target="_blank" class="resource-card">
-    <GuideIcon name="music" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Spotify</h4>
-      <p>Official site</p>
-    </div>
-  </a>
-  <a href="https://apple.com/apple-music" target="_blank" class="resource-card">
-    <GuideIcon name="star" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Apple Music</h4>
-      <p>Official site</p>
-    </div>
-  </a>
-  <a href="https://tidal.com" target="_blank" class="resource-card">
-    <GuideIcon name="star" class="resource-icon" />
-    <div class="resource-body">
-      <h4>Tidal</h4>
-      <p>Official site</p>
-    </div>
-  </a>
-  <a href="https://music.youtube.com" target="_blank" class="resource-card">
-    <GuideIcon name="star" class="resource-icon" />
-    <div class="resource-body">
-      <h4>YouTube Music</h4>
-      <p>Official site</p>
-    </div>
-  </a>
+<div class="sources-grid">
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+    <strong>Spotify</strong>
+  </div>
+  <p class="source-citation">The world's largest music streaming platform with personalised playlists and podcasts.</p>
+  <a href="https://spotify.com" target="_blank" class="source-link">Visit Spotify &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    <strong>Apple Music</strong>
+  </div>
+  <p class="source-citation">Apple's music streaming service with lossless audio, spatial audio, and deep Apple ecosystem integration.</p>
+  <a href="https://apple.com/apple-music" target="_blank" class="source-link">Visit Apple Music &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    <strong>Tidal</strong>
+  </div>
+  <p class="source-citation">Hi-Fi and Master Quality audio streaming for audiophiles who prioritise sound quality.</p>
+  <a href="https://tidal.com" target="_blank" class="source-link">Visit Tidal &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <strong>YouTube Music</strong>
+  </div>
+  <p class="source-citation">Google's music streaming service with access to YouTube's massive catalogue of live performances and remixes.</p>
+  <a href="https://music.youtube.com" target="_blank" class="source-link">Visit YouTube Music &rarr;</a>
+</div>
+
 </div>
 
 <div class="meta-footer">
-  <p><GuideIcon name="music" :size="14" /> The best music service is the one that fits your priorities — audio quality, catalogue depth, price, or device ecosystem.</p>
+  <p>The best music service is the one that fits your priorities - audio quality, catalogue depth, price, or device ecosystem.</p>
 </div>

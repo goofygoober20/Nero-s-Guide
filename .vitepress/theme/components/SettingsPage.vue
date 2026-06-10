@@ -49,13 +49,13 @@ const defaults = {
   theme: 'system',
   fontSize: 'medium',
   showNSFW: false,
-  telemetry: false,
   accentTheme: 'green',
   autoHideNav: false,
   confirmBeforeLeave: false,
   reducedMotion: false,
   showReadingProgress: true,
   showBreadcrumbs: true,
+  showFunFacts: true,
   confirmBeforeReset: true,
 }
 

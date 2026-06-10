@@ -325,7 +325,7 @@ const passwordManagers = [
   },
   {
     id: "vaultwarden",
-    name: "VaultWarden",
+    name: "Vaultwarden",
     icon: "🏠",
     badge: "Best Self-Hosted",
     badgeClass: "best",

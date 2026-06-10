@@ -21,19 +21,19 @@ import UnenrollmentFinder from './.vitepress/theme/components/UnenrollmentFinder
 
 <UnenrollmentFinder />
 
-## 🔗 Related Guides
+### 🔗 Related Guides
 
 <div class="related-grid">
   <a href="/darkweb" class="related-card">
     <GuideIcon name="shield" class="related-icon" />
-    <span>Dark Web Guide — privacy and anonymity tools</span>
+    <span>Dark Web Guide - privacy and anonymity tools</span>
   </a>
   <a href="/passwords" class="related-card">
     <GuideIcon name="lock" class="related-icon" />
-    <span>Password & Security Guide — protect your accounts</span>
+    <span>Password & Security Guide - protect your accounts</span>
   </a>
   <a href="/shopping" class="related-card">
     <GuideIcon name="shopping" class="related-icon" />
-    <span>Shopping Guide — privacy-focused shopping tips</span>
+    <span>Shopping Guide - privacy-focused shopping tips</span>
   </a>
 </div>

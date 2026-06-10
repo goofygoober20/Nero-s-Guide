@@ -1,13 +1,13 @@
 ---
 title: Chess Guide
-description: A comprehensive directory of chess resources — play, learn, analyze, and connect with the chess community.
+description: A comprehensive directory of chess resources - play, learn, analyze, and connect with the chess community.
 ---
 
 # The Ultimate Chess Guide
 
 <div class="guide-hero">
   <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="book" :size="14" /> Read time: 8 min</p>
-  <p class="guide-intro">A comprehensive directory of chess resources — from learning platforms and analysis tools to communities and chess variants.</p>
+  <p class="guide-intro">A comprehensive directory of chess resources - from learning platforms and analysis tools to communities and chess variants.</p>
 </div>
 
 ## Table of Contents
@@ -59,7 +59,7 @@ description: A comprehensive directory of chess resources — play, learn, analy
     <GuideIcon name="users" class="resource-icon" />
     <div class="resource-body">
       <h4>/m/Chess</h4>
-      <p>Chess multireddit — aggregating the best chess subreddits</p>
+      <p>Chess multireddit - aggregating the best chess subreddits</p>
     </div>
   </a>
   <a href="https://reddit.com/r/chess" target="_blank" class="resource-card">
@@ -80,8 +80,8 @@ description: A comprehensive directory of chess resources — play, learn, analy
 
 ## Books & Reading {#books}
 
-- **[r/Chess Books](https://www.reddit.com/r/chess/wiki/books/)** — recommended chess books from the Reddit community
-- **[365Chess](https://www.365chess.com/)** — chess history and lessons with a large game database
+- **[r/Chess Books](https://www.reddit.com/r/chess/wiki/books/)** - recommended chess books from the Reddit community
+- **[365Chess](https://www.365chess.com/)** - chess history and lessons with a large game database
 
 ## Learn & Practice {#learn-practice}
 
@@ -141,8 +141,8 @@ description: A comprehensive directory of chess resources — play, learn, analy
 
 ### Paid / Freemium Platforms
 
-- **[Chessable](https://www.chessable.com/)** — science-backed chess lessons with spaced repetition
-- **[ChessGames](https://www.chessgames.com/)** — chess database and community
+- **[Chessable](https://www.chessable.com/)** - science-backed chess lessons with spaced repetition
+- **[ChessGames](https://www.chessgames.com/)** - chess database and community
 
 ## Analysis Tools {#analysis-tools}
 
@@ -216,9 +216,9 @@ description: A comprehensive directory of chess resources — play, learn, analy
 
 ### Specialized Tools
 
-- **Board Visualization:** [Sh&acirc;h Kur](https://shahkur.com/) — blind chess practice to improve board visualization
-- **Tactics:** [Tactic or Not](https://tacticornot.com/) — chess move analysis and practice &middot; <a href="https://discord.gg/tacticornot" style="color: var(--vp-c-brand-1);">Discord</a>
-- **Openings:** [OpeningTree](https://www.openingtree.com/) — download and visualize chess games
+- **Board Visualization:** [Sh&acirc;h Kur](https://shahkur.com/) - blind chess practice to improve board visualization
+- **Tactics:** [Tactic or Not](https://tacticornot.com/) - chess move analysis and practice &middot; <a href="https://discord.gg/tacticornot" style="color: var(--vp-c-brand-1);">Discord</a>
+- **Openings:** [OpeningTree](https://www.openingtree.com/) - download and visualize chess games
 
 ## Tracking & Databases {#tracking}
 
@@ -248,21 +248,55 @@ description: A comprehensive directory of chess resources — play, learn, analy
 
 ## Chess Variants {#variants}
 
-- **[ChessVariants](https://www.chessvariants.com/)** — explore 1000+ chess variants and guides
+- **[ChessVariants](https://www.chessvariants.com/)** - explore 1000+ chess variants and guides
 
 ## Sources & Further Reading {#sources}
 
-- [Awesome Chess (GitHub)](https://github.com/hkirat/awesome-chess)
-- [The Chess Directory](https://thechessdirectory.com)
-- [r/chess Resources List](https://www.reddit.com/r/chess/comments/u43nrc/chess_resources_list_as_of_20220415/)
-- [r/Chess Books Wiki](https://www.reddit.com/r/chess/wiki/books/)
-- [r/chess](https://www.reddit.com/r/chess/)
+<div class="sources-grid">
 
-<style>
-.resource-icon {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  margin-top: 0.15rem;
-}
-</style>
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    <strong>Awesome Chess</strong>
+  </div>
+  <p class="source-citation">Curated list of chess resources on GitHub, covering engines, libraries, GUIs, and learning tools.</p>
+  <a href="https://github.com/hkirat/awesome-chess" target="_blank" class="source-link">View on GitHub &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <strong>The Chess Directory</strong>
+  </div>
+  <p class="source-citation">Comprehensive directory of chess websites, tools, and communities.</p>
+  <a href="https://thechessdirectory.com" target="_blank" class="source-link">Visit site &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    <strong>r/chess Resources List</strong>
+  </div>
+  <p class="source-citation">Community-curated list of chess resources on Reddit, regularly updated.</p>
+  <a href="https://www.reddit.com/r/chess/comments/u43nrc/chess_resources_list_as_of_20220415/" target="_blank" class="source-link">View on Reddit &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <strong>r/Chess Books Wiki</strong>
+  </div>
+  <p class="source-citation">Recommended chess books and study materials compiled by the r/chess community.</p>
+  <a href="https://www.reddit.com/r/chess/wiki/books/" target="_blank" class="source-link">View on Reddit &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+    <strong>r/chess Community</strong>
+  </div>
+  <p class="source-citation">Active chess discussion community with daily puzzles, game analysis, and learning resources.</p>
+  <a href="https://www.reddit.com/r/chess/" target="_blank" class="source-link">Visit r/chess &rarr;</a>
+</div>
+
+</div>

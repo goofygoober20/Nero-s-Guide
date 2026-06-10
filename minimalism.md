@@ -6,7 +6,7 @@ difficulty: beginner
 
 <div class="guide-hero">
   <h1>Minimalism Guide</h1>
-  <p class="guide-intro">Minimalism isn't about owning nothing — it's about making room for what matters. This guide covers digital decluttering, reducing screen time, and simplifying your physical space.</p>
+  <p class="guide-intro">Minimalism isn't about owning nothing - it's about making room for what matters. This guide covers digital decluttering, reducing screen time, and simplifying your physical space.</p>
 </div>
 
 ## Digital Declutter

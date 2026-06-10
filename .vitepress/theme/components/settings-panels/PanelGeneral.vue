@@ -32,6 +32,11 @@
       <span>Show breadcrumbs</span>
     </div>
 
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.showFunFacts" @update:modelValue="saveSettings" />
+      <span>Show fun facts</span>
+    </div>
+
     <div class="divider"></div>
 
     <p class="section-label">Reset Behavior</p>
@@ -39,11 +44,6 @@
     <div class="field checkbox-field">
       <ToggleSwitch v-model="settings.confirmBeforeReset" @update:modelValue="saveSettings" />
       <span>Confirm before resetting settings</span>
-    </div>
-
-    <div class="field checkbox-field">
-      <ToggleSwitch v-model="settings.telemetry" @update:modelValue="saveSettings" />
-      <span>Enable Telemetry</span>
     </div>
   </div>
 </template>

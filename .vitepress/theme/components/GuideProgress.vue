@@ -5,7 +5,10 @@ import { useData } from 'vitepress'
 const STORAGE_KEY = 'guide-progress'
 
 const GUIDES = [
-  { path: '/sleeping', title: 'Sleeping Guide', emoji: '😴' },
+  { path: '/sleeping/', title: 'Sleeping Guide', emoji: '😴' },
+  { path: '/sleeping/insomnia', title: 'Insomnia Guide', emoji: '🛌' },
+  { path: '/sleeping/quiz', title: 'Sleep Quiz', emoji: '📝' },
+  { path: '/sleeping/shift-schedule', title: 'Sleep Schedule', emoji: '⏰' },
   { path: '/all-nighter', title: 'All-Nighter Guide', emoji: '🌙' },
   { path: '/passwords', title: 'Password Guide', emoji: '🔐' },
   { path: '/fitness', title: 'Fitness Guide', emoji: '💪' },

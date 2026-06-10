@@ -570,6 +570,72 @@ html {
   line-height: 1.4;
 }
 
+/* Home: bring guides closer to prompt */
+.VPHero {
+  padding-bottom: 24px !important;
+}
+
+/* Sources grid (citation cards) */
+.sources-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.source-card {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.source-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
+}
+
+.source-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.source-icon {
+  flex-shrink: 0;
+  color: var(--vp-c-brand-1);
+}
+
+.source-citation {
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.source-link {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .sources-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Step cards */
 .steps-grid {
   display: grid;

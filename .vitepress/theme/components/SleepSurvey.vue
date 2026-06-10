@@ -109,7 +109,7 @@
 
         <!-- Priority Adjustments -->
         <div v-if="suboptimalRecommendations.length > 0" class="results-section">
-          <h3 class="section-title priority">&#9888;&#65039; Action Items &mdash; Priority Adjustments</h3>
+          <h3 class="section-title priority">&#9888;&#65039; Priority Adjustments</h3>
           <div class="recommendations-list">
             <div v-for="rec in suboptimalRecommendations" :key="rec.title" class="diagnostic-card critical">
               <div class="card-icon-wrapper">{{ rec.icon }}</div>
@@ -124,7 +124,7 @@
 
         <!-- Strengths -->
         <div class="results-section">
-          <h3 class="section-title optimized">&#10024; Strengths &mdash; Maintained Protocols</h3>
+          <h3 class="section-title optimized">&#10024; Maintained Protocols</h3>
           <p class="section-subtitle">You're successfully managing these sleep drivers. Keep going:</p>
           <div class="recommendations-list">
             <div v-for="rec in optimalRecommendations" :key="rec.title" class="diagnostic-card perfect">
@@ -606,7 +606,7 @@ function exportResults() {
 
   lines.push(sep)
   lines.push('Access the full interactive guide with resources:')
-  try { lines.push(`  ${window.location.origin}/sleeping`) } catch { lines.push('  [URL]/sleeping') }
+  try { lines.push(`  ${window.location.origin}/sleeping/`) } catch { lines.push('  [URL]/sleeping/') }
   lines.push(divider)
 
   const text = lines.join('\n')

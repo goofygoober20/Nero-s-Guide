@@ -16,7 +16,7 @@ function rssFeedPlugin() {
         return
       }
       
-    const SITE_URL = 'https://cameronguide.netlify.app/'
+    const SITE_URL = 'https://ner0.netlify.app/'
 
     const items = posts.map ((post: { message: any; id: any; timestamp: any; date: any })=> `
     <item>
@@ -51,11 +51,15 @@ function rssFeedPlugin() {
 export default defineConfig({
   title: "Nero's Guide",
 
-  ignoreDeadLinks: true,
+  lastUpdated: true,
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'alternate', type: 'application/rss+xml', title: "Nero's Guide Updates", href: '/feed.xml' }],
+    ['meta', { property: 'og:title', content: "Nero's Guide" }],
+    ['meta', { property: 'og:description', content: 'Curated guides for sleep, passwords, fitness, mental health, and more.' }],
+    ['meta', { property: 'og:image', content: '/og-image.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
 
   vite: {
@@ -66,21 +70,52 @@ export default defineConfig({
     logo: '/logo.png',
 
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '🏠  Home', link: '/' },
+      { text: '📰  Posts', link: '/posts' },
     ],
 
     sidebar: [
       {
         text: 'Personal Guides',
         items: [
-          { text: '😴 Sleeping Guide', link: '/sleeping' },
-          { text: '🌙 All-Nighter Guide', link: '/all-nighter' },
+          {
+            text: '😴 Sleeping Guide',
+            collapsed: true,
+            items: [
+              { text: 'Introduction', link: '/sleeping/' },
+              { text: '🛌 Insomnia Guide', link: '/sleeping/insomnia' },
+              { text: '📝 Sleep Quiz', link: '/sleeping/quiz' },
+              { text: '⏰ Shifting Your Sleep Schedule', link: '/sleeping/shift-schedule' },
+              { text: '🌙 All-Nighter Guide', link: '/all-nighter' },
+            ]
+          },
           { text: '🔐 Password Guide', link: '/passwords' },
           { text: '💪 Fitness Guide', link: '/fitness' },
           { text: '🍳 Cooking Guide', link: '/cooking' },
-          { text: '🧠 Mental Health Guide', link: '/mental-health' },
+          {
+            text: '🧠 Mental Health Guide',
+            collapsed: true,
+            items: [
+              { text: 'Introduction', link: '/mental-health/' },
+              { text: 'Low Mood & Self-Care', link: '/mental-health/low-mood' },
+              { text: 'Motivation', link: '/mental-health/motivation' },
+              { text: 'Difficult Feelings', link: '/mental-health/difficult-feelings' },
+              { text: 'Grief', link: '/mental-health/grief' },
+              { text: 'Criticism, Confidence & Self-Worth', link: '/mental-health/criticism-confidence' },
+              { text: 'Anxiety & Overthinking', link: '/mental-health/anxiety' },
+              { text: 'Stress & Performance', link: '/mental-health/stress' },
+              { text: 'Values, Relationships & Resources', link: '/mental-health/values-relationships' },
+            ]
+          },
           { text: '🎨 Drawing Guide', link: '/drawing' },
-          { text: '🛍️ Shopping Guide', link: '/shopping' },
+          {
+            text: '🛍️ Shopping Guide',
+            collapsed: true,
+            items: [
+              { text: 'Shopping Guide', link: '/shopping' },
+              { text: 'Shopping Resources', link: '/shopping-resources' },
+            ]
+          },
           { text: '🧅 Dark Web Guide', link: '/darkweb' },
           { text: '♟️ Chess Guide', link: '/chess' },
           { text: '🎵 Music Streaming Guide', link: '/music' },
@@ -107,11 +142,13 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Other',
+        text: '📬 Updates',
         collapsed: true,
         items: [
+          { text: '📬 Monthly Updates', link: '/updates' },
           { text: 'Posts', link: '/posts' },
           { text: '📖 Reading Progress', link: '/progress' },
+          { text: '📦 Archive', link: '/monthly-archive/' },
         ]
       }
     ],

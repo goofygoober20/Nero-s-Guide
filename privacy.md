@@ -6,7 +6,7 @@ difficulty: intermediate
 
 <div class="guide-hero">
   <h1>Online Privacy Guide</h1>
-  <p class="guide-intro">Your data is more valuable than you think. This guide covers practical steps to protect your privacy online — from browser hardening to anonymous communication.</p>
+  <p class="guide-intro">Your data is more valuable than you think. This guide covers practical steps to protect your privacy online - from browser hardening to anonymous communication.</p>
 </div>
 
 ## Browser Hardening
@@ -80,7 +80,7 @@ difficulty: intermediate
 <div class="card-grid-3">
   <a href="https://mullvad.net/" target="_blank" class="shared-card reveal">
     <h4>Mullvad VPN</h4>
-    <p>Top recommendation. No email required — generate an account number. Accepts cash. No logs. Open source clients. €5/month.</p>
+    <p>Top recommendation. No email required - generate an account number. Accepts cash. No logs. Open source clients. €5/month.</p>
   </a>
   <a href="https://protonvpn.com/" target="_blank" class="shared-card reveal">
     <h4>Proton VPN</h4>
