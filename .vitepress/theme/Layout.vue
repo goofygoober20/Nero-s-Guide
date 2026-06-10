@@ -16,21 +16,6 @@ import DynamicPrompt from './components/DynamicPrompt.vue'
 const { Layout } = DefaultTheme
 const { frontmatter, page } = useData()
 
-function handleBeforeUnload(e) {
-  try {
-    const saved = localStorage.getItem('neros-guide-settings')
-    if (!saved) return
-    const parsed = JSON.parse(saved)
-    if (!parsed.confirmBeforeLeave) return
-  } catch { return }
-  e.preventDefault()
-  e.returnValue = ''
-}
-
-if (typeof window !== 'undefined') {
-  window.addEventListener('beforeunload', handleBeforeUnload)
-}
-
 let lastScroll = 0
 
 function onAutoHideScroll() {

@@ -9,11 +9,6 @@
     </div>
 
     <div class="field checkbox-field">
-      <ToggleSwitch v-model="settings.confirmBeforeLeave" @update:modelValue="saveSettings" />
-      <span>Confirm before leaving page</span>
-    </div>
-
-    <div class="field checkbox-field">
       <ToggleSwitch v-model="settings.reducedMotion" @update:modelValue="saveSettings" />
       <span>Reduced motion</span>
     </div>

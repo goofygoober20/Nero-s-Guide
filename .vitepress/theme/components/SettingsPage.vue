@@ -51,7 +51,6 @@ const defaults = {
   showNSFW: false,
   accentTheme: 'green',
   autoHideNav: false,
-  confirmBeforeLeave: false,
   reducedMotion: false,
   showReadingProgress: true,
   showBreadcrumbs: true,
