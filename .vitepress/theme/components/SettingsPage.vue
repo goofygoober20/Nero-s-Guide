@@ -55,6 +55,8 @@ const defaults = {
   showReadingProgress: true,
   showBreadcrumbs: true,
   showFunFacts: true,
+  showLightModeFlash: true,
+  bgLevel: 50,
   confirmBeforeReset: true,
 }
 
@@ -99,6 +101,11 @@ function applyAutoHideNav(val) {
   }
 }
 
+function applyBgLevel(level) {
+  const factor = 0.6 + (level / 100) * 0.8
+  document.documentElement.style.setProperty('--vp-bg-level', factor)
+}
+
 function applyVisibility(name, val) {
   document.documentElement.classList.toggle('hide-' + name, !val)
 }
@@ -112,6 +119,7 @@ function applyAll() {
   applyAutoHideNav(s.autoHideNav)
   applyVisibility('breadcrumbs', s.showBreadcrumbs)
   applyVisibility('reading-progress', s.showReadingProgress)
+  applyBgLevel(s.bgLevel)
 }
 
 onMounted(() => {
@@ -139,6 +147,7 @@ watch(() => settings.value.reducedMotion, applyReducedMotion)
 watch(() => settings.value.autoHideNav, applyAutoHideNav)
 watch(() => settings.value.showBreadcrumbs, (val) => applyVisibility('breadcrumbs', val))
 watch(() => settings.value.showReadingProgress, (val) => applyVisibility('reading-progress', val))
+watch(() => settings.value.bgLevel, applyBgLevel)
 
 function saveSettings() {
   localStorage.setItem('neros-guide-settings', JSON.stringify(settings.value))

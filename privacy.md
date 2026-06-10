@@ -129,13 +129,13 @@ difficulty: intermediate
   <a href="https://www.privacyguides.org/" target="_blank" class="resource-card reveal">
     <div class="resource-body">
       <h4>Privacy Guides</h4>
-      <p>Comprehensive resource for privacy tools and recommendations. Community-maintained and regularly updated. <a href="https://www.privacyguides.org/" target="_blank">privacyguides.org</a></p>
+      <p>Comprehensive resource for privacy tools and recommendations. Community-maintained and regularly updated.</p>
     </div>
   </a>
   <a href="https://haveibeenpwned.com/" target="_blank" class="resource-card reveal">
     <div class="resource-body">
       <h4>Have I Been Pwned</h4>
-      <p>Check if your email or phone number has appeared in a data breach. Subscribe for breach notifications. <a href="https://haveibeenpwned.com/" target="_blank">haveibeenpwned.com</a></p>
+      <p>Check if your email or phone number has appeared in a data breach. Subscribe for breach notifications.</p>
     </div>
   </a>
 </div>

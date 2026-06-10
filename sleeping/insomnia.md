@@ -251,7 +251,7 @@ If you're tired but can't sleep, or only have 20 minutes for a reset, these guid
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
     <strong>Huberman Lab</strong>
   </div>
-  <p><a href="https://www.hubermanlab.com/toolkit/sleep" target="_blank" rel="noopener noreferrer">Sleep Toolkit</a> -  Neuroscience-based sleep protocols including NSDR.</p>
+  <p><a href="https://www.hubermanlab.com/newsletter/toolkit-for-sleep" target="_blank" rel="noopener noreferrer">Sleep Toolkit</a> -  Neuroscience-based sleep protocols including NSDR.</p>
 </div>
 
 <div class="credit-card">
@@ -267,7 +267,7 @@ If you're tired but can't sleep, or only have 20 minutes for a reset, these guid
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-icon"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
     <strong>Bryan Johnson</strong>
   </div>
-  <p><a href="https://protocols.bryanjohnson.com/" target="_blank" rel="noopener noreferrer">Sleep Blueprint</a> - Quantified sleep optimization protocols.</p>
+  <p><a href="https://blueprint.bryanjohnson.com/blogs/news/bryan-johnsons-protocol#sleep/" target="_blank" rel="noopener noreferrer">Sleep Blueprint</a> - Quantified sleep optimization protocols.</p>
 </div>
 
 </div>

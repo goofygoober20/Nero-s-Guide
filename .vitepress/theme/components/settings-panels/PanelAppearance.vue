@@ -28,6 +28,17 @@
     <div class="divider"></div>
 
     <div class="field">
+      <span>Background Level</span>
+      <div class="range-row">
+        <span class="range-label">Dark</span>
+        <input type="range" min="0" max="100" v-model.number="settings.bgLevel" @input="saveSettings" class="bg-slider" />
+        <span class="range-label">Light</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="field">
       <span>Accent Color</span>
       <div class="swatches-grid">
         <button
@@ -137,6 +148,54 @@ select {
   background: rgba(255,255,255,0.15);
   border: 1px solid var(--vp-c-divider);
   backdrop-filter: blur(10px);
+}
+
+.range-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.range-label {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+.bg-slider {
+  flex: 1;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  background: var(--vp-c-divider);
+  outline: none;
+  cursor: pointer;
+}
+
+.bg-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  border: 2px solid var(--vp-c-bg);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.bg-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.bg-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  border: 2px solid var(--vp-c-bg);
+  cursor: pointer;
 }
 
 .swatches-grid {

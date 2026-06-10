@@ -2,6 +2,12 @@ html {
   overflow-x: hidden;
 }
 
+/* ========== Background Level (Brightness) ========== */
+
+html {
+  filter: brightness(var(--vp-bg-level, 1));
+}
+
 /* ========== Font Size Settings ========== */
 
 .font-small {

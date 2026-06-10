@@ -39,6 +39,8 @@ onMounted(() => {
   window.addEventListener('scroll', onAutoHideScroll, { passive: true })
   let flashbangTimer
   const obs = new MutationObserver(() => {
+    const settings = JSON.parse(localStorage.getItem('neros-guide-settings') || '{}')
+    if (settings.showLightModeFlash === false) return
     if (document.documentElement.classList.contains('dark')) return
     clearTimeout(flashbangTimer)
     flashbangTimer = setTimeout(() => {

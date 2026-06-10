@@ -5,10 +5,12 @@
     <div class="divider"></div>
 
     <div class="field checkbox-field">
-      <ToggleSwitch v-model="settings.showNSFW" @update:modelValue="saveSettings" />
-      <span>Show NSFW content</span>
+      <div class="toggle-row">
+        <ToggleSwitch v-model="settings.showNSFW" @update:modelValue="saveSettings" />
+        <span>Show NSFW content</span>
+      </div>
+      <p class="field-hint">There is currently no NSFW content on this website.</p>
     </div>
-
 
   </div>
 </template>
@@ -59,9 +61,16 @@ defineProps({
 
 .checkbox-field {
   display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkbox-field .toggle-row {
+  display: flex;
   align-items: center;
   gap: 0.8rem;
-  margin-bottom: 1.5rem;
 }
 
 .field {

@@ -527,7 +527,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Marco Bucci</strong>
   </div>
   <p class="source-citation">Color theory, painting, and illustration tutorials with a focus on traditional techniques.</p>
-  <a href="https://www.youtube.com/c/Marcobucci" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
+  <a href="https://www.youtube.com/@marcobucci" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
 </div>
 
 <div class="source-card">

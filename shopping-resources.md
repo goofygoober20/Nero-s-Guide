@@ -111,7 +111,7 @@ Most games go on deep sale within 6 months of release. These tools tell you when
       <p>Clean and simple PC game deal finder - good for non-technical users.</p>
     </div>
   </a>
-  <a href="https://deku.deals/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.dekudeals.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
     <img src="https://icons.duckduckgo.com/ip3/deku.deals.ico" alt="" class="resource-icon" />
     <div class="resource-body">
       <h4>DekuDeals</h4>
@@ -193,7 +193,7 @@ Research before you buy - most people overpay because they skip this step.
       <p>Curated monitor recommendations with plain-English explanations of specs.</p>
     </div>
   </a>
-  <a href="https://4ktvguide.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.reddit.com/r/4kTV/comments/1mxcuv7/buying_guides_product_recommendations_mega_thread/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
     <img src="https://icons.duckduckgo.com/ip3/4ktvguide.com.ico" alt="" class="resource-icon" />
     <div class="resource-body">
       <h4>4K TV Guide</h4>
@@ -224,7 +224,7 @@ Research before you buy - most people overpay because they skip this step.
 ### Laptops & general tech
 
 <div class="resource-grid">
-  <a href="https://suggestalaptop.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.suggestalaptop.net/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
     <img src="https://icons.duckduckgo.com/ip3/suggestalaptop.com.ico" alt="" class="resource-icon" />
     <div class="resource-body">
       <h4>SuggestALaptop</h4>

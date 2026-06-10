@@ -274,7 +274,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Resetting the Internal Clock</strong>
   </div>
   <p class="source-citation">"How to Reset Your Internal Clock." <em>Ubie Doctor's Note</em> (2026). Lifestyle vs. medical approaches to circadian realignment.</p>
-  <a href="https://ubiehealth.com/health/how-to-reset-internal-clock" target="_blank" class="source-link">Read article &rarr;</a>
+  <a href="https://ubiehealth.com/diseases/sleep-disorder" target="_blank" class="source-link">Read article &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -283,7 +283,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Retirement Jet Lag</strong>
   </div>
   <p class="source-citation">"Retirement Jet Lag: Reversing Years of Shift Work Damage." <em>Ubie Doctor's Note</em> (2026). Long-term repair protocols for former shift workers.</p>
-  <a href="https://ubiehealth.com/health/retirement-jet-lag" target="_blank" class="source-link">Read article &rarr;</a>
+  <a href="https://ubiehealth.com/doctors-note/fix-broken-circadian-rhythm-shift-work-jetlaggy-4232e4" target="_blank" class="source-link">Read article &rarr;</a>
 </div>
 
 <div class="source-card">

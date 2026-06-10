@@ -353,10 +353,10 @@ Despite what you may have heard, staying up all night to "reset" your circadian 
 ## 📚 Sources & Further Reading {#sources}
 
 - [Sleep Foundation - How to Pull an All-Nighter](https://www.sleepfoundation.org/sleep-faqs/how-to-pull-an-all-nighter)
-- [Healthline - All-Nighter Safety Guide](https://www.healthline.com/health/all-nighter)
-- [Saatva - Tips for Pulling an All-Nighter](https://www.saatva.com/blog/5-tips-for-pulling-an-all-nighter/)
-- [The Sleep Institute - Safe All-Nighter Guide](https://www.thesleepinstitute.com/how-to-pull-an-all-nighter)
-- [Northwell Health - Caffeine and Sleep](https://www.northwell.edu/health-and-wellness/health-wellness/caffeine-and-sleep)
+- [Healthline - All-Nighter Safety Guide](https://www.healthline.com/health/how-to-stay-up-all-night)
+- [Saatva - Tips for Pulling an All-Nighter](https://www.saatva.com/blog/how-to-stay-awake//)
+- [The Sleep Institute - Safe All-Nighter Guide](https://thesleepinstitute.ca/blogs/sleep-education-and-awareness/how-to-pull-an-all-nighter-safely-what-you-need-to-know)
+- [Northwell Health - Caffeine and Sleep](https://thewell.northwell.edu/sleep-health/caffeine-sleep-impact)
 
 <BackLinks />
 

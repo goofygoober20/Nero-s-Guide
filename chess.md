@@ -69,7 +69,7 @@ description: A comprehensive directory of chess resources - play, learn, analyze
       <p>Main chess subreddit with news, discussion, and content</p>
     </div>
   </a>
-  <a href="https://discord.gg/chesslab" target="_blank" class="resource-card">
+  <a href="https://discord.gg/chess" target="_blank" class="resource-card">
     <GuideIcon name="chat" class="resource-icon" />
     <div class="resource-body">
       <h4>Chess Discord</h4>
@@ -134,7 +134,7 @@ description: A comprehensive directory of chess resources - play, learn, analyze
     <GuideIcon name="brain" class="resource-icon" />
     <div class="resource-body">
       <h4>ChessLab</h4>
-      <p>Chess lessons with <a href="https://discord.gg/chesslab" target="_blank" style="color: var(--vp-c-brand-1);">Discord community</a></p>
+      <p>Chess lessons with <span style="color: var(--vp-c-brand-1);">Discord community</span></p>
     </div>
   </a>
 </div>
@@ -167,7 +167,7 @@ description: A comprehensive directory of chess resources - play, learn, analyze
     <GuideIcon name="search" class="resource-icon" />
     <div class="resource-body">
       <h4>Chess Analysis</h4>
-      <p>Game analysis &middot; <a href="https://discord.gg/chessanalysis" target="_blank" style="color: var(--vp-c-brand-1);">Discord</a></p>
+      <p>Game analysis &middot; <span style="color: var(--vp-c-brand-1);">Discord</span></p>
     </div>
   </a>
   <a href="https://github.com/pawn-appetit/pawn-appetit" target="_blank" class="resource-card">
@@ -181,7 +181,7 @@ description: A comprehensive directory of chess resources - play, learn, analyze
     <GuideIcon name="tool" class="resource-icon" />
     <div class="resource-body">
       <h4>Chesskit</h4>
-      <p>Game analysis &middot; <a href="https://discord.gg/chesskit" target="_blank" style="color: var(--vp-c-brand-1);">Discord</a> &middot; GitHub</p>
+      <p>Game analysis &middot; <span style="color: var(--vp-c-brand-1);">Discord</span> &middot; GitHub</p>
     </div>
   </a>
   <a href="https://yottachess.com/" target="_blank" class="resource-card">
@@ -195,7 +195,7 @@ description: A comprehensive directory of chess resources - play, learn, analyze
     <GuideIcon name="chart" class="resource-icon" />
     <div class="resource-body">
       <h4>Chessigma</h4>
-      <p>Game analysis &middot; <a href="https://discord.gg/chessigma" target="_blank" style="color: var(--vp-c-brand-1);">Discord</a></p>
+      <p>Game analysis &middot; <span style="color: var(--vp-c-brand-1);">Discord</span></p>
     </div>
   </a>
   <a href="https://encroissant.org/" target="_blank" class="resource-card">

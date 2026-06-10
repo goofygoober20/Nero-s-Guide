@@ -32,6 +32,11 @@
       <span>Show fun facts</span>
     </div>
 
+    <div class="field checkbox-field">
+      <ToggleSwitch v-model="settings.showLightModeFlash" @update:modelValue="saveSettings" />
+      <span>Show light mode easter egg</span>
+    </div>
+
     <div class="divider"></div>
 
     <p class="section-label">Reset Behavior</p>
