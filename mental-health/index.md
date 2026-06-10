@@ -7,7 +7,7 @@ description: A comprehensive guide to understanding mood, motivation, and well-b
 
 <div class="about-tip">
   <GuideIcon name="info" class="tip-icon" />
-  <span><strong>Note:</strong> This is a better-formatted version of Dan's original Mental Health guide. The content is based on Dr. Julie Smith's work and is a re-presentation of Dan's guide for improved readability.</span>
+  <span><strong>Note:</strong> This is a better-formatted version of Dan's original Mental Health guide. The content is based on and is a re-presentation of Dan's guide for improved readability.</span>
 </div>
 
 <div class="about-tip">
