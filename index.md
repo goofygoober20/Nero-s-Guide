@@ -5,7 +5,7 @@ description: A curated collection of free guides and resources. Music guide by D
 
 hero:
   name: "Nero's Index"
-  tagline: "Curated guides and resources, with credit to the original creators"
+  tagline: "Curated guides and resources"
   image:
     src: /icon.png
     alt: Nero icon
