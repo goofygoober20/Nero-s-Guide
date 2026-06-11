@@ -3,7 +3,7 @@
   <div class="about-header">
     <h1 class="about-name">Cameron</h1>
     <p class="about-tagline">student &amp; developer</p>
-    <p class="about-subtitle">the person behind Nero's Guide</p>
+    <p class="about-subtitle">the person behind Nero's Index</p>
 
   <div class="about-stats">
       <span class="stat-badge"><GuideIcon name="clock" :size="14" /> Launched 2026</span>
@@ -17,7 +17,7 @@
     <div class="about-card-body">
       <h2>Who Am I?</h2>
       <p>
-        I'm Cameron, a student and a developer. I created Nero's Guide to help people find free resources online without having to dig through sketchy sites or paywalls.
+        I'm Cameron, a student and a developer. I created Nero's Index to help people find free resources online. Some guides are written by me, others by contributors — full credit is listed in each guide. Music guide by Dan & Monica. Mental health guide by Dan, based on Dr. Julie Smith's work.
       </p>
     </div>
   </div>

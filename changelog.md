@@ -1,5 +1,5 @@
 ### May 7
-Created Nero's Guide
+Created Nero's Index
 
 ### May 9
 - Added Theories

@@ -342,10 +342,6 @@ Despite what you may have heard, staying up all night to "reset" your circadian 
     <GuideIcon name="check" class="related-icon" />
     <span>Productivity Guide - get more done without burning out</span>
   </a>
-  <a href="/mental-health" class="related-card">
-    <GuideIcon name="heart" class="related-icon" />
-    <span>Mental Health - the sleep-mood connection and stress management</span>
-  </a>
 </div>
 
 

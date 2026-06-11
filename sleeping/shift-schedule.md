@@ -308,7 +308,6 @@ Use this checklist daily while shifting your schedule:
 
 <div class="related-guides">
   <p>Related guides:</p>
-  <a href="/sleeping/insomnia" class="related-link">&#128564; Insomnia Guide</a>
   <a href="/fitness" class="related-link">&#128170; Fitness Guide</a>
 </div>
 

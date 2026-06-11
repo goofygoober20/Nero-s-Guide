@@ -1,11 +1,11 @@
 ---
 title: Welcome
 layout: home
-description: The largest collection of free stuff on the internet!
+description: A curated collection of free guides and resources. Music guide by Dan & Monica. Mental health guide by Dan, based on Dr. Julie Smith's work.
 
 hero:
-  name: "Nero's Guide"
-  tagline: "My guide to stuff and advice on topics"
+  name: "Nero's Index"
+  tagline: "Curated guides and resources, with credit to the original creators"
   image:
     src: /icon.png
     alt: Nero icon
@@ -48,12 +48,6 @@ features:
     icon: |
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3a88fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
 
-  - title: "Mental Health Guide"
-    link: /mental-health
-    details: "Managing anxiety, depression, and stress"
-    icon: |
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e84393" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-
   - title: "Drawing Guide"
     link: /drawing
     details: "Improving your art skills from scratch"
@@ -77,12 +71,6 @@ features:
     details: "Guide to chess resources and how to improve your chess skills"
     icon: |
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00fcff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chess-king-icon lucide-chess-king"><path d="M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="m6.7 18-1-1C4.35 15.682 3 14.09 3 12a5 5 0 0 1 4.95-5c1.584 0 2.7.455 4.05 1.818C13.35 7.455 14.466 7 16.05 7A5 5 0 0 1 21 12c0 2.082-1.359 3.673-2.7 5l-1 1"/><path d="M10 4h4"/><path d="M12 2v6.818"/></svg>
-
-  - title: "Music Streaming"
-    link: /music
-    details: "Navigating the world of music services to help you choose the best fit."
-    icon: |
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
 
   - title: "Unenrollment"
     link: /unenrollment

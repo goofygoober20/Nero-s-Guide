@@ -30,9 +30,9 @@ function rssFeedPlugin() {
       const feed = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nero's Guide - Updates</title>
+    <title>Nero's Index - Updates</title>
     <link>${SITE_URL}/posts</link>
-    <description>Latest updates and changelog for Nero's Guide</description>
+    <description>Latest updates and changelog for Nero's Index</description>
     <language>en</language>
     <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>${items}
   </channel>
@@ -49,15 +49,16 @@ function rssFeedPlugin() {
 }
 
 export default defineConfig({
-  title: "Nero's Guide",
+  srcExclude: ['archived/**/*.md'],
+  title: "Nero's Index",
 
   lastUpdated: true,
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'alternate', type: 'application/rss+xml', title: "Nero's Guide Updates", href: '/feed.xml' }],
-    ['meta', { property: 'og:title', content: "Nero's Guide" }],
-    ['meta', { property: 'og:description', content: 'Curated guides for sleep, passwords, fitness, mental health, and more.' }],
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: "Nero's Index Updates", href: '/feed.xml' }],
+    ['meta', { property: 'og:title', content: "Nero's Index" }],
+    ['meta', { property: 'og:description', content: 'Curated collection of free guides and resources. Music guide by Dan & Monica. Mental health guide by Dan, based on Dr. Julie Smith\'s work.' }],
     ['meta', { property: 'og:image', content: '/og-image.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
@@ -83,7 +84,6 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Introduction', link: '/sleeping/' },
-              { text: '🛌 Insomnia Guide', link: '/sleeping/insomnia' },
               { text: '📝 Sleep Quiz', link: '/sleeping/quiz' },
               { text: '⏰ Shifting Your Sleep Schedule', link: '/sleeping/shift-schedule' },
               { text: '🌙 All-Nighter Guide', link: '/all-nighter' },
@@ -92,21 +92,6 @@ export default defineConfig({
           { text: '🔐 Password Guide', link: '/passwords' },
           { text: '💪 Fitness Guide', link: '/fitness' },
           { text: '🍳 Cooking Guide', link: '/cooking' },
-          {
-            text: '🧠 Mental Health Guide',
-            collapsed: true,
-            items: [
-              { text: 'Introduction', link: '/mental-health/' },
-              { text: 'Low Mood & Self-Care', link: '/mental-health/low-mood' },
-              { text: 'Motivation', link: '/mental-health/motivation' },
-              { text: 'Difficult Feelings', link: '/mental-health/difficult-feelings' },
-              { text: 'Grief', link: '/mental-health/grief' },
-              { text: 'Criticism, Confidence & Self-Worth', link: '/mental-health/criticism-confidence' },
-              { text: 'Anxiety & Overthinking', link: '/mental-health/anxiety' },
-              { text: 'Stress & Performance', link: '/mental-health/stress' },
-              { text: 'Values, Relationships & Resources', link: '/mental-health/values-relationships' },
-            ]
-          },
           { text: '🎨 Drawing Guide', link: '/drawing' },
           {
             text: '🛍️ Shopping Guide',
@@ -118,7 +103,6 @@ export default defineConfig({
           },
           { text: '🧅 Dark Web Guide', link: '/darkweb' },
           { text: '♟️ Chess Guide', link: '/chess' },
-          { text: '🎵 Music Streaming Guide', link: '/music' },
           { text: '🔓 Unenrollment', link: '/unenrollment' },
           { text: '🐧 Linux for Beginners', link: '/linux' },
           { text: '🛡️ Online Privacy', link: '/privacy' },

@@ -3,6 +3,36 @@
   publish = ".vitepress/dist"
 
 [[redirects]]
+  from = "/sleeping/insomnia"
+  to = "/sleeping/"
+  status = 302
+
+[[redirects]]
+  from = "/sleeping/insomnia/*"
+  to = "/sleeping/"
+  status = 302
+
+[[redirects]]
+  from = "/mental-health"
+  to = "/"
+  status = 302
+
+[[redirects]]
+  from = "/mental-health/*"
+  to = "/"
+  status = 302
+
+[[redirects]]
+  from = "/music"
+  to = "/"
+  status = 302
+
+[[redirects]]
+  from = "/music/*"
+  to = "/"
+  status = 302
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
