@@ -10,7 +10,6 @@ const router = useRouter()
 
 onMounted(() => {
   const guides = [
-    '/sleeping',
     '/passwords',
     '/fitness',
     '/cooking',

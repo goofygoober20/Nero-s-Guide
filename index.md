@@ -1,7 +1,7 @@
 ---
 title: Welcome
 layout: home
-description: A curated collection of free guides and resources. Music guide by Dan & Monica. Mental health guide by Dan, based on Dr. Julie Smith's work.
+description: A curated collection of free guides and resources.
 
 hero:
   name: "Nero's Index"
@@ -24,12 +24,6 @@ hero:
       link: https://discord.gg/vhsHR5Xkx
 
 features:
-  - title: "Sleeping Guide"
-    link: /sleeping/
-    details: "Better sleep hygiene and routines"
-    icon: |
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7c82fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
-
   - title: "Password Guide"
     link: /passwords
     details: "Creating and managing secure passwords"

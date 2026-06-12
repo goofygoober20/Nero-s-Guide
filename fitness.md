@@ -317,10 +317,6 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
   </div>
 </div>
 
-<div class="about-tip">
-  <GuideIcon name="info" class="tip-icon" />
-  <span>See the <a href="/sleeping">Sleeping Guide</a> for detailed sleep optimization protocols.</span>
-</div>
 
 ## Sources & Further Reading {#sources}
 

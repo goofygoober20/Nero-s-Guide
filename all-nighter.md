@@ -278,7 +278,6 @@ Despite what you may have heard, staying up all night to "reset" your circadian 
 | **Evening darkness** | Dim lights 2 hours before target bedtime |
 | **Consistent wake time** | Same time every day, even weekends |
 
-**Read More:** For fixing chronic sleep schedule issues, see our [Sleeping Guide](/sleeping/) for detailed protocols.
 
 ## ⏰ Sleep Cycle Wake-Up Calculator
 
@@ -334,10 +333,6 @@ Despite what you may have heard, staying up all night to "reset" your circadian 
 ## 🔗 Related Guides
 
 <div class="related-grid">
-  <a href="/sleeping/" class="related-card">
-    <GuideIcon name="moon" class="related-icon" />
-    <span>Sleeping Guide - build healthy sleep habits and fix your schedule</span>
-  </a>
   <a href="/productivity" class="related-card">
     <GuideIcon name="check" class="related-icon" />
     <span>Productivity Guide - get more done without burning out</span>

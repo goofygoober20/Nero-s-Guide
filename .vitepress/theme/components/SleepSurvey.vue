@@ -606,7 +606,6 @@ function exportResults() {
 
   lines.push(sep)
   lines.push('Access the full interactive guide with resources:')
-  try { lines.push(`  ${window.location.origin}/sleeping/`) } catch { lines.push('  [URL]/sleeping/') }
   lines.push(divider)
 
   const text = lines.join('\n')

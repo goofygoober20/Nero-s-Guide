@@ -8,7 +8,6 @@ import { ref, computed, onMounted } from 'vue'
 const STORAGE_KEY = 'guide-progress'
 
 const GUIDES = [
-  { path: '/sleeping', title: 'Sleeping Guide', emoji: '😴' },
   { path: '/all-nighter', title: 'All-Nighter Guide', emoji: '🌙' },
   { path: '/passwords', title: 'Password Guide', emoji: '🔐' },
   { path: '/fitness', title: 'Fitness Guide', emoji: '💪' },

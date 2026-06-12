@@ -5,20 +5,14 @@ import { useData } from 'vitepress'
 const STORAGE_KEY = 'guide-progress'
 
 const GUIDES = [
-  { path: '/sleeping/', title: 'Sleeping Guide', emoji: '😴' },
-  { path: '/sleeping/insomnia', title: 'Insomnia Guide', emoji: '🛌' },
-  { path: '/sleeping/quiz', title: 'Sleep Quiz', emoji: '📝' },
-  { path: '/sleeping/shift-schedule', title: 'Sleep Schedule', emoji: '⏰' },
   { path: '/all-nighter', title: 'All-Nighter Guide', emoji: '🌙' },
   { path: '/passwords', title: 'Password Guide', emoji: '🔐' },
   { path: '/fitness', title: 'Fitness Guide', emoji: '💪' },
   { path: '/cooking', title: 'Cooking Guide', emoji: '🍳' },
-  { path: '/mental-health', title: 'Mental Health Guide', emoji: '🧠' },
   { path: '/drawing', title: 'Drawing Guide', emoji: '🎨' },
   { path: '/shopping', title: 'Shopping Guide', emoji: '🛍️' },
   { path: '/darkweb', title: 'Dark Web Guide', emoji: '🧅' },
   { path: '/chess', title: 'Chess Guide', emoji: '♟️' },
-  { path: '/music', title: 'Music Streaming Guide', emoji: '🎵' },
   { path: '/unenrollment', title: 'Unenrollment Guide', emoji: '🔓' },
   { path: '/linux', title: 'Linux for Beginners', emoji: '🐧' },
   { path: '/privacy', title: 'Online Privacy Guide', emoji: '🛡️' },

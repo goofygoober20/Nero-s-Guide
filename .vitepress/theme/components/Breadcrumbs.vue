@@ -16,16 +16,13 @@ import { useData } from 'vitepress'
 const { page, frontmatter } = useData()
 
 const labels = {
-  sleeping: 'Sleeping Guide',
   passwords: 'Password Guide',
   fitness: 'Fitness Guide',
   cooking: 'Cooking Guide',
-  'mental-health': 'Mental Health Guide',
   drawing: 'Drawing Guide',
   shopping: 'Shopping Guide',
   darkweb: 'Dark Web Guide',
   chess: 'Chess Guide',
-  music: 'Music Streaming Guide',
   unenrollment: 'Unenrollment',
   linux: 'Linux for Beginners',
   privacy: 'Online Privacy',

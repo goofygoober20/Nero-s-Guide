@@ -58,7 +58,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'alternate', type: 'application/rss+xml', title: "Nero's Index Updates", href: '/feed.xml' }],
     ['meta', { property: 'og:title', content: "Nero's Index" }],
-    ['meta', { property: 'og:description', content: 'Curated collection of free guides and resources. Music guide by Dan & Monica. Mental health guide by Dan, based on Dr. Julie Smith\'s work.' }],
+    ['meta', { property: 'og:description', content: 'Curated collection of free guides and resources.' }],
     ['meta', { property: 'og:image', content: '/og-image.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
@@ -79,16 +79,6 @@ export default defineConfig({
       {
         text: 'Personal Guides',
         items: [
-          {
-            text: '😴 Sleeping Guide',
-            collapsed: true,
-            items: [
-              { text: 'Introduction', link: '/sleeping/' },
-              { text: '📝 Sleep Quiz', link: '/sleeping/quiz' },
-              { text: '⏰ Shifting Your Sleep Schedule', link: '/sleeping/shift-schedule' },
-              { text: '🌙 All-Nighter Guide', link: '/all-nighter' },
-            ]
-          },
           { text: '🔐 Password Guide', link: '/passwords' },
           { text: '💪 Fitness Guide', link: '/fitness' },
           { text: '🍳 Cooking Guide', link: '/cooking' },

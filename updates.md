@@ -33,7 +33,7 @@ function voteFor(option) {
 |------|---------|
 | 🆕 **Shopping Resources** | 30+ tools across 5 categories, price tracking, ethical shopping, games, electronics, collectibles |
 | 🖼️ **Favicon Migration** | All resource card icons replaced with live favicons |
-| 🔧 **Mental Health Split** | Single 1,200-line page → 9 focused pages with BoxBreathing |
+
 | 🎨 **404 Redesign** | Warm on-brand page with search trigger, rotating quote, GuideIcon buttons |
 | 🌐 **Site-Wide Polish** | OG tags added, RSS URL fixed, nav expanded, `lastUpdated` enabled |
 
@@ -65,7 +65,7 @@ function voteFor(option) {
 
 ## 🔧 Behind the Scenes
 
-> This month I migrated from hardcoded SVG icons to live DuckDuckGo favicons - each resource card now loads its site's actual logo automatically. The mental health guide was split from one massive page into 9 focused pages with proper sidebar navigation. The BoxBreathing component for the anxiety page was a fun Vue challenge using `requestAnimationFrame` for smooth circle animation.
+> This month I migrated from hardcoded SVG icons to live DuckDuckGo favicons - each resource card now loads its site's actual logo automatically. The BoxBreathing component was a fun Vue challenge using `requestAnimationFrame` for smooth circle animation.
 
 <div class="archive-footer">
   <a href="/monthly-archive/" class="archive-link">📦 View past monthly updates</a>

@@ -19,21 +19,14 @@ import { useData } from 'vitepress'
 const { page } = useData()
 
 const prevGuides = {
-  sleeping: { label: 'Sleeping Guide', href: '/sleeping/' },
-  'sleeping/index': { label: 'Sleeping Guide', href: '/sleeping/' },
-  'sleeping/insomnia': { label: 'Insomnia Guide', href: '/sleeping/insomnia' },
-  'sleeping/quiz': { label: 'Sleep Quiz', href: '/sleeping/quiz' },
-  'sleeping/shift-schedule': { label: 'Shifting Your Sleep Schedule', href: '/sleeping/shift-schedule' },
   'all-nighter': { label: 'All-Nighter Guide', href: '/all-nighter' },
   passwords: { label: 'Password Guide', href: '/passwords' },
   fitness: { label: 'Fitness Guide', href: '/fitness' },
   cooking: { label: 'Cooking Guide', href: '/cooking' },
-  'mental-health': { label: 'Mental Health Guide', href: '/mental-health' },
   drawing: { label: 'Drawing Guide', href: '/drawing' },
   shopping: { label: 'Shopping Guide', href: '/shopping' },
   darkweb: { label: 'Dark Web Guide', href: '/darkweb' },
   chess: { label: 'Chess Guide', href: '/chess' },
-  music: { label: 'Music Guide', href: '/music' },
   unenrollment: { label: 'Unenrollment', href: '/unenrollment' },
   linux: { label: 'Linux for Beginners', href: '/linux' },
   privacy: { label: 'Online Privacy Guide', href: '/privacy' },
