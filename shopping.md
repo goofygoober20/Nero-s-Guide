@@ -6,7 +6,7 @@ description: Never pay full price. Use cashback, coupons, and price tracking to 
 # The Ultimate Shopping Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="clock" :size="14" /> Last updated: June 2026</p>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro"><strong>TL;DR:</strong> Never pay full price. Use cashback, coupons, and price tracking to save hundreds annually.</p>
 </div>
 
@@ -63,35 +63,35 @@ description: Never pay full price. Use cashback, coupons, and price tracking to 
 Always check cashback rates *before* checking out. It's free money.
 
 <div class="resource-grid">
-  <a href="https://www.rakuten.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.rakuten.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="shopping" class="resource-icon" />
     <div class="resource-body">
       <h4>Rakuten</h4>
       <p>Pays via PayPal or check. Stack with in-store coupons.</p>
     </div>
   </a>
-  <a href="https://www.topcashback.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.topcashback.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="chart" class="resource-icon" />
     <div class="resource-body">
       <h4>TopCashback</h4>
       <p>Often has higher rates than Rakuten.</p>
     </div>
   </a>
-  <a href="https://www.capitaloneshopping.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.capitaloneshopping.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="shield" class="resource-icon" />
     <div class="resource-body">
       <h4>Capital One Shopping</h4>
       <p>Automatically tests coupon codes at checkout.</p>
     </div>
   </a>
-  <a href="https://www.joinhoney.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.joinhoney.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>PayPal Honey</h4>
       <p>Good for price drop alerts and automatic coupon testing.</p>
     </div>
   </a>
-  <a href="https://www.swagbucks.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://www.swagbucks.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="list" class="resource-icon" />
     <div class="resource-body">
       <h4>Swagbucks</h4>
@@ -152,21 +152,21 @@ Always check cashback rates *before* checking out. It's free money.
 </div>
 
 <div class="resource-grid">
-  <a href="https://camelcamelcamel.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://camelcamelcamel.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>CamelCamelCamel</h4>
       <p>Best for Amazon. See if that "deal" is actually a deal.</p>
     </div>
   </a>
-  <a href="https://keepa.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://keepa.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="chart" class="resource-icon" />
     <div class="resource-body">
       <h4>Keepa</h4>
       <p>More detailed Amazon graphs than Camel.</p>
     </div>
   </a>
-  <a href="https://slickdeals.net/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://slickdeals.net/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="bolt" class="resource-icon" />
     <div class="resource-body">
       <h4>Slickdeals</h4>
@@ -180,7 +180,7 @@ Always check cashback rates *before* checking out. It's free money.
       <p>Works passively if you have Honey installed.</p>
     </div>
   </div>
-  <a href="https://shopping.google.com/" target="_blank" class="resource-card" style="text-decoration: none; cursor: default;">
+  <a href="https://shopping.google.com/" target="_blank" rel="noopener noreferrer" class="resource-card" style="text-decoration: none; cursor: default;">
     <GuideIcon name="shopping" class="resource-icon" />
     <div class="resource-body">
       <h4>Google Shopping</h4>

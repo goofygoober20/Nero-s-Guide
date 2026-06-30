@@ -30,6 +30,7 @@ const labels = {
   productivity: 'Productivity Guide',
   minimalism: 'Minimalism Guide',
   gaming: 'Gaming Guide',
+  gardening: 'Gardening Guide',
   tools: 'Tools',
   'all-nighter': 'All-Nighter Guide',
   about: 'About',
@@ -37,6 +38,15 @@ const labels = {
   feedback: 'Feedback',
   settings: 'Settings',
   random: 'Random Guide',
+  sleeping: 'Sleeping Guide',
+  'bmi-calculator': 'BMI Calculator',
+  'decision-wheel': 'Decision Wheel',
+  'investment-calculator': 'Investment Calculator',
+  'password-generator': 'Password Generator',
+  'password-strength': 'Password Strength',
+  pomodoro: 'Pomodoro Timer (External)',
+  'study-tracker': 'Study Tracker',
+  'unit-converter': 'Unit Converter',
 }
 
 const crumbs = computed(() => {

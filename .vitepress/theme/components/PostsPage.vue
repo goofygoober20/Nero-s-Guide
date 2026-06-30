@@ -40,6 +40,15 @@ const filteredPosts = computed(() => {
   return posts.value.filter(p => getCategory(p.message) === activeFilter.value)
 })
 
+const categoryCounts = computed(() => {
+  const counts = { all: posts.value.length, new: 0, fix: 0, update: 0, site: 0 }
+  for (const post of posts.value) {
+    const category = getCategory(post.message)
+    counts[category] = (counts[category] || 0) + 1
+  }
+  return counts
+})
+
 function relativeTime(post) {
   const ts = post.timestamp || post.date
   const diff = Date.now() - new Date(ts).getTime()
@@ -92,7 +101,7 @@ onMounted(async () => {
           @click="activeFilter = key"
         >
           {{ meta.label }}
-          <span class="pp-count">{{ posts.filter(p => getCategory(p.message) === key).length }}</span>
+          <span class="pp-count">{{ categoryCounts[key] || 0 }}</span>
         </button>
       </div>
 

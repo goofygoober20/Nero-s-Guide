@@ -10,7 +10,7 @@ const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const PRIVATE_CHANNEL_ID = process.env.PRIVATE_CHANNEL_ID;
 const APPROVED_WEBHOOK_URL = process.env.APPROVED_WEBHOOK_URL;
 
-const POSTS_FILE = path.join(__dirname, 'public', 'approved-posts.json');
+const POSTS_FILE = path.join(__dirname, '_data', 'approved-posts.json');
 
 // ============================================
 // HELPER FUNCTIONS

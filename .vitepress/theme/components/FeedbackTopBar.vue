@@ -1,5 +1,5 @@
 <template>
-  <div v-if="webhookConfigured" class="feedback-bar">
+  <div v-if="webhookConfigured && !dismissed" class="feedback-bar">
     <div v-if="!isOpen" class="feedback-collapsed">
       <div class="collapsed-inner">
         <div class="collapsed-left">
@@ -13,6 +13,7 @@
           Share Feedback
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
         </button>
+        <button class="dismiss-btn" aria-label="Dismiss feedback prompt for this session" @click="dismissFeedback">✕</button>
       </div>
     </div>
 
@@ -54,6 +55,7 @@
           <textarea
             v-model="feedback.message"
             class="feedback-textarea"
+            :aria-label="`${selectedLabel} feedback message`"
             :placeholder="placeholderText"
             rows="4"
             @input="error = null"
@@ -96,21 +98,25 @@
 </template>
 
 <script setup>
-import { reactive, ref, computed } from 'vue'
+import { reactive, ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vitepress'
-
-const WEBHOOK = import.meta.env.VITE_FEEDBACK_WEBHOOK
 
 const router = useRouter()
 const isOpen = ref(false)
 const loading = ref(false)
-const webhookConfigured = !!WEBHOOK
+const webhookConfigured = true
 const error = ref(null)
 const success = ref(false)
 const toastMsg = ref('')
 const toastType = ref('')
+const dismissed = ref(false)
+
+onMounted(() => {
+  dismissed.value = sessionStorage.getItem('nero-feedback-dismissed') === 'true'
+})
 
 const feedbackOptions = [
+  { value: 'bug', label: 'Bug', icon: '🐛' },
   { value: 'suggestion', label: 'Suggest', icon: '💡' },
   { value: 'appreciation', label: 'Appreciate', icon: '🙏' },
   { value: 'other', label: 'Other', icon: '📁' },
@@ -131,6 +137,10 @@ const prompts = [
 ]
 
 const messages = {
+  bug: [
+    "Thanks for reporting a bug — details help us fix it faster.",
+    "What broke? Include what you expected and what happened.",
+  ],
   suggestion: [
     "We're glad you want to share your ideas!",
     "Nix the fluff and just tell us what you think!",
@@ -168,6 +178,7 @@ const randomMessage = computed(() => {
 })
 
 const placeholderText = computed(() => {
+  if (feedback.type === 'bug') return 'I found a bug: steps to reproduce are...'
   if (feedback.type === 'suggestion') return 'I have an idea...'
   if (feedback.type === 'appreciation') return 'I really liked...'
   return 'I wanted to say...'
@@ -195,6 +206,12 @@ function close() {
   success.value = false
 }
 
+function dismissFeedback() {
+  dismissed.value = true
+  sessionStorage.setItem('nero-feedback-dismissed', 'true')
+  close()
+}
+
 function showToast(msg, type) {
   toastMsg.value = msg
   toastType.value = type
@@ -205,25 +222,15 @@ async function handleSubmit() {
   loading.value = true
   error.value = null
 
-  const typeLabels = { suggestion: '💡 Suggestion', appreciation: '🙏 Appreciation', other: '📁 Other' }
-
-  const embed = {
-    title: `💬 Topbar Feedback: ${typeLabels[feedback.type] || 'Other'}`,
-    color: 0x71ad70,
-    timestamp: new Date().toISOString(),
-    fields: [
-      { name: 'Type', value: typeLabels[feedback.type] || 'Other', inline: true },
-      { name: 'Page', value: router.route.path, inline: true },
-      { name: 'Source', value: 'Top Bar Widget', inline: true },
-      { name: 'Message', value: feedback.message },
-    ],
-  }
-
   try {
-    const res = await fetch(WEBHOOK, {
+    const res = await fetch('/api/feedback', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ username: 'Feedback Widget', embeds: [embed] }),
+      body: JSON.stringify({
+        type: feedback.type || 'feedback',
+        message: feedback.message,
+        page: router.route.path,
+      }),
     })
 
     if (!res.ok) throw new Error('Failed to send')
@@ -305,6 +312,28 @@ async function handleSubmit() {
 .share-btn:hover {
   filter: brightness(1.1);
   transform: translateY(-1px);
+}
+
+.dismiss-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-3);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.dismiss-btn:hover,
+.dismiss-btn:focus-visible {
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
 }
 
 /* Expanded */
@@ -538,8 +567,13 @@ async function handleSubmit() {
   }
 
   .collapsed-inner {
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .collapsed-left {
+    grid-column: 1 / -1;
   }
 
   .share-btn {

@@ -6,7 +6,7 @@ description: Learn to cook delicious, nutritious meals with basic techniques and
 # The Ultimate Cooking Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="clock" :size="14" /> Read time: 12 min</p>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Cooking is a life skill, not a talent. Anyone can learn to cook delicious, nutritious meals with basic techniques and a little practice. This guide covers everything from knife skills to batch cooking - no culinary school required.</p>
 </div>
 
@@ -472,7 +472,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
     <strong>Allrecipes</strong>
   </div>
   <p class="source-citation">Foolproof recipes for beginner cooks. Step-by-step guides with common pitfalls explained.</p>
-  <a href="https://www.allrecipes.com/article/foolproof-recipes-beginner-cooks/" target="_blank" class="source-link">Read article &rarr;</a>
+  <a href="https://www.allrecipes.com/article/foolproof-recipes-beginner-cooks/" target="_blank" rel="noopener noreferrer" class="source-link">Read article &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -481,7 +481,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
     <strong>BBC Good Food</strong>
   </div>
   <p class="source-citation">10 essential cooking tips for students and beginners on a budget.</p>
-  <a href="https://www.bbcgoodfood.com/howto/guide/cooking-tips-students" target="_blank" class="source-link">Read article &rarr;</a>
+  <a href="https://www.bbcgoodfood.com/howto/guide/cooking-tips-students" target="_blank" rel="noopener noreferrer" class="source-link">Read article &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -490,7 +490,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
     <strong>Minimalist Baker</strong>
   </div>
   <p class="source-citation">Easy pinto beans from scratch, one pot. Simple, minimal-ingredient recipes.</p>
-  <a href="https://minimalistbaker.com/mexican-pinto-beans-scratch-1-pot/" target="_blank" class="source-link">View recipe &rarr;</a>
+  <a href="https://minimalistbaker.com/mexican-pinto-beans-scratch-1-pot/" target="_blank" rel="noopener noreferrer" class="source-link">View recipe &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -499,7 +499,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
     <strong>King Arthur Baking</strong>
   </div>
   <p class="source-citation">Comprehensive pie baking guide with techniques, tips, and troubleshooting.</p>
-  <a href="https://www.kingarthurbaking.com/learn/guides/pie-baking" target="_blank" class="source-link">Read guide &rarr;</a>
+  <a href="https://www.kingarthurbaking.com/learn/guides/pie-baking" target="_blank" rel="noopener noreferrer" class="source-link">Read guide &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -508,7 +508,7 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
     <strong>Serious Eats - The Food Lab</strong>
   </div>
   <p class="source-citation">Science-based cooking techniques from J. Kenji L&ouml;pez-Alt's The Food Lab series.</p>
-  <a href="https://www.seriouseats.com/the-food-lab-how-to-cook-shuck-lobster" target="_blank" class="source-link">Read on Serious Eats &rarr;</a>
+  <a href="https://www.seriouseats.com/the-food-lab-how-to-cook-shuck-lobster" target="_blank" rel="noopener noreferrer" class="source-link">Read on Serious Eats &rarr;</a>
 </div>
 
 </div>

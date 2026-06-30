@@ -2,6 +2,10 @@
 title: 2FA App Quiz
 ---
 
+<script setup>
+import TwoFactorQuiz from './.vitepress/theme/components/TwoFactorQuiz.vue'
+</script>
+
 # 🔒 2FA App Quiz
 
 <TwoFactorQuiz />
@@ -20,3 +24,5 @@ title: 2FA App Quiz
   border-top: 1px solid var(--vp-c-divider);
 }
 </style>
+
+<TwoFactorQuiz />

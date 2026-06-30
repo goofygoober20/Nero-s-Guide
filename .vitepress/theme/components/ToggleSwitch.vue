@@ -1,14 +1,25 @@
 <template>
-  <label class="switch">
-    <input type="checkbox" :checked="modelValue" @change="$emit('update:modelValue', $event.target.checked)">
+  <button
+    class="switch"
+    role="switch"
+    :aria-checked="modelValue"
+    :aria-label="label"
+    @click="$emit('update:modelValue', !modelValue)"
+  >
     <span class="slider"></span>
-  </label>
+  </button>
 </template>
 
 <script setup>
 defineProps({
-  modelValue: Boolean
+  modelValue: Boolean,
+  label: {
+    type: String,
+    default: 'Toggle setting'
+  }
 })
+
+defineEmits(['update:modelValue'])
 </script>
 
 <style scoped>
@@ -17,10 +28,16 @@ defineProps({
   width: 46px;
   height: 24px;
   display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 24px;
 }
 
-.switch input {
-  display: none;
+.switch:focus-visible .slider {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
 }
 
 .slider {
@@ -43,11 +60,11 @@ defineProps({
   transition: 0.25s ease;
 }
 
-input:checked + .slider {
+[aria-checked="true"] .slider {
   background: var(--vp-c-brand-1);
 }
 
-input:checked + .slider::before {
+[aria-checked="true"] .slider::before {
   transform: translateX(22px);
 }
 </style>

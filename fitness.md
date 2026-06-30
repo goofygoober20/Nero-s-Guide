@@ -8,7 +8,7 @@ outline: [2, 3]
 # The Ultimate Fitness Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="clock" :size="14" /> Read time: 10 min</p>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Fitness is not about punishment or perfection. It's about building a body that serves you well for a lifetime. This guide covers practical, science-based approaches to strength, cardio, flexibility, and recovery - with no equipment required to start.</p>
 </div>
 
@@ -19,6 +19,22 @@ import FitnessSurvey from './.vitepress/theme/components/FitnessSurvey.vue'
 <ClientOnly>
   <FitnessSurvey />
 </ClientOnly>
+
+## Table of Contents
+
+<details open>
+<summary>Click to expand</summary>
+
+- [The Three Pillars of Fitness](#the-three-pillars-of-fitness)
+- [Strength Training](#strength)
+- [Cardio & Conditioning](#cardio)
+- [Flexibility & Mobility](#mobility)
+- [Finding the Right Program](#programs)
+- [Nutrition Basics](#nutrition)
+- [Recovery & Sleep](#recovery)
+- [Sources & Further Reading](#sources)
+
+</details>
 
 ::: tip
 **Do not change your routine for at least 4 weeks.** Fitness adaptations take time. The first 2 weeks are neural adaptation (learning the movement), not muscle growth. Judge progress at 4, 8, and 12 weeks, not day by day.
@@ -72,7 +88,7 @@ import FitnessSurvey from './.vitepress/theme/components/FitnessSurvey.vue'
 
 ## Strength Training {#strength}
 
-> **Source:** <a href="https://exrx.net" target="_blank">ExRx.net</a> - one of the most comprehensive, evidence-based exercise libraries on the internet.
+> **Source:** <a href="https://exrx.net" target="_blank" rel="noopener noreferrer">ExRx.net</a> - one of the most comprehensive, evidence-based exercise libraries on the internet.
 
 ### Bodyweight Exercises (No Equipment)
 
@@ -236,7 +252,7 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
 
 ## Finding the Right Program {#programs}
 
-> **Source:** <a href="https://darebee.com" target="_blank">DAREBEE</a> - a non-profit, ad-free fitness resource with hundreds of free workout programs.
+> **Source:** <a href="https://darebee.com" target="_blank" rel="noopener noreferrer">DAREBEE</a> - a non-profit, ad-free fitness resource with hundreds of free workout programs.
 
 <div class="resource-grid">
   <div class="resource-card" style="text-decoration: none; cursor: default;">
@@ -328,7 +344,7 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
     <strong>ExRx.net</strong>
   </div>
   <p class="source-citation">Exercise science library with detailed movement patterns, muscle directories, and training protocols.</p>
-  <a href="https://exrx.net" target="_blank" class="source-link">Visit ExRx.net &rarr;</a>
+  <a href="https://exrx.net" target="_blank" rel="noopener noreferrer" class="source-link">Visit ExRx.net &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -337,7 +353,7 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
     <strong>DAREBEE</strong>
   </div>
   <p class="source-citation">Free workout programs, fitness challenges, and visual exercise guides for all levels.</p>
-  <a href="https://darebee.com" target="_blank" class="source-link">Visit DAREBEE &rarr;</a>
+  <a href="https://darebee.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit DAREBEE &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -346,7 +362,7 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
     <strong>WHO Guidelines</strong>
   </div>
   <p class="source-citation">World Health Organization physical activity guidelines and recommendations for all age groups.</p>
-  <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" class="source-link">Read guidelines &rarr;</a>
+  <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener noreferrer" class="source-link">Read guidelines &rarr;</a>
 </div>
 
 </div>

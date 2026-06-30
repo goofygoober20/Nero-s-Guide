@@ -2,7 +2,7 @@
   <div class="uf-wrap">
     <h2 class="uf-title">Chromebook unenrollment finder</h2>
     <p class="uf-sub">Enter your device info to find the right method.
-      <a href="https://docs.titaniumnetwork.org/kajigs/versions" target="_blank">
+      <a href="https://docs.titaniumnetwork.org/kajigs/versions" target="_blank" rel="noopener noreferrer">
         Don't know your version? Check here ↗
       </a>
     </p>
@@ -21,6 +21,17 @@
         <button :class="['uf-btn', shimState === true && 'active']" @click="shimState = true">Yes (unkeyrolled)</button>
         <button :class="['uf-btn', shimState === false && 'active']" @click="shimState = false">No (keyrolled)</button>
         <button :class="['uf-btn', shimState === null && 'active']" @click="shimState = null">Not sure</button>
+      </div>
+      <div class="uf-hint-block">
+        <p><strong>How to check if your device is keyrolled:</strong></p>
+        <ol>
+          <li>Enter recovery mode by holding <code>Esc + Refresh + Power</code>, then release Power</li>
+          <li>At the recovery screen, press <code>Ctrl + D</code></li>
+          <li>If prompted to turn off OS verification, press <code>Space</code> then <code>Enter</code></li>
+          <li>If the device boots into Chrome OS normally → <strong>it is NOT keyrolled</strong></li>
+          <li>If the device shows an error or loops back to recovery → <strong>it IS keyrolled</strong></li>
+        </ol>
+        <p>You can also check by looking at the write-protect status: open a terminal in developer mode and run <code>crosssystem --help</code>. If it returns an error about hardware, the device is likely keyrolled.</p>
       </div>
     </div>
 
@@ -90,13 +101,13 @@ function findMethod() {
       'Open your Chromebook with a Phillips screwdriver and disconnect the battery',
       'Find the 8-pin SPI flash chip on the motherboard — look for WINBOND or GIGADEVICE branding (25Q64 or 25Q128)',
       'Bridge pin 3 (WP) and pin 8 (VCC) using a conductive material — make sure it doesn\'t touch other pins',
-      'Reconnect power and boot into <a href="https://docs.titaniumnetwork.org/kajigs/sh1mmer" target="_blank">SH1MMER ↗</a>',
+      'Reconnect power and boot into <a href="https://docs.titaniumnetwork.org/kajigs/sh1mmer" target="_blank" rel="noopener noreferrer">SH1MMER ↗</a>',
       'In SH1MMER utilities, run "Un-Enroll Device"',
       'Open the bash shell and run: <code>flashrom --wp-disable</code>',
       'Then run: <code>/usr/share/vboot/bin/set_gbb_flags.sh 0x8090</code>',
       'Power off, remove the bridge, then powerwash'
     ],
-    note: 'If on v124+, you\'ll need to downgrade to v123 first. See <a href="https://docs.titaniumnetwork.org/kajigs/versions" target="_blank">Versions ↗</a> for downgrade instructions.'
+    note: 'If on v124+, you\'ll need to downgrade to v123 first. See <a href="https://docs.titaniumnetwork.org/kajigs/versions" target="_blank" rel="noopener noreferrer">Versions ↗</a> for downgrade instructions.'
   })
 
   // Old unenrollment — below v112 (kv1)
@@ -109,7 +120,7 @@ function findMethod() {
       title: 'Unenrollment for old versions (below v112)',
       description: 'Your device is on a very old version. See the Titanium Network guide for old unenrollment methods.',
       steps: [
-        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/old-unenroll" target="_blank">old unenrollment guide ↗</a> for specific steps for your version'
+        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/old-unenroll" target="_blank" rel="noopener noreferrer">old unenrollment guide ↗</a> for specific steps for your version'
       ]
     })
   }
@@ -124,7 +135,7 @@ function findMethod() {
       title: 'Cryptosmite (v112–v119)',
       description: 'Your device is on Kernver 2 and is compatible with Cryptosmite.',
       steps: [
-        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/cryptosmite" target="_blank">Cryptosmite guide ↗</a> for full instructions'
+        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/cryptosmite" target="_blank" rel="noopener noreferrer">Cryptosmite guide ↗</a> for full instructions'
       ]
     })
   }
@@ -139,7 +150,7 @@ function findMethod() {
       title: 'BadRecovery (v120–v123)',
       description: 'Your device is on Kernver 3 and is compatible with BadRecovery.',
       steps: [
-        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/badrecovery" target="_blank">BadRecovery guide ↗</a> for full instructions'
+        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/badrecovery" target="_blank" rel="noopener noreferrer">BadRecovery guide ↗</a> for full instructions'
       ]
     })
   }
@@ -154,7 +165,7 @@ function findMethod() {
       title: 'Icarus (v124–v132)',
       description: 'Your device is on Kernver 4 and is compatible with Icarus.',
       steps: [
-        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/icarus" target="_blank">Icarus guide ↗</a> for full instructions'
+        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/icarus" target="_blank" rel="noopener noreferrer">Icarus guide ↗</a> for full instructions'
       ]
     })
     methods.push({
@@ -165,7 +176,7 @@ function findMethod() {
       title: 'OOBESCAPE (v124–v132)',
       description: 'Your device is on Kernver 4 and is also compatible with OOBESCAPE.',
       steps: [
-        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/oobescape" target="_blank">OOBESCAPE guide ↗</a> for full instructions'
+        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/oobescape" target="_blank" rel="noopener noreferrer">OOBESCAPE guide ↗</a> for full instructions'
       ]
     })
   }
@@ -180,7 +191,7 @@ function findMethod() {
       title: 'Br0ker (v132–v137)',
       description: 'Your device is on Kernver 5 and is compatible with Br0ker. Note: you cannot downgrade to v132 in kv5, but Br0ker handles this differently.',
       steps: [
-        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/br0ker" target="_blank">Br0ker guide ↗</a> for full instructions'
+        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/br0ker" target="_blank" rel="noopener noreferrer">Br0ker guide ↗</a> for full instructions'
       ]
     })
     methods.push({
@@ -191,7 +202,7 @@ function findMethod() {
       title: 'Sh1ttyOOBE (v132–v137)',
       description: 'Your device is on Kernver 5 and is also compatible with Sh1ttyOOBE.',
       steps: [
-        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/sh1ttyoobe" target="_blank">Sh1ttyOOBE guide ↗</a> for full instructions'
+        'Visit the <a href="https://docs.titaniumnetwork.org/kajigs/sh1ttyoobe" target="_blank" rel="noopener noreferrer">Sh1ttyOOBE guide ↗</a> for full instructions'
       ]
     })
   }
@@ -225,7 +236,7 @@ function findMethod() {
         steps: [
           'Enable developer mode: hold <code>Esc + Refresh + Power</code>, then press <code>Ctrl + D</code>',
           'Enter recovery mode again',
-          'Boot a <a href="https://unenrollment.com/GoodSilver" target="_blank">GoodSilver image ↗</a>',
+          'Boot a <a href="https://unenrollment.com/GoodSilver" target="_blank" rel="noopener noreferrer">GoodSilver image ↗</a>',
           'Choose <strong>Deprovision</strong>',
           'After reboot, go through setup — you will be unenrolled!'
         ]
@@ -238,7 +249,7 @@ function findMethod() {
         steps: [
           'Try booting a SH1MMER shim',
           '<strong>If it boots:</strong> use Quicksilver via the Payloads menu',
-          '<strong>If it doesn\'t boot:</strong> use <a href="https://unenrollment.com/GoodSilver" target="_blank">GoodSilver ↗</a> and choose Deprovision'
+          '<strong>If it doesn\'t boot:</strong> use <a href="https://unenrollment.com/GoodSilver" target="_blank" rel="noopener noreferrer">GoodSilver ↗</a> and choose Deprovision'
         ]
       })
     }
@@ -251,7 +262,7 @@ function findMethod() {
       title: 'Version patched — limited options',
       description: 'Your ChromeOS version is above v142. Quicksilver is patched. Your best options are the Pencil Method above or downgrading.',
       steps: [
-        'Consider downgrading to v142 or below — see <a href="https://docs.titaniumnetwork.org/kajigs/versions" target="_blank">Versions ↗</a>',
+        'Consider downgrading to v142 or below — see <a href="https://docs.titaniumnetwork.org/kajigs/versions" target="_blank" rel="noopener noreferrer">Versions ↗</a>',
         'Or use the Pencil Method listed above (works on all versions)'
       ]
     })
@@ -288,4 +299,9 @@ function findMethod() {
 .uf-steps { margin: 8px 0 0; padding-left: 1.2rem; }
 .uf-steps li { font-size: 14px; margin-bottom: 6px; line-height: 1.5; }
 .uf-note { font-size: 13px; color: var(--vp-c-text-2); margin-top: 10px; }
+.uf-hint-block { margin-top: 10px; padding: 12px 14px; border-radius: 10px; background: var(--vp-c-bg); border: 1px solid var(--vp-c-divider); font-size: 13px; color: var(--vp-c-text-2); line-height: 1.6; }
+.uf-hint-block p { margin: 0 0 6px; }
+.uf-hint-block ol { margin: 0; padding-left: 1.2rem; }
+.uf-hint-block li { margin-bottom: 4px; }
+.uf-hint-block code { font-size: 12px; background: var(--vp-c-bg-soft); padding: 1px 5px; border-radius: 4px; }
 </style>

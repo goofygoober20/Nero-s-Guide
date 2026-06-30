@@ -24,6 +24,7 @@ onMounted(() => {
     '/productivity',
     '/minimalism',
     '/gaming',
+    '/gardening',
   ]
   const randomGuide = guides[Math.floor(Math.random() * guides.length)]
   window.location.href = randomGuide

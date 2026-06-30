@@ -1,13 +1,28 @@
 ---
 title: Minimalism Guide
 description: Simplify your digital and physical life with practical decluttering strategies.
-difficulty: beginner
+updated: 2026-06-26
+readingTime: 8
 ---
 
 <div class="guide-hero">
   <h1>Minimalism Guide</h1>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Minimalism isn't about owning nothing - it's about making room for what matters. This guide covers digital decluttering, reducing screen time, and simplifying your physical space.</p>
 </div>
+
+## Table of Contents
+
+<details open>
+<summary>Click to expand</summary>
+
+- [Digital Declutter](#digital-declutter)
+- [Reducing Screen Time](#reducing-screen-time)
+- [Physical Minimalism](#physical-minimalism)
+- [Minimalist Mindset](#minimalist-mindset)
+- [Minimalist Communities & Resources](#minimalist-communities--resources)
+
+</details>
 
 ## Digital Declutter
 
@@ -39,7 +54,6 @@ difficulty: beginner
 </div>
 
 ## Reducing Screen Time
-
 <div class="resource-grid">
   <div class="resource-card reveal">
     <div class="resource-body">
@@ -76,7 +90,7 @@ difficulty: beginner
       <h4>Digital Sabbath</h4>
       <p>Pick one day per week (or a few hours) with no screens. Read a book, go for a walk, talk to people in person. Reset your relationship with technology.</p>
     </div>
-  </div>
+</div>
 </div>
 
 ## Physical Minimalism
@@ -107,29 +121,49 @@ difficulty: beginner
   <span><strong>The goal is not to own nothing.</strong> The goal is to own only what serves you. Every item you own should either be useful or beautiful. If it's neither, it's clutter. Be intentional about what you let into your space and your life.</span>
 </div>
 
+## Minimalist Communities & Resources
+
 <div class="resource-grid">
-  <a href="https://www.reddit.com/r/minimalism/" target="_blank" class="resource-card reveal">
+  <a href="https://www.reddit.com/r/minimalism/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
     <div class="resource-body">
       <h4>r/minimalism</h4>
       <p>Active community focused on minimalism. Good for inspiration, tips, and discussions about living with less.</p>
     </div>
   </a>
-  <a href="https://www.reddit.com/r/digitalminimalism/" target="_blank" class="resource-card reveal">
+  <a href="https://www.reddit.com/r/digitalminimalism/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
     <div class="resource-body">
       <h4>r/digitalminimalism</h4>
       <p>Focused specifically on reducing digital clutter and screen time. Practical advice for phone and computer habits.</p>
     </div>
   </a>
-  <a href="https://www.goodreads.com/book/show/40672047-digital-minimalism" target="_blank" class="resource-card reveal">
+  <a href="https://www.goodreads.com/book/show/40672047-digital-minimalism" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
     <div class="resource-body">
       <h4>Digital Minimalism (Book)</h4>
       <p>By Cal Newport. The best book on reducing technology use without giving up the benefits. A 30-day digital declutter is the core practice.</p>
     </div>
   </a>
-  <a href="https://www.goodreads.com/book/show/30819131-goodbye-things" target="_blank" class="resource-card reveal">
+  <a href="https://www.goodreads.com/book/show/30819131-goodbye-things" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
     <div class="resource-body">
       <h4>Goodbye, Things (Book)</h4>
       <p>By Fumio Sasaki. A practical guide to extreme minimalism from someone who lives with only the essentials. Inspiring and actionable.</p>
+    </div>
+  </a>
+  <a href="https://newsminimalist.com" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <div class="resource-body">
+      <h4>News Minimalist</h4>
+      <p>A service that delivers only the most important news, aligning perfectly with a minimalist, low-information diet.</p>
+    </div>
+  </a>
+  <a href="https://raddle.me" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <div class="resource-body">
+      <h4>Raddle</h4>
+      <p>A privacy-focused, decentralized Reddit alternative. Perfect for readers looking to simplify their online communities.</p>
+    </div>
+  </a>
+  <a href="https://github.com/neiesc/awesome-minimalist" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <div class="resource-body">
+      <h4>Awesome Minimalist (GitHub)</h4>
+      <p>A curated list of minimalist resources, tools, and philosophies. Great for further reading and exploration.</p>
     </div>
   </a>
 </div>

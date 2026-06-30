@@ -4,20 +4,12 @@
 
     <div class="divider"></div>
 
-    <div class="field checkbox-field">
-      <div class="toggle-row">
-        <ToggleSwitch v-model="settings.showNSFW" @update:modelValue="saveSettings" />
-        <span>Show NSFW content</span>
-      </div>
-      <p class="field-hint">There is currently no NSFW content on this website.</p>
-    </div>
+    <p class="panel-hint">No content settings available yet. Check back later!</p>
 
   </div>
 </template>
 
 <script setup>
-import ToggleSwitch from '../ToggleSwitch.vue'
-
 defineProps({
   settings: Object,
   saveSettings: Function
@@ -104,5 +96,12 @@ defineProps({
   font-size: 0.72rem;
   color: var(--vp-c-text-3);
   margin: 0.35rem 0 0;
+}
+
+.panel-hint {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-3);
+  text-align: center;
+  padding: 1rem 0;
 }
 </style>

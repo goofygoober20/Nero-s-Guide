@@ -6,7 +6,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
 # The Password & Security Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="clock" :size="14" /> Last Updated: June 10th 2026 &middot; ⏱️ Read time: 10 min</p>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Your online security is only as strong as your weakest password. This guide covers password managers, two-factor authentication, breach checking, and best practices to keep your accounts safe.</p>
 </div>
 
@@ -30,7 +30,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
   <div class="pwned-body">
     <h3>Have I Been Pwned</h3>
     <p>A free service that checks if your passwords or email have appeared in known data breaches. Trusted worldwide with over 18+ billion monthly requests.</p>
-    <a href="https://haveibeenpwned.com/Passwords" target="_blank" class="external-btn">Check Your Passwords &rarr;</a>
+    <a href="https://haveibeenpwned.com/Passwords" target="_blank" rel="noopener noreferrer" class="external-btn">Check Your Passwords &rarr;</a>
   </div>
 </div>
 
@@ -81,10 +81,10 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
       <span class="tag tag-green">2FA</span>
     </div>
     <p>Best overall. Unlimited devices on the free plan with all core features.</p>
-    <a href="https://bitwarden.com" target="_blank" class="manager-link">Visit &rarr;</a>
+    <a href="https://bitwarden.com" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
   </div>
   <div class="manager-card">
-    <img src="https://icons.duckduckgo.com/ip3/proton.me.ico" alt="Proton Pass" class="manager-icon" width="32" height="32" />
+    <img loading="lazy" src="https://icons.duckduckgo.com/ip3/proton.me.ico" alt="Proton Pass" class="manager-icon" width="32" height="32" />
     <h4>Proton Pass</h4>
     <div class="manager-tags">
       <span class="tag tag-green">Open Source</span>
@@ -92,10 +92,10 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
       <span class="tag tag-green">2FA</span>
     </div>
     <p>Privacy-first from the makers of Proton Mail. Built-in email aliasing.</p>
-    <a href="https://proton.me/pass" target="_blank" class="manager-link">Visit &rarr;</a>
+    <a href="https://proton.me/pass" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
   </div>
   <div class="manager-card">
-    <img src="https://icons.duckduckgo.com/ip3/keepassxc.org.ico" alt="KeePassXC" class="manager-icon" width="32" height="32" />
+    <img loading="lazy" src="https://icons.duckduckgo.com/ip3/keepassxc.org.ico" alt="KeePassXC" class="manager-icon" width="32" height="32" />
     <h4>KeePassXC</h4>
     <div class="manager-tags">
       <span class="tag tag-green">Open Source</span>
@@ -103,7 +103,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
       <span class="tag tag-green">Local</span>
     </div>
     <p>Best local-only option. Full control over your encrypted database file.</p>
-    <a href="https://keepassxc.org" target="_blank" class="manager-link">Visit &rarr;</a>
+    <a href="https://keepassxc.org" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
   </div>
   <div class="manager-card">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="manager-icon"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
@@ -114,7 +114,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
       <span class="tag tag-green">Self-Host</span>
     </div>
     <p>Lightweight self-hosted Bitwarden-compatible server for full data control.</p>
-    <a href="https://github.com/dani-garcia/vaultwarden" target="_blank" class="manager-link">Visit &rarr;</a>
+    <a href="https://github.com/dani-garcia/vaultwarden" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
   </div>
 </div>
 
@@ -167,7 +167,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
   <div class="fa-dir-body">
     <h4>2FA Directory</h4>
     <p>A comprehensive list of websites that support 2FA, with details on which methods they offer. Check this before signing up for any service.</p>
-    <a href="https://2fa.directory" target="_blank" class="external-btn">Browse 2FA Directory &rarr;</a>
+    <a href="https://2fa.directory" target="_blank" rel="noopener noreferrer" class="external-btn">Browse 2FA Directory &rarr;</a>
   </div>
 </div>
 
@@ -291,7 +291,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
     <strong>Have I Been Pwned</strong>
   </div>
   <p class="source-citation">Check if your passwords or email have appeared in known data breaches. Trusted worldwide with 18+ billion monthly requests.</p>
-  <a href="https://haveibeenpwned.com/Passwords" target="_blank" class="source-link">Check your passwords &rarr;</a>
+  <a href="https://haveibeenpwned.com/Passwords" target="_blank" rel="noopener noreferrer" class="source-link">Check your passwords &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -300,7 +300,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
     <strong>2FA Directory</strong>
   </div>
   <p class="source-citation">Comprehensive list of websites that support two-factor authentication, with details on which methods they offer.</p>
-  <a href="https://2fa.directory" target="_blank" class="source-link">Browse 2FA Directory &rarr;</a>
+  <a href="https://2fa.directory" target="_blank" rel="noopener noreferrer" class="source-link">Browse 2FA Directory &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -309,7 +309,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
     <strong>Bitwarden</strong>
   </div>
   <p class="source-citation">Recommended open-source password manager with a generous free tier, unlimited devices, and all core features.</p>
-  <a href="https://bitwarden.com" target="_blank" class="source-link">Visit Bitwarden &rarr;</a>
+  <a href="https://bitwarden.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit Bitwarden &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -318,7 +318,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
     <strong>Ente Auth</strong>
   </div>
   <p class="source-citation">Recommended open-source 2FA authenticator app with encrypted cloud sync and cross-platform support.</p>
-  <a href="https://ente.io/auth" target="_blank" class="source-link">Visit Ente Auth &rarr;</a>
+  <a href="https://ente.io/auth" target="_blank" rel="noopener noreferrer" class="source-link">Visit Ente Auth &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -327,7 +327,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
     <strong>NIST SP 800-63B</strong>
   </div>
   <p class="source-citation">Official U.S. digital identity guidelines that define modern password security rules and best practices.</p>
-  <a href="https://pages.nist.gov/800-63-3/sp800-63b.html" target="_blank" class="source-link">Read the guidelines &rarr;</a>
+  <a href="https://pages.nist.gov/800-63-3/sp800-63b.html" target="_blank" rel="noopener noreferrer" class="source-link">Read the guidelines &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -336,7 +336,7 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
     <strong>Hive Systems Password Table</strong>
   </div>
   <p class="source-citation">Interactive password cracking time estimates based on the latest research and hardware capabilities.</p>
-  <a href="https://www.hivesystems.io/password" target="_blank" class="source-link">View the table &rarr;</a>
+  <a href="https://www.hivesystems.io/password" target="_blank" rel="noopener noreferrer" class="source-link">View the table &rarr;</a>
 </div>
 
 </div>

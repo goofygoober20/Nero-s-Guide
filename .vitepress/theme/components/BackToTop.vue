@@ -1,20 +1,23 @@
 <template>
   <button v-if="visible" class="back-to-top-btn" @click="scrollToTop" aria-label="Back to top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="18 15 12 9 6 15"/>
-    </svg>
+    <span class="btt-pct">{{ pct }}%</span>
   </button>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const visible = ref(false)
+const scrollPct = ref(0)
 let ticking = false
+
+const pct = computed(() => Math.min(99, Math.round(scrollPct.value)))
 
 function checkScroll() {
   if (!ticking) {
     requestAnimationFrame(() => {
+      const max = document.documentElement.scrollHeight - window.innerHeight
+      scrollPct.value = max > 0 ? (window.scrollY / max) * 100 : 0
       visible.value = window.scrollY > 300
       ticking = false
     })
@@ -54,6 +57,13 @@ onUnmounted(() => window.removeEventListener('scroll', checkScroll))
 .back-to-top-btn:hover {
   transform: translateY(-3px);
   opacity: 1;
+}
+
+.btt-pct {
+  font-size: 0.65rem;
+  font-weight: 700;
+  font-family: monospace;
+  line-height: 1;
 }
 
 @media (max-width: 640px) {

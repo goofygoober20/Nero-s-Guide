@@ -1,5 +1,7 @@
 html {
   overflow-x: hidden;
+  --vp-font-family-base: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
 }
 
 /* ========== Background Level (Brightness) ========== */
@@ -10,12 +12,14 @@ html {
 
 /* ========== Font Size Settings ========== */
 
-.font-small {
-  --vp-font-size-base: 14px;
+.font-small html,
+.font-small body {
+  font-size: 14px;
 }
 
-.font-large {
-  --vp-font-size-base: 18px;
+.font-large html,
+.font-large body {
+  font-size: 18px;
 }
 
 /* ========== Theme Colors ========== */
@@ -45,6 +49,43 @@ html {
   --vp-c-divider-light: rgba(var(--vp-c-brand-1-rgb), 0.12);
 
   --vp-c-brand-1-rgb: 113, 173, 112;
+
+  /* ===== Design Tokens: Spacing ===== */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 0.75rem;
+  --space-lg: 1rem;
+  --space-xl: 1.25rem;
+  --space-2xl: 1.5rem;
+  --space-3xl: 2rem;
+  --space-4xl: 3rem;
+
+  /* ===== Design Tokens: Border Radius ===== */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 14px;
+  --radius-3xl: 16px;
+
+  /* ===== Design Tokens: Accent Colors ===== */
+  --accent-red: #e74c3c;
+  --accent-red-rgb: 231, 76, 60;
+  --accent-orange: #e67e22;
+  --accent-orange-rgb: 230, 126, 34;
+  --accent-green: #22c55e;
+  --accent-blue: #3498db;
+  --accent-blue-rgb: 52, 152, 219;
+  --accent-purple: #a78bfa;
+  --accent-purple-rgb: 167, 139, 250;
+
+  /* ===== Design Tokens: Transitions ===== */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.25s ease;
+  --transition-slow: 0.3s ease;
+  --transition-slower: 0.4s ease;
+  --transition-slowest: 0.5s ease;
 }
 
 .dark {
@@ -78,6 +119,44 @@ html {
   --vp-c-indigo-3: #333C1E;
 }
 
+/* ========== Typography & Readability ========== */
+
+.vp-doc p,
+.vp-doc li {
+  max-width: 70ch;
+  line-height: 1.75;
+}
+
+.vp-doc .custom-block {
+  line-height: 1.65;
+}
+
+.vp-doc h1 {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.vp-doc h2 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.vp-doc h3 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.vp-doc h4 {
+  font-size: 1.05rem;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
 /* ========== Search Modal Styles ========== */
 
 .DocSearch-Container {
@@ -97,7 +176,7 @@ html {
 .DocSearch-Modal {
   background-color: var(--vp-c-bg-elv) !important;
   background: var(--vp-c-bg-elv) !important;
-  border-radius: 16px !important;
+  border-radius: var(--radius-3xl) !important;
   box-shadow: 0 25px 50px -12px rgba(9, 9, 9, 0.25) !important;
 }
 
@@ -105,7 +184,7 @@ html {
   background-color: var(--vp-c-bg-soft) !important;
   background: var(--vp-c-bg-soft) !important;
   border: 1px solid var(--vp-c-divider) !important;
-  border-radius: 12px !important;
+  border-radius: var(--radius-xl) !important;
 }
 
 .DocSearch-Hits {
@@ -114,7 +193,7 @@ html {
 
 .DocSearch-Hit a {
   background-color: var(--vp-c-bg-soft) !important;
-  border-radius: 8px !important;
+  border-radius: var(--radius-md) !important;
 }
 
 .DocSearch-Hit a:hover {
@@ -124,7 +203,7 @@ html {
 .DocSearch-Footer {
   background-color: var(--vp-c-bg-soft) !important;
   border-top: 1px solid var(--vp-c-divider) !important;
-  border-radius: 0 0 16px 16px !important;
+  border-radius: 0 0 var(--radius-3xl) var(--radius-3xl) !important;
 }
 
 .DocSearch-Hit-title {
@@ -469,7 +548,7 @@ html {
 /* Guide Hero */
 .guide-hero {
   text-align: center;
-  padding: 1rem 1rem 1.5rem;
+  padding: var(--space-lg) var(--space-lg) var(--space-2xl);
   position: relative;
   overflow: hidden;
 }
@@ -478,7 +557,7 @@ html {
   position: relative;
   font-size: 0.8rem;
   color: var(--vp-c-text-3);
-  margin: 0 0 0.5rem;
+  margin: 0 0 var(--space-sm);
 }
 
 .guide-intro {
@@ -494,8 +573,8 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0.5rem 0 1.5rem;
+  gap: var(--space-sm);
+  margin: var(--space-sm) 0 var(--space-2xl);
 }
 
 .meta-info span {
@@ -504,7 +583,7 @@ html {
   gap: 0.3rem;
   font-size: 0.78rem;
   padding: 0.25rem 0.65rem;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
   color: var(--vp-c-text-2);
@@ -512,9 +591,9 @@ html {
 
 .meta-footer {
   text-align: center;
-  padding: 1.5rem;
-  margin-top: 2rem;
-  border-radius: 12px;
+  padding: var(--space-2xl);
+  margin-top: var(--space-3xl);
+  border-radius: var(--radius-xl);
   background: var(--vp-c-brand-soft);
   border: 1px solid var(--vp-c-divider);
   color: var(--vp-c-text-2);
@@ -529,19 +608,19 @@ html {
 .resource-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
+  gap: var(--space-lg);
+  margin: var(--space-2xl) 0;
 }
 
 .resource-card {
   display: flex;
-  gap: 1rem;
-  padding: 1.25rem;
-  border-radius: 12px;
+  gap: var(--space-lg);
+  padding: var(--space-xl);
+  border-radius: var(--radius-xl);
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
   text-decoration: none;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
 }
 
 .resource-card:hover {
@@ -578,26 +657,26 @@ html {
 
 /* Home: bring guides closer to prompt */
 .VPHero {
-  padding-bottom: 24px !important;
+  padding-bottom: var(--space-2xl) !important;
 }
 
 /* Sources grid (citation cards) */
 .sources-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin: 1.5rem 0;
+  gap: var(--space-lg);
+  margin: var(--space-2xl) 0;
 }
 
 .source-card {
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 1rem;
+  border-radius: var(--radius-xl);
+  padding: var(--space-lg);
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  transition: border-color 0.2s, transform 0.2s;
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
 }
 
 .source-card:hover {
@@ -608,7 +687,7 @@ html {
 .source-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--space-sm);
   font-size: 0.9rem;
 }
 
@@ -646,16 +725,16 @@ html {
 .steps-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
-  margin-bottom: 2rem;
+  gap: var(--space-md);
+  margin-bottom: var(--space-3xl);
 }
 
 .step-card {
   display: flex;
-  gap: 0.75rem;
+  gap: var(--space-md);
   align-items: flex-start;
-  padding: 1rem;
-  border-radius: 12px;
+  padding: var(--space-lg);
+  border-radius: var(--radius-xl);
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
 }
@@ -666,7 +745,7 @@ html {
   justify-content: center;
   width: 28px;
   height: 28px;
-  border-radius: 50%;
+  border-radius: var(--radius-full);
   background: var(--vp-c-brand-1);
   color: #fff;
   font-size: 0.8rem;
@@ -692,14 +771,14 @@ html {
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
-  padding: 1rem 1.25rem;
-  border-radius: 12px;
+  padding: var(--space-lg) var(--space-xl);
+  border-radius: var(--radius-xl);
   background: var(--vp-c-brand-soft);
   border: 1px solid var(--vp-c-divider);
   font-size: 0.85rem;
   color: var(--vp-c-text-2);
   line-height: 1.5;
-  margin: 1rem 0;
+  margin: var(--space-lg) 0;
 }
 
 .tip-icon {
@@ -711,22 +790,22 @@ html {
 .related-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1rem 0;
+  gap: var(--space-md);
+  margin: var(--space-lg) 0;
 }
 
 .related-card {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--space-sm);
   padding: 0.65rem 1.1rem;
-  border-radius: 10px;
+  border-radius: var(--radius-lg);
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
   text-decoration: none;
   color: var(--vp-c-text-1);
   font-size: 0.9rem;
-  transition: all 0.2s ease;
+  transition: all var(--transition-fast) ease;
 }
 
 .related-card:hover {
@@ -743,13 +822,13 @@ html {
 .external-btn {
   display: inline-block;
   padding: 0.55rem 1.2rem;
-  border-radius: 10px;
+  border-radius: var(--radius-lg);
   font-size: 0.85rem;
   font-weight: 600;
   color: #fff;
   background: var(--vp-c-brand-1);
   text-decoration: none;
-  transition: background 0.2s, transform 0.2s;
+  transition: background var(--transition-fast), transform var(--transition-fast);
 }
 
 .external-btn:hover {
@@ -759,8 +838,8 @@ html {
 
 /* Section cards (for section summaries) */
 .section-card {
-  padding: 1rem 1.25rem;
-  border-radius: 12px;
+  padding: var(--space-lg) var(--space-xl);
+  border-radius: var(--radius-xl);
   border-left: 3px solid var(--vp-c-brand-1);
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
@@ -768,7 +847,7 @@ html {
   font-size: 0.88rem;
   line-height: 1.6;
   color: var(--vp-c-text-2);
-  margin: 1.5rem 0;
+  margin: var(--space-2xl) 0;
 }
 
 .section-card strong {
@@ -795,7 +874,7 @@ html {
   font-size: 0.63rem;
   font-weight: 700;
   padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  border-radius: var(--radius-xs);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -809,25 +888,25 @@ html {
 .card-grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin: 1.5rem 0;
+  gap: var(--space-lg);
+  margin: var(--space-2xl) 0;
 }
 
 /* 3-column card grid */
 .card-grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin: 1.5rem 0;
+  gap: var(--space-lg);
+  margin: var(--space-2xl) 0;
 }
 
 /* Shared card style */
 .shared-card {
-  padding: 1.25rem;
-  border-radius: 14px;
+  padding: var(--space-xl);
+  border-radius: var(--radius-2xl);
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
-  transition: transform 0.25s ease, border-color 0.25s ease;
+  transition: transform var(--transition-base), border-color var(--transition-base);
 }
 
 .shared-card:hover {
@@ -836,7 +915,7 @@ html {
 }
 
 .shared-card h4 {
-  margin: 0 0 0.5rem;
+  margin: 0 0 var(--space-sm);
   font-size: 1rem;
 }
 
@@ -849,11 +928,11 @@ html {
 
 /* Card with colored left border */
 .card-border {
-  padding: 0.85rem 1rem 0.85rem 1rem;
-  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-lg);
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
-  transition: transform 0.2s ease;
+  transition: transform var(--transition-fast);
 }
 
 .card-border::before {
@@ -869,10 +948,10 @@ html {
 
 /* Warning card */
 .warning-card {
-  padding: 1rem 1.25rem;
-  border-radius: 12px;
-  border: 1px solid rgba(231, 76, 60, 0.3);
-  border-left: 3px solid #e74c3c;
+  padding: var(--space-lg) var(--space-xl);
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(var(--accent-red-rgb), 0.3);
+  border-left: 3px solid var(--accent-red);
   background: var(--vp-c-bg-soft);
   margin: 1rem 0;
 }
@@ -902,7 +981,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background: var(--vp-c-brand-1);
-  border-radius: 4px;
+  border-radius: var(--radius-xs);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -919,7 +998,7 @@ html {
 
 .fade-slide-enter-active,
 .fade-slide-leave-active {
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
 }
 
 .fade-slide-enter-from {
@@ -935,7 +1014,7 @@ html {
 /* VitePress route transition */
 .route-transition-enter-active,
 .route-transition-leave-active {
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
 }
 
 .route-transition-enter-from {
@@ -988,7 +1067,7 @@ html {
 .reveal {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: opacity var(--transition-slowest), transform var(--transition-slowest);
 }
 
 .reveal-visible {
@@ -1006,7 +1085,7 @@ html {
 .warning-card,
 .section-card,
 .about-tip {
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease !important;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base) !important;
 }
 
 .VPFeature:hover,
@@ -1029,10 +1108,10 @@ html {
 
 blockquote {
   border-left: 4px solid var(--vp-c-brand-1) !important;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
   background: var(--vp-c-bg-soft);
-  padding: 1rem 1.25rem !important;
-  margin: 1.5rem 0 !important;
+  padding: var(--space-lg) var(--space-xl) !important;
+  margin: var(--space-2xl) 0 !important;
 }
 
 blockquote p {
@@ -1047,7 +1126,7 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
-  border-radius: 12px;
+  border-radius: var(--radius-xl);
   overflow: hidden;
   border: 1px solid var(--vp-c-divider);
 }
@@ -1164,7 +1243,7 @@ table tbody tr:hover {
 /* ========== Settings: Auto-Hide Nav ========== */
 
 .auto-hide-nav .VPNav {
-  transition: transform 0.3s ease;
+  transition: transform var(--transition-slow);
 }
 
 .auto-hide-nav.nav-hidden .VPNav {
@@ -1172,7 +1251,7 @@ table tbody tr:hover {
 }
 
 .auto-hide-nav .VPNavBar {
-  transition: transform 0.3s ease;
+  transition: transform var(--transition-slow);
 }
 
 .auto-hide-nav.nav-hidden .VPNavBar {
@@ -1193,4 +1272,444 @@ table tbody tr:hover {
   .resource-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ========== Gardening Guide Extras ========== */
+
+.resource-favicon {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-xs);
+  flex-shrink: 0;
+}
+
+.hero-illustration {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  opacity: 0.85;
+}
+
+.dark .hero-illustration svg {
+  filter: brightness(1.3);
+}
+
+/* ========== NEW Badge ========== */
+
+.new-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--accent-green);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  line-height: 1;
+  z-index: 1;
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+
+@keyframes badge-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* ========== Logo Wobble Easter Egg ========== */
+
+@keyframes logo-wobble {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(5deg); }
+  30% { transform: rotate(-5deg); }
+  45% { transform: rotate(3deg); }
+  60% { transform: rotate(-3deg); }
+  75% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* ========== Night Owl Badge ========== */
+
+.night-owl-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-purple);
+  background: rgba(var(--accent-purple-rgb), 0.1);
+  border: 1px solid rgba(var(--accent-purple-rgb), 0.25);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-md);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+/* ========== Page Transition ========== */
+
+.VPContent {
+  animation: page-fade-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ========== Guide Card Styles ========== */
+
+/* Gradient Borders — accent-colored gradient border */
+.card-style-gradients .VPFeature {
+  border: 2px solid transparent !important;
+  background-image: linear-gradient(var(--vp-c-bg), var(--vp-c-bg)), linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  transition: box-shadow var(--transition-base), border-color var(--transition-base) !important;
+}
+
+.card-style-gradients .VPFeature:hover {
+  box-shadow: 0 4px 20px rgba(var(--vp-c-brand-1-rgb), 0.2) !important;
+}
+
+/* Background Wash — faint accent tint across the whole card */
+.card-style-background .VPFeature {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-style-background .VPFeature::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--vp-c-brand-1);
+  opacity: 0.05;
+  transition: opacity var(--transition-base);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.card-style-background .VPFeature:hover::before {
+  opacity: 0.1;
+}
+
+.card-style-background .VPFeature > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Left Accent — thick accent-colored bar on the left edge */
+.card-style-left-accent .VPFeature {
+  border-left: 3px solid var(--vp-c-brand-1) !important;
+  transition: border-color var(--transition-base), box-shadow var(--transition-base) !important;
+}
+
+.card-style-left-accent .VPFeature:hover {
+  box-shadow: -4px 0 16px rgba(var(--vp-c-brand-1-rgb), 0.12) !important;
+}
+
+/* Top Stripe — thin accent-colored stripe across the top */
+.card-style-top-stripe .VPFeature {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-style-top-stripe .VPFeature::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--vp-c-brand-1);
+  transition: height var(--transition-base);
+}
+
+.card-style-top-stripe .VPFeature:hover::before {
+  height: 4px;
+}
+
+/* Icon Halo — accent-colored ring expands behind icon on hover */
+.card-style-icon-halo .VPFeature .icon {
+  position: relative;
+  display: inline-flex;
+}
+
+.card-style-icon-halo .VPFeature .icon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 130%;
+  height: 130%;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.6);
+  transition: opacity var(--transition-slow), transform var(--transition-slow);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.card-style-icon-halo .VPFeature:hover .icon::after {
+  opacity: 0.15;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Corner Ribbon — accent-colored triangle in the top-right corner */
+.card-style-corner-ribbon .VPFeature {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-style-corner-ribbon .VPFeature::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: transparent var(--vp-c-brand-1) transparent transparent;
+  opacity: 0.7;
+  transition: opacity var(--transition-base);
+}
+
+.card-style-corner-ribbon .VPFeature:hover::after {
+  opacity: 1;
+}
+
+/* Border Pulse — border transitions from transparent to accent color on hover */
+.card-style-border-pulse .VPFeature {
+  border: 2px solid transparent !important;
+  transition: border-color var(--transition-slower), box-shadow var(--transition-slower) !important;
+}
+
+.card-style-border-pulse .VPFeature:hover {
+  border-color: var(--vp-c-brand-1) !important;
+  box-shadow: 0 0 0 1px var(--vp-c-brand-1) !important;
+}
+
+/* Glass Tint — frosted glass overlay with accent tint */
+.card-style-glass-tint .VPFeature {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-style-glass-tint .VPFeature::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--vp-c-brand-1);
+  opacity: 0.04;
+  transition: opacity var(--transition-slow);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.card-style-glass-tint .VPFeature:hover::before {
+  opacity: 0.1;
+}
+
+.card-style-glass-tint .VPFeature > * {
+  position: relative;
+  z-index: 1;
+}
+
+.dark .card-style-glass-tint .VPFeature {
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* ========== Print Stylesheet ========== */
+
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPFooter,
+  .VPDocAside,
+  .back-to-top,
+  .feedback-bar,
+  .helpful-widget,
+  .guide-actions,
+  .breadcrumbs,
+  .last-updated,
+  .VPDocFooter,
+  .VPDocPageNav,
+  .DocSearch {
+    display: none !important;
+  }
+
+  .VPContent {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #000 !important;
+  }
+
+  h1, h2, h3, h4 {
+    break-after: avoid;
+  }
+
+  .vp-doc div[class*="language-"] {
+    border: 1px solid #ccc;
+    background: #f5f5f5 !important;
+  }
+
+  blockquote {
+    border-left: 3px solid #999 !important;
+    background: #f5f5f5 !important;
+  }
+}
+
+/* ========== Tight Screens (≈360–400px) ========== */
+
+@media (max-width: 400px) {
+  /* Tables: horizontal scroll instead of squishing */
+  .vp-doc table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Cards: reduce padding */
+  .vp-doc .custom-block,
+  .vp-doc .info-block,
+  .vp-doc .tip,
+  .vp-doc .warning,
+  .vp-doc .danger {
+    padding: 0.75rem 0.9rem;
+  }
+
+  .vp-doc .custom-block .custom-block-title {
+    font-size: 0.85rem;
+  }
+
+  /* Inline code should not break layout */
+  .vp-doc code {
+    word-break: break-word;
+  }
+
+  /* Ensure content area doesn't overflow */
+  .content-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* ========== Rainbow Mode (Konami Code) ========== */
+
+@keyframes rainbow-shift {
+  0%   { --vp-c-brand-1: #e74c3c; --vp-c-brand-2: #c0392b; }
+  14%  { --vp-c-brand-1: #e67e22; --vp-c-brand-2: #d35400; }
+  28%  { --vp-c-brand-1: #f1c40f; --vp-c-brand-2: #f39c12; }
+  42%  { --vp-c-brand-1: #2ecc71; --vp-c-brand-2: #27ae60; }
+  57%  { --vp-c-brand-1: #3498db; --vp-c-brand-2: #2980b9; }
+  71%  { --vp-c-brand-1: #9b59b6; --vp-c-brand-2: #8e44ad; }
+  85%  { --vp-c-brand-1: #e84393; --vp-c-brand-2: #d63384; }
+  100% { --vp-c-brand-1: #e74c3c; --vp-c-brand-2: #c0392b; }
+}
+
+.rainbow-mode {
+  animation: rainbow-shift 4s linear infinite;
+}
+
+.rainbow-mode .VPNavBar,
+.rainbow-mode .VPSidebar,
+.rainbow-mode .VPFooter {
+  border-color: var(--vp-c-brand-1) !important;
+}
+
+.rainbow-mode .vp-doc a {
+  color: var(--vp-c-brand-1);
+}
+
+/* ========== Sidebar TOC Scroll-Spy ========== */
+
+.VPDocAsideOutline .outline-item.active > a {
+  color: var(--vp-c-brand-1) !important;
+  font-weight: 600;
+}
+
+.VPDocAsideOutline .outline-item.active > a::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 2px;
+  bottom: 2px;
+  width: 2px;
+  background: var(--vp-c-brand-1);
+  border-radius: 2px;
+}
+
+/* ========== Sidebar Section Headers ========== */
+
+.VPSidebar .VPSidebarItem.level-0 > .item {
+  font-weight: 700;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--vp-c-text-2);
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  margin: 0.3rem 0.5rem 0.2rem;
+}
+
+/* ========== Category-Colored Guide Cards ========== */
+
+.cat-health .shared-card,
+.cat-health .step-card,
+.cat-health .card-border,
+.cat-health .about-tip {
+  border-left-color: var(--accent-orange) !important;
+}
+
+.cat-money .shared-card,
+.cat-money .step-card,
+.cat-money .card-border,
+.cat-money .about-tip {
+  border-left-color: var(--accent-green) !important;
+}
+
+.cat-tech .shared-card,
+.cat-tech .step-card,
+.cat-tech .card-border,
+.cat-tech .about-tip {
+  border-left-color: var(--accent-blue) !important;
+}
+
+.cat-lifestyle .shared-card,
+.cat-lifestyle .step-card,
+.cat-lifestyle .card-border,
+.cat-lifestyle .about-tip {
+  border-left-color: var(--accent-purple) !important;
+}
+
+.cat-gaming .shared-card,
+.cat-gaming .step-card,
+.cat-gaming .card-border,
+.cat-gaming .about-tip {
+  border-left-color: var(--accent-red) !important;
 }

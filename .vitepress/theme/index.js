@@ -16,14 +16,22 @@ import UnitConverter from './components/UnitConverter.vue'
 import StudySessionTracker from './components/StudySessionTracker.vue'
 import WakeUpCalculator from './components/WakeUpCalculator.vue'
 import FeedbackTopBar from './components/FeedbackTopBar.vue'
+import HelpfulWidget from './components/HelpfulWidget.vue'
 import BoxBreathing from './components/BoxBreathing.vue'
-import CopyDiscord from './components/CopyDiscord.vue'
-import MentalQuote from './components/MentalQuote.vue'
+import InvestmentCalculator from './components/InvestmentCalculator.vue'
+import BMICalculator from './components/BMICalculator.vue'
+import GPACalculator from './components/GPACalculator.vue'
+import BillSplitCalculator from './components/BillSplitCalculator.vue'
+import CoinFlipDiceRoller from './components/CoinFlipDiceRoller.vue'
+import CountdownTimer from './components/CountdownTimer.vue'
 import DynamicPrompt from './components/DynamicPrompt.vue'
+import NotFound from './components/NotFound.vue'
+import NoteTakingQuiz from './components/NoteTakingQuiz.vue'
 
 export default {
   extends: DefaultTheme,
   Layout,
+  NotFound,
   enhanceApp({ app }) {
     try {
       const saved = localStorage.getItem('neros-guide-settings')
@@ -53,8 +61,8 @@ export default {
         if (parsed.showBreadcrumbs === false) {
           document.documentElement.classList.add('hide-breadcrumbs')
         }
-        if (parsed.showReadingProgress === false) {
-          document.documentElement.classList.add('hide-reading-progress')
+        if (parsed.cardStyle && parsed.cardStyle !== 'none') {
+          document.documentElement.classList.add('card-style-' + parsed.cardStyle)
         }
       }
     } catch {}
@@ -74,9 +82,16 @@ export default {
     app.component('StudySessionTracker', StudySessionTracker)
     app.component('WakeUpCalculator', WakeUpCalculator)
     app.component('FeedbackTopBar', FeedbackTopBar)
+    app.component('HelpfulWidget', HelpfulWidget)
     app.component('BoxBreathing', BoxBreathing)
-    app.component('CopyDiscord', CopyDiscord)
-    app.component('MentalQuote', MentalQuote)
+    app.component('InvestmentCalculator', InvestmentCalculator)
+    app.component('BMICalculator', BMICalculator)
+    app.component('GPACalculator', GPACalculator)
+    app.component('BillSplitCalculator', BillSplitCalculator)
+    app.component('CoinFlipDiceRoller', CoinFlipDiceRoller)
+    app.component('CountdownTimer', CountdownTimer)
     app.component('DynamicPrompt', DynamicPrompt)
+    app.component('NotFound', NotFound)
+    app.component('NoteTakingQuiz', NoteTakingQuiz)
   }
 }

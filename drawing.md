@@ -6,7 +6,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
 # The Ultimate Drawing Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="clock" :size="14" /> Read time: 10 min</p>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Drawing is a skill, not a talent. Anyone can learn to draw with consistent practice and the right fundamentals. This guide aggregates the best free resources from across the internet.</p>
 </div>
 
@@ -28,7 +28,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
 
 <div class="about-tip">
   <GuideIcon name="info" class="tip-icon" />
-  <span><strong>TL;DR:</strong> Start with <a href="https://drawabox.com" target="_blank">Drawabox</a> - it's a free, structured course that teaches the fundamentals. Practice 15-30 minutes daily. Don't worry about making "good" art; focus on consistent practice.</span>
+  <span><strong>TL;DR:</strong> Start with <a href="https://drawabox.com" target="_blank" rel="noopener noreferrer">Drawabox</a> - it's a free, structured course that teaches the fundamentals. Practice 15-30 minutes daily. Don't worry about making "good" art; focus on consistent practice.</span>
 </div>
 
 ### The 3 Most Important Fundamentals for Beginners
@@ -74,28 +74,28 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Structured Free Courses (Complete Beginners)
 
 <div class="resource-grid">
-  <a href="https://drawabox.com" target="_blank" class="resource-card">
+  <a href="https://drawabox.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Drawabox</h4>
       <p>Fundamentals: lines, ellipses, boxes, form, texture. Starts from zero</p>
     </div>
   </a>
-  <a href="https://www.proko.com/course/figure-drawing-basics" target="_blank" class="resource-card">
+  <a href="https://www.proko.com/course/figure-drawing-basics" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="users" class="resource-icon" />
     <div class="resource-body">
       <h4>Proko's Figure Drawing Basics</h4>
       <p>Anatomy and figure drawing. Learning to draw people</p>
     </div>
   </a>
-  <a href="https://www.ctrlpaint.com/library" target="_blank" class="resource-card">
+  <a href="https://www.ctrlpaint.com/library" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="palette" class="resource-icon" />
     <div class="resource-body">
       <h4>Ctrl+Paint</h4>
       <p>Digital painting fundamentals for traditional and digital artists</p>
     </div>
   </a>
-  <a href="https://painting.tube/" target="_blank" class="resource-card">
+  <a href="https://painting.tube/" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="palette" class="resource-icon" />
     <div class="resource-body">
       <h4>PaintingTube</h4>
@@ -107,28 +107,28 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Quick Tutorials & Reference Sites
 
 <div class="resource-grid">
-  <a href="https://farsituts.com" target="_blank" class="resource-card">
+  <a href="https://farsituts.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="globe" class="resource-icon" />
     <div class="resource-body">
       <h4>FarsiTuts</h4>
       <p>Drawing tutorials in multiple languages</p>
     </div>
   </a>
-  <a href="https://billmartindrawing.com" target="_blank" class="resource-card">
+  <a href="https://billmartindrawing.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="book" class="resource-icon" />
     <div class="resource-body">
       <h4>Bill Martin's Guide to Drawing</h4>
       <p>Comprehensive drawing guide</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="pencil" class="resource-icon" />
     <div class="resource-body">
       <h4>Alphonso Dunn</h4>
       <p>Pen and ink drawing tutorials</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/c/FengZhuDesignCinema" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/c/FengZhuDesignCinema" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Feng Zhu FZD</h4>
@@ -140,21 +140,21 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Art Study Guides
 
 <div class="resource-grid">
-  <a href="https://www.artstudyguide.com" target="_blank" class="resource-card">
+  <a href="https://www.artstudyguide.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="pencil" class="resource-icon" />
     <div class="resource-body">
       <h4>Art Study Guide</h4>
       <p>Structured art study tips</p>
     </div>
   </a>
-  <a href="https://characterdesignreferences.com" target="_blank" class="resource-card">
+  <a href="https://characterdesignreferences.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="users" class="resource-icon" />
     <div class="resource-body">
       <h4>Character Design References</h4>
       <p>Visual library for character artists</p>
     </div>
   </a>
-  <a href="https://setteidreams.net" target="_blank" class="resource-card">
+  <a href="https://setteidreams.net" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Settei Dreams</h4>
@@ -168,28 +168,28 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Fundamentals & General Drawing
 
 <div class="resource-grid">
-  <a href="https://www.youtube.com/@ProkoTV" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@ProkoTV" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="users" class="resource-icon" />
     <div class="resource-body">
       <h4>Proko</h4>
       <p>Figure drawing, anatomy, portrait. Start with "How to Draw Gesture"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/@Drawabox" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@Drawabox" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Drawabox</h4>
       <p>Line quality, perspective, construction. Start with Lesson 1</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="pencil" class="resource-icon" />
     <div class="resource-body">
       <h4>Alphonso Dunn</h4>
       <p>Pen and ink, cross-hatching. Start with "Pen and Ink Cross Hatching"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/user/circlelinemedia" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/user/circlelinemedia" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="tool" class="resource-icon" />
     <div class="resource-body">
       <h4>Circle Line Art School</h4>
@@ -201,28 +201,28 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Digital Art
 
 <div class="resource-grid">
-  <a href="https://www.youtube.com/@CtrlPaint" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@CtrlPaint" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="palette" class="resource-icon" />
     <div class="resource-body">
       <h4>Ctrl+Paint</h4>
       <p>Digital painting fundamentals. Start with "Principles of Digital Painting"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/c/Marcobucci" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/c/Marcobucci" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="palette" class="resource-icon" />
     <div class="resource-body">
       <h4>Marco Bucci</h4>
       <p>Color theory, painting. Start with "Understanding Color"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/@artwithflo" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@artwithflo" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="palette" class="resource-icon" />
     <div class="resource-body">
       <h4>Art With Flo</h4>
       <p>Procreate tutorials. Start with "Procreate for Beginners"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/@PiXimperfect" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@PiXimperfect" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="camera" class="resource-icon" />
     <div class="resource-body">
       <h4>PiXimperfect</h4>
@@ -234,21 +234,21 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Figure & Anatomy
 
 <div class="resource-grid">
-  <a href="https://www.youtube.com/@LoveLifeDrawing" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@LoveLifeDrawing" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="users" class="resource-icon" />
     <div class="resource-body">
       <h4>Love Life Drawing</h4>
       <p>Gesture and figure drawing. Start with "Gesture Drawing Practice"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/@MarcBrunet" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@MarcBrunet" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Marc Brunet</h4>
       <p>Anatomy for artists. Start with "How to Draw the Human Body"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/@Moderndayjames" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@Moderndayjames" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="tool" class="resource-icon" />
     <div class="resource-body">
       <h4>Moderndayjames</h4>
@@ -260,14 +260,14 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Anime & Stylized Art
 
 <div class="resource-grid">
-  <a href="https://www.youtube.com/@animeoutlineart" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@animeoutlineart" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>AnimeOutline</h4>
       <p>Anime/manga drawing. Start with "How to Draw Anime Face"</p>
     </div>
   </a>
-  <a href="https://www.youtube.com/@McLelun" target="_blank" class="resource-card">
+  <a href="https://www.youtube.com/@McLelun" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>McLelun</h4>
@@ -281,28 +281,28 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Figure Drawing Practice (Timed Poses)
 
 <div class="resource-grid">
-  <a href="https://line-of-action.com" target="_blank" class="resource-card">
+  <a href="https://line-of-action.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="clock" class="resource-icon" />
     <div class="resource-body">
       <h4>Line of Action</h4>
       <p>Timed figure drawing sessions, hands, faces, animals</p>
     </div>
   </a>
-  <a href="https://timedfigureposes.com" target="_blank" class="resource-card">
+  <a href="https://timedfigureposes.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="clock" class="resource-icon" />
     <div class="resource-body">
       <h4>Timed Figure Poses</h4>
       <p>Gesture drawing practice with timed sessions</p>
     </div>
   </a>
-  <a href="https://www.proko.com/dailylifedrawing" target="_blank" class="resource-card">
+  <a href="https://www.proko.com/dailylifedrawing" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="target" class="resource-icon" />
     <div class="resource-body">
       <h4>Daily Life Drawing Sessions</h4>
       <p>Proko's daily gesture sessions</p>
     </div>
   </a>
-  <a href="https://www.lovelifedrawing.com" target="_blank" class="resource-card">
+  <a href="https://www.lovelifedrawing.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="heart" class="resource-icon" />
     <div class="resource-body">
       <h4>Love Life Drawing</h4>
@@ -314,28 +314,28 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Photo References for Artists
 
 <div class="resource-grid">
-  <a href="https://artistreference.tumblr.com" target="_blank" class="resource-card">
+  <a href="https://artistreference.tumblr.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="camera" class="resource-icon" />
     <div class="resource-body">
       <h4>Artist Reference</h4>
       <p>Human and animal reference photos</p>
     </div>
   </a>
-  <a href="https://x6ud.com" target="_blank" class="resource-card">
+  <a href="https://x6ud.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>x6ud</h4>
       <p>Animal photo reference searchable by species</p>
     </div>
   </a>
-  <a href="https://anatomyarchive.com" target="_blank" class="resource-card">
+  <a href="https://anatomyarchive.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Anatomy Archive</h4>
       <p>Human anatomy for artists</p>
     </div>
   </a>
-  <a href="https://dimensions.com" target="_blank" class="resource-card">
+  <a href="https://dimensions.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="tool" class="resource-icon" />
     <div class="resource-body">
       <h4>Dimensions.com</h4>
@@ -347,21 +347,21 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Drawing Practice Games & Tools
 
 <div class="resource-grid">
-  <a href="https://bezier.method.ac" target="_blank" class="resource-card">
+  <a href="https://bezier.method.ac" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="game" class="resource-icon" />
     <div class="resource-body">
       <h4>The Bézier Game</h4>
       <p>Learn pen tool curves (for digital art)</p>
     </div>
   </a>
-  <a href="https://drawmixpaint.com" target="_blank" class="resource-card">
+  <a href="https://drawmixpaint.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="palette" class="resource-icon" />
     <div class="resource-body">
       <h4>Draw Mix Paint</h4>
       <p>Oil painting tutorials</p>
     </div>
   </a>
-  <a href="https://practicedrawingthis.com" target="_blank" class="resource-card">
+  <a href="https://practicedrawingthis.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="pencil" class="resource-icon" />
     <div class="resource-body">
       <h4>Practice Drawing This</h4>
@@ -375,19 +375,19 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Free Software
 
 <div class="card-grid-2">
-  <a href="https://krita.org/" target="_blank" class="shared-card reveal">
+  <a href="https://krita.org/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>Krita</h4>
     <p>Windows/Mac/Linux. Painting and illustration</p>
   </a>
-  <a href="https://www.gimp.org/" target="_blank" class="shared-card reveal">
+  <a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>GIMP</h4>
     <p>Windows/Mac/Linux. Photo editing and digital painting</p>
   </a>
-  <a href="https://medibangpaint.com/" target="_blank" class="shared-card reveal">
+  <a href="https://medibangpaint.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>MediBang Paint</h4>
     <p>Windows/Mac/iOS/Android. Manga and comics</p>
   </a>
-  <a href="https://firealpaca.com/" target="_blank" class="shared-card reveal">
+  <a href="https://firealpaca.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>FireAlpaca</h4>
     <p>Windows/Mac. Lightweight digital painting</p>
   </a>
@@ -396,19 +396,19 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Paid Software (Industry Standard)
 
 <div class="card-grid-2">
-  <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="shared-card reveal">
+  <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>Photoshop</h4>
     <p>Windows/Mac. Professional digital art</p>
   </a>
-  <a href="https://procreate.com/" target="_blank" class="shared-card reveal">
+  <a href="https://procreate.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>Procreate</h4>
     <p>iPad. iPad illustration ($12.99 one-time)</p>
   </a>
-  <a href="https://www.clipstudio.net/" target="_blank" class="shared-card reveal">
+  <a href="https://www.clipstudio.net/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>Clip Studio Paint</h4>
     <p>Windows/Mac/iOS/Android. Manga and illustration</p>
   </a>
-  <a href="https://www.escapemotions.com/products/rebelle" target="_blank" class="shared-card reveal">
+  <a href="https://www.escapemotions.com/products/rebelle" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
     <h4>Rebelle</h4>
     <p>Windows/Mac. Realistic traditional media simulation</p>
   </a>
@@ -417,35 +417,35 @@ description: Learn to draw with the best free resources - from fundamentals and 
 ### Digital Art Tutorials
 
 <div class="resource-grid">
-  <a href="https://photoshoptrainingchannel.com" target="_blank" class="resource-card">
+  <a href="https://photoshoptrainingchannel.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="camera" class="resource-icon" />
     <div class="resource-body">
       <h4>PhotoshopTraining</h4>
       <p>Photoshop for artists</p>
     </div>
   </a>
-  <a href="https://phlearn.com" target="_blank" class="resource-card">
+  <a href="https://phlearn.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Phlearn</h4>
       <p>Advanced Photoshop techniques</p>
     </div>
   </a>
-  <a href="https://pedropixelart.com" target="_blank" class="resource-card">
+  <a href="https://pedropixelart.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Pixel Art Tutorials by Pedro</h4>
       <p>Pixel art fundamentals</p>
     </div>
   </a>
-  <a href="https://slynyrd.com" target="_blank" class="resource-card">
+  <a href="https://slynyrd.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="star" class="resource-icon" />
     <div class="resource-body">
       <h4>Slynyrd</h4>
       <p>Pixel art tutorials</p>
     </div>
   </a>
-  <a href="https://graphicscodex.com" target="_blank" class="resource-card">
+  <a href="https://graphicscodex.com" target="_blank" rel="noopener noreferrer" class="resource-card">
     <GuideIcon name="monitor" class="resource-icon" />
     <div class="resource-body">
       <h4>GraphicsCodex</h4>
@@ -464,7 +464,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Drawabox</strong>
   </div>
   <p class="source-citation">Structured free drawing course that builds fundamental skills through repetition and critique.</p>
-  <a href="https://drawabox.com" target="_blank" class="source-link">Visit Drawabox &rarr;</a>
+  <a href="https://drawabox.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit Drawabox &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -473,7 +473,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Proko</strong>
   </div>
   <p class="source-citation">Figure drawing and anatomy tutorials by Stan Prokopenko, from beginner to advanced.</p>
-  <a href="https://www.proko.com" target="_blank" class="source-link">Visit Proko &rarr;</a>
+  <a href="https://www.proko.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit Proko &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -482,7 +482,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Ctrl+Paint</strong>
   </div>
   <p class="source-citation">Digital painting fundamentals broken into bite-sized video lessons.</p>
-  <a href="https://www.ctrlpaint.com" target="_blank" class="source-link">Visit Ctrl+Paint &rarr;</a>
+  <a href="https://www.ctrlpaint.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit Ctrl+Paint &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -491,7 +491,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Line of Action</strong>
   </div>
   <p class="source-citation">Timed figure drawing practice with a wide variety of reference photos and poses.</p>
-  <a href="https://line-of-action.com" target="_blank" class="source-link">Visit Line of Action &rarr;</a>
+  <a href="https://line-of-action.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit Line of Action &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -500,7 +500,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Love Life Drawing</strong>
   </div>
   <p class="source-citation">Gesture and figure drawing lessons for beginners, with a focus on the fundamentals.</p>
-  <a href="https://www.lovelifedrawing.com" target="_blank" class="source-link">Visit Love Life Drawing &rarr;</a>
+  <a href="https://www.lovelifedrawing.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit Love Life Drawing &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -509,7 +509,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Alphonso Dunn</strong>
   </div>
   <p class="source-citation">Pen and ink drawing tutorials covering hatching, cross-hatching, and shading techniques.</p>
-  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
+  <a href="https://www.youtube.com/c/AlphonsoDunn" target="_blank" rel="noopener noreferrer" class="source-link">Visit YouTube channel &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -518,7 +518,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Art With Flo</strong>
   </div>
   <p class="source-citation">Procreate tutorials for digital artists, from beginners to advanced techniques.</p>
-  <a href="https://artwithflo.com" target="_blank" class="source-link">Visit Art With Flo &rarr;</a>
+  <a href="https://artwithflo.com" target="_blank" rel="noopener noreferrer" class="source-link">Visit Art With Flo &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -527,7 +527,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Marco Bucci</strong>
   </div>
   <p class="source-citation">Color theory, painting, and illustration tutorials with a focus on traditional techniques.</p>
-  <a href="https://www.youtube.com/@marcobucci" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
+  <a href="https://www.youtube.com/@marcobucci" target="_blank" rel="noopener noreferrer" class="source-link">Visit YouTube channel &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -536,7 +536,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Circle Line Art School</strong>
   </div>
   <p class="source-citation">Perspective drawing tutorials and art fundamentals explained clearly.</p>
-  <a href="https://www.youtube.com/user/circlelinemedia" target="_blank" class="source-link">Visit YouTube channel &rarr;</a>
+  <a href="https://www.youtube.com/user/circlelinemedia" target="_blank" rel="noopener noreferrer" class="source-link">Visit YouTube channel &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -545,7 +545,7 @@ description: Learn to draw with the best free resources - from fundamentals and 
     <strong>Settei Dreams</strong>
   </div>
   <p class="source-citation">Anime production reference materials, including model sheets and background art.</p>
-  <a href="https://setteidreams.net" target="_blank" class="source-link">Visit Settei Dreams &rarr;</a>
+  <a href="https://setteidreams.net" target="_blank" rel="noopener noreferrer" class="source-link">Visit Settei Dreams &rarr;</a>
 </div>
 
 </div>

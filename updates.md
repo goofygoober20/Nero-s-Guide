@@ -3,29 +3,16 @@ title: Monthly Updates
 ---
 
 <script setup>
-import { ref, onMounted } from 'vue'
-
-const votes = ref({})
-const selectedVote = ref(null)
-
-onMounted(() => {
-  const saved = localStorage.getItem('monthly-poll-votes')
-  if (saved) {
-    votes.value = JSON.parse(saved)
-  }
-})
-
-function voteFor(option) {
-  if (selectedVote.value) return
-  selectedVote.value = option
-  votes.value[option] = (votes.value[option] || 0) + 1
-  localStorage.setItem('monthly-poll-votes', JSON.stringify(votes.value))
+const nextUpdateDate = () => {
+  const now = new Date()
+  const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0)
+  return lastDay.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
 }
 </script>
 
 # 📬 Monthly Updates
 
-<div class="cadence-badge">🗓️ Published on the last day of every month. Next update: June 30, 2026</div>
+<div class="cadence-badge">🗓️ Published on the last day of every month. Next update: {{ nextUpdateDate() }}</div>
 
 ## 🏆 This Month's Highlights
 
@@ -36,26 +23,6 @@ function voteFor(option) {
 
 | 🎨 **404 Redesign** | Warm on-brand page with search trigger, rotating quote, GuideIcon buttons |
 | 🌐 **Site-Wide Polish** | OG tags added, RSS URL fixed, nav expanded, `lastUpdated` enabled |
-
-
-## 🗳️ Poll - What Should I Build Next?
-
-<p class="poll-intro">Vote for what you want to see next - results reset each month.</p>
-
-<div class="poll-options">
-  <button 
-    v-for="option in ['Study Techniques Guide', 'Digital Detox Guide', 'Time Management Tools']" 
-    :key="option"
-    @click="voteFor(option)"
-    :disabled="selectedVote"
-    class="poll-btn"
-  >
-    {{ option }}
-    <span v-if="votes[option]" class="vote-count">{{ votes[option] }}</span>
-  </button>
-</div>
-
-<p v-if="selectedVote" class="poll-thanks">✅ Thanks for voting! Results will be tallied in next month's update.</p>
 
 
 ## 💬 Quote of the Month
@@ -129,61 +96,6 @@ function voteFor(option) {
 .in-progress .label { color: var(--vp-c-text-1); }
 .planned .label { color: var(--vp-c-text-2); }
 
-.poll-intro {
-  font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-  margin: 1rem 0;
-}
-
-.poll-options {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1rem 0;
-}
-
-.poll-btn {
-  padding: 0.6rem 1.25rem;
-  border-radius: 40px;
-  border: 1px solid var(--vp-c-divider);
-  background: var(--vp-c-bg-soft);
-  cursor: pointer;
-  transition: all 0.25s ease;
-  font-size: 0.9rem;
-  font-family: inherit;
-  color: var(--vp-c-text-1);
-}
-
-.poll-btn:hover:not(:disabled) {
-  border-color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-.poll-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.vote-count {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--vp-c-text-3);
-  background: var(--vp-c-bg);
-  padding: 1px 8px;
-  border-radius: 20px;
-  margin-left: 0.35rem;
-}
-
-.poll-thanks {
-  color: #2ecc71;
-  font-size: 0.85rem;
-  font-weight: 500;
-  margin-top: 0.5rem;
-}
-
 .archive-footer {
   text-align: center;
   margin: 2.5rem 0 1rem;
@@ -211,10 +123,6 @@ function voteFor(option) {
 }
 
 @media (max-width: 640px) {
-  .poll-options {
-    flex-direction: column;
-  }
-  
   .roadmap-item {
     flex-wrap: wrap;
   }

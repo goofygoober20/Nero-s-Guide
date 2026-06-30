@@ -5,9 +5,9 @@ description: How to safely and effectively adjust your sleep schedule for differ
 
 # Shifting Your Sleep Schedule
 
-<div class="meta-info">
-  <span>📅 Updated: June 2026</span>
-  <span>⏱️ Read time: 12 min</span>
+<div class="guide-hero">
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
+  <p class="guide-intro">How to safely and effectively adjust your sleep schedule for different routines, shift work, or time zones.</p>
 </div>
 
 > **Disclaimer:** This guide is for educational purposes and is not a substitute for medical advice. If you suspect you have a sleep disorder (like sleep apnea or chronic insomnia), consult a medical provider before beginning any new regimen.
@@ -115,8 +115,9 @@ When you try to go to bed at 10 PM but your body thinks it is 2 AM, your circadi
 
 ## Scenario C: Shift Workers {#shift-workers}
 
-**The problem:** Night shift workers have the hardest challenge because they are fighting the sun. Long-term shift workers also have higher rates of obstructive sleep apnea (OSA) and Restless Leg Syndrome (RLS).
-
+::: warning The Problem
+Night shift workers have the hardest challenge because they are fighting the sun. Long-term shift workers also have higher rates of obstructive sleep apnea (OSA) and Restless Leg Syndrome (RLS).
+:::
 <div class="scenario-grid">
 <div class="scenario-card">
   <div class="scenario-header">
@@ -256,7 +257,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Circadian Adaptation & Light Exposure</strong>
   </div>
   <p class="source-citation">Rahman, S. A., et al. "Dynamic lighting schedules and intermittent light pulses induce phase shifts." <em>Journal of Pineal Research</em>.</p>
-  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4379989/" target="_blank" class="source-link">Read on PubMed Central &rarr;</a>
+  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4379989/" target="_blank" rel="noopener noreferrer" class="source-link">Read on PubMed Central &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -265,7 +266,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Shift Work Disorder Management</strong>
   </div>
   <p class="source-citation">"Non-Pharmacological Management of Shift Work Disorder: A Meta-Analysis." <em>Sleep and Breathing</em> (2024).</p>
-  <a href="https://link.springer.com/journal/11325" target="_blank" class="source-link">View in SpringerLink &rarr;</a>
+  <a href="https://link.springer.com/journal/11325" target="_blank" rel="noopener noreferrer" class="source-link">View in SpringerLink &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -274,7 +275,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Resetting the Internal Clock</strong>
   </div>
   <p class="source-citation">"How to Reset Your Internal Clock." <em>Ubie Doctor's Note</em> (2026). Lifestyle vs. medical approaches to circadian realignment.</p>
-  <a href="https://ubiehealth.com/diseases/sleep-disorder" target="_blank" class="source-link">Read article &rarr;</a>
+  <a href="https://ubiehealth.com/diseases/sleep-disorder" target="_blank" rel="noopener noreferrer" class="source-link">Read article &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -283,7 +284,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Retirement Jet Lag</strong>
   </div>
   <p class="source-citation">"Retirement Jet Lag: Reversing Years of Shift Work Damage." <em>Ubie Doctor's Note</em> (2026). Long-term repair protocols for former shift workers.</p>
-  <a href="https://ubiehealth.com/doctors-note/fix-broken-circadian-rhythm-shift-work-jetlaggy-4232e4" target="_blank" class="source-link">Read article &rarr;</a>
+  <a href="https://ubiehealth.com/doctors-note/fix-broken-circadian-rhythm-shift-work-jetlaggy-4232e4" target="_blank" rel="noopener noreferrer" class="source-link">Read article &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -292,7 +293,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Sleep Hygiene Consensus</strong>
   </div>
   <p class="source-citation">"Sleep Hygiene: Good Sleep Habits." <em>Sleep Foundation</em> (2025). Why a consistent wake time matters more than bedtime.</p>
-  <a href="https://www.sleepfoundation.org/sleep-hygiene" target="_blank" class="source-link">Read article &rarr;</a>
+  <a href="https://www.sleepfoundation.org/sleep-hygiene" target="_blank" rel="noopener noreferrer" class="source-link">Read article &rarr;</a>
 </div>
 
 <div class="source-card">
@@ -301,7 +302,7 @@ Use this checklist daily while shifting your schedule:
     <strong>Sleep-Scheduling Strategies</strong>
   </div>
   <p class="source-citation">"Comparing Sleep-Scheduling Strategies for Shift Work: Night Stay vs. Split Sleep." <em>Nature and Science of Sleep</em> (2021).</p>
-  <a href="https://www.dovepress.com/nature-and-science-of-sleep-journal" target="_blank" class="source-link">Read on DovePress &rarr;</a>
+  <a href="https://www.dovepress.com/nature-and-science-of-sleep-journal" target="_blank" rel="noopener noreferrer" class="source-link">Read on DovePress &rarr;</a>
 </div>
 
 </div>

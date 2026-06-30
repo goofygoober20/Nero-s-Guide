@@ -1,4 +1,6 @@
 ---
+title: Feedback
+description: Send bug reports, guide suggestions, appreciation, or website help requests for Nero's Index.
 layout: page
 ---
 
@@ -125,14 +127,6 @@ layout: page
 <script setup>
 import { onMounted } from 'vue'
 
-const WEBHOOKS = {
-  feedback: import.meta.env.VITE_FEEDBACK_WEBHOOK,
-  suggestion: import.meta.env.VITE_SUGGESTIONS_WEBHOOK,
-  appreciation: import.meta.env.VITE_APPRECIATION_WEBHOOK,
-  help: import.meta.env.VITE_WEBSITE_HELP_WEBHOOK,
-  other: import.meta.env.VITE_SOMETHING_ELSE_WEBHOOK,
-}
-
 onMounted(() => {
   const toast = document.getElementById("toast")
   const tabs = ["feedback", "suggestion", "appreciation", "help", "other"]
@@ -154,12 +148,12 @@ onMounted(() => {
     setTimeout(() => toast.classList.remove("show"), 5000)
   }
 
-  const sendToDiscord = async (url, payload) => {
+  const sendFeedback = async (type, payload) => {
     try {
-      const res = await fetch(url, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+      const res = await fetch('/api/feedback', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, ...payload }),
       })
       return res.ok
     } catch {
@@ -179,19 +173,7 @@ onMounted(() => {
 
     if (!msg) return showToast("Please enter feedback.", "error")
 
-    const ok = await sendToDiscord(WEBHOOKS.feedback, {
-      username: "Feedback Bot",
-      embeds: [{
-        title: "🐛 Feedback",
-        color: 0xe74c3c,
-        timestamp: new Date().toISOString(),
-        fields: [
-          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
-          { name: "Message", value: msg },
-        ],
-      }],
-    })
-
+    const ok = await sendFeedback('feedback', { name, email, message: msg })
     showToast(ok ? "Thank you!" : "Error sending feedback.", ok ? "success" : "error")
   }
 
@@ -203,19 +185,7 @@ onMounted(() => {
 
     if (!msg) return showToast("Please enter your suggestion.", "error")
 
-    const ok = await sendToDiscord(WEBHOOKS.suggestion, {
-      username: "Suggestion Bot",
-      embeds: [{
-        title: "💡 Suggestion",
-        color: 0x3498db,
-        timestamp: new Date().toISOString(),
-        fields: [
-          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
-          { name: "Suggestion", value: msg },
-        ],
-      }],
-    })
-
+    const ok = await sendFeedback('suggestion', { name, email, message: msg })
     showToast(ok ? "Suggestion submitted!" : "Error submitting suggestion.", ok ? "success" : "error")
   }
 
@@ -226,19 +196,7 @@ onMounted(() => {
 
     if (!msg) return showToast("Please enter a message.", "error")
 
-    const ok = await sendToDiscord(WEBHOOKS.appreciation, {
-      username: "Appreciation Bot",
-      embeds: [{
-        title: "🙏 Appreciation",
-        color: 0x2ecc71,
-        timestamp: new Date().toISOString(),
-        fields: [
-          { name: "From", value: name, inline: true },
-          { name: "Message", value: msg },
-        ],
-      }],
-    })
-
+    const ok = await sendFeedback('appreciation', { name, message: msg })
     showToast(ok ? "Thanks for the kind words! 💚" : "Error sending message.", ok ? "success" : "error")
   }
 
@@ -250,19 +208,7 @@ onMounted(() => {
 
     if (!msg) return showToast("Please describe what you need help with.", "error")
 
-    const ok = await sendToDiscord(WEBHOOKS.help, {
-      username: "Help Bot",
-      embeds: [{
-        title: "🛟 Website Help Request",
-        color: 0xf39c12,
-        timestamp: new Date().toISOString(),
-        fields: [
-          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
-          { name: "Question", value: msg },
-        ],
-      }],
-    })
-
+    const ok = await sendFeedback('help', { name, email, message: msg })
     showToast(ok ? "Help request sent!" : "Error sending request.", ok ? "success" : "error")
   }
 
@@ -275,22 +221,7 @@ onMounted(() => {
 
     if (!type || !msg) return showToast("Please fill all required fields.", "error")
 
-    const typeEmoji = { "Question": "❓", "Collaboration": "🤝", "Other": "📌" }
-
-    const ok = await sendToDiscord(WEBHOOKS.other, {
-      username: "Something Else Bot",
-      embeds: [{
-        title: `${typeEmoji[type] || "💬"} Something Else: ${type}`,
-        color: 0x9b59b6,
-        timestamp: new Date().toISOString(),
-        fields: [
-          { name: "From", value: name + (email ? ` (${email})` : ""), inline: true },
-          { name: "Type", value: type, inline: true },
-          { name: "Message", value: msg },
-        ],
-      }],
-    })
-
+    const ok = await sendFeedback('other', { name, email, message: msg, subject: type })
     showToast(ok ? "Message sent!" : "Error sending message.", ok ? "success" : "error")
   }
 })

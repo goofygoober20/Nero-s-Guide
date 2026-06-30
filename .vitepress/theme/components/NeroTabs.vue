@@ -57,6 +57,28 @@ const underlineStyle = computed(() => {
   padding: 0.4rem;
 }
 
+@media (max-width: 400px) {
+  .tabs {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    padding: 0.35rem;
+    border-radius: 12px;
+  }
+  .tab {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.78rem;
+    gap: 0.25rem;
+  }
+  .tab-icon {
+    display: none;
+  }
+  .underline {
+    display: none;
+  }
+}
+
 .tab {
   flex: 1;
   padding: 0.6rem 1rem;

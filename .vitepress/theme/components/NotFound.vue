@@ -1,40 +1,28 @@
----
-title: Page Not Found
-layout: page
----
+<template>
+  <div class="not-found">
+    <span class="not-found-number">404</span>
 
-<div class="not-found">
-  <span class="not-found-number">404</span>
+    <h1 class="not-found-heading">You took a wrong turn</h1>
+    <p class="not-found-desc">
+      This page doesn't exist or has been moved. Try searching below, or head back home.
+    </p>
 
-  <h1 class="not-found-heading">You took a wrong turn</h1>
-  <p class="not-found-desc">
-    This page doesn't exist or has been moved. Try searching below, or head back home.
-  </p>
+    <div class="not-found-actions">
+      <a href="/" class="not-found-btn primary">Home</a>
+      <a href="/posts" class="not-found-btn secondary">Latest Posts</a>
+    </div>
 
-  <div class="not-found-actions">
-    <a href="/" class="external-btn not-found-btn primary">
-      <GuideIcon name="arrowRight" :size="16" /> Home
-    </a>
-    <a href="/posts" class="external-btn not-found-btn secondary">
-      <GuideIcon name="list" :size="16" /> Latest Posts
-    </a>
+    <button class="not-found-search" @click="openSearch">
+      🔍 Search the guide...
+      <span class="search-hint">⌘K</span>
+    </button>
+
+    <p class="not-found-feedback">
+      Found a broken link?
+      <a href="/feedback" class="not-found-link">Let us know</a>
+    </p>
   </div>
-
-  <button class="not-found-search" @click="openSearch">
-    <GuideIcon name="search" :size="16" />
-    Search the guide...
-    <span class="search-hint">⌘K</span>
-  </button>
-
-  <ClientOnly>
-    <MentalQuote />
-  </ClientOnly>
-
-  <p class="not-found-feedback">
-    Found a broken link?
-    <a href="/feedback" class="not-found-link">Let us know</a>
-  </p>
-</div>
+</template>
 
 <script setup>
 function openSearch() {
@@ -45,8 +33,11 @@ function openSearch() {
 
 <style scoped>
 .not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: 3rem 1rem 4rem;
+  padding: 6rem 1.5rem 4rem;
   max-width: 480px;
   margin: 0 auto;
 }
@@ -129,8 +120,6 @@ function openSearch() {
   font-size: 0.88rem;
   cursor: pointer;
   transition: all 0.2s;
-  width: 100%;
-  max-width: 320px;
   justify-content: center;
 }
 

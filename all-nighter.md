@@ -1,7 +1,6 @@
 ---
 title: All-Nighter Guide
 description: What to do when you have to stay up - preparation, survival, recovery, and a sleep cycle wake-up calculator.
-difficulty: intermediate
 outline: [2, 3]
 editLink: true
 ---
@@ -9,7 +8,7 @@ editLink: true
 # 🌙 The Ultimate All-Nighter Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong> &middot; <GuideIcon name="clock" :size="14" /> Updated: May 2026 &middot; <GuideIcon name="clock" :size="14" /> Read time: 20 min</p>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Pulling an all-nighter is not recommended for your health, but sometimes life forces your hand. This guide covers preparation, survival strategies, recovery, and a calculator to help you sleep smart when you finally crash.</p>
 </div>
 
@@ -18,6 +17,24 @@ Pulling an all-nighter is not recommended for your health. This guide is for tho
 :::
 
 
+
+## Table of Contents
+
+<details open>
+<summary>Click to expand</summary>
+
+- [The Hard Truth About All-Nighters](#hard-truth)
+- [Before the All-Nighter (Preparation)](#preparation)
+- [During the All-Nighter (Survival Mode)](#during)
+- [The Morning After (Recovery)](#recovery)
+- [Getting Your Sleep Schedule Back (If It's Broken)](#resetting)
+- [Sleep Cycle Wake-Up Calculator](#-sleep-cycle-wake-up-calculator)
+- [Quick Reference Card](#quick-ref)
+- [Frequently Asked Questions](#faq)
+- [Related Guides](#-related-guides)
+- [Sources & Further Reading](#-sources-further-reading)
+
+</details>
 
 ## ⚡ The Hard Truth About All-Nighters {#hard-truth}
 

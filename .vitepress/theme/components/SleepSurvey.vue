@@ -10,7 +10,7 @@
           </span>
           <span class="percentage-label">{{ Math.round(progressPercent) }}%</span>
         </div>
-        <div class="progress-track">
+        <div class="progress-track" role="progressbar" :aria-valuenow="Math.round(progressPercent)" aria-valuemin="0" aria-valuemax="100" :aria-label="`Progress: ${Math.round(progressPercent)}%`">
           <div class="progress-fill" :style="{ width: progressPercent + '%' }"></div>
         </div>
       </div>
@@ -20,12 +20,14 @@
         <div class="category-tag">{{ currentQuestion.category.toUpperCase() }} PROTOCOL</div>
         <h2 class="question-title">{{ currentQuestion.text }}</h2>
 
-        <div class="options-grid">
+        <div class="options-grid" role="radiogroup" :aria-label="currentQuestion.text">
           <button
             v-for="option in currentQuestion.options"
             :key="option.value"
             @click="selectOption(option.value)"
             class="option-card"
+            role="radio"
+            :aria-checked="answers[currentQuestion.id] === option.value ? 'true' : 'false'"
             :class="{ 'is-selected': answers[currentQuestion.id] === option.value }"
           >
             <div class="selection-indicator">
@@ -47,6 +49,7 @@
             v-if="currentStep > 1"
             @click="prevStep"
             class="nav-btn btn-back"
+            aria-label="Go to previous question"
           >
             &larr; Back
           </button>
@@ -54,6 +57,7 @@
             v-if="answers[currentQuestion.id]"
             @click="nextStep"
             class="nav-btn btn-next"
+            :aria-label="currentStep === totalSteps ? 'See diagnostics results' : 'Continue to next question'"
           >
             {{ currentStep === totalSteps ? 'See Diagnostics' : 'Continue' }} &rarr;
           </button>
@@ -177,6 +181,7 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
+import confetti from 'canvas-confetti'
 
 const questions = [
   {
@@ -652,8 +657,28 @@ function copyResults() {
 }
 
 watch(showResults, (val) => {
-  if (val) saveResults()
+  if (val) {
+    saveResults()
+    if (sleepScore.value === 100) {
+      showSleepMasterToast()
+      confetti({ particleCount: 150, spread: 80, origin: { y: 0.7 } })
+    }
+  }
 })
+
+function showSleepMasterToast() {
+  const toast = document.createElement('div')
+  toast.textContent = 'Sleep Master! Perfect score!'
+  Object.assign(toast.style, {
+    position: 'fixed', bottom: '24px', left: '50%', transform: 'translateX(-50%)',
+    background: 'linear-gradient(135deg, #2ecc71, #27ae60)', color: '#fff',
+    padding: '0.8rem 1.6rem', borderRadius: '12px', fontWeight: '700',
+    fontSize: '0.95rem', zIndex: '99999', boxShadow: '0 4px 20px rgba(46,204,113,0.4)',
+    animation: 'fadeIn 0.3s ease'
+  })
+  document.body.appendChild(toast)
+  setTimeout(() => toast.remove(), 4000)
+}
 
 onMounted(() => {
   loadPreviousResults()

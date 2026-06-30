@@ -83,7 +83,7 @@
                 <li v-for="con in rec.cons.slice(0,2)" :key="con">{{ con }}</li>
               </ul>
             </div>
-            <a :href="rec.link" target="_blank" class="rec-link">Learn More →</a>
+            <a :href="rec.link" target="_blank" rel="noopener noreferrer" class="rec-link">Learn More →</a>
           </div>
         </div>
       </div>

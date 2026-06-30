@@ -16,12 +16,43 @@ head:
       content: summary_large_image
 ---
 
+<script setup>
+import PlantingCalendarQuiz from './.vitepress/theme/components/PlantingCalendarQuiz.vue'
+import GardeningChecklist from './.vitepress/theme/components/GardeningChecklist.vue'
+import SoilTypeFinder from './.vitepress/theme/components/SoilTypeFinder.vue'
+import CompostingChecker from './.vitepress/theme/components/CompostingChecker.vue'
+import GardenSizeEstimator from './.vitepress/theme/components/GardenSizeEstimator.vue'
+</script>
+
 # The Gardening Guide
 
 <div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="clock" :size="14" /> Last updated: June 2026</p>
-  <p class="guide-intro"> Good soil, consistent watering, and patience will get you further than any expensive tool or product.</p>
+  <div class="hero-illustration">
+    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#71AD70" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3"/>
+      <path d="M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4"/>
+      <path d="M5 21h14"/>
+    </svg>
+  </div>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
+  <p class="guide-intro">Good soil, consistent watering, and patience will get you further than any expensive tool or product.</p>
 </div>
+
+## Table of Contents
+
+<details open>
+<summary>Click to expand</summary>
+
+- [The Golden Rules](#golden-rules)
+- [Getting Started](#getting-started)
+- [Soil and Beds](#soil)
+- [Watering](#watering)
+- [Composting](#composting)
+- [Pests and Problems](#pests)
+- [Seasonal Tasks](#seasonal)
+- [Resources](#resources)
+
+</details>
 
 ## The Golden Rules {#golden-rules}
 
@@ -73,22 +104,22 @@ If you have limited space, containers and raised beds work extremely well. They 
 
 ### What to grow first
 
-Start with forgiving plants that produce quickly. Early success builds confidence and teaches you the basics before you tackle fussier crops.
-
+::: tip Early success builds confidence and teaches you the basics before you tackle fussier crops.
+:::
 <div class="card-grid-2">
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #71AD70;">
     <h4><GuideIcon name="leaf" :size="18" /> Easy vegetables</h4>
     <p>Lettuce, radishes, courgette, green beans, kale. Fast growing with minimal care.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #4db6ac;">
     <h4><GuideIcon name="sun" :size="18" /> Easy herbs</h4>
     <p>Basil, chives, mint (in a pot), parsley. Useful, compact, and hard to kill.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #e84393;">
     <h4><GuideIcon name="flower" :size="18" /> Easy flowers</h4>
     <p>Sunflowers, marigolds, nasturtiums, zinnias. Most grow from seed with little fuss.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #a66cff;">
     <h4><GuideIcon name="seedling" :size="18" /> Easy perennials</h4>
     <p>Lavender, echinacea, hostas, black-eyed Susans. Plant once and they return each year.</p>
   </div>
@@ -103,6 +134,8 @@ Starting from seed is cheaper and gives you access to more variety. Transplants 
   <span>Check the seed packet or plant label for the days to maturity. Compare that number against your last frost date to make sure you have enough growing season before cold weather arrives.</span>
 </div>
 
+<PlantingCalendarQuiz />
+
 ## Soil and Beds {#soil}
 
 ### Understanding your soil
@@ -110,31 +143,37 @@ Starting from seed is cheaper and gives you access to more variety. Transplants 
 Soil type affects drainage, nutrient retention, and how easy it is to work. The three main types are:
 
 <div class="card-grid-3">
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #e6a23c;">
     <h4><GuideIcon name="layer" :size="18" /> Sandy soil</h4>
     <p>Drains fast, warms up quickly. Nutrients wash out easily. Improve it with compost.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #b07040;">
     <h4><GuideIcon name="layer" :size="18" /> Clay soil</h4>
     <p>Holds water and nutrients well but compacts and drains poorly. Break it up with compost and grit.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #71AD70;">
     <h4><GuideIcon name="layer" :size="18" /> Loamy soil</h4>
     <p>The ideal mix of sand, silt, and clay. Well draining and nutrient rich. Most gardens need some work to get here.</p>
   </div>
 </div>
 
-A simple test: grab a handful of damp soil and squeeze. Sandy soil falls apart. Clay soil holds a solid shape. Loam holds together but crumbles when poked.
+::: tip Quick Soil Test
+Grab a handful of damp soil and squeeze. **Sandy soil** falls apart. **Clay soil** holds a solid shape. **Loam** holds together but crumbles when poked.
+:::
 
-### Improving your soil
+<SoilTypeFinder />
+
+::: tip Improving your soil
 
 The answer to almost every soil problem is the same: add organic matter. Compost, aged manure, and leaf mould all improve structure, drainage, and nutrient content regardless of your starting soil type. Work it into the top 15 to 20cm before planting.
-
+:::
 ### Raised beds
 
 Raised beds are the best starting point for most beginners. You fill them with exactly the mix you want, they drain well, and they warm up faster in spring. A simple mix for a raised bed is one third compost, one third topsoil, and one third a material like perlite or coarse sand for drainage.
 
 Keep beds narrow enough to reach the centre from either side without stepping in. 1.2 metres wide is a good rule of thumb.
+
+<GardenSizeEstimator />
 
 ## Watering {#watering}
 
@@ -192,11 +231,11 @@ Composting is the single highest-return habit you can build as a gardener. It tu
 ### What to compost
 
 <div class="card-grid-2">
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #71AD70;">
     <h4><GuideIcon name="check" :size="18" /> Greens (nitrogen rich)</h4>
     <p>Fruit and vegetable scraps, coffee grounds, fresh grass clippings, plant trimmings, eggshells.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #b48c50;">
     <h4><GuideIcon name="check" :size="18" /> Browns (carbon rich)</h4>
     <p>Cardboard, paper, dry leaves, straw, wood chips, paper bags, newspaper.</p>
   </div>
@@ -207,6 +246,8 @@ Composting is the single highest-return habit you can build as a gardener. It tu
   <span>Do not compost meat, fish, dairy, cooked food, diseased plants, or pet waste. These attract pests and can introduce pathogens to your garden.</span>
 </div>
 
+<CompostingChecker />
+
 ### The right balance
 
 A good compost pile needs roughly equal amounts of greens and browns by volume. Too many greens and the pile becomes wet and smelly. Too many browns and it breaks down very slowly. If your pile smells, add more browns and turn it. If it is not heating up, add more greens and moisture.
@@ -214,11 +255,11 @@ A good compost pile needs roughly equal amounts of greens and browns by volume. 
 ### Hot vs. cold composting
 
 <div class="card-grid-2">
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #e74c3c;">
     <h4><GuideIcon name="flame" :size="18" /> Hot composting</h4>
     <p>Actively managed. You turn the pile regularly to introduce oxygen, which speeds decomposition. Ready in 1 to 3 months. Kills weed seeds and pathogens.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #3498db;">
     <h4><GuideIcon name="clock" :size="18" /> Cold composting</h4>
     <p>Passive. You add material and leave it. Takes 6 to 12 months but requires almost no effort. Best for most home gardeners.</p>
   </div>
@@ -305,32 +346,35 @@ Most garden problems are preventable with good habits rather than reactive treat
 
 | Problem | Likely cause | Fix |
 |---|---|---|
-| Yellow leaves | Overwatering, nutrient deficiency | Check soil drainage, add compost |
-| Leggy seedlings | Not enough light | Move closer to a window or add a grow light |
-| Wilting despite watering | Root rot or compacted soil | Improve drainage, reduce watering |
-| Holes in leaves | Caterpillars or slugs | Hand pick at night, use copper tape or mesh |
-| White powder on leaves | Powdery mildew | Improve airflow, remove affected leaves |
-| Aphid clusters | Common on new growth | Blast off with water, introduce ladybirds |
-| Tomato leaves turning yellow | Many causes including blight | Check for brown patches, remove affected leaves, avoid wetting foliage |
+| 🟡 Yellow leaves | Overwatering, nutrient deficiency | Check soil drainage, add compost |
+| 🌿 Leggy seedlings | Not enough light | Move closer to a window or add a grow light |
+| 💧 Wilting despite watering | Root rot or compacted soil | Improve drainage, reduce watering |
+| 🐛 Holes in leaves | Caterpillars or slugs | Hand pick at night, use copper tape or mesh |
+| ⚪ White powder on leaves | Powdery mildew | Improve airflow, remove affected leaves |
+| 🐜 Aphid clusters | Common on new growth | Blast off with water, introduce ladybirds |
+| 🍅 Tomato leaves yellowing | Many causes including blight | Check for brown patches, remove affected leaves, avoid wetting foliage |
 
+::: tip 
+If you keep forgetting to care for your plants, you can find an tool [watering reminder tool here](https://github.com/aeri/Florae). 
+:::
 ### Companion planting
 
 Some plants actively protect their neighbours. Planting them together reduces pest pressure naturally without any sprays.
 
 <div class="card-grid-2">
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #f1c40f;">
     <h4><GuideIcon name="leaf" :size="18" /> Marigolds</h4>
     <p>Planted near tomatoes and brassicas, they deter aphids, whitefly, and nematodes. One of the most useful companion plants.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #71AD70;">
     <h4><GuideIcon name="leaf" :size="18" /> Basil</h4>
     <p>Grown next to tomatoes, basil is said to repel aphids and improve flavour. Also deters thrips.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #e67e22;">
     <h4><GuideIcon name="leaf" :size="18" /> Nasturtiums</h4>
     <p>Act as a trap crop, attracting aphids away from vegetables. Also edible and easy to grow from seed.</p>
   </div>
-  <div class="shared-card">
+  <div class="shared-card" style="border-left: 3px solid #4db6ac;">
     <h4><GuideIcon name="leaf" :size="18" /> Chives</h4>
     <p>Planted near carrots and roses, they deter aphids and carrot fly. Attractive flowers too.</p>
   </div>
@@ -422,51 +466,95 @@ For most gardens, winter is the quietest time. Use it to plan next year, order s
 
 Avoid walking on beds when the soil is wet or frozen. Compaction when soil is waterlogged damages structure that takes months to recover.
 
+<GardeningChecklist />
+
 ## Resources {#resources}
 
 Useful sites and communities for going deeper on any topic in this guide.
 
 <div class="resource-grid">
   <a href="https://eartheasy.com/blogs/yard-garden" target="_blank" rel="noopener noreferrer" class="resource-card">
-    <GuideIcon name="leaf" class="resource-icon" />
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=eartheasy.com&sz=32" width="24" height="24" class="resource-favicon" alt="Eartheasy favicon" />
     <div class="resource-body">
       <h4>Eartheasy</h4>
       <p>Practical, no-nonsense guides on composting, soil, and sustainable growing.</p>
     </div>
   </a>
   <a href="https://blog.planter.garden" target="_blank" rel="noopener noreferrer" class="resource-card">
-    <GuideIcon name="seedling" class="resource-icon" />
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=blog.planter.garden&sz=32" width="24" height="24" class="resource-favicon" alt="Planter favicon" />
     <div class="resource-body">
       <h4>Planter Growing Guide</h4>
       <p>Regularly updated articles on soil, watering, plant care, and seasonal growing.</p>
     </div>
   </a>
   <a href="https://www.gardenia.net" target="_blank" rel="noopener noreferrer" class="resource-card">
-    <GuideIcon name="flower" class="resource-icon" />
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=gardenia.net&sz=32" width="24" height="24" class="resource-favicon" alt="Gardenia favicon" />
     <div class="resource-body">
       <h4>Gardenia</h4>
       <p>Plant database with hardiness zones, companion planting guides, and pest information.</p>
     </div>
   </a>
   <a href="https://www.gardendesign.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-    <GuideIcon name="globe" class="resource-icon" />
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=gardendesign.com&sz=32" width="24" height="24" class="resource-favicon" alt="Garden Design favicon" />
     <div class="resource-body">
       <h4>Garden Design</h4>
       <p>Landscape ideas, design inspiration, and how-to guides for all garden sizes.</p>
     </div>
   </a>
   <a href="https://www.happysprout.com" target="_blank" rel="noopener noreferrer" class="resource-card">
-    <GuideIcon name="sun" class="resource-icon" />
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=happysprout.com&sz=32" width="24" height="24" class="resource-favicon" alt="Happy Sprout favicon" />
     <div class="resource-body">
       <h4>Happy Sprout</h4>
       <p>Plant care guides covering common problems, pests, harvesting, and houseplants.</p>
     </div>
   </a>
   <a href="https://www.reddit.com/r/gardening/" target="_blank" rel="noopener noreferrer" class="resource-card">
-    <GuideIcon name="users" class="resource-icon" />
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=reddit.com&sz=32" width="24" height="24" class="resource-favicon" alt="Reddit favicon" />
     <div class="resource-body">
       <h4>r/gardening</h4>
       <p>Large active community for questions, plant identification, and advice from real gardeners.</p>
+    </div>
+  </a>
+  <a href="https://permapeople.org" target="_blank" rel="noopener noreferrer" class="resource-card">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=permapeople.org&sz=32" width="24" height="24" class="resource-favicon" alt="Permapeople favicon" />
+    <div class="resource-body">
+      <h4>Permapeople</h4>
+      <p>Open-source plant database with permaculture-focused growing data and companion planting info.</p>
+    </div>
+  </a>
+  <a href="https://gitlab.com/m9712/mygarden" target="_blank" rel="noopener noreferrer" class="resource-card">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=gitlab.com&sz=32" width="24" height="24" class="resource-favicon" alt="GitLab favicon" />
+    <div class="resource-body">
+      <h4>MyGarden</h4>
+      <p>Free, open-source garden planner. Design beds, track plantings, and plan rotations.</p>
+    </div>
+  </a>
+  <a href="https://getchipdrop.com" target="_blank" rel="noopener noreferrer" class="resource-card">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=getchipdrop.com&sz=32" width="24" height="24" class="resource-favicon" alt="Chip Drop favicon" />
+    <div class="resource-body">
+      <h4>Chip Drop</h4>
+      <p>Free wood chips for mulch, delivered by arborists in your area. Great for paths and beds.</p>
+    </div>
+  </a>
+  <a href="https://www.picturethisai.com" target="_blank" rel="noopener noreferrer" class="resource-card">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=picturethisai.com&sz=32" width="24" height="24" class="resource-favicon" alt="PictureThis favicon" />
+    <div class="resource-body">
+      <h4>PictureThis</h4>
+      <p>Plant identifier app. Snap a photo to identify plants, diagnose diseases, and get care tips.</p>
+    </div>
+  </a>
+  <a href="https://identify.plantnet.org" target="_blank" rel="noopener noreferrer" class="resource-card">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=plantnet.org&sz=32" width="24" height="24" class="resource-favicon" alt="Pl@ntNet favicon" />
+    <div class="resource-body">
+      <h4>Pl@ntNet</h4>
+      <p>Free, community-driven plant identification. Upload a photo and get species-level results.</p>
+    </div>
+  </a>
+  <a href="https://wildflowersearch.org" target="_blank" rel="noopener noreferrer" class="resource-card">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=wildflowersearch.org&sz=32" width="24" height="24" class="resource-favicon" alt="Wildflower Search favicon" />
+    <div class="resource-body">
+      <h4>Wildflower Search</h4>
+      <p>Identify wildflowers by location, bloom color, and leaf shape. Great for foraging and native plants.</p>
     </div>
   </a>
 </div>

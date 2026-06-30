@@ -12,12 +12,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.17"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "canvas-confetti": "^1.9.4",
     "discord.js": "^14.26.4"
   }
 }

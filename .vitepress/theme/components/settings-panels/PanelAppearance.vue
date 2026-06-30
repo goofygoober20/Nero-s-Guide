@@ -39,6 +39,31 @@
     <div class="divider"></div>
 
     <div class="field">
+      <span>Guide Card Style</span>
+      <div class="card-style-options">
+        <button
+          v-for="style in cardStyles"
+          :key="style.id"
+          class="card-style-btn"
+          :class="{ active: settings.cardStyle === style.id }"
+          @click="settings.cardStyle = style.id; saveSettings()"
+        >
+          <span class="card-style-preview" :class="'preview-' + style.id"></span>
+          <span class="card-style-label">{{ style.label }}</span>
+        </button>
+      </div>
+      <button
+        v-if="settings.cardStyle !== 'none'"
+        class="card-style-reset"
+        @click="settings.cardStyle = 'none'; saveSettings()"
+      >
+        Reset Cards
+      </button>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="field">
       <span>Accent Color</span>
       <div class="swatches-grid">
         <button
@@ -47,6 +72,8 @@
           class="swatch-card"
           :class="{ active: settings.accentTheme === c.id }"
           :title="c.label"
+          :aria-label="`Use ${c.label} accent color`"
+          :aria-pressed="settings.accentTheme === c.id"
           @click="settings.accentTheme = c.id; saveSettings()"
         >
           <span class="swatch-circle" :style="{ backgroundColor: c.color }">
@@ -66,6 +93,18 @@ defineProps({
   settings: Object,
   saveSettings: Function
 })
+
+const cardStyles = ref([
+  { id: 'none',           label: 'None' },
+  { id: 'gradients',      label: 'Gradient Borders' },
+  { id: 'background',     label: 'Background Wash' },
+  { id: 'left-accent',    label: 'Left Accent' },
+  { id: 'top-stripe',     label: 'Top Stripe' },
+  { id: 'icon-halo',      label: 'Icon Halo' },
+  { id: 'corner-ribbon',  label: 'Corner Ribbon' },
+  { id: 'border-pulse',   label: 'Border Pulse' },
+  { id: 'glass-tint',     label: 'Glass Tint' },
+])
 
 const colors = ref([
   { id: 'red',     label: 'Red',     color: '#e06c6c' },
@@ -277,5 +316,164 @@ select {
 
 .swatch-card:hover .swatch-label {
   color: var(--vp-c-text-2);
+}
+
+.card-style-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card-style-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.25rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card-style-btn:hover {
+  background: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-divider);
+}
+
+.card-style-btn.active {
+  background: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-brand-1);
+}
+
+.card-style-preview {
+  width: 100%;
+  height: 2rem;
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-divider);
+  transition: all 0.2s ease;
+}
+
+.preview-none {
+  background: var(--vp-c-bg-soft);
+}
+
+.preview-gradients {
+  background: var(--vp-c-bg-soft);
+  border: 2px solid transparent;
+  background-image: linear-gradient(var(--vp-c-bg-soft), var(--vp-c-bg-soft)), linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.preview-background {
+  background: var(--vp-c-bg-soft);
+  position: relative;
+}
+.preview-background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--vp-c-brand-1);
+  opacity: 0.1;
+  border-radius: 4px;
+}
+
+.preview-left-accent {
+  background: var(--vp-c-bg-soft);
+  border-left: 3px solid var(--vp-c-brand-1);
+}
+
+.preview-top-stripe {
+  background: var(--vp-c-bg-soft);
+  border-top: 3px solid var(--vp-c-brand-1);
+}
+
+.preview-icon-halo {
+  background: var(--vp-c-bg-soft);
+  position: relative;
+}
+.preview-icon-halo::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--vp-c-brand-1);
+  opacity: 0.5;
+}
+
+.preview-corner-ribbon {
+  background: var(--vp-c-bg-soft);
+  position: relative;
+  overflow: hidden;
+}
+.preview-corner-ribbon::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 14px 14px 0;
+  border-color: transparent var(--vp-c-brand-1) transparent transparent;
+}
+
+.preview-border-pulse {
+  background: var(--vp-c-bg-soft);
+  border: 2px solid var(--vp-c-brand-1);
+  opacity: 0.8;
+}
+
+.preview-glass-tint {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  position: relative;
+}
+.preview-glass-tint::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--vp-c-brand-1);
+  opacity: 0.08;
+  border-radius: 4px;
+}
+
+.card-style-label {
+  font-size: 0.6rem;
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
+}
+
+.card-style-btn.active .card-style-label {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
+.card-style-reset {
+  margin-top: 0.6rem;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--vp-c-text-2);
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card-style-reset:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
 }
 </style>

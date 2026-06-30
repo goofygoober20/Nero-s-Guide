@@ -1,11 +1,17 @@
 <template>
-  <div v-if="visible" class="fact-inline" @click="nextFact" :title="'Click for another fact'">
-    <span class="fi-emoji">{{ current.icon || '🧠' }}</span>
-    <span class="fi-text">
-      <Transition name="fade" mode="out-in">
-        <span :key="current.id">{{ current.text }}</span>
-      </Transition>
-    </span>
+  <div>
+    <div v-if="isNightOwl" class="night-owl-badge">
+      <span class="night-owl-moon">🌙</span>
+      <span>Still up? We've got an <a href="/all-nighter" class="night-owl-link">all-nighter guide</a> for that.</span>
+    </div>
+    <div v-if="visible" class="fact-inline">
+      <span class="fi-emoji">{{ current.icon || '🧠' }}</span>
+      <span class="fi-text">
+        <Transition name="fade" mode="out-in">
+          <span :key="current.id">{{ current.text }}</span>
+        </Transition>
+      </span>
+    </div>
   </div>
 </template>
 
@@ -15,9 +21,8 @@ import prompts from './prompts.json'
 
 const visible = ref(true)
 const currentIndex = ref(0)
-const lastIds = ref([])
-const visitCount = ref(1)
 const shuffled = ref([])
+const isNightOwl = ref(false)
 
 const current = computed(() => shuffled.value[currentIndex.value] || shuffled.value[0] || {})
 
@@ -52,13 +57,6 @@ function initPrompts() {
   if (month === 11) seasonal.push({ id: 99, text: 'The world record for most lights on a Christmas tree is over 500,000.', icon: '🎄' })
   if (month === 0) seasonal.push({ id: 98, text: 'The tradition of New Year resolutions dates back 4,000 years to Babylon.', icon: '🎉' })
   if (hour >= 22 || hour < 5) seasonal.push({ id: 97, text: 'The average person falls asleep in 7 minutes.', icon: '🌙' })
-  if (visitCount.value === 1) seasonal.push({ id: 96, text: 'First time here? This site is full of random facts and guides.', icon: '👋' })
-  if (visitCount.value >= 10) seasonal.push({ id: 95, text: `You've visited ${visitCount.value} times. You deserve a medal.`, icon: '🏅' })
-
-  const lastId = parseInt(localStorage.getItem('last-fact-id') || '0')
-  pool = pool.filter(p => p.id !== lastId)
-  const lastBatch = JSON.parse(localStorage.getItem('last-fact-ids') || '[]')
-  pool = pool.filter(p => !lastBatch.includes(p.id))
 
   if (seasonal.length) pool = [...pool, ...seasonal]
   shuffled.value = weightedShuffle(pool)
@@ -68,17 +66,6 @@ function initPrompts() {
 function nextFact() {
   if (shuffled.value.length === 0) return
   currentIndex.value = (currentIndex.value + 1) % shuffled.value.length
-  persistProgress()
-}
-
-function persistProgress() {
-  const p = current.value
-  if (p && p.id) {
-    localStorage.setItem('last-fact-id', String(p.id))
-    lastIds.value.push(p.id)
-    if (lastIds.value.length > 5) lastIds.value.shift()
-    localStorage.setItem('last-fact-ids', JSON.stringify(lastIds.value))
-  }
 }
 
 let timer = null
@@ -98,6 +85,9 @@ function stopRotation() {
 }
 
 onMounted(() => {
+  const hour = new Date().getHours()
+  isNightOwl.value = hour >= 0 && hour < 5
+
   const settings = localStorage.getItem('neros-guide-settings')
   if (settings) {
     try {
@@ -109,13 +99,6 @@ onMounted(() => {
     } catch {}
   }
 
-  const v = parseInt(localStorage.getItem('visit-count') || '1')
-  visitCount.value = v + 1
-  localStorage.setItem('visit-count', String(v + 1))
-
-  const saved = localStorage.getItem('last-fact-ids')
-  if (saved) lastIds.value = JSON.parse(saved)
-
   initPrompts()
   startRotation()
 })
@@ -126,10 +109,35 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+.night-owl-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  background: rgba(155, 89, 182, 0.1);
+  border: 1px solid rgba(155, 89, 182, 0.3);
+  font-size: 0.78rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 0.5rem;
+}
+
+.night-owl-moon {
+  font-size: 0.9rem;
+}
+
+.night-owl-link {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.night-owl-link:hover {
+  color: var(--vp-c-brand-2);
+}
 .fact-inline {
   text-align: left;
   padding: 0.5rem 0;
-  cursor: pointer;
   transition: opacity 0.25s ease;
   opacity: 0.7;
   min-height: 2rem;

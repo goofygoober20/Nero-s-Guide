@@ -1,6 +1,5 @@
 <template>
   <div class="settings-shell">
-    <SearchSettings v-model="searchQuery" />
     <NeroTabs :tabs="tabs" v-model="activeTab" />
     <transition name="fade-slide" mode="out-in">
       <component
@@ -26,7 +25,6 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
 import NeroTabs from './NeroTabs.vue'
-import SearchSettings from './SearchSettings.vue'
 import GlassModal from './GlassModal.vue'
 import PanelGeneral from './settings-panels/PanelGeneral.vue'
 import PanelAppearance from './settings-panels/PanelAppearance.vue'
@@ -41,22 +39,22 @@ const tabs = [
 ]
 
 const activeTab = ref('general')
-const searchQuery = ref('')
+
 const showReset = ref(false)
 const isInitialized = ref(false)
 
 const defaults = {
   theme: 'system',
   fontSize: 'medium',
-  showNSFW: false,
   accentTheme: 'green',
   autoHideNav: false,
   reducedMotion: false,
-  showReadingProgress: true,
   showBreadcrumbs: true,
   showFunFacts: true,
   showLightModeFlash: true,
+  showConfetti: true,
   bgLevel: 50,
+  cardStyle: 'none',
   confirmBeforeReset: true,
 }
 
@@ -106,6 +104,14 @@ function applyBgLevel(level) {
   document.documentElement.style.setProperty('--vp-bg-level', factor)
 }
 
+function applyCardStyle(style) {
+  const classes = document.documentElement.className.split(' ')
+  classes.forEach(c => {
+    if (c.startsWith('card-style-')) document.documentElement.classList.remove(c)
+  })
+  document.documentElement.classList.add('card-style-' + style)
+}
+
 function applyVisibility(name, val) {
   document.documentElement.classList.toggle('hide-' + name, !val)
 }
@@ -118,8 +124,8 @@ function applyAll() {
   applyReducedMotion(s.reducedMotion)
   applyAutoHideNav(s.autoHideNav)
   applyVisibility('breadcrumbs', s.showBreadcrumbs)
-  applyVisibility('reading-progress', s.showReadingProgress)
   applyBgLevel(s.bgLevel)
+  applyCardStyle(s.cardStyle)
 }
 
 onMounted(() => {
@@ -128,6 +134,7 @@ onMounted(() => {
     try {
       const parsed = JSON.parse(saved)
       settings.value = { ...defaults, ...parsed }
+      if (settings.value.cardStyle === 'tints' || settings.value.cardStyle === 'glow') settings.value.cardStyle = 'none'
     } catch {}
   }
   applyAll()
@@ -146,8 +153,8 @@ watch(() => settings.value.fontSize, applyFontSize)
 watch(() => settings.value.reducedMotion, applyReducedMotion)
 watch(() => settings.value.autoHideNav, applyAutoHideNav)
 watch(() => settings.value.showBreadcrumbs, (val) => applyVisibility('breadcrumbs', val))
-watch(() => settings.value.showReadingProgress, (val) => applyVisibility('reading-progress', val))
 watch(() => settings.value.bgLevel, applyBgLevel)
+watch(() => settings.value.cardStyle, applyCardStyle)
 
 function saveSettings() {
   localStorage.setItem('neros-guide-settings', JSON.stringify(settings.value))

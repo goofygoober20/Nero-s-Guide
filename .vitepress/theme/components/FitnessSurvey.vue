@@ -101,7 +101,7 @@
             <div v-for="program in recommendedPrograms" :key="program.name" class="program-recommendation-card">
               <h4>{{ program.name }}</h4>
               <p>{{ program.description }}</p>
-              <a :href="program.link" target="_blank" rel="noopener" class="program-external-link">Open DAREBEE Program →</a>
+              <a :href="program.link" target="_blank" rel="noopener noreferrer" class="program-external-link">Open DAREBEE Program →</a>
             </div>
           </div>
         </div>

@@ -16,44 +16,40 @@
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 
-const { page } = useData()
+const { page, theme } = useData()
 
-const prevGuides = {
-  'all-nighter': { label: 'All-Nighter Guide', href: '/all-nighter' },
-  passwords: { label: 'Password Guide', href: '/passwords' },
-  fitness: { label: 'Fitness Guide', href: '/fitness' },
-  cooking: { label: 'Cooking Guide', href: '/cooking' },
-  drawing: { label: 'Drawing Guide', href: '/drawing' },
-  shopping: { label: 'Shopping Guide', href: '/shopping' },
-  darkweb: { label: 'Dark Web Guide', href: '/darkweb' },
-  chess: { label: 'Chess Guide', href: '/chess' },
-  unenrollment: { label: 'Unenrollment', href: '/unenrollment' },
-  linux: { label: 'Linux for Beginners', href: '/linux' },
-  privacy: { label: 'Online Privacy Guide', href: '/privacy' },
-  finance: { label: 'Personal Finance Guide', href: '/finance' },
-  productivity: { label: 'Productivity Guide', href: '/productivity' },
-  minimalism: { label: 'Minimalism Guide', href: '/minimalism' },
-  gaming: { label: 'Gaming Guide', href: '/gaming' },
-  'tools/investment-calculator': { label: 'Investment Calculator', href: '/tools/investment-calculator' },
-  'tools/pomodoro': { label: 'Pomodoro Timer', href: '/tools/pomodoro' },
-  'tools/bmi-calculator': { label: 'BMI Calculator', href: '/tools/bmi-calculator' },
-  'tools/password-strength': { label: 'Password Strength', href: '/tools/password-strength' },
-  'tools/password-generator': { label: 'Password Generator', href: '/tools/password-generator' },
-  'tools/decision-wheel': { label: 'Decision Wheel', href: '/tools/decision-wheel' },
-  'tools/unit-converter': { label: 'Unit Converter', href: '/tools/unit-converter' },
-  'tools/study-tracker': { label: 'Study Tracker', href: '/tools/study-tracker' },
+function flattenSidebar(sidebar) {
+  const items = []
+  if (!sidebar) return items
+  for (const section of sidebar) {
+    if (section.items) {
+      for (const item of section.items) {
+        if (item.link) {
+          items.push({ label: item.text.replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}]\s*/u, ''), href: item.link })
+        }
+        if (item.items) {
+          for (const sub of item.items) {
+            if (sub.link) {
+              items.push({ label: sub.text.replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}]\s*/u, ''), href: sub.link })
+            }
+          }
+        }
+      }
+    }
+  }
+  return items
 }
 
 const links = computed(() => {
   const path = page.value?.relativePath?.replace(/\.md$/, '') || ''
-  const keys = Object.keys(prevGuides)
-  const idx = keys.indexOf(path)
+  const allItems = flattenSidebar(theme.value?.sidebar)
+  const idx = allItems.findIndex(i => i.href === '/' + path || i.href === path)
   if (idx === -1) return []
 
   const result = []
-  if (idx > 0) result.push({ label: prevGuides[keys[idx - 1]].label, href: prevGuides[keys[idx - 1]].href })
+  if (idx > 0) result.push(allItems[idx - 1])
   result.push({ label: 'All Guides', href: '/' })
-  if (idx < keys.length - 1) result.push({ label: prevGuides[keys[idx + 1]].label, href: prevGuides[keys[idx + 1]].href })
+  if (idx < allItems.length - 1) result.push(allItems[idx + 1])
   return result
 })
 </script>

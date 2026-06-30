@@ -14,14 +14,11 @@ hero:
       text: "📬 Monthly Updates"
       link: /updates
     - theme: alt
-      text: "Posts"
-      link: /posts
+      text: "How to Use"
+      link: /how-to-use
     - theme: alt
       text: "About me"
       link: /about
-    - theme: alt
-      text: "Discord"
-      link: https://discord.gg/vhsHR5Xkx
 
 features:
   - title: "Password Guide"
@@ -107,4 +104,22 @@ features:
     details: "PC builds, performance tips, cloud gaming, and essential tools"
     icon: |
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e74c3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="11" x2="10" y2="11"/><line x1="8" y1="9" x2="8" y2="13"/><line x1="15" y1="12" x2="15.01" y2="12"/><line x1="18" y1="10" x2="18.01" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>
+
+  - title: "Gardening Guide"
+    link: /gardening
+    details: "Soil prep, composting, and growing your own food"
+    icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4caf50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c-4.97 0-9-2.24-9-5v-4c0-2.76 4.03-5 9-5s9 2.24 9 5v4c0 2.76-4.03 5-9 5z"/><path d="M12 8V2"/><path d="M8 6c0-2.21 1.79-4 4-4s4 1.79 4 4"/></svg>
+
+  - title: "Sleeping Guide"
+    link: /sleeping/
+    details: "Sleep schedules, shift work, all-nighters, and sleep science"
+    icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7c8cf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+
+  - title: "Writing & Note-Taking"
+    link: /writing-and-note-taking
+    details: "Note-taking systems, Markdown, second brain workflow, and app comparisons"
+    icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e67e22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
 ---

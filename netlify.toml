@@ -1,6 +1,7 @@
 [build]
   command = "npm run docs:build"
   publish = ".vitepress/dist"
+  functions = "netlify/functions"
 
 [[redirects]]
   from = "/sleeping/insomnia"

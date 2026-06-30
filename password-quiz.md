@@ -3,6 +3,10 @@ title: Password Manager Quiz
 description: Find the perfect password manager for your needs with our interactive quiz.
 ---
 
+<script setup>
+import PasswordManagerQuiz from './.vitepress/theme/components/PasswordManagerQuiz.vue'
+</script>
+
 # &#128272; Password Manager Quiz
 
 <div class="quiz-intro">
