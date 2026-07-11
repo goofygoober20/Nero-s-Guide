@@ -140,8 +140,8 @@ function downloadMd() {
 }
 
 .copy-link.copied {
-  border-color: #22c55e;
-  color: #22c55e;
+  border-color: var(--accent-green);
+  color: var(--accent-green);
 }
 
 .download-btn:hover {

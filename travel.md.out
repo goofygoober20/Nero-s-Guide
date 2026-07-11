@@ -1,0 +1,291 @@
+---
+title: Traveling Guide
+description: Smart travel planning, tools, maps, and resources for your next adventure.
+---
+
+<div class="guide-hero">
+  <h1>Traveling Guide</h1>
+  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
+  <p class="guide-intro">Whether you're planning a weekend getaway or a year-long trip around the world, good tools make all the difference. This guide covers flight and train booking, maps, navigation, destination research, weather, and the best resources for every type of traveler.</p>
+</div>
+
+## Table of Contents
+
+<details open>
+<summary>Click to expand</summary>
+
+- [Flight Planning & Booking](#flight-planning-booking)
+- [Train & Ground Transport](#train-ground-transport)
+- [Maps & Navigation](#maps-navigation)
+- [Accommodation](#accommodation)
+- [Passport, Visa & Entry Requirements](#passport-visa-entry-requirements)
+- [Weather & Environment](#weather-environment)
+- [Destination Inspiration](#destination-inspiration)
+- [Cultural & Etiquette Guides](#cultural-etiquette-guides)
+- [Special Interest Travel](#special-interest-travel)
+- [Essential Tools](#essential-tools)
+- [Further Reading](#further-reading)
+
+</details>
+
+## Flight Planning & Booking {#flight-planning-booking}
+
+<div class="card-grid-2">
+  <a href="https://www.google.com/travel/flights" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Google Flights</h4>
+    <p>The best all-around flight search. Date grid and price graph make it easy to find the cheapest days to fly. Price tracking sends alerts when fares drop. Covers most airlines worldwide.</p>
+  </a>
+  <a href="https://www.skyscanner.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Skyscanner</h4>
+    <p>Great for "everywhere" searches if you're flexible on destination. Also searches hotels and car rentals. Useful for finding the cheapest destination from your airport.</p>
+  </a>
+  <a href="https://skiplagged.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Skiplagged</h4>
+    <p>Finds "hidden city" ticketing deals where booking a flight with a layover at your actual destination is cheaper than a direct flight. Read their FAQ about baggage rules before trying this.</p>
+  </a>
+</div>
+
+## Train & Ground Transport {#train-ground-transport}
+
+<div class="card-grid-2">
+  <a href="https://www.seat61.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Seat 61</h4>
+    <p>The definitive guide to train travel worldwide. Every route, every station, every booking link. If you want to travel by train anywhere on earth, start here. Includes ferry connections too.</p>
+  </a>
+  <a href="https://stationview.app/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Station View</h4>
+    <p>Live train departure boards for the UK, France, Switzerland, Belgium, Germany, Netherlands, Finland, and Japan. Clean interface that shows exactly what the station screens show.</p>
+  </a>
+</div>
+
+## Maps & Navigation {#maps-navigation}
+
+<div class="card-grid-2">
+  <a href="https://maps.google.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Google Maps</h4>
+    <p>The most comprehensive map service. Real-time traffic, public transit directions, street view, business hours and reviews, offline maps for specific areas. Hard to beat for daily use.</p>
+  </a>
+  <a href="https://maps.apple.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Apple Maps</h4>
+    <p>Privacy-focused alternative to Google Maps. Excellent turn-by-turn navigation, detailed city maps with elevation, and offline support. Improving rapidly with each iOS update.</p>
+  </a>
+  <a href="https://www.waze.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Waze</h4>
+    <p>Crowdsourced navigation that excels at real-time traffic, police alerts, and road hazard warnings. Best for daily driving in urban areas where traffic changes quickly.</p>
+  </a>
+  <a href="https://www.bing.com/maps" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Bing Maps</h4>
+    <p>Solid alternative with bird's eye aerial imagery and Ordnance Survey maps for the UK. Useful when Google Maps is blocked or you need a different perspective.</p>
+  </a>
+  <a href="https://f-droid.org/packages/net.osmand.plus/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>OsmAnd</h4>
+    <p>OpenStreetMap-based offline navigation with full turn-by-turn directions. No internet connection needed once maps are downloaded. Includes hiking trails, POIs, and topographic data. Available on F-Droid.</p>
+  </a>
+  <a href="https://comaps.app/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>CoMaps</h4>
+    <p>Privacy-first offline maps app (a fork of Organic Maps). No ads, no tracking, no account required. Uses OpenStreetMap data. Lightweight and fast.</p>
+  </a>
+  <a href="https://bikesharingworldmap.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Bike-Sharing World Map</h4>
+    <p>Interactive map showing every bike-sharing system worldwide with station locations, bike availability, and docking info. Essential for exploring cities on two wheels.</p>
+  </a>
+</div>
+
+<div class="about-tip reveal">
+  <span class="tip-icon">💡</span>
+  <span><strong>Tip:</strong> Before traveling abroad, download offline maps for your destination in both Google Maps and OsmAnd/OAM. Cell service isn't always reliable, and having a backup map app can save you when one doesn't have the area well-covered.</span>
+</div>
+
+## Accommodation {#accommodation}
+
+<div class="card-grid-2">
+  <a href="https://cozycozy.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>CozyCozy</h4>
+    <p>Metasearch for accommodation that compares Booking.com, Airbnb, Vrbo, Hotels.com, and more in one place. Saves time checking multiple sites for the best price.</p>
+  </a>
+  <a href="https://trustroots.org/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Trustroots</h4>
+    <p>Hospitality exchange network focused on travelers, hitchhikers, and nomads. Free to use, community-driven. Think Couchsurfing but without the commercialization.</p>
+  </a>
+</div>
+
+## Passport, Visa & Entry Requirements {#passport-visa-entry-requirements}
+
+<div class="card-grid-2">
+  <a href="https://www.entryconditions.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Entry Conditions</h4>
+    <p>Shows entry requirements, visa policies, and passport validity rules for every country. Also check <a href="https://www.entryconditions.com/passport/united-states" target="_blank">US-specific passport info</a>.</p>
+  </a>
+  <a href="https://visaindex.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Visa Index</h4>
+    <p>Check visa requirements by passport. Shows which countries you can visit visa-free, visa-on-arrival, or need to apply in advance. Updated regularly.</p>
+  </a>
+</div>
+
+## Weather & Environment {#weather-environment}
+
+<div class="card-grid-2">
+  <a href="https://www.windy.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Windy</h4>
+    <p>Beautiful, interactive weather map with wind, rain, temperature, waves, and air quality layers. Uses multiple forecast models (ECMWF, GFS, NAM). Indispensable for outdoor travel planning.</p>
+  </a>
+  <a href="https://www.ventusky.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Ventusky</h4>
+    <p>Another excellent weather visualization platform. Shows precipitation, wind, pressure, and more with a clean interface. Good complement to Windy for cross-checking forecasts.</p>
+  </a>
+  <a href="https://floodmap.net/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Flood Map</h4>
+    <p>Elevation and flood risk maps for any location. Useful for checking whether your destination might be affected by seasonal flooding, storm surges, or rising sea levels.</p>
+  </a>
+  <a href="https://sitinshade.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Sit in Shade</h4>
+    <p>Find shaded spots along transit routes or at specific locations based on sun position. Perfect for planning walks in hot climates or finding a cool spot to rest.</p>
+  </a>
+</div>
+
+## Destination Inspiration {#destination-inspiration}
+
+<div class="card-grid-2">
+  <a href="https://www.atlasobscura.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Atlas Obscura</h4>
+    <p>The definitive guide to the world's weirdest, most wonderful places. Abandoned buildings, natural oddities, unusual museums, hidden tunnels — if it's strange and worth seeing, it's here.</p>
+  </a>
+  <a href="https://whc.unesco.org/en/list/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>UNESCO World Heritage List</h4>
+    <p>Every UNESCO World Heritage site, searchable by country and year. The gold standard for culturally and naturally significant destinations worth planning a trip around.</p>
+  </a>
+  <a href="https://www.roadsideamerica.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Roadside America</h4>
+    <p>The ultimate guide to quirky roadside attractions across the United States. Giant statues, bizarre museums, unusual architecture — perfect for road trip planning.</p>
+  </a>
+  <a href="https://en.wikivoyage.org/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Wikivoyage</h4>
+    <p>Free, up-to-date travel wiki maintained by volunteers. More active than Wikitravel. Covers destinations worldwide with practical info on transportation, safety, and sights.</p>
+  </a>
+  <a href="https://wikitravel.org/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Wikitravel</h4>
+    <p>Older travel wiki with extensive destination guides. Some content overlaps with Wikivoyage but worth checking both for older, more detailed articles on certain regions.</p>
+  </a>
+</div>
+
+## Cultural & Etiquette Guides {#cultural-etiquette-guides}
+
+<div class="card-grid-2">
+  <a href="https://culturalatlas.sbs.com.au/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Cultural Atlas</h4>
+    <p>Country-by-country guide to cultural norms, etiquette, communication styles, and business practices. Invaluable for avoiding social faux pas when traveling somewhere unfamiliar.</p>
+  </a>
+</div>
+
+## Special Interest Travel {#special-interest-travel}
+
+<div class="card-grid-2">
+  <a href="https://www.rcdb.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>RCDB (Roller Coaster Database)</h4>
+    <p>The most comprehensive database of roller coasters worldwide. Every coaster, every park, every stat. Plan a theme park trip around the best coasters in any region.</p>
+  </a>
+  <a href="https://www.darkridedatabase.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Dark Ride Database</h4>
+    <p>Catalog of dark rides (indoor tracked attractions) at amusement parks worldwide. Covers classic dark rides, interactive shooters, and modern trackless systems.</p>
+  </a>
+  <a href="https://flightradar24.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Flightradar24</h4>
+    <p>Live flight tracking showing real-time aircraft positions, routes, altitudes, and speeds. Fun for spotting planes overhead and useful for checking flight status from the ground.</p>
+  </a>
+  <a href="https://www.flightaware.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>FlightAware</h4>
+    <p>More detailed than FR24 for flight tracking and status. Better for actual flight planning — shows delays, cancellations, aircraft history, and airport conditions in more depth.</p>
+  </a>
+  <a href="https://planefinder.net/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Plane Finder</h4>
+    <p>Alternative flight tracker with a clean interface. Shows aircraft photos, flight paths, and estimated arrival times. Good when FR24 or FA are overloaded.</p>
+  </a>
+  <a href="https://globe.adsbexchange.com/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>ADS-B Exchange</h4>
+    <p>Community-driven flight tracking that doesn't filter military or private aircraft. The most complete picture of what's actually in the sky. No block lists.</p>
+  </a>
+  <a href="https://airplanes.live/" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Airplanes.Live</h4>
+    <p>ADS-B flight tracking with a modern 3D view. Open-source platform. Also has companion <a href="https://github.com/d4rken-org/airplanes-live-app" target="_blank">Android app</a> for on-the-go tracking.</p>
+  </a>
+  <a href="https://objectiveunclear.com/airloom.html" target="_blank" rel="noopener noreferrer" class="shared-card reveal">
+    <h4>Air Loom</h4>
+    <p>3D visualization of live flight paths. Watch aircraft move through space in a three-dimensional view. More of an art piece than a utility, but mesmerizing to explore.</p>
+  </a>
+</div>
+
+## Essential Tools {#essential-tools}
+
+<div class="resource-grid">
+  <a href="https://www.esimdb.com/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=esimdb.com&sz=32" width="24" height="24" class="resource-favicon" alt="eSIMDB favicon" />
+    <div class="resource-body">
+      <h4>eSIMDB</h4>
+      <p>Compare eSIM data plans from every provider worldwide. Find the cheapest data for your destination without hunting through individual carrier sites.</p>
+    </div>
+  </a>
+  <a href="https://www.airnavradar.com/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=airnavradar.com&sz=32" width="24" height="24" class="resource-favicon" alt="AirNav Radar favicon" />
+    <div class="resource-body">
+      <h4>AirNav Radar</h4>
+      <p>Another live flight tracker with a focus on detailed aircraft and airport information. Good for aviation enthusiasts who want more than just position data.</p>
+    </div>
+  </a>
+  <a href="https://flight-viz.com/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=flight-viz.com&sz=32" width="24" height="24" class="resource-favicon" alt="Flight-Viz favicon" />
+    <div class="resource-body">
+      <h4>Flight-Viz</h4>
+      <p>Beautiful visualization powered by ADS-B data. See global air traffic patterns in real time.</p>
+    </div>
+  </a>
+  <a href="https://www.tropicaltidbits.com/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=tropicaltidbits.com&sz=32" width="24" height="24" class="resource-favicon" alt="Tropical Tidbits favicon" />
+    <div class="resource-body">
+      <h4>Tropical Tidbits</h4>
+      <p>Advanced weather models and tropical cyclone tracking. Best for meteorology enthusiasts and travelers heading to hurricane-prone regions.</p>
+    </div>
+  </a>
+  <a href="https://www.xweather.com/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=xweather.com&sz=32" width="24" height="24" class="resource-favicon" alt="XWeather favicon" />
+    <div class="resource-body">
+      <h4>XWeather</h4>
+      <p>Live weather maps with radar, satellite, and severe weather alerts. Clean interface good for quick checks.</p>
+    </div>
+  </a>
+  <a href="https://143190.xyz/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=143190.xyz&sz=32" width="24" height="24" class="resource-favicon" alt="143190 favicon" />
+    <div class="resource-body">
+      <h4>143190.xyz — IMAX Theatres</h4>
+      <p>IMAX theatre database showing locations, screen types (GT, SR, Xenon, Laser), and audio systems worldwide. For cinephiles who plan trips around the best screens.</p>
+    </div>
+  </a>
+  <a href="https://frightfind.com/" target="_blank" rel="noopener noreferrer" class="resource-card reveal">
+    <img loading="lazy" src="https://www.google.com/s2/favicons?domain=frightfind.com&sz=32" width="24" height="24" class="resource-favicon" alt="FrightFind favicon" />
+    <div class="resource-body">
+      <h4>FrightFind</h4>
+      <p>Find haunted houses, haunted attractions, and Halloween events near you or at your destination. Seasonal but useful for October travel planning.</p>
+    </div>
+  </a>
+</div>
+
+<div class="about-tip reveal">
+  <span class="tip-icon">💡</span>
+  <span><strong>Tip:</strong> Get an eSIM before you travel. eSIMDB lets you compare plans so you can grab a local data plan without hunting for a physical SIM. Most modern phones support eSIM — check your model before assuming you need a physical card.</span>
+</div>
+
+## Further Reading {#further-reading}
+
+- [Seat 61](https://www.seat61.com/) — Everything you need to know about train travel worldwide
+- [Wikivoyage](https://en.wikivoyage.org/) — Free, open-source travel guides for every destination
+- [Atlas Obscura](https://www.atlasobscura.com/) — The world's most unusual places
+- [UNESCO World Heritage List](https://whc.unesco.org/en/list/) — Culturally and naturally significant sites
+- [Cultural Atlas](https://culturalatlas.sbs.com.au/) — Country-by-country etiquette and cultural norms
+- [Roadside America](https://www.roadsideamerica.com/) — Quirky roadside attractions across the US
+- [Windy](https://www.windy.com/) — Interactive weather maps for trip planning
+- [Bike-Sharing World Map](https://bikesharingworldmap.com/) — Find bike-share stations everywhere
+- [Flood Map](https://floodmap.net/) — Elevation and flood risk data for any location
+- [Sit in Shade](https://sitinshade.com/) — Find shade based on sun position
+- [Entry Conditions](https://www.entryconditions.com/) — Visa and passport requirements
+- [Visa Index](https://visaindex.com/) — Visa-free travel by passport
+
+<BackLinks />

@@ -11,19 +11,6 @@ readingTime: 12
   <p class="guide-intro">Getting things done is about systems, not willpower. This guide covers the best techniques and tools for studying, working, and staying organized.</p>
 </div>
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand</summary>
-
-- [The Pomodoro Technique](#the-pomodoro-technique)
-- [Spaced Repetition (Anki)](#spaced-repetition-anki)
-- [Note-Taking Systems](#note-taking-systems)
-- [Task Management](#task-management)
-- [Tools & Resources](#tools--resources)
-
-</details>
-
 ## The Pomodoro Technique
 
 <div class="shared-card reveal">
@@ -318,4 +305,48 @@ A simple but powerful daily planning technique:
 | **Essentialism** | Greg McKeown | Less but better - focus on what truly matters |
 | **The 4-Hour Workweek** | Tim Ferriss | Outsourcing and automation for productivity |
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>What's the best productivity system?</summary>
+
+The one you'll actually use. Start simple: a short to-do list plus a calendar. Add structure (time-blocking, GTD, Pomodoro) only when a specific problem appears.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I stop procrastinating?</summary>
+
+Shrink the task until it's too small to fear — open the doc, write one sentence. Action creates momentum; motivation usually follows, not leads.
+
+</details>
+
+<details class="faq-item">
+<summary>Should I use a to-do list or a calendar?</summary>
+
+Both, for different things. Calendars hold time-bound commitments; to-do lists hold tasks. Put only the day's top 3 on the list so it stays actionable.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I focus with so many distractions?</summary>
+
+Remove them physically: phone in another room, one tab open, notifications off. Attention is a muscle — protect it like you would a deadline.
+
+</details>
+
+<details class="faq-item">
+<summary>Is multitasking real?</summary>
+
+Not for thinking work. The brain switches between tasks and loses time each switch. Batch similar work and do one thing at a time for deep tasks.
+
+</details>
+
+<details class="faq-item">
+<summary>What do I do when I'm burned out?</summary>
+
+Rest without guilt — burnout isn't fixed by pushing harder. Sleep, move, and cut optional commitments for a few days. Recovery is productive, not lazy.
+
+</details>
 <BackLinks />

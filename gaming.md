@@ -9,43 +9,37 @@ description: Optimize your gaming setup, improve performance, and discover the b
   <p class="guide-intro">From PC builds and performance tuning to console modding and indie game discovery, this guide covers everything you need for a better gaming experience across every platform.</p>
 </div>
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand</summary>
-
-- [PC Gaming](#pc-gaming)
-- [Xbox](#xbox)
-- [PlayStation](#playstation)
-- [Indie Games](#indie-games)
-- [Browser Games](#browser-games)
-- [Game Mods](#game-mods)
-- [Game Recommendations](#game-recommendations)
-- [Essential Tools](#essential-tools)
-- [Cloud Gaming & Game Pass](#cloud-gaming-game-pass)
-- [Controller & Peripherals](#controller-peripherals)
-
-</details>
-
 ## PC Gaming
 
 ### PC Build Guide
 
 <div class="card-grid-2">
-  <div class="shared-card reveal">
-    <h4>Entry Level (~$500)</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header high">
+      <span class="fa-header-icon">🖥️</span>
+      <h4>Entry Level (~$500)</h4>
+    </div>
     <p>Ryzen 5 5600 + RX 6600 + 16GB DDR4 + 500GB NVMe. Runs esports titles at 1080p high and AAA games at 1080p medium. Best bang for buck.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Mid Range (~$1000)</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">🎮</span>
+      <h4>Mid Range (~$1000)</h4>
+    </div>
     <p>Ryzen 5 7600X + RTX 4060 Ti + 32GB DDR5 + 1TB NVMe. Great 1440p performance. Handles any game at high settings.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>High End (~$2000+)</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header medium">
+      <span class="fa-header-icon">⚡</span>
+      <h4>High End (~$2000+)</h4>
+    </div>
     <p>Ryzen 7 7800X3D + RTX 4070 Ti Super + 32GB DDR5 + 2TB NVMe. Excellent 4K gaming. The 7800X3D is currently the best gaming CPU.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Ultimate (~$3500+)</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header low">
+      <span class="fa-header-icon">🚀</span>
+      <h4>Ultimate (~$3500+)</h4>
+    </div>
     <p>Ryzen 9 7950X3D + RTX 4090 + 64GB DDR5 + 4TB NVMe. Overkill for most, but if you want max FPS at 4K, this is it.</p>
   </div>
 </div>
@@ -58,20 +52,32 @@ description: Optimize your gaming setup, improve performance, and discover the b
 ### Performance Optimization
 
 <div class="card-grid-2">
-  <div class="shared-card reveal">
-    <h4>Graphics Settings Priority</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">🎨</span>
+      <h4>Graphics Settings Priority</h4>
+    </div>
     <p>For the best visual fidelity per FPS: turn down shadows, reflections, and post-processing first. Keep textures high (they cost little performance). Use DLSS/FSR if available - it's basically free performance.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Driver Updates</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">🔄</span>
+      <h4>Driver Updates</h4>
+    </div>
     <p>Keep GPU drivers updated. NVIDIA: GeForce Experience. AMD: Adrenalin. Intel: Arc Control. New drivers often include game-specific optimizations that boost FPS.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Windows Game Mode</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">⚙️</span>
+      <h4>Windows Game Mode</h4>
+    </div>
     <p>Enable Game Mode in Windows Settings. Disable hardware acceleration in Discord and browser while gaming. Close background apps you don't need.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Monitor Settings</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">🖥️</span>
+      <h4>Monitor Settings</h4>
+    </div>
     <p>Enable your monitor's rated refresh rate in display settings (it defaults to 60Hz on many monitors). Enable FreeSync/G-Sync for tear-free gaming. Use the correct cable (DP 1.4 or HDMI 2.1 for high refresh).</p>
   </div>
 </div>
@@ -81,20 +87,32 @@ description: Optimize your gaming setup, improve performance, and discover the b
 Inspired by <a href="https://www.pcgamingwiki.com/wiki/Home" target="_blank" rel="noopener noreferrer">PCGamingWiki</a>, the encyclopedia of PC game fixes.
 
 <div class="card-grid-2">
-  <div class="shared-card reveal">
-    <h4>Game Won't Launch</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">🚫</span>
+      <h4>Game Won't Launch</h4>
+    </div>
     <p>Install latest Visual C++ Redistributables and DirectX. Verify game files in Steam/Epic. Run as administrator. Check antivirus isn't blocking the executable. Update Windows.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Stuttering & Frame Drops</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">📉</span>
+      <h4>Stuttering &amp; Frame Drops</h4>
+    </div>
     <p>Disable V-Sync if using FreeSync/G-Sync. Lower shadow quality. Close overlay apps (Discord, Steam, GeForce Experience). Check thermals with MSI Afterburner. Set power plan to High Performance.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Controller Not Working</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">🎮</span>
+      <h4>Controller Not Working</h4>
+    </div>
     <p>Use Steam Input to remap controllers. For Xbox controllers, update firmware via Xbox Accessories app. For PS controllers, install DS4Windows. Try different USB ports or Bluetooth pairing.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Audio Issues</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header">
+      <span class="fa-header-icon">🔊</span>
+      <h4>Audio Issues</h4>
+    </div>
     <p>Set correct audio output in Windows Sound Settings. Disable audio enhancements. Update audio drivers. For crackling audio, increase buffer size in your audio interface settings.</p>
   </div>
 </div>
@@ -161,20 +179,32 @@ Inspired by <a href="https://www.pcgamingwiki.com/wiki/Home" target="_blank" rel
 ### Xbox Modding Guide
 
 <div class="card-grid-2">
-  <div class="shared-card reveal">
-    <h4>Original Xbox</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header high">
+      <span class="fa-header-icon">🟢</span>
+      <h4>Original Xbox</h4>
+    </div>
     <p>Most models can be softmoded with splinter cell or MechAssault exploits. Hardmod with tsop flash or modchip for unlimited potential. Great for emulation and media center use.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Xbox 360</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header high">
+      <span class="fa-header-icon">✅</span>
+      <h4>Xbox 360</h4>
+    </div>
     <p>RGH (Reset Glitch Hack) or JTAG for unsigned code. Slim models are preferred. Run emulators, homebrew games, and backup your disc library.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Xbox One</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header medium">
+      <span class="fa-header-icon">🔶</span>
+      <h4>Xbox One</h4>
+    </div>
     <p>Limited modding on retail units. Dev mode available for $20 gives access to retroarch and homebrew. Retail homebrew scene is growing via browser exploits.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>Xbox Series S/X</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header low">
+      <span class="fa-header-icon">🔴</span>
+      <h4>Xbox Series S/X</h4>
+    </div>
     <p>Dev mode is the primary method for homebrew. RetroArch runs well. Retail exploits are actively being researched by the community.</p>
   </div>
 </div>
@@ -210,20 +240,32 @@ Inspired by <a href="https://www.pcgamingwiki.com/wiki/Home" target="_blank" rel
 ### PlayStation Modding Guide
 
 <div class="card-grid-2">
-  <div class="shared-card reveal">
-    <h4>PS Vita / PS TV</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header high">
+      <span class="fa-header-icon">🟢</span>
+      <h4>PS Vita / PS TV</h4>
+    </div>
     <p>Complete custom firmware via HENkaku/Ensō. Run RetroArch, Adrenaline (PSP emulator), and native homebrew. SD2Vita adapters give cheap storage. All firmwares 1.03-3.74 supported.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>PS3</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header high">
+      <span class="fa-header-icon">✅</span>
+      <h4>PS3</h4>
+    </div>
     <p>CFW (Custom Firmware) on compatible models. HEN on super slims. Run emulators, backup games, and multimedia apps. Multiman for game management.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>PS4</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header medium">
+      <span class="fa-header-icon">🔶</span>
+      <h4>PS4</h4>
+    </div>
     <p>Jailbreak available on firmware 9.00 and below (via PPPwn). Firmware 11.00 also exploitable. Run homebrew, emulators, and backup games. Stay on low firmware for best results.</p>
   </div>
-  <div class="shared-card reveal">
-    <h4>PS5</h4>
+  <div class="fa-card reveal">
+    <div class="fa-header low">
+      <span class="fa-header-icon">🔴</span>
+      <h4>PS5</h4>
+    </div>
     <p>Limited homebrew scene. Firmware exploits are being researched. Currently best used on PS4 for homebrew needs.</p>
   </div>
 </div>
@@ -603,4 +645,48 @@ Inspired by <a href="https://www.pcgamingwiki.com/wiki/Home" target="_blank" rel
   </a>
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>How do I deal with toxic players?</summary>
+
+Mute, block, and move on. Most games have quick-mute (often a key like Tab or a scoreboard option). Don't feed the argument — it only escalates and ruins your session. Report repeat offenders.
+
+</details>
+
+<details class="faq-item">
+<summary>Is gaming a waste of time?</summary>
+
+Not by itself. Like any hobby it's fine in moderation and can build problem-solving, coordination, and friendships. It becomes a problem only when it crowds out sleep, school, health, or relationships.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I avoid spending too much money?</summary>
+
+Turn off one-click buying, set a monthly entertainment budget, and wait 48 hours before any in-game purchase. Most 'limited' offers aren't actually going anywhere. Free-to-play is designed to wear down your resistance.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I find people to play with?</summary>
+
+Discord communities, subreddits for your game, and friend-of-friend invites are the easiest routes. Playing co-op or joining a clan naturally builds a regular group.
+
+</details>
+
+<details class="faq-item">
+<summary>Is it bad to use a guide or walkthrough?</summary>
+
+Not at all. Guides are a normal part of gaming and great for stuck spots or optimization. Use them as much as you enjoy — it's your time.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I stop rage quitting?</summary>
+
+Take a break the moment you feel tilted — a few minutes away resets your temper. Mute voice chat, lower your stakes, and remember it's a game. Chasing a loss almost always makes it worse.
+
+</details>
 <BackLinks />

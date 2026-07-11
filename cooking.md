@@ -3,29 +3,14 @@ title: Cooking Guide
 description: Learn to cook delicious, nutritious meals with basic techniques and a little practice. No culinary school required.
 ---
 
+<script setup></script>
+
 # The Ultimate Cooking Guide
 
 <div class="guide-hero">
   <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Cooking is a life skill, not a talent. Anyone can learn to cook delicious, nutritious meals with basic techniques and a little practice. This guide covers everything from knife skills to batch cooking - no culinary school required.</p>
 </div>
-
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Quick Start](#quick-start)
-- [Kitchen Essentials](#essentials)
-- [Cooking Terms Every Home Cook Should Know](#terms)
-- [Mastering Staples (Rice, Beans, Eggs)](#staples)
-- [Beginner-Friendly Recipes](#recipes)
-- [Batch Cooking & Meal Prep](#batch)
-- [Budget-Friendly Tips](#budget)
-- [Baking Basics](#baking)
-- [Sources & Further Reading](#sources)
-
-</details>
 
 ## Quick Start {#quick-start}
 
@@ -68,6 +53,11 @@ description: Learn to cook delicious, nutritious meals with basic techniques and
 
 <blockquote style="font-style: normal; border-left: 4px solid var(--vp-c-brand-1); padding-left: 1rem; margin: 1rem 0;">
 Every expert cook was once a beginner who burned toast. Keep going.
+</blockquote>
+
+<blockquote class="quiz-callout">
+  <strong>Track your kitchen gear progress</strong>
+  <a href="/kitchen-checklist">Open Kitchen Essentials Checklist &rarr;</a>
 </blockquote>
 
 ## Kitchen Essentials {#essentials}
@@ -516,3 +506,48 @@ The number one mistake people make is stirring the rice while it cooks. <strong>
 <div class="meta-footer">
   <p>Cooking is a journey, not a destination. Burned meals teach you as much as perfect ones. Keep cooking, keep tasting, and trust your instincts.</p>
 </div>
+
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Do I need expensive equipment to cook well?</summary>
+
+No. A good chef's knife, a cutting board, one pan, and one pot get you surprisingly far. Skill and timing matter far more than gadgets. Buy quality where it counts and ignore the rest.
+
+</details>
+
+<details class="faq-item">
+<summary>What should a beginner always keep in the pantry?</summary>
+
+Salt, pepper, cooking oil, rice or pasta, canned beans/tomatoes, eggs, onions, garlic, and a couple of spices. With those you can make dozens of cheap, filling meals.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I know when meat is cooked safely?</summary>
+
+Use a cheap instant-read thermometer — chicken to 165°F (74°C), pork/beef steaks 145°F (63°C), ground meat 160°F (71°C). Color is not a reliable indicator. It's the one gadget worth buying for safety.
+
+</details>
+
+<details class="faq-item">
+<summary>What's the easiest way to make food taste better?</summary>
+
+Salt properly and taste as you go. A squeeze of acid (lemon, vinegar) and fresh herbs at the end brighten almost any dish. Most home cooking is under-seasoned, not under-skilled.
+
+</details>
+
+<details class="faq-item">
+<summary>Can I meal prep on a budget?</summary>
+
+Yes. Cook a big batch of a base (rice, beans, roasted veg) and vary the sauce/seasoning through the week. Buying dry goods in bulk and frozen veg keeps costs low and waste near zero.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I stop burning things?</summary>
+
+Lower the heat than you think, don't crowd the pan, and stay in the kitchen. Most burning is distraction, not bad technique. Set a timer for everything.
+
+</details>

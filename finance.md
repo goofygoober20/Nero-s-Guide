@@ -40,24 +40,6 @@ const usd = (value) => {
 This guide is for **educational purposes only**. It is not personalized financial advice. Rules, rates, and account types (401k, IRA, HSA, HYSA APYs, the 50/30/20 split) are **US-centric and change often** - verify current numbers and check your own country's equivalents before acting. **You are responsible for your own financial decisions.**
 :::
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Start Here: Order of Operations](#order-of-operations)
-- [Budgeting Apps](#budgeting-apps)
-- [Saving Strategies](#saving-strategies)
-- [Debt & Credit](#debt-credit)
-- [Loan & Mortgage Calculator](#loan-calculator)
-- [Investing Basics](#investing-basics)
-- [Tracking Your Portfolio](#tracking-portfolio)
-- [Taxes](#taxes)
-- [Why We Favor Local-First Tools](#local-first)
-- [Credits & Resources](#credits)
-
-</details>
-
 ## Start Here: Order of Operations {#order-of-operations}
 
 Before picking an app, know the *sequence*. Doing things in the right order saves you the most money. The r/personalfinance "Prime Directive" flowchart is the single best free roadmap for what to do with each dollar.
@@ -90,90 +72,19 @@ Max out tax-advantaged accounts (IRA / 401k / HSA), then a taxable brokerage wit
 The interactive [r/personalfinance Prime Directive](https://www.reddit.com/r/personalfinance/wiki/commontopics/) wiki walks through this exact sequence and answers almost every "what should I do with this money?" question.
 :::
 
+<blockquote class="quiz-callout">
+  <strong>Want a personalized financial roadmap?</strong>
+  <a href="/financial-health-quiz">Take the Financial Health Quiz &rarr;</a>
+</blockquote>
+
 ## Budgeting Apps {#budgeting-apps}
 
 Pick one and actually use it - the best app is the one you'll stick with. We lead with **free and open-source** options that keep your data on your device, then list the popular paid apps.
 
 <p class="legend"><span class="legend-dot" style="background:#27ae60;"></span> Free / open-source &nbsp;&nbsp; <span class="legend-dot" style="background:#f39c12;"></span> Paid</p>
 
-### Free & Open-Source
+<SmartResourceGuide category="finance" />
 
-<div class="card-grid-3">
-  <a href="https://actualbudget.org/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/actualbudget.org.ico" alt="" loading="lazy" /><h4>Actual Budget</h4></div>
-    <p>Open-source, local-first envelope budgeting (the YNAB method). Free to self-host, or a few dollars/month hosted. Web, desktop, and mobile. Best all-rounder.</p>
-    <div class="platforms"><span>Web</span><span>Win</span><span>Mac</span><span>Linux</span><span>Mobile</span></div>
-  </a>
-  <a href="https://www.gethomebank.org/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/gethomebank.org.ico" alt="" loading="lazy" /><h4>HomeBank</h4></div>
-    <p>Free desktop accounting (Win/Mac/Linux) that's genuinely beginner-friendly. Import OFX/QIF/CSV, auto-categorize, budgets, and clear charts.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span></div>
-  </a>
-  <a href="https://gnucash.org/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/gnucash.org.ico" alt="" loading="lazy" /><h4>GnuCash</h4></div>
-    <p>Powerful free double-entry accounting for personal and small-business use. Steeper learning curve, but rock-solid and great for net-worth tracking.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span></div>
-  </a>
-  <a href="https://flathub.org/apps/org.nickvision.money" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/flathub.org.ico" alt="" loading="lazy" /><h4>Denaro</h4></div>
-    <p>Clean, modern open-source money manager for Linux/Windows. Multiple accounts, recurring transactions, CSV/OFX/QIF import. Simple and pleasant.</p>
-    <div class="platforms"><span>Win</span><span>Linux</span></div>
-  </a>
-  <a href="https://paisa.fyi/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/paisa.fyi.ico" alt="" loading="lazy" /><h4>Paisa</h4></div>
-    <p>A friendly web UI on top of plain-text (ledger) accounting. Syntax highlighting, budgets, goals, retirement planning - data never leaves your machine.</p>
-    <div class="platforms"><span>Web</span><span>Win</span><span>Mac</span><span>Linux</span></div>
-  </a>
-  <a href="https://plaintextaccounting.org/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/plaintextaccounting.org.ico" alt="" loading="lazy" /><h4>Plain Text Accounting</h4></div>
-    <p>Ledger / hledger / Beancount - track every transaction in a version-controllable text file. Powerful and fully private, with a learning curve.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span><span>CLI</span></div>
-  </a>
-</div>
-
-### Mobile Expense Trackers (Free / Open-Source)
-
-<div class="card-grid-3">
-  <a href="https://buckwheat.app/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/buckwheat.app.ico" alt="" loading="lazy" /><h4>Buckwheat</h4></div>
-    <p>Dead-simple, fast, open-source spending tracker for Android. Great if full budgeting apps feel like too much. Just log what you spend.</p>
-    <div class="platforms"><span>Android</span></div>
-  </a>
-  <a href="https://www.myexpenses.mobi/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/myexpenses.mobi.ico" alt="" loading="lazy" /><h4>My Expenses</h4></div>
-    <p>Mature open-source Android expense tracker. Generous free tier; optional one-time keys unlock budgets, sync, and CSV import. 34 languages.</p>
-    <div class="platforms"><span>Android</span></div>
-  </a>
-  <a href="https://github.com/moneymanagerex/android-money-manager-ex" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/github.com.ico" alt="" loading="lazy" /><h4>Money Manager Ex</h4></div>
-    <p>Free, open-source money manager with desktop and Android apps that share a database. Great for mobile + desktop without the cloud.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span><span>Android</span></div>
-  </a>
-</div>
-
-### Popular Paid Apps
-
-<div class="card-grid-3">
-  <a href="https://www.ynab.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #f39c12;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/ynab.com.ico" alt="" loading="lazy" /><h4>YNAB</h4></div>
-    <p>The gold standard for zero-based budgeting - every dollar gets a job. $14.99/mo (34-day trial). Free for 12 months for students with a .edu email.</p>
-    <div class="platforms"><span>Web</span><span>iOS</span><span>Android</span></div>
-  </a>
-  <a href="https://lunchmoney.app/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #f39c12;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/lunchmoney.app.ico" alt="" loading="lazy" /><h4>Lunch Money</h4></div>
-    <p>Modern budgeting with a beautiful UI, multi-currency, and crypto support. Popular with developers. ~$10/month.</p>
-    <div class="platforms"><span>Web</span></div>
-  </a>
-  <a href="https://copilot.money/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #f39c12;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/copilot.money.ico" alt="" loading="lazy" /><h4>Copilot</h4></div>
-    <p>Mac/iOS only, polished and intuitive. Syncs accounts, tracks investments, great visual reports. ~$13/month.</p>
-    <div class="platforms"><span>Mac</span><span>iOS</span></div>
-  </a>
-</div>
-
-::: warning Mint is gone
-Intuit shut down Mint in early 2024 and pushed users to Credit Karma. If a guide still recommends Mint, it's out of date. **Actual Budget** is the closest free replacement.
-:::
 
 ## Saving Strategies {#saving-strategies}
 
@@ -411,6 +322,50 @@ When you can choose between a slick cloud app and a private local one, the priva
 
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>How much should I save?</summary>
+
+Start with an emergency fund of 3-6 months of expenses before investing. After that, a good student baseline is saving at least 10-20% of any income. If that's not possible yet, save what you can and automate it so it happens before you spend.
+
+</details>
+
+<details class="faq-item">
+<summary>Is crypto worth it?</summary>
+
+For most students, treat crypto as high-risk money you can afford to lose entirely — not a savings account. The volatility is enormous and scams are common. Build your emergency fund and basics first; only dabble with money you won't need.
+
+</details>
+
+<details class="faq-item">
+<summary>Should I invest while I still have student loans?</summary>
+
+It depends on the loan interest rate. If your loans are low-interest (subsidized/federal ~4-5%), modest investing can make sense alongside minimum payments. If rates are high, paying extra toward debt is often the better return. Never skip your emergency fund to invest.
+
+</details>
+
+<details class="faq-item">
+<summary>What's the difference between a checking and savings account?</summary>
+
+Checking is for spending (debit card, bills); savings is for storing money and earning a little interest. Keep them at the same bank so transfers are instant, and park your emergency fund in a high-yield savings account.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I start building credit without debt?</summary>
+
+Get a student or secured credit card, use it for small regular purchases, and pay the full balance every month. This builds a positive history without paying interest. Always pay on time — payment history is the biggest factor.
+
+</details>
+
+<details class="faq-item">
+<summary>Do I need a budget app?</summary>
+
+Not necessarily. A simple spreadsheet or the envelope method works. Apps help if you tend to overspend mindlessly. The best budget is the one you'll actually check — start with tracking every dollar for one month.
+
+</details>
 <style scoped>
 .guide-hero {
   text-align: center;

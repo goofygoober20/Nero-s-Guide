@@ -2,7 +2,9 @@
 title: Online Privacy Guide
 description: Protect your digital identity - threat modeling, browser hardening, private search, encrypted DNS, email aliases, VPNs, mobile privacy, file/link scanners, and data removal. Built around free, open-source, local-first tools.
 ---
- 
+
+<script setup></script>
+
 # The Ultimate Online Privacy Guide
 
  
@@ -12,29 +14,6 @@ There is no such thing as 100% anonymous or 100% private. Privacy is about **rai
 ::: warning Before changing anything
 Decide **who you're protecting yourself from** - advertisers and data brokers, a snooping ISP, a person who is causing you danger, or a nation-state. The right tools are completely different for each. Don't burn yourself out installing things you don't need.
 :::
- 
-## Table of Contents
- 
-<details open>
-<summary>Click to expand/collapse</summary>
- 
-- [Start Here: Know Your Threat Model](#threat-model)
-- [How You're Tracked](#how-tracked)
-- [Browser Hardening](#browser-hardening)
-- [Private Search Engines](#search-engines)
-- [Encrypted DNS](#encrypted-dns)
-- [Email Privacy](#email-privacy)
-- [VPNs & Tor](#vpns-tor)
-- [Mobile Privacy](#mobile-privacy)
-- [Password Managers & 2FA](#passwords-2fa)
-- [Encryption, Files & Private Transfer](#encryption-files)
-- [Verify Before You Trust: File & Link Scanners](#scanners)
-- [Your Digital Footprint & Data Removal](#data-removal)
-- [Private Operating Systems](#operating-systems)
-- [Common Mistakes That Burn You](#common-mistakes)
-- [Credits & Resources](#credits)
- 
-</details>
  
 <p class="legend"><span class="legend-dot green"></span> Recommended free / open-source &nbsp;·&nbsp; <span class="legend-dot orange"></span> Paid or use with caution &nbsp;·&nbsp; <span class="legend-dot red"></span> Advanced / high-threat only</p>
  
@@ -112,28 +91,8 @@ Your browser is the single biggest source of leaks. Harden it first.
 **HTTPS Everywhere** was retired by the EFF (its job is built into every browser now - just enable HTTPS-Only Mode). **Do Not Track (DNT)** is dead too; sites ignored it, so use **Global Privacy Control (GPC)** instead, which some laws actually enforce.
 :::
  
-<div class="card-grid-2">
-  <a href="https://ublockorigin.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/ublockorigin.com.ico" alt="" loading="lazy" /><h4>uBlock Origin</h4></div>
-    <p>The gold-standard ad/tracker/malware blocker. Free, open source, lightweight. The one extension everyone should install.</p>
-    <div class="platforms"><span>Firefox</span><span>Chrome</span><span>Edge</span></div>
-  </a>
-  <a href="https://librewolf.net/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/librewolf.net.ico" alt="" loading="lazy" /><h4>LibreWolf</h4></div>
-    <p>Pre-hardened Firefox fork: uBlock Origin built in, telemetry stripped, strict defaults. The easiest way to get a private browser with zero tweaking.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span></div>
-  </a>
-  <a href="https://support.mozilla.org/en-US/kb/containers" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/mozilla.org.ico" alt="" loading="lazy" /><h4>Firefox Multi-Account Containers</h4></div>
-    <p>Isolate sessions so Facebook, Google, shopping, and work can't track each other. Each container is its own cookie jar.</p>
-    <div class="platforms"><span>Firefox</span></div>
-  </a>
-  <a href="https://brave.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #f39c12;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/brave.com.ico" alt="" loading="lazy" /><h4>Brave Browser</h4></div>
-    <p>Chromium-based with solid built-in ad/tracker blocking and fingerprint protection out of the box. <strong>Caveat:</strong> it bundles crypto/ads features and has had past controversies (e.g. affiliate-link autocomplete). Disable the crypto/Rewards bits and it's a reasonable Chromium option.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span><span>Android</span><span>iOS</span></div>
-  </a>
-</div>
+<SmartResourceGuide category="privacy" />
+
  
 ## Private Search Engines {#search-engines}
  
@@ -299,6 +258,11 @@ See the **[Password Guide](/passwords)** for a detailed breakdown of password ma
 ::: tip Go beyond app-based 2FA
 For your most important accounts (email, bank, password manager), use a **hardware security key** (YubiKey, or any FIDO2 key) or **passkeys**. They're phishing-proof in a way SMS and even app codes are not. **Never use SMS 2FA if you can avoid it** - SIM-swapping defeats it.
 :::
+
+<blockquote class="quiz-callout">
+  <strong>Not sure what privacy tools you actually need?</strong>
+  <a href="/privacy-threat-model-quiz">Take the Privacy Threat Model Quiz &rarr;</a>
+</blockquote>
  
 ## Encryption, Files & Private Transfer {#encryption-files}
  
@@ -525,6 +489,50 @@ The people and projects this guide stands on. All free, all worth your time.
   <a href="/darkweb" class="related-card"><GuideIcon name="globe" class="related-icon" /> Dark Web Guide</a>
 </div>
  
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Is a VPN enough for privacy?</summary>
+
+No. A VPN hides your traffic from your ISP and the local network, but it does not stop websites, advertisers, or the VPN provider itself from tracking you. Pair it with a hardened browser, private search engine, and email aliases for real coverage.
+
+</details>
+
+<details class="faq-item">
+<summary>Can my school see my browsing?</summary>
+
+If you are on the school Wi-Fi or a school-issued device, yes — they can see and log activity, and often use content filters. A VPN hides the content from the network but may violate school acceptable-use rules, and the school can still see that you connected to a VPN. On your own phone using cellular data, they generally cannot see what you browse.
+
+</details>
+
+<details class="faq-item">
+<summary>Doesn't privacy only matter if you have something to hide?</summary>
+
+Privacy is about control, not secrecy. Your data is used to set prices, target ads, shape what you see, and make decisions about you (loans, jobs, insurance). 'Nothing to hide' still means you deserve a say in who builds a profile of your life.
+
+</details>
+
+<details class="faq-item">
+<summary>What's the single most important privacy change I can make?</summary>
+
+Use a password manager plus unique emails/aliases so a breach at one site can't cascade into the rest of your accounts. It's the highest-leverage step for most people.
+
+</details>
+
+<details class="faq-item">
+<summary>Is incognito/private mode actually private?</summary>
+
+No. It only stops your local browser from saving history and cookies. Your ISP, employer, school, and the websites you visit can still see everything. It is not a privacy tool.
+
+</details>
+
+<details class="faq-item">
+<summary>Are privacy browsers like Brave or Firefox enough on their own?</summary>
+
+They help a lot by blocking trackers by default, but they are not complete. Combine them with private search (like DuckDuckGo or Startpage), encrypted DNS, and good account hygiene to cover the gaps.
+
+</details>
 <BackLinks />
  
 <style scoped>

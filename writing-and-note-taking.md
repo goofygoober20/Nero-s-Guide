@@ -9,22 +9,6 @@ description: Master note-taking systems, Markdown, and build a second brain. Com
 The way you capture, organize, and retrieve ideas determines how well you think. This guide covers proven note-taking systems, the best tools for every workflow, and how to build a knowledge base that grows with you.
 :::
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Note-Taking Systems That Actually Work](#note-systems)
-- [Tool Comparison: Find Your Perfect App](#tool-comparison)
-- [Markdown: The Universal Language of Notes](#markdown)
-- [Building Your Second Brain](#second-brain)
-- [AI-Assisted Writing Workflow](#ai-writing)
-- [Academic Writing Tips](#academic-writing)
-- [Quiz: Find Your Perfect Note-Taking App](#quiz)
-- [Credits & Resources](#credits)
-
-</details>
-
 <p class="legend"><span class="legend-dot green"></span> Free / Open-Source &nbsp;·&nbsp; <span class="legend-dot orange"></span> Paid or Freemium &nbsp;·&nbsp; <span class="legend-dot blue"></span> Cloud-based</p>
 
 ## Note-Taking Systems That Actually Work {#note-systems}
@@ -61,45 +45,8 @@ Before picking a tool, understand **how** to take notes. The right system beats 
 
 ## Tool Comparison: Find Your Perfect App {#tool-comparison}
 
-<div class="card-grid-2">
-  <a href="https://obsidian.md/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #27ae60;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/obsidian.md.ico" alt="" loading="lazy" /><h4>Obsidian</h4></div>
-    <p><strong>The power-user choice.</strong> Local-first Markdown files with backlinks, graph view, and 2000+ community plugins. Your data stays on your device, no vendor lock-in. Steeper learning curve, but unmatched flexibility.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span><span>Android</span><span>iOS</span></div>
-    <p style="font-size: 0.8rem; color: var(--vp-c-text-2);">Free for personal use · $50/yr for Sync/Publish (optional)</p>
-  </a>
-  <a href="https://www.notion.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #f39c12;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/notion.com.ico" alt="" loading="lazy" /><h4>Notion</h4></div>
-    <p><strong>All-in-one workspace.</strong> Docs, databases, kanban boards, wikis, all in one app. Beautiful out of the box, great for team collaboration. Cloud-based, so your data lives on their servers.</p>
-    <div class="platforms"><span>Win</span><span>Mac</span><span>Linux</span><span>Android</span><span>iOS</span><span>Web</span></div>
-    <p style="font-size: 0.8rem; color: var(--vp-c-text-2);">Free tier (limited blocks) · $10/mo Pro</p>
-  </a>
-  <a href="https://keep.google.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #3498db;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/keep.google.com.ico" alt="" loading="lazy" /><h4>Google Keep</h4></div>
-    <p><strong>Quick capture, zero friction.</strong> Sticky-note style with color labels, reminders, and Google integration. Perfect for fleeting notes, lists, and quick thoughts. Limited organization for complex projects.</p>
-    <div class="platforms"><span>Web</span><span>Android</span><span>iOS</span><span>Chrome</span></div>
-    <p style="font-size: 0.8rem; color: var(--vp-c-text-2);">Free with Google account</p>
-  </a>
-  <a href="https://www.icloud.com/notes" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #3498db;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/apple.com.ico" alt="" loading="lazy" /><h4>Apple Notes</h4></div>
-    <p><strong>Best if you're all-Apple.</strong> Fast, reliable, excellent handwriting with Apple Pencil. iCloud sync just works. Limited to Apple ecosystem, no Windows/Android apps.</p>
-    <div class="platforms"><span>Mac</span><span>iOS</span><span>iPadOS</span><span>Web (iCloud)</span></div>
-    <p style="font-size: 0.8rem; color: var(--vp-c-text-2);">Free with Apple ID</p>
-  </a>
-</div>
+<SmartResourceGuide category="note-taking" />
 
-::: warning Quick Comparison Table
-| Feature | Obsidian | Notion | Google Keep | Apple Notes |
-|---|---|---|---|---|
-| **Data Storage** | Local files | Cloud only | Cloud only | iCloud |
-| **Offline Access** | ✅ Full | ⚠️ Limited | ⚠️ Limited | ✅ Full |
-| **Markdown** | ✅ Native | ⚠️ Partial | ❌ | ❌ |
-| **Backlinks** | ✅ | ❌ | ❌ | ❌ |
-| **Plugins/Extensions** | 2000+ | Limited | ❌ | ❌ |
-| **Collaboration** | ⚠️ Via Sync | ✅ Excellent | ✅ | ⚠️ Shared notes |
-| **Export** | ✅ Plain files | ⚠️ Limited | ⚠️ Limited | ⚠️ Limited |
-| **Privacy** | ✅ Local-first | ❌ Cloud | ❌ Google | ⚠️ Apple |
-:::
 
 ## Markdown: The Universal Language of Notes {#markdown}
 
@@ -383,6 +330,50 @@ import NoteTakingQuiz from './.vitepress/theme/components/NoteTakingQuiz.vue'
   </div>
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>What's the best note-taking method?</summary>
+
+There's no single best — Cornell, outline, and mind-maps each fit different subjects. Try one for two weeks, then switch if it's not clicking. The method you use beats the 'perfect' one you abandon.
+
+</details>
+
+<details class="faq-item">
+<summary>Should I take notes by hand or on a laptop?</summary>
+
+Handwriting aids memory for lectures; laptops are faster for capturing detail and searching later. Use handwriting for understanding, typing for volume — or a tablet that does both.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I take notes without writing everything down?</summary>
+
+Capture concepts and your own questions, not transcripts. Use abbreviations, skip what's already on the slides, and rephrase in your words — that's what makes it stick.
+
+</details>
+
+<details class="faq-item">
+<summary>What app should I use?</summary>
+
+Start with whatever syncs across your devices (Notion, Obsidian, Apple Notes, OneNote). Features matter less than that you'll open it daily. Don't over-build the system.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I organize my notes?</summary>
+
+One note per topic, tagged by course and term. Review weekly so notes stay connected. A simple folder-per-class structure beats an elaborate taxonomy you forget.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I actually use my notes to study?</summary>
+
+Rewrite or summarize them from memory, then test yourself with flashcards or practice questions. Active recall from your own notes beats re-reading by a wide margin.
+
+</details>
 <BackLinks />
 
 <style scoped>

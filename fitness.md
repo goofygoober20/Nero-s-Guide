@@ -2,7 +2,6 @@
 title: The Ultimate Fitness Guide
 description: Science-based approaches to strength, cardio, flexibility, and recovery - with no equipment required to start.
 editLink: true
-outline: [2, 3]
 ---
 
 # The Ultimate Fitness Guide
@@ -19,22 +18,6 @@ import FitnessSurvey from './.vitepress/theme/components/FitnessSurvey.vue'
 <ClientOnly>
   <FitnessSurvey />
 </ClientOnly>
-
-## Table of Contents
-
-<details open>
-<summary>Click to expand</summary>
-
-- [The Three Pillars of Fitness](#the-three-pillars-of-fitness)
-- [Strength Training](#strength)
-- [Cardio & Conditioning](#cardio)
-- [Flexibility & Mobility](#mobility)
-- [Finding the Right Program](#programs)
-- [Nutrition Basics](#nutrition)
-- [Recovery & Sleep](#recovery)
-- [Sources & Further Reading](#sources)
-
-</details>
 
 ::: tip
 **Do not change your routine for at least 4 weeks.** Fitness adaptations take time. The first 2 weeks are neural adaptation (learning the movement), not muscle growth. Judge progress at 4, 8, and 12 weeks, not day by day.
@@ -310,6 +293,39 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
   </div>
 </div>
 
+### Useful Calculators
+
+<div class="sources-grid">
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+    <strong>Calorie Calculator</strong>
+  </div>
+  <p class="source-citation">Estimate the daily calories needed to maintain, lose, or gain weight.</p>
+  <a href="https://www.calculator.net/calorie-calculator.html" target="_blank" rel="noopener noreferrer" class="source-link">Visit Calorie Calculator &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    <strong>TDEE Calculator</strong>
+  </div>
+  <p class="source-citation">Estimate your Total Daily Energy Expenditure from age, body stats, and activity level.</p>
+  <a href="https://www.calculator.net/tdee-calculator.html" target="_blank" rel="noopener noreferrer" class="source-link">Visit TDEE Calculator &rarr;</a>
+</div>
+
+<div class="source-card">
+  <div class="source-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="source-icon"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+    <strong>Macro Calculator</strong>
+  </div>
+  <p class="source-citation">Calculate your daily protein, carb, and fat targets based on your goals.</p>
+  <a href="https://www.calculator.net/macro-calculator.html" target="_blank" rel="noopener noreferrer" class="source-link">Visit Macro Calculator &rarr;</a>
+</div>
+
+</div>
+
 ## Recovery & Sleep {#recovery}
 
 ### Signs You Need a Rest Day
@@ -366,3 +382,48 @@ HIIT is stressful on the body. Limit to 1-2 sessions per week and never do back-
 </div>
 
 </div>
+
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>How often should I work out?</summary>
+
+For general health, aim for 3-5 sessions a week of 30-60 minutes. Total beginners do fine with 3 full-body sessions and rest days between. Consistency beats intensity — a sustainable routine you keep beats a brutal one you quit.
+
+</details>
+
+<details class="faq-item">
+<summary>Do I need supplements?</summary>
+
+Almost never. A balanced diet covers the needs of nearly everyone, especially students. Protein powder is just a convenience, not a requirement. The only widely recommended supplement is vitamin D in winter if you get little sun. Spend on food before powders.
+
+</details>
+
+<details class="faq-item">
+<summary>Do I need a gym membership?</summary>
+
+No. Bodyweight training, running, and home workouts build a strong foundation for free. A gym helps once you want heavier progressive overload, but you can get remarkably fit with zero equipment.
+
+</details>
+
+<details class="faq-item">
+<summary>How long until I see results?</summary>
+
+Strength and energy improvements show in 2-4 weeks. Visible physique changes usually take 8-12 weeks of consistent training and decent nutrition. Progress is non-linear — trust the trend, not the day-to-day.
+
+</details>
+
+<details class="faq-item">
+<summary>Is cardio or lifting better for losing weight?</summary>
+
+Diet drives weight loss; both cardio and lifting help. Lifting preserves muscle (so you lose fat, not lean mass) and raises resting metabolism slightly. A mix of both with a calorie deficit works best.
+
+</details>
+
+<details class="faq-item">
+<summary>Should I work out if I'm sore?</summary>
+
+Light movement (walking, easy mobility) helps soreness fade. But skip heavy training on a muscle that's still acutely sore — that's a sign it needs recovery. Sleep and protein do more for growth than an extra session.
+
+</details>

@@ -83,8 +83,39 @@ onMounted(async () => {
     <p class="pp-intro">Latest updates, new guides, and site improvements.</p>
 
     <div v-if="loading" class="pp-state">
-      <div class="pp-spinner"></div>
-      <span>Loading updates…</span>
+      <div class="pp-skel skel-shimmer">
+        <div class="pp-skel-dot"></div>
+        <div class="pp-skel-card">
+          <div class="pp-skel-head">
+            <div class="skel-line skel-line--sm skel-shimmer"></div>
+            <div class="skel-line skel-line--sm skel-shimmer"></div>
+          </div>
+          <div class="skel-line skel-shimmer"></div>
+          <div class="skel-line skel-line--lg skel-shimmer"></div>
+        </div>
+      </div>
+      <div class="pp-skel skel-shimmer">
+        <div class="pp-skel-dot"></div>
+        <div class="pp-skel-card">
+          <div class="pp-skel-head">
+            <div class="skel-line skel-line--sm skel-shimmer"></div>
+            <div class="skel-line skel-line--sm skel-shimmer"></div>
+          </div>
+          <div class="skel-line skel-shimmer"></div>
+          <div class="skel-line skel-line--lg skel-shimmer"></div>
+        </div>
+      </div>
+      <div class="pp-skel skel-shimmer">
+        <div class="pp-skel-dot"></div>
+        <div class="pp-skel-card">
+          <div class="pp-skel-head">
+            <div class="skel-line skel-line--sm skel-shimmer"></div>
+            <div class="skel-line skel-line--sm skel-shimmer"></div>
+          </div>
+          <div class="skel-line skel-shimmer"></div>
+          <div class="skel-line skel-line--lg skel-shimmer"></div>
+        </div>
+      </div>
     </div>
 
     <div v-else-if="posts.length === 0" class="pp-state">

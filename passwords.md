@@ -3,26 +3,14 @@ title: Password & Security Guide
 description: Everything you need to know about passwords, 2FA, and keeping your accounts secure.
 ---
 
+<script setup></script>
+
 # The Password & Security Guide
 
 <div class="guide-hero">
   <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
   <p class="guide-intro">Your online security is only as strong as your weakest password. This guide covers password managers, two-factor authentication, breach checking, and best practices to keep your accounts safe.</p>
 </div>
-
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Check If You've Been Pwned](#check-pwned)
-- [Password Managers](#password-managers)
-- [Two-Factor Authentication](#two-factor-authentication)
-- [Password Strength Chart](#strength-chart)
-- [Tools](#tools)
-- [Credits & Resources](#credits)
-
-</details>
 
 ## Check If You've Been Pwned {#check-pwned}
 
@@ -71,52 +59,8 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
 
 ::: info Password managers generate, store, and auto-fill strong unique passwords. You only need to remember <strong>one master password</strong>.
 :::
-<div class="manager-grid">
-  <div class="manager-card">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="manager-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-    <h4>Bitwarden</h4>
-    <div class="manager-tags">
-      <span class="tag tag-green">Open Source</span>
-      <span class="tag tag-green">Free Tier</span>
-      <span class="tag tag-green">2FA</span>
-    </div>
-    <p>Best overall. Unlimited devices on the free plan with all core features.</p>
-    <a href="https://bitwarden.com" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
-  </div>
-  <div class="manager-card">
-    <img loading="lazy" src="https://icons.duckduckgo.com/ip3/proton.me.ico" alt="Proton Pass" class="manager-icon" width="32" height="32" />
-    <h4>Proton Pass</h4>
-    <div class="manager-tags">
-      <span class="tag tag-green">Open Source</span>
-      <span class="tag tag-green">Free Tier</span>
-      <span class="tag tag-green">2FA</span>
-    </div>
-    <p>Privacy-first from the makers of Proton Mail. Built-in email aliasing.</p>
-    <a href="https://proton.me/pass" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
-  </div>
-  <div class="manager-card">
-    <img loading="lazy" src="https://icons.duckduckgo.com/ip3/keepassxc.org.ico" alt="KeePassXC" class="manager-icon" width="32" height="32" />
-    <h4>KeePassXC</h4>
-    <div class="manager-tags">
-      <span class="tag tag-green">Open Source</span>
-      <span class="tag tag-green">Free</span>
-      <span class="tag tag-green">Local</span>
-    </div>
-    <p>Best local-only option. Full control over your encrypted database file.</p>
-    <a href="https://keepassxc.org" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
-  </div>
-  <div class="manager-card">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="manager-icon"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-    <h4>Vaultwarden</h4>
-    <div class="manager-tags">
-      <span class="tag tag-green">Open Source</span>
-      <span class="tag tag-green">Free</span>
-      <span class="tag tag-green">Self-Host</span>
-    </div>
-    <p>Lightweight self-hosted Bitwarden-compatible server for full data control.</p>
-    <a href="https://github.com/dani-garcia/vaultwarden" target="_blank" rel="noopener noreferrer" class="manager-link">Visit &rarr;</a>
-  </div>
-</div>
+<SmartResourceGuide category="passwords" />
+
 
 <blockquote class="quiz-callout">
   <strong>Not sure which is right for you?</strong>
@@ -251,14 +195,14 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
 ## Tools {#tools}
 
 <div class="tools-grid">
-  <a href="/password-tester" class="tool-card-link">
+  <a href="/tools/password-strength" class="tool-card-link">
     <div class="tool-card">
       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tool-card-icon"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
       <h4>Password Strength Tester</h4>
       <p>Test how strong your passwords are in real time</p>
     </div>
   </a>
-  <a href="/password-generator" class="tool-card-link">
+  <a href="/tools/password-generator" class="tool-card-link">
     <div class="tool-card">
       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tool-card-icon"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg>
       <h4>Password Generator</h4>
@@ -341,6 +285,50 @@ description: Everything you need to know about passwords, 2FA, and keeping your 
 
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>How many passwords do I actually need to remember?</summary>
+
+Ideally just one: the master password for your password manager. Everything else should be a long, random, unique password generated and stored for you.
+
+</details>
+
+<details class="faq-item">
+<summary>Is it safe to use a password manager?</summary>
+
+Yes. A reputable, open-source or well-audited password manager is far safer than reusing passwords across sites. Your vault is encrypted with your master password, which the service never sees.
+
+</details>
+
+<details class="faq-item">
+<summary>What if my password manager gets hacked?</summary>
+
+Because the vault is encrypted locally with your master password, a breach of the provider mostly exposes useless ciphertext. Use a strong master password and enable 2FA on the manager itself for extra safety.
+
+</details>
+
+<details class="faq-item">
+<summary>How long should my passwords be?</summary>
+
+At least 12 characters, but length beats complexity. A 16+ character random passphrase (four unrelated words) is both strong and easier to remember than a short symbol soup.
+
+</details>
+
+<details class="faq-item">
+<summary>Should I change my passwords regularly?</summary>
+
+Not on a fixed schedule — that's outdated advice. Change a password only when there's a reason (a breach, a shared account, or suspicion). Focus energy on uniqueness instead of rotation.
+
+</details>
+
+<details class="faq-item">
+<summary>Are passkeys better than passwords?</summary>
+
+For sites that support them, yes. Passkeys use your device's biometrics/ PIN and can't be phished or reused, and there's no password to steal. Turn them on wherever offered.
+
+</details>
 <style scoped>
 .guide-hero {
   text-align: center;
@@ -670,8 +658,14 @@ details {
   padding: 0.85rem 1rem;
   border-radius: 12px;
   border: 1px solid var(--vp-c-divider);
+  border-left: 4px solid transparent;
   background: var(--vp-c-bg-soft);
 }
+.strength-row.danger { border-left-color: #e74c3c; }
+.strength-row.warning { border-left-color: #e67e22; }
+.strength-row.medium-tier { border-left-color: #f39c12; }
+.strength-row.good { border-left-color: #27ae60; }
+.strength-row.best { border-left-color: #2ecc71; }
 
 .strength-left {
   min-width: 140px;
@@ -802,17 +796,33 @@ details {
   }
 
   .strength-row {
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.35rem 0.75rem;
+    padding: 0.75rem;
   }
 
   .strength-left {
-    min-width: 100%;
+    min-width: unset;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .strength-center {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    min-width: 80px;
   }
 
   .strength-right {
-    min-width: 100%;
+    min-width: unset;
+    grid-column: 1 / -1;
+    grid-row: 2;
     text-align: left;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
   }
 }
 </style>

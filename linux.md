@@ -7,6 +7,8 @@ head:
   - ['meta', { property: 'og:image', content: '/og-image.png' }]
 ---
 
+<script setup></script>
+
 # The Ultimate Linux for Beginners Guide
 
 ::: tip Before You Begin
@@ -17,73 +19,23 @@ Linux isn't harder than Windows or macOS - it's just **different**. Expect a lea
 You don't need to know everything to start. Pick a beginner-friendly distro, install it, and learn as you go. Breaking things and fixing them is the best way to learn Linux.
 :::
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Choosing a Distro](#choosing-a-distro)
-- [Try Before Installing](#try-before-installing)
-- [Installation Overview](#installation)
-- [Essential Terminal Commands](#terminal-commands)
-- [Shell Customization](#shell-customization)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-- [The Filesystem Hierarchy](#filesystem)
-- [XDG Base Directory](#xdg-base-directory)
-- [Desktop Environments](#desktop-environments)
-- [Package Managers](#package-managers)
-- [Text Editors](#text-editors)
-- [Essential Apps to Install](#essential-apps)
-- [Gaming on Linux](#gaming-on-linux)
-- [Linux Security](#linux-security)
-- [Common Mistakes Beginners Make](#common-mistakes)
-- [Getting Help](#getting-help)
-- [Credits & Resources](#credits)
-
-</details>
-
 <p class="legend"><span class="legend-dot green"></span> Beginner-friendly &nbsp;·&nbsp; <span class="legend-dot orange"></span> Intermediate &nbsp;·&nbsp; <span class="legend-dot red"></span> Advanced &nbsp;·&nbsp; <span class="legend-dot desktop"></span> Desktop &nbsp;·&nbsp; <span class="legend-dot server"></span> Server-friendly</p>
 
 ## Choosing a Distro {#choosing-a-distro}
 
 A "distro" (distribution) is a flavor of Linux. They all share the same Linux kernel underneath but differ in package manager, default software, and philosophy. There's no "best" distro - only the one that fits what you want to do.
 
-<div class="card-grid-3">
-  <a href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #e95420;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/ubuntu.com.ico" alt="" loading="lazy" /><h4>Ubuntu</h4></div>
-    <p>Best for beginners. Huge community, tons of tutorials, and most software works out of the box. The default recommendation for new users.</p>
-    <div class="platforms"><span class="green">Beginner</span><span>Desktop</span><span>Server</span><span>apt</span><span>Fixed</span></div>
-  </a>
-  <a href="https://linuxmint.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #87cf3e;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/linuxmint.com.ico" alt="" loading="lazy" /><h4>Linux Mint</h4></div>
-    <p>Even more beginner-friendly than Ubuntu. Familiar Windows-like interface with the Cinnamon desktop. Great for people switching from Windows. Also uses apt.</p>
-    <div class="platforms"><span class="green">Beginner</span><span>Desktop</span><span>apt</span><span>Fixed</span></div>
-  </a>
-  <a href="https://fedoraproject.org/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #51a2da;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/fedoraproject.org.ico" alt="" loading="lazy" /><h4>Fedora</h4></div>
-    <p>Bleeding-edge packages with stable releases. Great for developers. Ships with GNOME by default.</p>
-    <div class="platforms"><span class="orange">Intermediate</span><span>Desktop</span><span>Server</span><span>dnf</span><span>Fixed</span></div>
-  </a>
-  <a href="https://pop.system76.com/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #48a9c5;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/pop.system76.com.ico" alt="" loading="lazy" /><h4>Pop!_OS</h4></div>
-    <p>Built on Ubuntu with better tiling and gaming support. Great for developers and gamers. Uses apt.</p>
-    <div class="platforms"><span class="green">Beginner</span><span>Desktop</span><span>apt</span><span>Fixed</span></div>
-  </a>
-  <a href="https://archlinux.org/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #1793d1;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/archlinux.org.ico" alt="" loading="lazy" /><h4>Arch Linux</h4></div>
-    <p>DIY distro&mdash;you build it from the ground up. Steep learning curve but total control. Has access to the AUR. Not for absolute beginners.</p>
-    <div class="platforms"><span class="red">Advanced</span><span>Desktop</span><span>Server</span><span>pacman</span><span>Rolling</span></div>
-  </a>
-  <a href="https://manjaro.org/" target="_blank" rel="noopener noreferrer" class="shared-card" style="border-left: 3px solid #35bf5c;">
-    <div class="card-head"><img class="card-fav" src="https://icons.duckduckgo.com/ip3/manjaro.org.ico" alt="" loading="lazy" /><h4>Manjaro</h4></div>
-    <p>Arch-based but user-friendly. Rolling release with access to AUR. Good middle ground between ease and control.</p>
-    <div class="platforms"><span class="orange">Intermediate</span><span>Desktop</span><span>pacman</span><span>Rolling</span></div>
-  </a>
-</div>
+<SmartResourceGuide category="linux" />
+
 
 ::: tip Not sure where to start?
 Pick **Ubuntu** or **Linux Mint**. They have the largest communities, the most beginner-friendly installers, and the easiest troubleshooting when something goes wrong. You can always switch distros later without losing your files (your /home directory stays separate).
 :::
+
+<blockquote class="quiz-callout">
+  <strong>Still not sure which distro fits you?</strong>
+  <a href="/linux-distro-quiz">Take the Linux Distro Quiz &rarr;</a>
+</blockquote>
 
 ## Try Before Installing {#try-before-installing}
 
@@ -815,6 +767,50 @@ The projects and communities that make Linux the incredible ecosystem it is.
   <a href="/writing-and-note-taking" class="related-card"><GuideIcon name="pencil" class="related-icon" /> Writing & Note-Taking Guide</a>
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Do I need to know how to code to use Linux?</summary>
+
+No. Modern distros like Ubuntu or Linux Mint are usable for browsing, writing, and studying without touching the terminal. You'll learn commands gradually, not upfront.
+
+</details>
+
+<details class="faq-item">
+<summary>Which distro should a beginner pick?</summary>
+
+Start with Linux Mint, Ubuntu, or Fedora. They're well-documented, stable, and have large communities — meaning any problem you hit is already answered online.
+
+</details>
+
+<details class="faq-item">
+<summary>Will Linux run the software I already use?</summary>
+
+Most web apps work in any browser. Microsoft Office and some commercial apps don't run natively — use web versions or free alternatives (LibreOffice, etc.). Check your must-have apps before switching.
+
+</details>
+
+<details class="faq-item">
+<summary>Is Linux safe from viruses?</summary>
+
+Safer by design (permissions, smaller desktop target), but not invincible. Keep it updated, don't run unknown scripts as root, and you'll be fine without third-party antivirus for most use.
+
+</details>
+
+<details class="faq-item">
+<summary>What if I break something?</summary>
+
+It's recoverable. Most breakage is fixable from a live USB or by reversing a recent change. Take system snapshots (Timeshift) so you can roll back. Breaking things is also how you learn.
+
+</details>
+
+<details class="faq-item">
+<summary>Can I still game on Linux?</summary>
+
+Increasingly yes. Steam's Proton runs a large library of Windows games on Linux. Newer AAA titles with aggressive anti-cheat may not work, so check compatibility for your favorites first.
+
+</details>
 <BackLinks />
 
 <style scoped>

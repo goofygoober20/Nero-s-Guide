@@ -27,12 +27,27 @@ import CountdownTimer from './components/CountdownTimer.vue'
 import DynamicPrompt from './components/DynamicPrompt.vue'
 import NotFound from './components/NotFound.vue'
 import NoteTakingQuiz from './components/NoteTakingQuiz.vue'
+import SmartResourceGuide from './components/SmartResourceGuide.vue'
+
+// Inject data-label on <td> for stacked responsive tables
+function injectTableLabels() {
+  document.querySelectorAll('.vp-doc table').forEach(table => {
+    const headers = Array.from(table.querySelectorAll('thead th')).map(th => th.textContent.trim())
+    if (headers.length === 0) return
+    table.querySelectorAll('tbody tr').forEach(row => {
+      row.querySelectorAll('td').forEach((td, i) => {
+        if (headers[i]) td.setAttribute('data-label', headers[i])
+      })
+    })
+  })
+}
 
 export default {
   extends: DefaultTheme,
   Layout,
   NotFound,
-  enhanceApp({ app }) {
+  enhanceApp({ app, router }) {
+    router.onAfterRouteChanged = () => setTimeout(injectTableLabels, 50)
     try {
       const saved = localStorage.getItem('neros-guide-settings')
       if (saved) {
@@ -93,5 +108,6 @@ export default {
     app.component('DynamicPrompt', DynamicPrompt)
     app.component('NotFound', NotFound)
     app.component('NoteTakingQuiz', NoteTakingQuiz)
+    app.component('SmartResourceGuide', SmartResourceGuide)
   }
 }

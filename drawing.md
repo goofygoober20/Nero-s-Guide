@@ -10,20 +10,6 @@ description: Learn to draw with the best free resources - from fundamentals and 
   <p class="guide-intro">Drawing is a skill, not a talent. Anyone can learn to draw with consistent practice and the right fundamentals. This guide aggregates the best free resources from across the internet.</p>
 </div>
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Quick Start](#quick-start)
-- [Free Drawing Courses & Tutorials](#courses)
-- [YouTube Channels for Learning](#youtube)
-- [Practice Tools & References](#practice)
-- [Digital Art & Software](#digital)
-- [Sources & Further Reading](#sources)
-
-</details>
-
 ## Quick Start {#quick-start}
 
 <div class="about-tip">
@@ -553,3 +539,48 @@ description: Learn to draw with the best free resources - from fundamentals and 
 <div class="meta-footer">
   <p>Every master was once a beginner. Draw badly every day, and eventually you'll draw well. The only way to fail is to stop.</p>
 </div>
+
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Do I need expensive art supplies to start?</summary>
+
+No. A pencil and printer paper are enough to build fundamentals. Upgrade to nicer paper and a few pens once you're drawing regularly — the tool won't fix the skill.
+
+</details>
+
+<details class="faq-item">
+<summary>I can't even draw a straight line, am I hopeless?</summary>
+
+Everyone starts there. Lines get steadier with reps, and most art doesn't need straight lines anyway. Draw daily, badly, and the control comes.
+
+</details>
+
+<details class="faq-item">
+<summary>Should I learn realism or just my own style?</summary>
+
+Spend time on fundamentals (shape, proportion, light) early — they make any style work better. Your style emerges naturally; forcing one before you have basics leads to frustration.
+
+</details>
+
+<details class="faq-item">
+<summary>How much should I practice to improve?</summary>
+
+A little every day beats a long session once a week. Even 15 minutes of deliberate practice compounds fast. Focus on one weak area at a time (hands, perspective, shading).
+
+</details>
+
+<details class="faq-item">
+<summary>What's the best thing to draw when starting out?</summary>
+
+Draw from life: your room, a mug, your own hand. Photos are fine, but real objects teach you to see. Copy artists you admire to learn, then move to original work.
+
+</details>
+
+<details class="faq-item">
+<summary>Is digital or traditional better for beginners?</summary>
+
+Traditional is cheaper to start and teaches fundamentals without software getting in the way. Digital is forgiving (undo, layers) and great later. Try traditional first; switch when you hit its limits.
+
+</details>

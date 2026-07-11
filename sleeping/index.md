@@ -3,6 +3,8 @@ title: Sleep Guide
 description: Science-backed sleep resources and guides for better rest
 ---
 
+<script setup></script>
+
 # Sleep Guide
 
 ## Science-Backed Resources

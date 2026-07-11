@@ -13,25 +13,6 @@ head:
 This guide is a **resource directory** — a curated collection of the best chess tools, communities, platforms, and analysis engines across the web. Whether you're a complete beginner or a tournament player, you'll find something here to level up your game.
 :::
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Resource Directories](#directories)
-- [Communities](#communities)
-- [YouTube Creators](#youtube-creators)
-- [Books & Reading](#books)
-- [Learn & Practice](#learn-practice)
-- [Tactics & Puzzles](#tactics-puzzles)
-- [Rating Systems](#rating-systems)
-- [Analysis Tools](#analysis-tools)
-- [Tracking & Databases](#tracking)
-- [Chess Engines](#engines)
-- [Chess Variants](#variants)
-- [Sources & Further Reading](#sources)
-
-</details>
 
 <p class="legend"><span class="legend-dot green"></span> Free / Open-Source &nbsp;·&nbsp; <span class="legend-dot orange"></span> Paid or Freemium &nbsp;·&nbsp; <span class="legend-dot blue"></span> Directory / Community</p>
 
@@ -432,6 +413,50 @@ Most chess platforms (Lichess, Chess.com, Chessbase) have built-in engine analys
   <a href="/writing-and-note-taking" class="related-card">📝 Writing & Note-Taking</a>
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>How do I get better at chess fast?</summary>
+
+Solve tactical puzzles daily and review your lost games to find the move you missed. Tactics and pattern recognition beat memorizing theory for rapid improvement.
+
+</details>
+
+<details class="faq-item">
+<summary>What openings should a beginner learn?</summary>
+
+Just one or two solid, principled openings (like the Italian or a simple e4/d4 system). Learn ideas, not long memorized lines — understanding beats rote at this stage.
+
+</details>
+
+<details class="faq-item">
+<summary>How important is memorizing endgames?</summary>
+
+Basic endgames (king+pawn, rook vs pawn) are worth learning because they win games. You don't need deep theory — a handful of fundamentals carries most games.
+
+</details>
+
+<details class="faq-item">
+<summary>Should I play blitz or longer games?</summary>
+
+Longer games (10+ minutes) teach real calculation; blitz is for practice and fun. If you want to improve, favor slower games and analyze them afterward.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I stop blundering pieces?</summary>
+
+Before every move, look for what your opponent could capture. A 2-second 'blunder check' eliminates most hangs. Puzzles train exactly this habit.
+
+</details>
+
+<details class="faq-item">
+<summary>Is Chess.com or Lichess better?</summary>
+
+Both are excellent and free to start. Lichess is fully free with no ads; Chess.com has polished lessons behind a subscription. Try both — the playing strength gain comes from you, not the site.
+
+</details>
 <BackLinks />
 
 <style scoped>

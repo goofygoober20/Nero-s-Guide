@@ -1,7 +1,6 @@
 ---
 title: All-Nighter Guide
 description: What to do when you have to stay up - preparation, survival, recovery, and a sleep cycle wake-up calculator.
-outline: [2, 3]
 editLink: true
 ---
 
@@ -17,24 +16,6 @@ Pulling an all-nighter is not recommended for your health. This guide is for tho
 :::
 
 
-
-## Table of Contents
-
-<details open>
-<summary>Click to expand</summary>
-
-- [The Hard Truth About All-Nighters](#hard-truth)
-- [Before the All-Nighter (Preparation)](#preparation)
-- [During the All-Nighter (Survival Mode)](#during)
-- [The Morning After (Recovery)](#recovery)
-- [Getting Your Sleep Schedule Back (If It's Broken)](#resetting)
-- [Sleep Cycle Wake-Up Calculator](#-sleep-cycle-wake-up-calculator)
-- [Quick Reference Card](#quick-ref)
-- [Frequently Asked Questions](#faq)
-- [Related Guides](#-related-guides)
-- [Sources & Further Reading](#-sources-further-reading)
-
-</details>
 
 ## ⚡ The Hard Truth About All-Nighters {#hard-truth}
 
@@ -366,6 +347,50 @@ Despite what you may have heard, staying up all night to "reset" your circadian 
 - [The Sleep Institute - Safe All-Nighter Guide](https://thesleepinstitute.ca/blogs/sleep-education-and-awareness/how-to-pull-an-all-nighter-safely-what-you-need-to-know)
 - [Northwell Health - Caffeine and Sleep](https://thewell.northwell.edu/sleep-health/caffeine-sleep-impact)
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Is pulling an all-nighter ever a good idea?</summary>
+
+Rarely. Sleep debt wrecks memory consolidation, so you'll likely perform worse the next day. It's a last resort, not a study strategy. Plan ahead to avoid needing one.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I survive an all-nighter if I have to?</summary>
+
+Front-load the hardest work early in the night when you're sharpest, take short breaks, use bright light, and nap 20 minutes if you crash. Hydrate and keep snacks light.
+
+</details>
+
+<details class="faq-item">
+<summary>What should I eat and drink to stay awake?</summary>
+
+Water, light protein, and small snacks — not a sugar binge that crashes you. Caffeine is fine in moderation but avoid it in the last 4-6 hours or the next sleep is ruined.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I recover the next day?</summary>
+
+Sleep as soon as you can — even a 90-minute cycle helps. Hydrate, eat normally, and don't pile on more caffeine. Get a full night the following night to reset.
+
+</details>
+
+<details class="faq-item">
+<summary>Is caffeine safe to keep me up?</summary>
+
+In moderation, yes, but it's not free. Too much causes jitters and a hard crash, and late caffeine sabotages recovery sleep. Treat it as a carefully rationed tool.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I avoid needing all-nighters in the first place?</summary>
+
+Break work into daily chunks starting earlier, use a calendar with real deadlines, and start assignments the day they're given. Future-you will be far more capable after sleep.
+
+</details>
 <BackLinks />
 
 <style scoped>

@@ -10,21 +10,6 @@ description: Never pay full price. Use cashback, coupons, and price tracking to 
   <p class="guide-intro"><strong>TL;DR:</strong> Never pay full price. Use cashback, coupons, and price tracking to save hundreds annually.</p>
 </div>
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [The Golden Rules](#golden-rules)
-- [Cashback & Rewards](#cashback)
-- [Coupons & Promo Codes](#coupons)
-- [Price Tracking & Drops](#price-tracking)
-- [Secondhand & Refurbished](#secondhand)
-- [Marketplace Tips](#marketplace)
-- [Scam Avoidance](#scams)
-
-</details>
-
 ## The Golden Rules {#golden-rules}
 
 <div class="steps-grid">
@@ -388,3 +373,48 @@ Always check cashback rates *before* checking out. It's free money.
     </div>
   </div>
 </div>
+
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>How do I know if I'm getting a good deal?</summary>
+
+Compare the unit price (per liter/gram) across sizes and stores, and check the item's typical price over time with a price-tracker. A 'sale' is only a deal if it's lower than the normal price you'd pay.
+
+</details>
+
+<details class="faq-item">
+<summary>Is it better to buy new or used?</summary>
+
+Used wins for depreciating things (phones, textbooks, furniture, cars) where condition is checkable. Buy new for items where hygiene, warranty, or safety matter (mattresses, some electronics).
+
+</details>
+
+<details class="faq-item">
+<summary>How do I avoid impulse buys?</summary>
+
+Add it to a cart and wait 24-48 hours. Most urges pass. Unsubscribe from store emails and mute ads; the temptation you don't see, you won't buy.
+
+</details>
+
+<details class="faq-item">
+<summary>When is the best time to buy [electronics/clothes]?</summary>
+
+Electronics: Black Friday/Cyber Monday and back-to-school season. Clothes: end-of-season clearances. Student laptop deals peak in late summer. Buy off-season for the biggest discounts.
+
+</details>
+
+<details class="faq-item">
+<summary>Are extended warranties worth it?</summary>
+
+Usually no — they're high-margin for the store and often overlap manufacturer coverage. Put the warranty money into savings instead; self-insure the few things that matter.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I find coupon codes that actually work?</summary>
+
+Use a reputable browser extension (or student discount portals) rather than sketchy 'coupon' sites full of expired codes. Your school email often unlocks better discounts than any code.
+
+</details>

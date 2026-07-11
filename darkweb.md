@@ -3,35 +3,13 @@ title: Dark Web Guide
 description: An educational guide to understanding Tor, the dark web, and how to browse safely and anonymously.
 ---
 
-# The Ultimate Dark Web Guide
+<script setup></script>
 
-<div class="guide-hero">
-  <p class="guide-meta"><GuideIcon name="pencil" :size="14" /> Written by <strong>Nero</strong></p>
-  <p class="guide-intro">An educational guide to the Tor network and dark web. Learn how to browse safely, protect your privacy, interact securely, and understand the layers of the internet.</p>
-</div>
+# The Ultimate Dark Web Guide
 
 ::: danger ⚠️ IMPORTANT DISCLAIMER
 This guide is for **educational purposes only**. The Tor browser is a legitimate privacy tool used by millions worldwide. However, **you are responsible for your own actions**. Accessing illegal content or engaging in illicit activities can lead to serious legal consequences. This guide does not condone or encourage any illegal activity.
 :::
-
-## Table of Contents
-
-<details open>
-<summary>Click to expand/collapse</summary>
-
-- [Important Warnings](#important-warnings)
-- [What is Tor?](#what-is-tor)
-- [Web Layers](#web-layers)
-- [Step-by-Step Setup](#setup-guide)
-- [Safety Rules](#safety-rules)
-- [Interacting with People](#interacting)
-- [Avoiding Scams](#avoiding-scams)
-- [What to Do If You're in Trouble](#in-trouble)
-- [Finding .onion Sites](#finding-sites)
-- [Starter .onion Links](#starter-links)
-- [Credits & Resources](#credits)
-
-</details>
 
 ## Important Warnings {#important-warnings}
 
@@ -58,6 +36,22 @@ Tor is legal in the USA, Canada, UK, and EU (though often monitored). However, i
 **Tor** (The Onion Router) is free, open-source software that enables anonymous communication by directing your internet traffic through a worldwide volunteer network of servers (nodes). It works by encrypting your traffic multiple times and bouncing it through these nodes, like layers of an onion. 
 
 When you use Tor, websites see the IP address of the Tor exit node rather than your real IP address. The network is designed not to keep logs, and it grants you access to `.onion` sites, which are special hidden services that are only reachable via the Tor network.
+
+<div class="flowchart">
+ <div class="flow-node client">You</div>
+ <div class="flow-arrow">&darr;</div>
+ <div class="flow-node entry">Guard Node</div>
+ <div class="flow-label">Knows your IP, not your destination</div>
+ <div class="flow-arrow">&darr;</div>
+ <div class="flow-node middle">Middle Node</div>
+ <div class="flow-label">Knows neither IP nor destination</div>
+ <div class="flow-arrow">&darr;</div>
+ <div class="flow-node exit">Exit Node</div>
+ <div class="flow-label">Knows destination, not your IP</div>
+ <div class="flow-arrow">&darr;</div>
+ <div class="flow-node dest">Destination</div>
+ <div class="flow-label">Sees exit node IP only</div>
+</div>
 
 ::: info Who uses Tor legally?
 Tor is used by millions of legitimate users. This includes journalists communicating with whistleblowers, law enforcement conducting undercover operations, activists avoiding censorship in oppressive regimes, IT professionals testing security, and ordinary citizens who simply value their digital privacy.
@@ -89,10 +83,11 @@ Verifying the signature ensures you downloaded the authentic Tor Browser and not
 2. Import the Tor Browser Developers key:
    ```bash
    gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+   ```
 3. Verify the signature
-```bash
+   ```bash
    gpg --verify tor-browser-linux64-14.0.tar.xz.asc
-```
+   ```
 ### Step 3: Install and Launch
 Installation is straightforward across all major platforms:
 Windows: Run the downloaded .exe installer and follow the prompts.
@@ -104,16 +99,19 @@ iOS: Apple does not allow the official Tor Browser on the App Store. Use Onion B
 ### Step 4: Configure Security Settings
 
 Tor Browser offers three security levels. You can change these by clicking the shield icon next to the address bar and selecting "Advanced Security Settings".
-<div class="card-grid-3">
- <div class="shared-card" style="border-left: 3px solid #27ae60;">
+<div class="tier-grid">
+ <div class="tier-card">
+ <span class="tier-accent standard"></span>
  <h4>Standard (Default)</h4>
  <p>JavaScript enabled on HTTPS. Fonts enabled. Click-to-play video/audio.</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #f39c12;">
+ <div class="tier-card">
+ <span class="tier-accent safer"></span>
  <h4>Safer</h4>
  <p>JavaScript disabled on non-HTTPS. Fonts disabled. Click-to-play media.</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+ <div class="tier-card">
+ <span class="tier-accent safest"></span>
  <h4>Safest</h4>
  <p>JavaScript disabled everywhere. Fonts disabled. Click-to-play media.</p>
  </div>
@@ -135,45 +133,75 @@ Bridges are secret Tor entry points that aren't publicly listed. Use them if Tor
 Safety Rules for Browsing {#safety-rules}
 
 If you are going to browse the dark web, you must adhere to strict operational security (OPSEC). Here are the 10 commandments of dark web safety:
-<div class="card-grid-2">
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+<div class="rule-grid">
+ <div class="rule-card critical">
+ <div class="rule-card-header">
  <h4>1. Never log into personal accounts</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 1">
+ </div>
  <p>Destroys anonymity instantly</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+ <div class="rule-card critical">
+ <div class="rule-card-header">
  <h4>2. Disable JavaScript</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 2">
+ </div>
  <p>Prevents IP leaks and exploits</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+ <div class="rule-card critical">
+ <div class="rule-card-header">
  <h4>3. Don't maximize your browser</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 3">
+ </div>
  <p>Screen size can fingerprint you</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+ <div class="rule-card critical">
+ <div class="rule-card-header">
  <h4>4. Use HTTPS only</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 4">
+ </div>
  <p>Exit nodes can read non-HTTPS traffic</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+ <div class="rule-card critical">
+ <div class="rule-card-header">
  <h4>5. Never download files carelessly</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 5">
+ </div>
  <p>Files can contain malware or trackers</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+ <div class="rule-card critical">
+ <div class="rule-card-header">
  <h4>6. Don't use your real email</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 6">
+ </div>
  <p>Use ProtonMail or temporary email</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #e74c3c;">
+ <div class="rule-card critical">
+ <div class="rule-card-header">
  <h4>7. Don't share personal info</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 7">
+ </div>
  <p>Name, location, photos, etc.</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #f39c12;">
+ <div class="rule-card warn">
+ <div class="rule-card-header">
  <h4>8. Use a VPN before Tor (optional)</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 8">
+ </div>
  <p>Hides Tor usage from ISP</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #f39c12;">
+ <div class="rule-card warn">
+ <div class="rule-card-header">
  <h4>9. Close Tor when not in use</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 9">
+ </div>
  <p>Reduces risk window</p>
  </div>
- <div class="shared-card" style="border-left: 3px solid #f39c12;">
+ <div class="rule-card warn">
+ <div class="rule-card-header">
  <h4>10. Verify .onion URLs</h4>
+ <input type="checkbox" class="rule-checkbox" aria-label="Check off rule 10">
+ </div>
  <p>Phishing sites mimic real addresses</p>
  </div>
 </div>
@@ -246,29 +274,13 @@ Most "Hidden Wiki" sites contain links to illegal content and are riddled with s
 :::
 ## Starter .onion Links {#starter-links}
 
-Here are some common, relatively safe starting points to explore the dark web. These are directories and libraries, not marketplaces.
-<div class="card-grid-2">
- <div class="shared-card" style="overflow: hidden;">
- <h4>HiddenWiki</h4>
- <p style="font-family: monospace; font-size: 0.72rem; word-break: break-all; color: var(--vp-c-text-3);">zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/</p>
- </div>
- <div class="shared-card" style="overflow: hidden;">
- <h4>DanielWin</h4>
- <p style="font-family: monospace; font-size: 0.72rem; word-break: break-all; color: var(--vp-c-text-3);">danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/</p>
- </div>
- <div class="shared-card" style="overflow: hidden;">
- <h4>TorTaxi</h4>
- <p style="font-family: monospace; font-size: 0.72rem; word-break: break-all; color: var(--vp-c-text-3);">tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion</p>
- </div>
- <div class="shared-card" style="overflow: hidden;">
- <h4>Comic Book Library</h4>
- <p style="font-family: monospace; font-size: 0.72rem; word-break: break-all; color: var(--vp-c-text-3);">comicbookinlujt3ka3nklhpnqustzfqjpsurjb3m5z7teeqqyj4vsqd.onion/</p>
- </div>
- <div class="shared-card" style="overflow: hidden;">
- <h4>Shadow Wiki</h4>
- <p style="font-family: monospace; font-size: 0.72rem; word-break: break-all; color: var(--vp-c-text-3);">zsxjtsgzborzdllyp64c6pwnjz5eic76bsksbxzqefzogwcydnkjy3yd.onion/</p>
- </div>
-</div>
+Here are some common, relatively safe starting points to explore the dark web:
+
+- **HiddenWiki** (Directory) — `zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/`
+- **DanielWin** (Directory) — `danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/`
+- **TorTaxi** (Directory) — `tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion`
+- **Comic Book Library** (Library) — `comicbookinlujt3ka3nklhpnqustzfqjpsurjb3m5z7teeqqyj4vsqd.onion/`
+- **Shadow Wiki** (Directory) — `zsxjtsgzborzdllyp64c6pwnjz5eic76bsksbxzqefzogwcydnkjy3yd.onion/`
 
 ::: danger Proceed with Extreme Caution
 These sites are just a starting point. They are directories that link to other parts of the dark web. Do not download anything from them, no exceptions.
@@ -325,6 +337,50 @@ These sites are just a starting point. They are directories that link to other p
 
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Is it illegal to access the dark web?</summary>
+
+Accessing it (e.g., via Tor) is legal in most countries. What's illegal is the activity — buying drugs, weapons, or stolen data. Simply browsing is not a crime.
+
+</details>
+
+<details class="faq-item">
+<summary>Do I need Tor to access it?</summary>
+
+The dark web's hidden services (.onion) require Tor or a similar onion-capable browser. Standard browsers can't reach them, and you shouldn't try to force them to.
+
+</details>
+
+<details class="faq-item">
+<summary>Is the dark web dangerous?</summary>
+
+It can be — scams, malware, and illegal marketplaces are common, and law enforcement monitors some spaces. Stick to legitimate uses (privacy, whistleblowing, onion versions of normal sites) and never transact.
+
+</details>
+
+<details class="faq-item">
+<summary>Can I get viruses from the dark web?</summary>
+
+Risk is higher than the normal web. Don't download files, keep Tor updated, and avoid suspicious links. Treat every download as potentially hostile.
+
+</details>
+
+<details class="faq-item">
+<summary>Why would a normal person use it?</summary>
+
+For privacy and censorship resistance: journalists, activists, and people in restrictive regimes use it to communicate safely. Many mainstream sites (e.g., the New York Times, BBC) offer onion versions.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I stay safe if I browse it?</summary>
+
+Use the official Tor Browser with default settings, never enable scripts on untrusted sites, don't reveal personal info, and keep it isolated from your real identity. When in doubt, don't click.
+
+</details>
 <style scoped>
 .guide-hero {
  text-align: center;
@@ -424,14 +480,135 @@ These sites are just a starting point. They are directories that link to other p
  text-decoration: underline;
 }
 
+/* ——— Rule Cards (10 Commandments) ——— */
+.rule-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1rem;
+ margin: 1.5rem 0;
+}
+.rule-card {
+ padding: 1.25rem;
+ border-radius: 14px;
+ border: 1px solid var(--vp-c-divider);
+ background: var(--vp-c-bg-soft);
+ transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.rule-card:hover {
+ transform: translateY(-3px);
+}
+.rule-card.critical { border-left: 4px solid #e74c3c; }
+.rule-card.warn { border-left: 4px solid #f39c12; }
+.rule-card-header {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ gap: 0.75rem;
+ margin-bottom: 0.35rem;
+}
+.rule-card-header h4 {
+ margin: 0;
+ font-size: 0.95rem;
+ line-height: 1.4;
+}
+.rule-card p {
+ margin: 0;
+ font-size: 0.85rem;
+ color: var(--vp-c-text-2);
+ line-height: 1.5;
+}
+.rule-checkbox {
+ width: 1.1rem;
+ height: 1.1rem;
+ border-radius: 4px;
+ border: 2px solid var(--vp-c-divider);
+ cursor: pointer;
+ flex-shrink: 0;
+ margin-top: 0.15rem;
+ accent-color: var(--vp-c-brand-1);
+}
+.rule-checkbox:checked {
+ border-color: var(--vp-c-brand-1);
+}
+
+/* ——— Security Tier Cards (Step 4) ——— */
+.tier-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 1rem;
+ margin: 1.5rem 0;
+}
+.tier-card {
+ padding: 0 1.25rem 1.25rem;
+ border-radius: 14px;
+ border: 1px solid var(--vp-c-divider);
+ background: var(--vp-c-bg-soft);
+ transition: transform 0.25s ease;
+}
+.tier-card:hover { transform: translateY(-3px); }
+.tier-accent {
+ display: block;
+ height: 4px;
+ margin: 0 -1.25rem 0.75rem;
+ border-radius: 14px 14px 0 0;
+}
+.tier-accent.standard { background: #27ae60; }
+.tier-accent.safer { background: #f39c12; }
+.tier-accent.safest { background: #c0392b; }
+.tier-card h4 { margin: 0 0 0.5rem; font-size: 1rem; }
+.tier-card p { margin: 0; font-size: 0.85rem; color: var(--vp-c-text-2); line-height: 1.5; }
+
+
+/* ——— Onion Routing Flowchart ——— */
+.flowchart {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 0.5rem;
+ margin: 1.5rem 0;
+ padding: 1.5rem 1rem;
+ background: var(--vp-c-bg-soft);
+ border-radius: 14px;
+ border: 1px solid var(--vp-c-divider);
+}
+.flow-node {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ gap: 0.35rem;
+ padding: 0.6rem 1rem;
+ border-radius: 8px;
+ font-size: 0.8rem;
+ font-weight: 600;
+ min-width: 140px;
+ text-align: center;
+}
+.flow-node.client { background: #2c3e50; color: #fff; border-color: #2c3e50; }
+.flow-node.entry { background: #27ae60; color: #fff; border-color: #27ae60; }
+.flow-node.middle { background: #2980b9; color: #fff; border-color: #2980b9; }
+.flow-node.exit { background: #e74c3c; color: #fff; border-color: #e74c3c; }
+.flow-node.dest { background: #8e44ad; color: #fff; border-color: #8e44ad; }
+.flow-label {
+ font-size: 0.75rem;
+ color: var(--vp-c-text-2);
+ text-align: center;
+ max-width: 200px;
+ line-height: 1.4;
+}
+.flow-arrow {
+ font-size: 1.2rem;
+ color: var(--vp-c-text-3);
+ line-height: 1;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
- .card-grid-3, .sources-grid {
+ .card-grid-3, .sources-grid, .tier-grid {
  grid-template-columns: 1fr;
  }
 }
 @media (max-width: 640px) {
- .card-grid-2 {
+ .card-grid-2, .rule-grid {
  grid-template-columns: 1fr;
  }
 }

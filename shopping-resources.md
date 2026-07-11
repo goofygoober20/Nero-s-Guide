@@ -14,19 +14,6 @@ head:
   <p class="guide-intro">A curated directory of tools and sites for smarter shopping. For the full how-to guide, see the <a href="/shopping">Shopping Guide</a>.</p>
 </div>
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand</summary>
-
-- [Price Tracking](#price-tracking)
-- [Ethical & Smart Shopping](#ethical-smart-shopping)
-- [Games & Gaming Gear](#games-gaming-gear)
-- [Electronics](#electronics)
-- [Toys & Collectibles](#toys-collectibles)
-
-</details>
-
 ## Price Tracking
 
 Check these before buying anything - especially on Amazon where "sale" prices are often fake.
@@ -278,3 +265,48 @@ Whether you're buying for kids or collecting yourself - these help you find, val
     <p><strong>Cards & collectibles.</strong> Covers trading cards, comics and collectibles too.</p>
   </a>
 </div>
+
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Are price comparison sites accurate?</summary>
+
+Mostly, but they can be biased toward sites that pay for placement. Cross-check two comparison tools and the retailer directly before assuming a 'best price' is real.
+
+</details>
+
+<details class="faq-item">
+<summary>Are coupon aggregator sites safe?</summary>
+
+The big, established ones are generally safe to browse, but avoid ones that push aggressive pop-ups or ask for account sign-ups. Never enter payment info on a coupon site itself.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I find student discounts?</summary>
+
+Use your .edu email on UNiDAYS, Student Beans, and retailer student portals. Many services (Spotify, Notion, GitHub, Amazon Prime) have steep student rates most students miss.
+
+</details>
+
+<details class="faq-item">
+<summary>Is cashback real or a scam?</summary>
+
+Real, but modest. Cashback portals pay a commission share for sending them shoppers. Use well-known ones, clear cookies between searches, and treat it as a small bonus, not a strategy.
+
+</details>
+
+<details class="faq-item">
+<summary>Where do I find free stuff as a student?</summary>
+
+Campus free shelves, Buy Nothing groups, library lendable gear, and free software via your school. Textbook exchanges and course reserves save hundreds per term.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I avoid fake review sites?</summary>
+
+Stick to established retailers and known aggregators. Be wary of sites with only glowing 5-star reviews, no dates, or that pressure you to buy immediately.
+
+</details>

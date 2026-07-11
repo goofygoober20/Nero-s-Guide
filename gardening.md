@@ -38,22 +38,6 @@ import GardenSizeEstimator from './.vitepress/theme/components/GardenSizeEstimat
   <p class="guide-intro">Good soil, consistent watering, and patience will get you further than any expensive tool or product.</p>
 </div>
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand</summary>
-
-- [The Golden Rules](#golden-rules)
-- [Getting Started](#getting-started)
-- [Soil and Beds](#soil)
-- [Watering](#watering)
-- [Composting](#composting)
-- [Pests and Problems](#pests)
-- [Seasonal Tasks](#seasonal)
-- [Resources](#resources)
-
-</details>
-
 ## The Golden Rules {#golden-rules}
 
 <div class="steps-grid">
@@ -605,3 +589,48 @@ Useful sites and communities for going deeper on any topic in this guide.
     </div>
   </div>
 </div>
+
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>How much space do I need to start gardening?</summary>
+
+Very little. A windowsill, balcony, or a few pots is enough for herbs and salad greens. You don't need a yard to grow food.
+
+</details>
+
+<details class="faq-item">
+<summary>What's the easiest plant to grow for beginners?</summary>
+
+Herbs like mint, basil, or chives, and hardy greens like lettuce or spinach. They forgive mistakes and give quick, rewarding results.
+
+</details>
+
+<details class="faq-item">
+<summary>How often should I water?</summary>
+
+When the top inch of soil is dry — not on a fixed schedule. Overwatering kills more plants than drought. Stick a finger in the soil; if it's damp, wait.
+
+</details>
+
+<details class="faq-item">
+<summary>Do I need special soil?</summary>
+
+For pots, yes — use potting mix, not garden dirt (it compacts and suffocates roots). In the ground, most plants are fine with native soil amended with compost.
+
+</details>
+
+<details class="faq-item">
+<summary>Why are my plants dying?</summary>
+
+Usually water (too much or too little), light (wrong amount), or pests. Check soil moisture and where the plant sits before blaming fertilizer. Match the plant to its light conditions first.
+
+</details>
+
+<details class="faq-item">
+<summary>Can I garden if I live in an apartment?</summary>
+
+Absolutely. Container gardening, vertical planters, and even a small hydroponic kit work indoors. Many vegetables and herbs thrive on a sunny balcony or bright window.
+
+</details>

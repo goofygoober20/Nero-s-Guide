@@ -11,19 +11,6 @@ readingTime: 8
   <p class="guide-intro">Minimalism isn't about owning nothing - it's about making room for what matters. This guide covers digital decluttering, reducing screen time, and simplifying your physical space.</p>
 </div>
 
-## Table of Contents
-
-<details open>
-<summary>Click to expand</summary>
-
-- [Digital Declutter](#digital-declutter)
-- [Reducing Screen Time](#reducing-screen-time)
-- [Physical Minimalism](#physical-minimalism)
-- [Minimalist Mindset](#minimalist-mindset)
-- [Minimalist Communities & Resources](#minimalist-communities--resources)
-
-</details>
-
 ## Digital Declutter
 
 <div class="card-grid-2">
@@ -168,4 +155,48 @@ readingTime: 8
   </a>
 </div>
 
+
+## Frequently Asked Questions
+
+<details class="faq-item">
+<summary>Doesn't minimalism mean throwing everything away?</summary>
+
+No. It's about keeping what adds value and letting go of what doesn't — not living in an empty room. Your version can include things you genuinely love.
+
+</details>
+
+<details class="faq-item">
+<summary>Isn't minimalism expensive if you have to buy nice things?</summary>
+
+The opposite. It usually saves money by curbing impulse buys and buying less, better. You don't need to replace anything; start with what you have.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I start without feeling overwhelmed?</summary>
+
+One category at a time — start with a drawer or your inbox. Set a timer for 15 minutes. Progress beats a perfect purge you never finish.
+
+</details>
+
+<details class="faq-item">
+<summary>What if my family or roommates aren't minimalist?</summary>
+
+Focus on your own space and belongings; don't police others. Lead by example and keep shared areas negotiated, not controlled.
+
+</details>
+
+<details class="faq-item">
+<summary>Does minimalism mean I can't collect things I love?</summary>
+
+You can. Minimalism is about intention, not a specific number of possessions. A curated collection you treasure is the opposite of clutter you ignore.
+
+</details>
+
+<details class="faq-item">
+<summary>How do I deal with sentimental items?</summary>
+
+Keep a few that truly matter; photograph the rest. Memories live in you, not the object. A small 'memory box' contains more than a storage unit.
+
+</details>
 <BackLinks />
